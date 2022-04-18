@@ -1,11 +1,22 @@
 # Frackin' Unicerst
 an (in progress) FU fork for people that hate research n stuff!
 
-![Steam DMCA from 2/14/2022](https://media.discordapp.net/attachments/965312039440502844/965375722413768794/firefox_Zlt9qldxC6.png)
+> NOTE: Unicerst is __NOT__ associated OR endorsed by the Frackin Universe team.
 
 # to do list!!!!!
-- [x] remove thing that breaks sexbound because thats dumb
-- [x] replace chucklefish intro with gaycat (you get to look at it while you wait for the game to load twice)
-- [ ] remove the healing cooldown because why
-- [ ] remove research because thats dumb i just wanna play
-- [ ] add more to the to do because i feel like it
+- [ ] Replace assets we do not have rights to with placeholders
+- [ ] Change above placeholder assets with self-made assets
+- [x] Remove intentional Sexbound incompatability
+- [x] Replace Chucklefish intro
+- [ ] Remove Healing cooldown
+- [ ] Remove Research (at the very least, for vanilla content)
+- [ ] Revamp the Cat-A-Pult, so that instead of firing cats it fires normal projectiles, but is cat-themed!
+- [ ] Major dialogue revamp, for both Frackin Universe and Vanilla dialouge
+- [ ] Weapon revamps & new weapons
+- [ ] Remove "Anti-cheat" that is messed up item IDs
+- [ ] Fix compatibility with mods that require Frackin Universe
+- [ ] Remove duplicate & useless items
+- [ ] Optimize code and filesizes
+- [ ] Replace Kevin with "[brickass](https://cdn.discordapp.com/attachments/965396158832848996/965490172550582332/brickass.png)"
+- [ ] Make the Madness mechanic actually cool and fun
+
