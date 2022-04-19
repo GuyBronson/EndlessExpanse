@@ -1,4 +1,5 @@
-[{
+[
+  {
 		"op": "replace",
 		"path": "/lunarbase/musicTrack",
 		"value": "/sfx/environmental/moon_surface.ogg"
@@ -192,7 +193,7 @@
 			"ambientLightLevel": [15, 15, 15],
 			"biome": "mamapoptop"
 		}
-	},	
+	},
 	{
 		"op": "add",
 		"path": "/precursordungeon2",
@@ -889,7 +890,7 @@
 			"ambientLightLevel" : [32, 32, 32],
 			"musicTrack" : "/sfx/environmental/moon_surface.ogg"
 		}
-	}, 
+	},
 	{
 		"op": "add",
 		"path": "/fu_techtrials_emergencybounce",
@@ -905,5 +906,4 @@
 			"environmentStatusEffects": ["dontstarve", "extraenergising", "maxenergyboost145"]
 		}
 	}
-
 ]

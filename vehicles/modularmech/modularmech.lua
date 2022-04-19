@@ -132,7 +132,7 @@ function init()
 	-- setup body
 
 	self.protection = self.parts.body.protection
-		
+
 	-- setup boosters
 
 	self.airControlSpeed = self.parts.booster.airControlSpeed
@@ -203,8 +203,8 @@ function init()
 		hazards[statusEffect] = nil
 		--self.hazardImmunityList[statusEffect]=true
 	end
-    
-    
+
+
 	local applyEnvironmentStatuses = config.getParameter("applyEnvironmentStatuses")
 	local seatStatusEffects = config.getParameter("loungePositions.seat.statusEffects")
 
@@ -245,7 +245,12 @@ function init()
 		Special1 = false
 	}
 
-	setFlightMode(world.gravity(mcontroller.position()) == 0)
+	-- mech follows player gravity rules in the shipworld
+	  if world.type() == "unknown" then
+	    setFlightMode(not world.tileIsOccupied(mcontroller.position(), false))
+	  else
+	    setFlightMode(world.gravity(mcontroller.position()) == 0)
+	  end
 
 	message.setHandler("deploy", function()
 		self.deploy = config.getParameter("deploy")
@@ -363,7 +368,7 @@ function setMobilityBoostValue()
 end
 
 function setMassBoostValue()
- 	self.masspassive = self.parts.hornName == 'mechchipfeather'
+	self.masspassive = self.parts.hornName == 'mechchipfeather'
 	if self.fuelboost then
 		if self.parts.hornName == 'mechchipfeather' then --we'll calculate Feather here
 			self.mechMass = self.mechMass * 0.4
@@ -373,7 +378,7 @@ function setMassBoostValue()
 end
 
 function setFuelBoostValue()
- 	self.fuelboost = self.parts.hornName == 'mechchipfuel'	or self.parts.hornName == 'mechchiprefueler' or self.parts.hornName == 'mechchipovercharge'
+	self.fuelboost = self.parts.hornName == 'mechchipfuel'	or self.parts.hornName == 'mechchiprefueler' or self.parts.hornName == 'mechchipovercharge'
 	if self.fuelboost then
 		if self.parts.hornName == 'mechchipfuel' then
 			self.healthMax = self.healthMax * 0.8
@@ -517,7 +522,12 @@ function update(dt)
 	if self.manualFlightMode then
 			setFlightMode(true)
 	else
-		setFlightMode(world.gravity(mcontroller.position()) == 0)-- or world.liquidAt(mcontroller.position()))--lpk:add liquidMovement
+	-- for use mech in byo ship
+	  if world.type() == "unknown" then
+	      setFlightMode(not world.tileIsOccupied(mcontroller.position(), false))
+	  else
+	    setFlightMode(world.gravity(mcontroller.position()) == 0) -- or world.liquidAt(mcontroller.position()))--lpk:add liquidMovement
+	  end
 	end
 
 	if self.manualFlightMode and world.gravity(mcontroller.position()) == 0 then
@@ -572,6 +582,7 @@ function update(dt)
 
 	local newControls = {}
 	local oldControls = self.lastControls
+	local walking = false
 
 	if self.deploy then
 		self.deploy.fadeTimer = math.max(0.0, self.deploy.fadeTimer - dt)
@@ -600,7 +611,6 @@ function update(dt)
 			animator.setGlobalTag("directives", "")
 		end
 
-		local walking = false
 		if self.driverId then
 			-- for k, _ in pairs(self.lastControls) do
 				-- newControls[k] = vehicle.controlHeld("seat", k)
@@ -835,28 +845,28 @@ function update(dt)
 
 	-- decay and check energy
 	if self.driverId then
-	--energy drain
+		--energy drain
 		local energyDrain = self.energyDrain --base rate
 
 		-- determine health/energy loss in hostile environments, based on the mass of the mech
-        if self.healthDrain > 0 then --do not do this if their HP is too low
-        	totalMass()
-			if self.massTotal > 47 then
-        		self.healthDrain = 0.05           	
-			elseif self.massTotal > 44 then
-        		self.healthDrain = 0.2  
-        	elseif self.massTotal > 36 then
-        		self.healthDrain = 0.5
-        	elseif self.massTotal > 29 then
-        		self.healthDrain = 0.65         		
-        	elseif self.massTotal > 22 then
-        		self.healthDrain = 0.75       		        				
-        	else
-        		self.healthDrain = 1
-        	end
-        	storage.health = storage.health - self.healthDrain	-- drain health per tick
-        	storage.energy = storage.energy - (self.healthDrain/8) -- drain energy per tick as well
-        end
+		if self.healthDrain > 0 then --do not do this if their HP is too low
+			totalMass()
+					if self.massTotal > 47 then
+				self.healthDrain = 0.05
+					elseif self.massTotal > 44 then
+				self.healthDrain = 0.2
+			elseif self.massTotal > 36 then
+				self.healthDrain = 0.5
+			elseif self.massTotal > 29 then
+				self.healthDrain = 0.65
+			elseif self.massTotal > 22 then
+				self.healthDrain = 0.75
+			else
+				self.healthDrain = 1
+			end
+			storage.health = storage.health - self.healthDrain	-- drain health per tick
+			storage.energy = storage.energy - (self.healthDrain/8) -- drain energy per tick as well
+		end
 
 		--set energy drain x2 on manual flight mode
 		if self.flightMode and world.gravity(mcontroller.position()) == 0 then
@@ -1059,8 +1069,6 @@ function update(dt)
 		end
 
 		for _, arm in pairs({"left", "right"}) do
-			local fireControl = (arm == "left") and "PrimaryFire" or "AltFire"
-
 			animator.resetTransformationGroup(arm .. "Arm")
 			animator.resetTransformationGroup(arm .. "ArmFlipper")
 
@@ -1373,7 +1381,7 @@ function applyDamage(damageRequest)
     self.massProtection = (self.parts.body.stats.protection * (self.parts.body.stats.mechMass)/10)
     self.rand = math.random(1)
     if (self.parts.body.stats.protection >=4) and (energyLost <= self.massProtection) and (self.rand == 1) then
-    	self.massProtection = self.massProtection / 10 -- divide actual protection by 10
+        self.massProtection = self.massProtection / 10 -- divide actual protection by 10
         energyLost = energyLost * self.massProtection  -- final resisted damageg
         animator.playSound("landingThud")
         animator.burstParticleEmitter("blockDamage")
@@ -1413,14 +1421,7 @@ function jump()
 end
 
 function armRotation(armSide)
-	local absoluteOffset = animator.partPoint(armSide .. "BoosterFront", "shoulder")
-	local relativeOffset = vec2.mul(absoluteOffset, {self.facingDirection, 1})
-	local shoulderPosition = vec2.add(mcontroller.position(), absoluteOffset)
-	local aimVec = world.distance(self.aimPosition, shoulderPosition)
-	local rotation = vec2.angle(aimVec)
-	if self.facingDirection == -1 then
-		rotation = math.pi - rotation
-	end
+	-- Unused. Vanilla was calculating "local rotation" variable here, but never used it afterwards.
 end
 
 function legOffset(legCycle)

@@ -23,7 +23,7 @@ function init(...)
 	elseif wType=="strangesea" then
 		ffunknownConfig=root.assetJson("/scripts/ffunknownconfig.config")
 		local terraConfig={root.assetJson("/terrestrial_worlds.config:regionTypes.strangesea"),root.assetJson("/terrestrial_worlds.config:regionTypes.strangeseafloor")}
-		for k,v in pairs(terraConfig) do
+		for _,v in pairs(terraConfig) do
 			if strangeSeaOverrideCheck then break end
 			for _,v2 in pairs(v.oceanLiquid or {}) do
 				if v2~="alienjuice" then
@@ -111,8 +111,7 @@ end
 
 function handleFoodTracking(dt)
 	local foodCheck=((status.isResource("food") and status.resource("food")) or 0)
-	local foodDelta=status.stat("foodDelta")
-	if (foodDelta>=0) or (foodCheck ~= self.foodTracker) then
+	if (foodCheck ~= self.foodTracker) then
 		status.setStatusProperty("fuFoodTrackerHandler",1)
 	else
 		status.setStatusProperty("fuFoodTrackerHandler",-1)
@@ -267,7 +266,7 @@ function uninit(...)
 		if threatLevel < 1 then
 		  threatLevel = 1
 		end
-		for i = 1, untieredLootboxes do
+		for _ = 1, untieredLootboxes do
 			player.consumeItem({name = "fu_lootbox", parameters = {}}, true, true)
 			player.giveItem({name = "fu_lootbox", parameters = {level = threatLevel}})
 		end
@@ -275,7 +274,7 @@ function uninit(...)
 	if origUninit then
 		origUninit(...)
 	end
-	
+
 	if fuFoodTrackerHandler then
 		status.setStatusProperty("fuFoodTrackerHandler",0)
 	end

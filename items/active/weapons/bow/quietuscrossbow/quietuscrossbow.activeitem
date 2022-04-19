@@ -3,7 +3,7 @@
   "price" : 500,
   "inventoryIcon" : "quietuscrossbow.png",
   "maxStack" : 1,
-  "rarity" : "Uncommon",
+  "rarity" : "rare",
   "description" : "A bulky crossbow with poison-tipped bolts.",
   "shortdescription" : "Quietus Crossbow",
   "level" : 4,
@@ -82,6 +82,6 @@
   "critChance" : 5,
   "critBonus" : 8,
   "isCrossbow" : 1,
-  
+
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }

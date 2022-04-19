@@ -91,7 +91,7 @@
 	{"op": "add", "path": "/negablast", "value": "/items/active/weapons/bow/abilities/negablast.weaponability"},
 	{"op": "add", "path": "/tripleshot", "value": "/items/active/weapons/bow/abilities/tripleshot.weaponability"},
 	{"op": "add", "path": "/tripleshotshadow", "value": "/items/active/weapons/bow/abilities/tripleshotshadow.weaponability"},
-	{"op": "add", "path": "/elderbowshot", "value": "/items/active/weapons/bow/abilities/elderbowshot.weaponability"},
+	//{"op": "add", "path": "/elderbowshot", "value": "/items/active/weapons/bow/abilities/elderbowshot.weaponability"},
 	{"op": "add", "path": "/elderreaim", "value": "/items/active/weapons/bow/abilities/reaim.weaponability"},
 	{"op": "add", "path": "/fuadaptableammo", "value": "/items/active/weapons/other/fuadaptablecrossbow/fuadaptableammo.weaponability"},
 
@@ -138,6 +138,7 @@
 	{"op": "add", "path": "/rocketspear2", "value": "/items/active/weapons/melee/abilities/spear/rocketspear2/rocketspear2.weaponability"},
 	{"op": "add", "path": "/rocketspear3", "value": "/items/active/weapons/melee/abilities/spear/rocketspear2/rocketspear3.weaponability"},
 	{"op": "add", "path": "/rocketspear4", "value": "/items/active/weapons/melee/abilities/spear/rocketspear4/rocketspear4.weaponability"},
+	{"op": "add", "path": "/rocketspearwhite", "value": "/items/active/weapons/melee/abilities/spear/rocketspear2/rocketspearwhite.weaponability"},
 	{"op": "add", "path": "/stingflurry", "value": "/items/active/weapons/melee/abilities/spear/stingflurry/stingflurry.weaponability"},
 	{"op": "add", "path": "/needleflurry", "value": "/items/active/weapons/melee/abilities/spear/needleflurry/needleflurry.weaponability"},
 	{"op": "add", "path": "/drillcharge", "value": "/items/active/weapons/melee/abilities/spear/drillcharge/drillcharge.weaponability"},

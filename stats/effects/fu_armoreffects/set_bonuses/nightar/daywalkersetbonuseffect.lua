@@ -1,4 +1,6 @@
 require "/stats/effects/fu_armoreffects/setbonuses_common.lua"
+require "/stats/effects/fu_statusUtil.lua"
+
 setName="fu_daywalkerset"
 
 weaponBonus={
@@ -30,23 +32,6 @@ function init()
 	getLight()
 end
 
-function getLight()
-	local position = mcontroller.position()
-	position[1] = math.floor(position[1])
-	position[2] = math.floor(position[2])
-	local lightLevel = math.min(world.lightLevel(position),1.0)
-	lightLevel = math.floor(lightLevel * 100)
-	return lightLevel
-end
-
-function daytimeCheck()
-	return world.timeOfDay() < 0.5 -- true if daytime
-end
-
-function undergroundCheck()
-	return world.underground(mcontroller.position())
-end
-
 function update(dt)
 	if not checkSetWorn(self.setBonusCheck) then
 		effect.expire()
@@ -56,15 +41,15 @@ function update(dt)
 	end
 	local daytime = daytimeCheck()
 	local underground = undergroundCheck()
-	local lightLevel = getLight()	
+	local lightLevel = getLight()
 
 	if daytime and not underground and lightLevel > 50 then
 		if (self.species == "nightar") then
-		    effect.setStatModifierGroup(nightarDarkHunterEffects3, {{stat = "reducePenalty", amount = 0.7 }})		
+		    effect.setStatModifierGroup(nightarDarkHunterEffects3, {{stat = "reducePenalty", amount = 0.7 }})
 		elseif (self.species == "shadow") then
 			effect.removeStatModifierGroup(nightarDarkHunterEffects)
 		end
-	end	
+	end
 end
 
 

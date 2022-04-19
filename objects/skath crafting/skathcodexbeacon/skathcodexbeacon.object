@@ -18,7 +18,7 @@
   },
   "printable": false,
   "description": "Used to download Skath codex entries from Norkumsgath.",
-  "shortdescription": "^orange;Skath Codex Beacon^white;",
+  "shortdescription": "^orange;Skath Codex Beacon^reset;",
   "race": "generic",
   "category": "crafting",
   "price": 160,
@@ -38,7 +38,7 @@
   "skathDescription": "This terminal can be used to access vast amounts of Vanguard knowledge regarding our race. For security reasons, only the Skath can access these.",
 
   "inventoryIcon": "skathcodexbeaconicon.png",
-  
+
   "orientations": [{
     "image": "skathcodexbeacon.png:default.1",
     "imagePosition": [-24, 0],

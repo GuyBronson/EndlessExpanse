@@ -20,12 +20,12 @@ function init()
 
 	self.baseVal = config.getParameter("baseValue") or 1
 	self.timerCounter = 0
+	self.timerCounterGenes = 0 --xi specific
 	self.environmentTimer = 0
 
 	self.timer = 10.0 -- was zero, instant event on plopping in. giving players a short grace period. some of us teleport around a LOT.
-	local buffer=status.activeUniqueStatusEffectSummary()
-	for _,v in pairs(buffer) do
-		if buffer[1]=="mad" then
+	for _,effect in ipairs(status.activeUniqueStatusEffectSummary()) do
+		if effect[1]=="mad" then
 			status.removeEphemeralEffect("mad")
 			status.addEphemeralEffect("mad",self.timer)
 			break
@@ -40,7 +40,7 @@ function init()
 
     storage.crazycarrycooldown=math.max(storage.crazycarrycooldown or 0,10.0)
 
-  
+
 	--make sure the annoying sounds dont flood
 	status.removeEphemeralEffect("partytime5madness")
 	status.removeEphemeralEffect("partytime5")
@@ -67,7 +67,7 @@ function init()
 	--storage.armorSetData=storage.armorSetData or {}--moved into a separate setup
 	fuPersistentEffectRecorder.init()
 
-	for element,data in pairs(elementalTypes) do
+	for _,data in pairs(elementalTypes) do
 		if data.resistanceStat then
 			buffer[data.resistanceStat]=true
 		end
@@ -146,14 +146,14 @@ function randomEvent()
 	while (not didRng) or streakCheck(math.max(0,self.randEvent)) do
 		self.randEvent=math.random(1,100)
 		--mentalProtection can make it harder to be affected
-		if (self.currentProtectionAbs>0.0) and (self.isProtectedRandVal <= self.currentProtectionAbs) then
+		if (self.currentProtectionAbs>0.0) and (self.isProtectedRandVal <= self.currentProtection) then
 			self.randEvent = math.max(0,self.randEvent - util.round(self.currentProtection * 10)) --math.random(10,70) --it doesnt *remove* the effect, it just moves it further up (or down) the list, and potentially off of it.
 		end
 		didRng=true
 	end
 
 	-- are we currently carrying any really weird stuff?
-	local carryWeird=isWeirdStuff(self.timer)
+	isWeirdStuff(self.timer)
 
 	--set duration of curse
 	self.curseDuration = math.min(self.timer,self.madnessCount / 5)--this value will be adjusted based on effect type. Clamping this because it's too much otherwise. --highest duration (285.71) is reached at 1428.57. duration at max madness: 150.
@@ -492,11 +492,30 @@ function update(dt)
 				self.madnessResearchBonus = 0
 			end
 		end
-        
+
+
+		if self.timerCounterGenes >= (1+afkLvl) then
+			if afkLvl <= 3 then
+				self.rewardedGenes = status.stat("isXi")
+				if status.stat("isXi") then
+					if self.timerCounterGenes >= (25 - self.rewardedGenes) then
+						if player.currency("fugeneticmaterial") <= 99 then  -- dont generate more unless below 100 genes to prevent abusing for profit
+							player.addCurrency("fugeneticmaterial", self.rewardedGenes)
+						end
+						self.timerCounterGenes = 0
+					else
+						self.timerCounterGenes = self.timerCounterGenes + dt
+					end
+				end
+			end
+		else
+			self.timerCounterGenes = self.timerCounterGenes + dt
+		end
+
         --time based research increases
         -- every 30 minutes we increment it by +1. So long as the player is active, this bonus applies. Going AFK pauses it
         checkPassiveTimerBonus()
-	    
+
 		self.researchBonus = storage.timedResearchBonus + self.threatBonus + self.madnessResearchBonus
 
 		self.bonus = self.researchBonus + (self.protheonCount) --status.stat("researchBonus") + self.researchBonus
@@ -577,7 +596,7 @@ function checkPassiveTimerBonus()
 	    applyPassiveBonus()
 	else
 		storage.timedResearchBonus = 0  -- reset bonus if AFK
-    end	
+    end
 end
 
 function checkInitGap()
@@ -589,9 +608,9 @@ function checkInitGap()
 	storage.activeTime=((not (gap > 60.0)) and storage.activeTime) or 0
 end
 
-function applyPassiveBonus()	
+function applyPassiveBonus()
 	if storage.activeTime > 10800 then
-		storage.timedResearchBonus = 3	
+		storage.timedResearchBonus = 3
 	elseif storage.activeTime > 7200 then
 		storage.timedResearchBonus = 2
 	elseif storage.activeTime > 3600 then
@@ -604,7 +623,7 @@ end
 function passiveRadioMessage()
     if storage.activeTime == 3600 then player.radioMessage("researchBonus1") end
     if storage.activeTime == 7200 then player.radioMessage("researchBonus2") end
-    if storage.activeTime == 10800 then player.radioMessage("researchBonus3") end	
+    if storage.activeTime == 10800 then player.radioMessage("researchBonus3") end
 end
 ----------------------------------------------
 

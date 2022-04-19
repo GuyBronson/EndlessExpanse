@@ -2,7 +2,6 @@ require "/scripts/vec2.lua" -- added for npc aim fix attempt
 
 function randomizeStatusText(args, board)
 	local personality = personalityType()
-	local options = nil
 	if math.random() < 0.3 then
 		storage.statusText = randomStatusText(personality)
 	else
@@ -105,16 +104,11 @@ end
 -- param offset
 function setAimPosition(args, board)
 	if args.position == nil or args.offset == nil then return false end
-	
+
 	local position = vec2.add(args.position, args.offset)
 	npc.setAimPosition(position)
-	-- new
-	local xpos = mcontroller.xPosition()
-	local ypos = mcontroller.yPosition()
-	local ypos = ypos * 0.5
-	local mouthPosition = vec2.add(mcontroller.position(), {1,-0.7})
 
-	local toPosition = world.distance(position, mcontroller.position()) -- {xpos,ypos} was previously mcontroller.position()
+	local toPosition = world.distance(position, mcontroller.position())
 	mcontroller.controlFace(util.toDirection(toPosition[1]))
 
 	self.setFacingDirection = true

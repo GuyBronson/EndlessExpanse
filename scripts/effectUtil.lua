@@ -64,6 +64,8 @@ function effectUtil.say(sentence)
 		world.callScriptedEntity(effectUtil.getSelf(),"npc.say",sentence)
 	elseif selfType=="monster" then
 		world.callScriptedEntity(effectUtil.getSelf(),"monster.say",sentence)
+	elseif selfType=="object" then
+		world.callScriptedEntity(effectUtil.getSelf(),"object.say",sentence)
 	else
 		effectUtil.messageParticle(effectUtil.getPos(),sentence)
 	end
@@ -222,7 +224,7 @@ end
 
 function effectUtil.projectileTypesInRange(projtype,tilerange,types)
 	local targetlist = world.entityQuery(entity.position(),tilerange,{includedTypes=types})
-	for key, value in pairs(targetlist) do
+	for _, value in pairs(targetlist) do
 		world.spawnProjectile(projtype, world.entityPosition(value), entity.id())
 	end
 end
@@ -237,7 +239,7 @@ end
 
 function effectUtil.projectileTypesInRangeParams(projtype,tilerange,params,types)
 	local targetlist = world.entityQuery(entity.position(),tilerange,{includedTypes=types})
-	for key, value in pairs(targetlist) do
+	for _, value in pairs(targetlist) do
 		world.spawnProjectile(projtype, world.entityPosition(value), entity.id(),{0,0},false,params)
 	end
 end
@@ -252,7 +254,7 @@ end
 
 function effectUtil.projectileTypesInRectangle(projtype,entpos,xwidth,yheight,types)
 	local targetlist = world.entityQuery(entpos,{entpos[1]+xwidth, entpos[2]+yheight},{includedTypes=types})
-	for key, value in pairs(targetlist) do
+	for _, value in pairs(targetlist) do
 		world.spawnProjectile(projtype,world.entityPosition(value))
 	end
 end
