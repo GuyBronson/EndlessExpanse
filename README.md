@@ -19,4 +19,4 @@ an (in progress) FU fork for people that hate research n stuff!
 - [ ] Optimize code and filesizes
 - [ ] Replace Kevin with "[brickass](https://cdn.discordapp.com/attachments/965396158832848996/965490172550582332/brickass.png)"
 - [ ] Make the Madness mechanic actually cool and fun
-
+- [ ] Make cosmic damage not suck
