@@ -6,8 +6,6 @@ an (in progress) FU fork for people that hate research n stuff!
 # to do list!!!!!
 - [ ] Replace assets we do not have rights to with placeholders
 - [ ] Change above placeholder assets with self-made assets
-- [x] Remove intentional Sexbound incompatability
-- [x] Replace Chucklefish intro
 - [ ] Remove Healing cooldown
 - [ ] Remove Research (at the very least, for vanilla content)
 - [ ] Revamp the Cat-A-Pult, so that instead of firing cats it fires normal projectiles, but is cat-themed!
