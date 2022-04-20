@@ -4,6 +4,7 @@ an (in progress) FU fork for people that hate research n stuff!
 > NOTE: Unicerst is __NOT__ associated OR endorsed by the Frackin Universe team.
 
 # to do list!!!!!
+Update 1.0.0: The Great Unfrackening
 - [ ] Replace assets we do not have rights to with placeholders
 - [ ] Change above placeholder assets with self-made assets
 - [ ] Remove Healing cooldown
