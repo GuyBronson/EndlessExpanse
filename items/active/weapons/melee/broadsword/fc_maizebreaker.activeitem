@@ -9,7 +9,7 @@
   "tooltipKind" : "sword2",
   "category" : "broadsword",
   "twoHanded" : true,
-  "itemTags" : ["weapon","melee","broadsword","irradium", "upgradeableWeapon","radioactive"],
+  "itemTags" : ["weapon","melee","broadsword", "upgradeableWeapon"],
 
   "inventoryIcon" : "fc_maizebreaker.png",
   //"collectablesOnPickup" : { "fu_weaponbroadsword" : "irradiumsword" },
@@ -27,12 +27,10 @@
   "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
     "fireTime" : 0.93,
-    "baseDps" : 10.67,
-    "damageConfig" : {
-    }
+    "baseDps" : 10.67
   },
 
-  "altAbilityType" : "parry",
+  "altAbilityType" : "fc_popcornspecial",
 
   "critChance" : 2,
   "critBonus" : 8,
