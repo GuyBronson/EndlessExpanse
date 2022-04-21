@@ -1,19 +1,19 @@
 {
-  "researchBonus1" : {
+    "researchBonus1" : {
     "unique" : false,
-    "text" : "You've gained a +^green;1^reset; ^orange;Research^reset; bonus based on your session playtime. ^red;This bonus will be disabled if you are AFK^reset;."
+    "text" : "You've gained a +^green;1^reset; ^orange;Research^reset; bonus based on your session playtime. ^red;This bonus will be disabled if you are AFK^reset;. Assuming the checks work correctly, that is."
   },
   "researchBonus2" : {
     "unique" : false,
-    "text" : "You've gained a +^green;2^reset; ^orange;Research^reset; bonus based on your session playtime. ^red;This bonus will be disabled if you are AFK^reset;."
+    "text" : "You've gained a +^green;2^reset; ^orange;Research^reset; bonus based on your session playtime. ^red;This bonus will be disabled if you are AFK^reset;. Assuming the checks work correctly, that is."
   },
   "researchBonus3" : {
     "unique" : false,
-    "text" : "You've gained a +^green;3^reset; ^orange;Research^reset; bonus based on your session playtime. ^red;This bonus will be disabled if you are AFK^reset;."
+    "text" : "You've gained a +^green;3^reset; ^orange;Research^reset; bonus based on your session playtime. ^red;This bonus will be disabled if you are AFK^reset;. Assuming the checks work correctly, that is."
   },
   "researchBonus4" : {
     "unique" : false,
-    "text" : "You've gained a +^green;4^reset; ^orange;Research^reset; bonus based on your session playtime. ^red;This bonus will be disabled if you are AFK^reset;."
+    "text" : "You've gained a +^green;4^reset; ^orange;Research^reset; bonus based on your session playtime. ^red;This bonus will be disabled if you are AFK^reset;. Assuming the checks work correctly, that is."
   },
   "upgrade_station" : {
     "type" : "quest",
@@ -141,7 +141,7 @@
   },
   "mamapoptop1b" : {
     "type" : "mission",
-    "text" : "Still...this reads as ^#ff00fc;Ancients^reset;, I'm almost positive. If these readings are accurate, we've stumbled across something truly significant. Press on! This is a rare chance for a true discovery.",
+    "text" : "Still...this reads as an ^#ff00fc;Ancient^reset; signature, I'm almost positive. If these readings are accurate, we've stumbled across something truly significant. Press on! A true discovery could be literally just around the corner!",
     "senderName" : "Vinalisj",
     "portraitImage": "/interface/chatbubbles/fuvintalkannoyed.png:<frame>",
     "portraitFrames" : 9,
@@ -191,7 +191,7 @@
   },
   "mamapoptop2" : {
     "type" : "mission",
-    "text" : "Wow. ^#ff00fc;Ancient^reset; technology in almost perfect condition! This is a ^orange;very^reset; valuable discovery.",
+    "text" : "Wow. ^#ff00fc;Ancient^reset; technology in almost perfect condition! This is a ^orange;priceless^reset; discovery.",
     "senderName" : "Vinalisj",
     "portraitImage": "/interface/chatbubbles/fuvintalkhappy.png:<frame>",
     "portraitFrames" : 9,
@@ -255,7 +255,7 @@
 
   "fubiomeradiation" : {
     "unique" : false,
-    "text" : "WARNING! RADIATION LEVELS ON THIS PLANET ARE EXTREMELY HAZARDOUS!\nYou should not attempt further exploration without proper protective equipment!",
+    "text" : "^red;WARNING! RADIATION LEVELS ON THIS PLANET ARE EXTREMELY HAZARDOUS!^reset;\nYou should not attempt further exploration without proper protective equipment!",
     "portraitImage" : "yell.<frame>",
     "textSpeed" : 70
   },
@@ -263,25 +263,25 @@
 
   "fubiomepressure" : {
     "unique" : false,
-    "text" : "You appear to be rapidly dying due to extreme pressure. It is recommended you seek safety, and relatively quickly or face ^red;certain death^reset;.",
+    "text" : "^red;WARNING! EXCESSIVELY HIGH PRESSURE ON THIS ATMOSPHERE!^reset;\nYour vital signs are rapidly decreasing. It is recommended you seek safety, and relatively quickly or face ^red;certain death^reset;.",
     "portraitImage" : "yell.<frame>",
     "textSpeed" : 70
   },
   "fubiomepressure2" : {
     "unique" : false,
-    "text" : "It is rather fatal to explore this gas giant with your current equipment. You will be dead in mere moments without ^orange;pressure protection^reset;.",
+    "text" : "^red;WARNING! EXCESSIVELY HIGH PRESSURE ON THIS ATMOSPHERE!^reset;\nIt is rather fatal to explore this gas giant with your current equipment. You will be dead in mere moments without ^orange;pressure protection^reset;.",
     "portraitImage" : "yell.<frame>",
     "textSpeed" : 70
   },
   "fubiomepressure3" : {
     "unique" : false,
-    "text" : "You require ^orange;pressure protection^reset; on this planet to avoid near-immediate death. Return to your ship quickly if you wish to remain in good health.",
+    "text" : "^red;WARNING! EXCESSIVELY HIGH PRESSURE ON THIS ATMOSPHERE!^reset;\nYou require ^orange;pressure protection^reset; on this planet to avoid near-immediate death. Return to your ship quickly if you wish to remain in good health.",
     "portraitImage" : "yell.<frame>",
     "textSpeed" : 70
   },
   "fubiomepressure4" : {
     "unique" : false,
-    "text" : "I regret to inform you that your decision to visit a ^red;gas giant^reset; without protection is a ^red;fatal^reset; one.",
+    "text" : "^red;WARNING! EXCESSIVELY HIGH PRESSURE ON THIS ATMOSPHERE!^reset;\nYour decision to visit a ^red;gas giant^reset; without protection is a ^red;fatal^reset; one.",
     "portraitImage" : "yell.<frame>",
     "textSpeed" : 70
   },
@@ -305,13 +305,13 @@
   },
   "fubiomecold" : {
     "unique" : false,
-    "text" : "WARNING! TEMPERATURE ON THIS PLANET IS DANGEROUSLY LOW!\nYou should not attempt further exploration without proper protective equipment!",
+    "text" : "^red;WARNING! TEMPERATURE ON THIS PLANET IS DANGEROUSLY LOW!^reset;\nYou should not attempt further exploration without proper protective equipment!",
     "portraitImage" : "yell.<frame>",
     "textSpeed" : 70
   },
   "fubiomecoldwind" : {
     "unique" : false,
-    "text" : "The extreme winds have made the temperature plummet dramatically. Seek shelter from the wind in order to avoid freezing to death rapidly.",
+    "text" : "^red;WARNING: TOXIC ATMOSPHERE!^reset; The air here is thick with some sort of viscosity. Without proper protection its effects could be lethal.",
     "portraitImage" : "yell.<frame>",
     "textSpeed" : 70
   },
@@ -334,14 +334,14 @@
 
   "fubiomeinsanity" : {
     "unique" : false,
-    "text" : "^red;ALERT: MENTAL STATE DETERIORATING!^reset; Your surroundings are causing your thoughts and feelings to become jumbled. Focus is difficult and you feel yourself going insane...",
+    "text" : "^red;ALERT: MENTAL STATE DETERIORATING!^reset; Your surroundings are causing your thoughts and feelings to become jumbled. Focus will continue to degrade without the necessary precautions.",
     "portraitImage" : "yell.<frame>",
     "textSpeed" : 70
   },
 
   "insanityeffect" : {
     "unique" : false,
-    "text" : "^red;ALERT: MENTAL STATE DETERIORATING!^reset; Something is causing your thoughts and feelings to become jumbled. Focus is difficult and you feel yourself going insane...",
+    "text" : "^red;ALERT: MENTAL STATE DETERIORATING!^reset; Your surroundings are causing your thoughts and feelings to become jumbled. Focus will continue to degrade without the necessary precautions.",
     "portraitImage" : "yell.<frame>",
     "textSpeed" : 70
   },
@@ -366,7 +366,7 @@
     "unique" : false,
 	  "senderName" : "Jerma985",
 	  "portraitImage" : "/interface/chatbubbles/evileyetalk.png:<frame>",
-    "text" : "♪Let's not be too hasty. Still I think he's rather tasty.♪ That's what it is!?",
+    "text" : "Let's not be too hasty. Still I think he's rather tasty. That's what it is!?",
     "textSpeed" : 70
   },
 
@@ -374,7 +374,7 @@
     "unique" : false,
 	  "senderName" : "SAIL985",
 	  "portraitImage" : "/interface/chatbubbles/evileyetalk.png:<frame>",
-    "text" : "♪Let's not be too hasty... ^red;Yes I think he's rather tasty!^reset; Gotta go to uh, sleep, gotta eat♪-FUCKing can't do it! ",
+    "text" : "Let's not be too hasty... ^red;Yes I think he's rather tasty!^reset; Gotta go to uh, sleep, gotta eat-FUCKing can't do it! ",
     "textSpeed" : 70
   },
 
@@ -455,9 +455,9 @@
   },
   "insanityeffectgrav" : {
     "unique" : false,
-	  "senderName" : "You",
+	  "senderName" : "Ghost Johnson",
 	  "portraitImage" : "/interface/chatbubbles/evileyetalk.png:<frame>",
-    "text" : "I appear to be weightless! I should ^orange;immediately remove my armor or air supply^reset; so that I can truly appreciate weightlessness! I'll float better! Plus, I'll be even ^green;more^reset; desirable to the opposite sex!",
+    "text" : "Hello, my name is ^grey;Ghost Johnson^reset;, I play drum so good that I bring back the dead. Oh what's that, you want Grandma back? Well, let me do a drum solo to bring her back. Let Grandma come back to life~! ...no refunds~.",
     "textSpeed" : 70
   },
 
@@ -541,7 +541,7 @@
     "text" : "I'm just sayin', like, if you- if somebody were to, like, push you into a meat grinder, and, like, your- one of your finger bones is still intact, they're not gonna pick it up and go, 'Well see, yeah it wasn't deadly, it wasn't an instant kill move! You still got, like, this part of your finger left!'",
     "textSpeed" : 70
   },
-   
+
    "insanityeffectdying" : {
     "unique" : false,
 	  "senderName" : "MeatGrinderMan985",
