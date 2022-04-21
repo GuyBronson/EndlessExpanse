@@ -19,3 +19,5 @@ Update 1.0.0: The Great Unfrackening
 - [ ] Replace Kevin with "[brickass](https://cdn.discordapp.com/attachments/965396158832848996/965490172550582332/brickass.png)"
 - [ ] Make the Madness mechanic actually cool and fun
 - [ ] Make cosmic damage not suck
+- [ ] Replace Vinalsj
+- [ ] Change all item IDs to match the new naming convention (this one is gonna suuuuuuuck)
