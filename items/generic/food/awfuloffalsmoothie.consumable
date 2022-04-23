@@ -4,8 +4,8 @@
 	"price": 60,
 	"category": "preparedFood",
 	"inventoryIcon": "awfuloffalsmoothie.png",
-	"description": "Blended rotten food. The greatest invention of Dupont Dewpawnt. \n^cyan;-^red;5% Health ^reset; ^blue;+2^reset; Madness; ^red;15s Poison^reset; Food Type: ^red; Cooked Meat^reset;",
-	"shortdescription": "Awful Offal Smoothie",
+	"description": "Blended rotten food. Maybe rotted Ewokflesh. \n^cyan;-^red;5% Health ^reset; ^blue;+2^reset; Madness; ^red;15s Poison^reset; Food Type: ^red; Cooked Meat^reset;",
+	"shortdescription": "Khorne Smoothie for Weakflesh",
 	"effects": [
         ["madnessgain2", "meat_cooked",
 		{
