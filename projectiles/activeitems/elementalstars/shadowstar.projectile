@@ -1,0 +1,18 @@
+{
+  "projectileName" : "enx_shadowstar",
+  "image" : "shadowstar.png",
+  "animationCycle" : 0.35,
+  "lightColor": [255, 255, 255],
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 45,
+  "damageKind" : "shadowplasma"
+}
