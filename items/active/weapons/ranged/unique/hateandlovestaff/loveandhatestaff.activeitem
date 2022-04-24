@@ -1,0 +1,92 @@
+{
+  "itemName": "enx_loveandhatestaff",
+  "price": 1500,
+  "maxStack": 1,
+  "rarity": "Legendary",
+  "description": "In the name of love and hate!",
+  "shortdescription": "Love and Hate",
+  "tooltipKind": "gununique",
+  "category": "Staff",
+  "twoHanded": true,
+  "itemTags": [ "weapon", "ranged", "staff", "upgradeableWeapon" ],
+  "level": 4,
+
+  "inventoryIcon": [
+    { "image": "loveandhatestaff.png" }
+  ],
+
+  "animation": "loveandhatestaff.animation",
+  "animationParts": {
+    "middle": "loveandhatestaff.png",
+    "middleFullbright": "",
+    "muzzleFlash": "muzzleflash.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": [ "/sfx/gun/gnomebeam_hit1.ogg","/sfx/gun/gnomebeam_hit2.ogg","/sfx/gun/gnomebeam_hit3.ogg","/sfx/gun/gnomebeam_hit4.ogg","/sfx/gun/gnomebeam_hit5.ogg" ]
+    },
+    "lights": {
+      "muzzleFlash": {
+        "color": [ 0, 255, 255 ]
+      }
+    }
+  },
+
+  "baseOffset": [ 0.8, -0.6 ],
+  "muzzleOffset": [ 3.4, 0.2 ],
+
+  "scripts": [ "/items/active/weapons/ranged/gun.lua" ],
+
+  "elementalType": "physical",
+
+  "primaryAbility": {
+    "scripts": [ "/items/active/weapons/ranged/gunfire.lua" ],
+    "class": "GunFire",
+
+    "fireTime": 0.65,
+    "baseDps": 12,
+    "energyUsage": 23,
+    "projectileCount": 1,
+    "inaccuracy": 0.005,
+    "fireType": "auto",
+	
+	//you can do this with projectileTypes to randomize what the gun shoots
+    "projectileType": ["enx_physicalstar", "enx_shadowstar", "enx_cosmicstar", "enx_silverstar"],
+    "muzzleFlashVariants": 1,
+
+	//note: arm frames need fixing
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        "frontArmFrame": "idle.4",
+        "backArmFrame": "rotation"
+      },
+      "fire": {
+        "duration": 0,
+        "armRotation": -4,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        "frontArmFrame": "idle.4",
+        "backArmFrame": "rotation"
+      },
+      "cooldown": {
+        "duration": 0.05,
+        "armRotation": -2,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        "frontArmFrame": "idle.4",
+        "backArmFrame": "rotation"
+      }
+    }
+  },
+
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
+}
