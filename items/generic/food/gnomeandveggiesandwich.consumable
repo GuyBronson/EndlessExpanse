@@ -4,10 +4,10 @@
 	"price": 35,
 	"category": "preparedFood",
 	"inventoryIcon": "gnomeandveggiesandwich.png",
-	"description": "One gnome was harmed in making this sandwich. \n^cyan;+^reset;20%^green; HP^reset;^cyan; +^reset;20%^green; Energy^reset;\n^cyan;+^reset;3^blue; Madness^reset; Food Type:^orange; Meat and Plant^reset;",
-	"shortdescription": "Gnomewich",
+	"description": "It's not like cookies can only be dessert, right...? \n^cyan;+^reset;20%^green; HP^reset;^cyan; +^reset;20%^green; Energy^reset;\n^cyan;+^reset;3^blue; Madness^reset; Food Type:^green; Plant^reset;",
+	"shortdescription": "Cookies n' Mashed Potatoes",
 	"effects": [
-        ["madnessgain2", "meatc_plant_meal",
+        ["madnessgain2", "plant_dessert",
         {
             "effect": "maxenergyscalingboostfood",
             "duration": 120,
