@@ -6,7 +6,7 @@
         "states" : {
           "off" : {},
           "charge" : {
-            "frames" : 4,
+            "frames" : 6,
             "cycle" : 2.2,
             "mode" : "transition",
             "transition" : "fullcharge",
@@ -16,7 +16,7 @@
             }
           },
           "fullcharge" : {
-            "frames" : 3,
+            "frames" : 4,
             "cycle" : 0.2,
             "mode" : "loop",
             "properties" : {
@@ -40,7 +40,7 @@
 		  "zLevel" : -1,
 		  "centered" : true,
 		  "offset" : [0, 0],
-		  "fullbright" : true,
+		  "fullbright" : false,
 		  "transformationGroups" : ["muzzle"]
 		},
 
@@ -90,6 +90,7 @@
       "gunfullbright" : {
         "properties" : {
           "centered" : true,
+		  "fullbright" : true,
           "offset" : [1.5, -0.7],
           "transformationGroups" : ["weapon"],
           "zLevel" : 2
