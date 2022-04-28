@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "money", "count" : 420 }
   ],
-  "output" : { "item" : "orphanpaste", "count" : 1 },
+  "output" : { "item" : "enx_ohbabysyrup", "count" : 1 },
   "groups" : [ "fuburgerfool", "burgerfoolmisc" ]
 }
