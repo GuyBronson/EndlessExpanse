@@ -24,7 +24,7 @@
     "lights" : { "muzzleFlash" : {"color" : [55, 55, 55] } }
   },
 
-  "baseOffset" : [0.4, 0.54],
+  "baseOffset" : [0.75, 0.45],
   "muzzleOffset" : [1.2, -0.1],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],

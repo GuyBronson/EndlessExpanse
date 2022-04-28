@@ -4,7 +4,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "The compressed rage of the Precursors.
-^cyan;Charges Up^reset;",
+^cyan;Charges Up^reset;
+^red;Alt pierces^reset;",
   "shortdescription" : "Precursor Annihilator",
   "tooltipKind" : "gununique",
   "category" : "uniqueWeapon",
@@ -12,11 +13,11 @@
   "itemTags" : ["weapon","ranged","energy","precursor", "upgradeableWeapon"],
   "level" : 6,
 
-  "inventoryIcon" : "precursorcannon.png",
+  "inventoryIcon" : "precursorcannon.png:empty",
 
   "animation" : "precursorcannon.animation",
   "animationParts" : {
-    "gun" : "precursorcannon_Link.png",
+    "gun" : "precursorcannon.png",
     "gunfullbright" : "precursorcannonfullbright.png",
     "muzzleFlash" : ""
   },
@@ -34,11 +35,10 @@
       }
     }
   },
-  "muzzleOffset" : [6, -0.4],
+  "muzzleOffset" : [4.5, -0.7],
 
   "scripts" : [
-    "/items/active/weapons/ranged/gun.lua",
-    "/items/active/scripts/heavyweapon.lua"
+    "/items/active/weapons/ranged/gun.lua"
   ],
 
   "critChance" : 2,
@@ -48,8 +48,8 @@
   "recoilSpeed" : 400,
   "recoilForce" : 2200,
 
-  "elementalType" : "fire",
-
+  "elementalType" : "radioactive",
+  //Venting (and this addresses any FU dev that comes here and looks at this), but for the love of fucking god, you guys clearly didn't give a shit about this weapon
   "primaryAbilityType" : "chargefire",
   "primaryAbility" : {
     "baseDps" : 8,
@@ -85,11 +85,11 @@
     "chargeLevels" : [
       {
         "time" : 0,
-        "energyCost" : 35,
-        "cooldown" : 0.1,
-        "projectileType" : "radioactiveplasma",
+        "energyCost" : 2,
+        "cooldown" : 0.05,
+        "projectileType" : "precursorshot2a",
         "projectileParameters" : {
-	      "speed" : 50,
+	      "speed" : 80,
 	      "power" : 3
         },
         "inaccuracy" : 0,
@@ -107,7 +107,7 @@
         "projectileParameters" : {
 	      "speed" : 20,
 	      "statusEffects" : [ "radiationburn" ],
-	      "power" : 8
+	      "power" : 16
         },
         "baseDamage" : 8,
         "fireSound" : "fire2"
@@ -123,16 +123,17 @@
     "class" : "GunFire",
     "fireTime" : 0.5,
     "baseDps" : 5,
-    "energyUsage" : 150,
+    "energyUsage" : 60,
     "fireType" : "burst",
 
-    "burstCount" : 5,
+    "burstCount" : 7,
     "burstTime" : 0.1,
-    "inaccuracy" : 0.12,
+    "inaccuracy" : 0.06,
     "projectileCount" : 3,
     "projectileType" : "precursorshot2a",
     "projectileParameters" : {
-      "speed" : 40,
+	  "piercing": true,
+      "speed" : 80,
       "timeToLive" : 3
     },
     "stances" : {
