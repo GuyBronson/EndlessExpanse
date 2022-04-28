@@ -15,7 +15,7 @@
   "animationParts" : {
     "handle" : "",
     "blade" : "yinyang.png",
-    "bladefullbright" : "yinyangfullbright.png"
+    "bladefullbright" : ""
   },
   "animationCustom" : {
 	  "sounds" : {
