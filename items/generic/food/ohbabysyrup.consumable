@@ -1,15 +1,14 @@
 {
-  "itemName": "orphanpaste",
+  "itemName": "enx_ohbabysyrup",
   "rarity": "Rare",
   "category": "drink",
   "price": 405,
-  "inventoryIcon": "orphanpaste.png",
-  "description": "Made from only the finest ingredients. A perfect food for Vegans! Can fuel ships (40) and mechs.\n^cyan;+^white;10% ^cyan;HP ^gray;(^white;75s^gray;)^reset; ^red;Type: Raw Meat^reset;",
-  "shortdescription": "Orphan Paste",
-  "fuelAmount": 40,
+  "inventoryIcon": "ohbabysyrup.png",
+  "description": "The brand creator must've taken a day off, its punctuation is terrible. It's still made from tree sap, though the recipe is wierd.\n^cyan;+^white;10% ^cyan;HP ^gray;(^white;75s^gray;)^reset; Type:^green; Herbivore^reset;",
+  "shortdescription": "Oh! Baby Syrup",
   "effects": [
     [
-	  { "effect" : "meat_raw" },
+	  { "effect" : "plant_food" },
       {
         "effect": "maxhealthscalingboostfood",
         "duration": 75
