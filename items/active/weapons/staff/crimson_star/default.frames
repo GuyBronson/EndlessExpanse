@@ -1,0 +1,16 @@
+{
+  "frameGrid" : {
+    "size" : [38, 44],
+    "dimensions" : [6, 1],
+    "names" : [
+      [ "idle", "transitionToMelee.1", "transitionToMelee.2", "transitionToMelee.3", "transitionToMelee.4", "meleeIdle" ]
+    ]
+  },
+
+  "aliases" : {
+    "transitionToStaff.1" : "transitionToMelee.4",
+    "transitionToStaff.2" : "transitionToMelee.3",
+	"transitionToStaff.3" : "transitionToMelee.2",
+	"transitionToStaff.4" : "transitionToMelee.1"
+  }
+}
