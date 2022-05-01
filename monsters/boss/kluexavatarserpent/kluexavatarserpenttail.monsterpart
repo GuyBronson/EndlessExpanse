@@ -1,0 +1,9 @@
+{
+  "name" : "tail",
+  "category" : "tail",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "kluexavatarserpenttail.png"
+  }
+}
