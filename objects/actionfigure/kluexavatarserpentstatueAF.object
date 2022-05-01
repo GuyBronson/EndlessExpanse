@@ -1,0 +1,32 @@
+{
+  "objectName" : "enx_kluexavatarserpentstatueaf",
+  "colonyTags" : ["pretty"],
+  "rarity" : "Legendary",
+  "category" : "actionFigure",
+  "price" : 5000,
+  "printable" : false,
+  "description" : "The label reads, \"A protoype redesign of the Kluex Avatar built with combat in mind. Deemed too dangerous for worship, it was imprisoned in the furthest chamber of the Sky Boulevard and forgotten..\"",
+  "shortdescription" : "Failed Avatar Figurine",
+
+
+  "inventoryIcon" : "kluexavatarserpentstatueAF.png",
+  "orientations" : [
+    {
+      "image" : "kluexavatarserpentstatueAF.png:<color>",
+      "imagePosition" : [-4, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "kluexavatarserpentstatueAF.png:<color>",
+      "imagePosition" : [-4, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
