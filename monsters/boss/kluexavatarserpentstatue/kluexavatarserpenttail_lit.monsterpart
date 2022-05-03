@@ -1,0 +1,9 @@
+{
+  "name" : "taillit",
+  "category" : "tail",
+  "type" : "bodylit",
+
+  "frames" : {
+    "bodylit" : "kluexavatarserpenttail_lit.png"
+  }
+}
