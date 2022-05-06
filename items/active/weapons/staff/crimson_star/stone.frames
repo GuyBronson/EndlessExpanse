@@ -1,6 +1,6 @@
 {
   "frameGrid": {
-    "size": [ 38, 44 ],
+    "size": [ 38, 60 ],
     "dimensions": [ 6, 1 ],
     "names": [
       [ "idle", "transitionToMelee.1", "transitionToMelee.2", "transitionToMelee.3", "transitionToMelee.4", "meleeIdle" ]
