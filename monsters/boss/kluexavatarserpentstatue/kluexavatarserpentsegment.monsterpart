@@ -1,9 +1,0 @@
-{
-  "name" : "segment",
-  "category" : "segment",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "kluexavatarserpentsegment.png"
-  }
-}
