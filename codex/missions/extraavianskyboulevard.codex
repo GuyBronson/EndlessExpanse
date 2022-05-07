@@ -1,0 +1,20 @@
+{
+  "id" : "enx_extraavianskyboulevard",
+  "title" : "The Failed Avatar",
+  "description" : "Seems like a record on that weird Kluex Avatar you fought.",
+  "icon" : "aviancover2.png",
+  "contentPages" : [
+"The prototype seems to be a success. So far, there have been no malfunctions after we got it up and running and it hasn't acted aggressively towards anything without provocation.",
+
+"When we brought it in for testing today, something must have gone wrong. There was a large boom, then when we opened the door, everyone in the room was dead and the avatar was floating there, covered in blood.",
+
+"When we sent in some guards to (hopefully) subdue it, it completely decimated them. The entire temple was shaking from the sheer force of its attacks...",
+
+"It appears that there is an issue with its programming. We can't even power it down. The only thing we can do is pray to Kluex that we can safely contain it. *the rest of the pages in this book are torn or unreadable*"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

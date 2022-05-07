@@ -3,7 +3,9 @@
   "price": 1500,
   "maxStack": 1,
   "rarity": "Legendary",
-  "description": "In the name of love and hate!",
+  "description": "In the name of love and hate!
+^green;Counts as 'cute' for set bonuses^reset;
+^#30D5C8;Randomized damage type^reset;",
   "shortdescription": "Love and Hate",
   "tooltipKind": "gununique",
   "category": "Staff",
@@ -77,6 +79,54 @@
       },
       "cooldown": {
         "duration": 0.05,
+        "armRotation": -2,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        "frontArmFrame": "idle.4",
+        "backArmFrame": "rotation"
+      }
+    }
+  },
+  "altAbility": {
+    "scripts": [ "/items/active/weapons/ranged/gunfire.lua" ],
+    "class": "GunFire",
+	"name": "Arcana Slave",
+    "fireTime": 7,
+    "baseDps": 5,
+    "energyUsage": 150,
+    "projectileCount": 1,
+    "inaccuracy": 0,
+    "fireType": "auto",
+	
+	//you can do this with projectileTypes to randomize what the gun shoots
+    "projectileType": ["enx_IMAFIRINMAHLAZOR"],
+    "muzzleFlashVariants": 1,
+
+	//note: arm frames need fixing
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        "frontArmFrame": "idle.4",
+        "backArmFrame": "rotation"
+      },
+      "fire": {
+        "duration": 0.4,
+        "armRotation": -4,
+        "weaponRotation": 0,
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true,
+        "frontArmFrame": "idle.4",
+        "backArmFrame": "rotation"
+      },
+      "cooldown": {
+        "duration": 0.2,
         "armRotation": -2,
         "weaponRotation": 0,
         "twoHanded": true,

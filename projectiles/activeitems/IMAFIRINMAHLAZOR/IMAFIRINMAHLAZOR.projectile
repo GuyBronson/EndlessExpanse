@@ -1,0 +1,20 @@
+{
+  "projectileName" : "enx_IMAFIRINMAHLAZOR",
+  "image" : "IMAFIRINMAHLAZOR.png",
+  "animationCycle" : 0.45,
+  "lightColor": [128, 0, 128],
+  "frameNumber" : 5,
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "fullbright" : true,
+   "damagePoly" : [ [0, 1], [190, 1], [190, -1], [0, -1] ],
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "actionOnReap" : [
+  ],
+  "power" : 50.0,
+  "speed" : 0,
+  "statusEffects" : [ "blacktarslow" ],
+  "damageKind" : "aetherplasma"
+}

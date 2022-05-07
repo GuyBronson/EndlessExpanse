@@ -1,17 +1,18 @@
 {
   "itemName" : "flyingv",
-  "price" : 100,
+  "price" : 600,
   "maxStack" : 1,
-  "level" : 2,
-  "rarity" : "uncommon",
-  "description" : "Shred, Rip, and play the sickest solos!",
+  "level" : 3,
+  "rarity" : "legendary",
+  "description" : "Shred, Rip, and play the sickest solos!
+^red;Sound warning^reset;",
   "shortdescription" : "Lead Guitar",
   "tooltipKind" : "hammer",
-  "category" : "hammer",
+  "category" : "musical instrument (of death)",
   "twoHanded" : true,
-  "weaponType" : "Bitchin' Tunes",
+  "weaponType" : "Axe",
   "itemTags" : ["weapon","melee","axe", "upgradeableWeapon"],
-  "inventoryIcon" : "flyingv.png",
+  "inventoryIcon" : "flyingv.png?flipy",
   "animation" : "hammer.animation",
   "animationParts" : {
     "handle" : "",
@@ -19,10 +20,10 @@
   },
   "animationCustom" : {
     "animatedParts" : { "parts" : { "swoosh" : { "properties" : {
-      "offset" : [-2.0, 1.5]
+      "offset" : [-1.6, 1.5]
     }}}},
     "sounds" : {
-      "fire" : [ "/sfx/melee/swing_hammer.ogg" ]
+      "fire" : [ "/sfx/instruments/leadguitar/a1.ogg","/sfx/instruments/leadguitar/a2.ogg","/sfx/instruments/leadguitar/a3.ogg","/sfx/instruments/leadguitar/a4.ogg" ]
     }
   },
 
@@ -43,13 +44,13 @@
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 115,
-        "weaponOffset" : [0.35, 1.7]
+        "weaponOffset" : [0.2, 1.7]
       },
       "windup" : {
         "duration" : 0.8,
         "armRotation" : 90,
         "weaponRotation" : -10,
-        "weaponOffset" : [0.4, 1.75],
+        "weaponOffset" : [0.2, 1.75],
 
         // Windup animation
         "idleHammerAngle" : -10,
@@ -65,21 +66,43 @@
         "duration" : 0.025,
         "armRotation" : 55,
         "weaponRotation" : -45,
-        "weaponOffset" : [0.4, 2.0]
+        "weaponOffset" : [0.2, 2.0]
       },
       "fire" : {
         "duration" : 0.4,
         "armRotation" : -35,
-        "weaponRotation" : -55,
-        "smashTimer" : 1.5,
-        "weaponOffset" : [0.6, 2.0]
+        "weaponRotation" : -65,
+        "smashTimer" : 1,
+        "weaponOffset" : [0.3, 2.0]
       }
     }
   },
 
-  "altAbilityType" : "fugroundslamice",
-  "altAbility" : { },
-
+  "altAbilityType" : "travelingslash",
+  "altAbility" : { 
+  "name": "Amp Toss",
+  "baseDamage": 4.5,
+    "energyUsage": 65,
+    "cooldownTime": 5,
+  "elementalConfig": {
+      "fire": {
+        "projectileType": "enx_amp",
+        "damageConfig": { "statusEffects": [  ] }
+      },
+      "ice": {
+        "projectileType": "icetravelingswoosh",
+        "damageConfig": { "statusEffects": [ "frostslow" ] }
+      },
+      "poison": {
+        "projectileType": "poisontravelingswoosh",
+        "damageConfig": { "statusEffects": [ "weakpoison" ] }
+      },
+      "electric": {
+        "projectileType": "electrictravelingswoosh",
+        "damageConfig": { "statusEffects": [ "electrified" ] }
+      }
+    }
+  },
   "critChance" : 6,
   "critBonus" : 4,
   "builder" : "/items/buildscripts/buildunrandweapon.lua",

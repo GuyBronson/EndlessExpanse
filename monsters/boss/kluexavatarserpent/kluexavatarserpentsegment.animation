@@ -1,0 +1,181 @@
+
+
+{
+  "globalTagDefaults" : {
+    "groundState" : "above"
+  },
+
+  "animatedParts" : {
+    "stateTypes" : {
+      "body" : {
+        "priority" : 0,
+        "default" : "idle",
+        "states" : {
+          "idle" : {
+            "frames" : 1,
+            "mode" : "loop",
+            "cycle" : 1
+          },
+          "fly" : {
+            "frames" : 1,
+            "mode" : "loop",
+            "cycle" : 1
+          }
+        }
+      },
+      "damage" : {
+        "priority" : 3,
+        "default" : "none",
+        "states" : {
+          "none" : {
+            "frames" : 1
+          },
+          "stunned" : {
+            "frames" : 1
+          }
+        }
+      }
+    },
+    "parts" : {
+      "body" : {
+        "properties" : {
+          "transformationGroups" : [ "body", "aim" ],
+          "centered" : true,
+          "zlevel" : 20
+        },
+        "partStates" : {
+          "body" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:<groundState>.<frame>"
+              }
+            },
+            "fly" : {
+              "properties" : {
+                "image" : "<partImage>:<groundState>.<frame>"
+              }
+            },
+            "damage" : {
+              "stunned" : {
+                "properties" : {
+                  "image" : "<partImage>:<groundState>.<frame>"
+                }
+              }
+            }
+          }
+        }
+      },
+      "bodylit" : {
+        "properties" : {
+          "transformationGroups" : [ "body", "aim" ],
+          "centered" : true,
+          "fullbright" : true,
+          "zlevel" : 10
+        },
+        "partStates" : {
+          "body" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:<groundState>.<frame>"
+              }
+            },
+            "fly" : {
+              "properties" : {
+                "image" : "<partImage>:<groundState>.<frame>"
+              }
+            },
+            "damage" : {
+              "stunned" : {
+                "properties" : {
+                  "image" : "<partImage>:<groundState>.<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "transformationGroups" : {
+      "body" : {
+        "interpolated" : true,
+        "rotationCenter" : [0,0],
+        "angularVelocity" : 1.5
+      },
+      "aim" : {
+         "interpolated" : true,
+         "rotationCenter" : [0,0],
+         "angularVelocity" : 1.5
+      }
+  },
+  "rotationGroups" : {
+    "body" : {
+      "rotationCenter" : [0,0],
+      "angularVelocity" : 1.5
+    }
+  },
+  "effects" : {
+    "blink" : {
+      "type" : "flash",
+      "time" : 0,
+      "directives" : "fade=ffffff;0.5"
+    }
+  },
+
+  "lights" : {
+    "glow" : {
+      "active" : false,
+      "position" : [0, 0],
+      "color" : [52, 38, 8],
+      "pointLight" : true
+    }
+  },
+
+  "particleEmitters" : {
+    "groundBurstEmitter": {
+      "particles" : [
+        { "particle" : "greyrockshard" },
+        { "particle" : "shadowrockshard" },
+        { "particle" : "blackstoneshard" },
+        { "particle" : "dust4" },
+        { "particle" : "dust2" },
+        { "particle" : "dust2" },
+        { "particle" : "dust2" },
+        { "particle" : "dust2" },
+        { "particle" : "dust2" }      ]
+    },
+    "behindGroundEmitter":{
+      "particles" : [
+        { "particle" : "dust2" },
+        { "particle" : "dust2" },
+        { "particle" : "dust2" },
+        { "particle" : "dust2" },
+        { "particle" : "dust2" }
+      ]
+    },
+    "deathPoof" : {
+      "particles" : [
+       { "particle" : "dust2" },
+        { "particle" : "dust2" },
+        { "particle" : "kluexstatueshard" },
+        { "particle" : "kluexcrystalshard" },
+        { "particle" : "kluexcrystal" },
+		{ "particle" : "dust2" },
+        { "particle" : "dust2" },
+        { "particle" : "kluexstatueshard" },
+        { "particle" : "kluexcrystalshard" },
+        { "particle" : "kluexcrystal" }
+      ]
+    }
+  },
+
+  "sounds" : {
+    "aggroHop" : [ "/sfx/npc/monsters/monster_surprise.ogg" ],
+    "deathPuff" : [ "/sfx/npc/boss/kluexboss_death.ogg" ],
+    "fire" : [ "/sfx/melee/giantsword_charge_full.ogg" ],
+	"fireelectric" : [ "/sfx/gun/grenadeblast_electric2.ogg" ],
+	"firebigblast" : [ "/sfx/weapons/explosion-large01.ogg" ],
+	"fireice" : [ "/sfx/gun/dragonhead_charged_fire2.ogg" ],
+	"firefire" : [ "/sfx/gun/plasma_shotgun2.ogg" ]
+  }
+}

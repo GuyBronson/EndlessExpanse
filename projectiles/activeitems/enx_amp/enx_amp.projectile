@@ -1,0 +1,38 @@
+{
+  "projectileName" : "enx_amp",
+  "physics" : "enx_amp",
+  "bounces" : -1,
+  "piercing" : true,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "lightColor" : [0, 0, 0],
+  "image" : "enx_amp.png",
+  "animationCycle" : 0.5,
+  "timeToLive" : 5,
+  "frameNumber" : 1,
+   "periodicActions" : [
+    {
+      "time" : 0.125,
+      "loop" : true,
+      "action" : "projectile",
+      "type" : "fusoundwave",
+      "inheritDamageFactor" :0.3,
+      "fuzzAngle" : 90
+   },
+   {
+      "time" : 0.125,
+      "loop" : true,
+      "action" : "sound",
+      "options" : [ "/sfx/instruments/leadguitar/a1.ogg","/sfx/instruments/leadguitar/a2.ogg","/sfx/instruments/leadguitar/a3.ogg","/sfx/instruments/leadguitar/a4.ogg","/sfx/instruments/leadguitar/a5.ogg","/sfx/instruments/leadguitar/a6.ogg","/sfx/instruments/leadguitar/a7.ogg" ]
+	}
+  ],
+  "actionOnReap" : [
+   {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion/regularexplosion.config"
+    }
+  ],
+  "power" : 50,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}
