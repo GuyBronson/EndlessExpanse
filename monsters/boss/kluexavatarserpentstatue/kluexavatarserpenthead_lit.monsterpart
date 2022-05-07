@@ -1,9 +1,0 @@
-{
-  "name" : "head",
-  "category" : "head",
-  "type" : "bodylit",
-
-  "frames" : {
-    "bodylit" : "kluexavatarserpenthead_lit.png"
-  }
-}
