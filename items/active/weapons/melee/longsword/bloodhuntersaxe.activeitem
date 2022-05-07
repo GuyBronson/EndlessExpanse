@@ -1,0 +1,76 @@
+{
+  "itemName" : "enx_bloodhuntersaxe",
+  "price" : 700,
+  "level" : 4,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "An axe said to have been used to cut off the head of a great wolf. 
+^red;Inflicts heavy bleeding^reset;",
+  "shortdescription" : "Blood Hunter's Axe",
+  "tooltipKind" : "swordunique",
+  "category" : "Axe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe","upgradeableWeapon"],
+  "inventoryIcon" : "bloodhuntersaxe.png",
+  "animation" : "combolongswordglow.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "bloodhuntersaxe.png",
+    "bladefullbright" : "bloodhuntersaxefullbright.png"
+  },
+  "animationCustom" : {
+	  "sounds" : {
+	    "fire" : [ "/sfx/melee/swing_broadsword.ogg"],
+	    "fire2" : [ "/sfx/melee/swing_broadsword.ogg"],
+	    "fire3" : [ "/sfx/melee/swing_broadsword.ogg"],
+	    "crit" : [ "/sfx/melee/axe_kill_organic2.ogg"]
+	  },
+    "lights" : { "glow" : {
+      "active" : false,
+      "position" : [0.0, 0.5],
+      "color" : [122, 12, 44],
+      "flickerPeriod" : 12.3,
+      "flickerMinIntensity" : 0.45,
+      "flickerMaxIntensity" : 1.4,
+      "flickerPeriodVariance" : 0.075,
+      "flickerIntensityVariance" : 0.025
+    }},
+    "animatedParts":{
+	  "parts":{
+	    "swoosh": {
+		"partStates": {
+		    "swoosh":{
+			    "fire" : {
+			      "properties":{"image":"/items/active/weapons/melee/longsword/swoosh/physicalswoosh.png:<frame>", "fullbright" : false}
+			    },
+			    "fire2" : {
+			      "properties":{"image":"/items/active/weapons/melee/longsword/swoosh2/physicalswoosh.png:<frame>", "fullbright" : false}
+			    },
+			    "fire3" : {
+			      "properties":{"image":"/items/active/weapons/melee/longsword/swoosh3/physicalswoosh.png:<frame>", "fullbright" : false}
+			    }
+		    }
+		}
+	     }
+	   }
+     }
+  },
+  "emitters" : [],
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "battlebladecombo",
+  "primaryAbility" : {
+    "fireTime" : 1,
+    "baseDps" : 11.5,
+    "damageConfig" : {
+      "damageSourceKind": "physical",
+      "statusEffects" : [ "bleedinglonghunter" ]
+    }
+  },
+
+  "critChance" : 5,
+  "critBonus" : 12,
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
