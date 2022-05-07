@@ -1,9 +1,0 @@
-{
-  "name" : "wings",
-  "category" : "wings",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "kluexavatarserpentwings.png"
-  }
-}

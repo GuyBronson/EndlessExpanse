@@ -1,9 +1,0 @@
-{
-  "name" : "wings",
-  "category" : "wings",
-  "type" : "bodylit",
-
-  "frames" : {
-    "bodylit" : "kluexavatarserpentwings_lit.png"
-  }
-}
