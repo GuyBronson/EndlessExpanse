@@ -1,0 +1,228 @@
+{
+  "type" : "enx_kluexavatarserpentsegment",
+  "shortdescription" : "",
+  "description" : "",
+
+ "categories" : [ "segment" ],
+  "parts" : [ "body","bodylit" ],
+
+  "animation" : "kluexavatarserpentsegment.animation",
+
+  "dropPools" : [ ],
+
+  "baseParameters" : {
+  "level": 6,
+    "scripts" : [
+      "/monsters/monstersegment.lua",
+      "/monsters/segmented/burrowers/burrower.lua"
+    ],
+
+    "behavior" : "monster",
+    "deathBehavior" : "monster-death",
+    "renderLayer" : "foregroundEntity",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : false,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 2.5,
+
+      "deathActions" : [
+      ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [-0.85, -0.45], [-0.45, -0.85], [0.45, -0.85], [0.85, -0.45], [0.85, 0.45], [0.45, 0.85], [-0.45, 0.85], [-0.85, 0.45] ],
+      "damage" : 30,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "hammer",
+      "knockback" : 20,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+
+      "collisionEnabled" : true,
+      "collisionPoly" : [ [-0.85, -0.45], [-0.45, -0.85], [0.45, -0.85], [0.85, -0.45], [0.85, 0.45], [0.45, 0.85], [-0.45, 0.85], [-0.85, 0.45] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 12,
+      "runSpeed" : 12,
+      "gravityEnabled" : false,
+
+      "airFriction" : 0,
+      "airForce" : 15,
+      "flySpeed" : 25
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.0,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "stone"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+"stats" : {
+        "grit" : {
+          "baseValue" : 1.0
+        },
+        "maxHealth" : {
+          "baseValue" : 1500
+        },
+        "protection" : {
+          "baseValue" : 35.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "physicalResistance" : {
+          "baseValue" : 1
+        },
+        "fireResistance" : {
+          "baseValue" : 1
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 1
+        },
+        "iceResistance" : {
+          "baseValue" : 1
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 1
+        },
+        "electricResistance" : {
+          "baseValue" : 1
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "poisonResistance" : {
+          "baseValue" : 1
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1
+        },
+        "shadowResistance" : {
+         "baseValue" : 0
+        },
+        "shadowStatusImmunity" : {
+         "baseValue" : 1
+        },
+        "cosmicStatusImmunity" : {
+         "baseValue" : 1
+        },
+        "cosmicResistance" : {
+         "baseValue" : 1
+        },
+        "radioactiveStatusImmunity" : {
+        "baseValue" : 1
+        },
+        "radioactiveResistance" : {
+        "baseValue" : 1
+        },
+		"specialStatusImmunity" : {
+        "baseValue" : 1
+        },
+		"bleedingImmunity": {
+					"baseValue": 1
+				},
+				"linerifleResistance": {
+					"baseValue": 0
+				},
+				"linerifleStatusImmunity": {
+					"baseValue": 1
+				},
+				"centensianenergyResistance": {
+					"baseValue": 1
+				},
+				"centensianenergyStatusImmunity": {
+					"baseValue": 1
+				},
+				"xanafianResistance": {
+					"baseValue": 1
+				},
+				"xanafianStatusImmunity": {
+					"baseValue": 1
+				},
+				"akkimariacidResistance": {
+					"baseValue": 1
+				},
+				"akkimariacidStatusImmunity": {
+					"baseValue": 1
+				},
+				"ucObliteratingBurnImmunity": {
+					"baseValue": 1
+				},
+				"slagStatusImmunity": {
+					"baseValue": 1.0
+				},
+				"bluoplasmaStatusImmunity": {
+					"baseValue": 1.0
+				},
+				"penaltyBlock": {
+					"baseValue": 1.0
+				},
+				"captureImmunity": {
+					"baseValue": 1.0
+				},
+				"pusImmunity": {
+					"baseValue": 1.0
+				},
+				"webstickImmunity": {
+					"baseValue": 1.0
+				},
+				"beestingImmunity": {
+					"baseValue": 1
+				}
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : false,
+    "segments" : 0,
+    "segmentMonster" : "enx_kluexavatarserpentsegment",
+    "radius" : 0.8,
+    "burrowProjectile" : "",
+    "burrowBurstProjectile" : ""
+  }
+}

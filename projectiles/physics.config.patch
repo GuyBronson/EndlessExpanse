@@ -960,6 +960,27 @@
 	  "liquidFriction" : 1.75,
 	  "groundFriction" : 15.0
 	}
+  },
+  //======================================================================================================================
+  //	AMP PHYSICS			BY GANRANSU
+  //======================================================================================================================
+  {"op" : "add",
+	"path" : "/enx_amp",
+	"value" : {
+	   "mass" : 1.0,
+    "gravityMultiplier" : 0.6,
+    "bounceFactor" : 0,
+    "stopOnFirstBounce" : true,
+    "maxMovementPerStep" : 0.4,
+
+    "collisionPoly" : [ [-1.7, -0.8], [1.5, -0.8], [1.5, 1.5], [-1.7, 1.5] ],
+    "ignorePlatformCollision" : true,
+
+    "airFriction" : 0.0,
+    "liquidFriction" : 3.0,
+    "groundFriction" : 15.0,
+    "maximumCorrection" : 0
+	}
   }
 ]
 

@@ -1,0 +1,9 @@
+{
+	"name" : "enx_loveandhatesetbonus",
+	"defaultDuration" : 15,
+
+	"scripts" : [
+		"enx_loveandhatesetbonus.lua"
+	],
+	"scriptDelta": 60
+}

@@ -11,7 +11,7 @@ function init()
 	self.healingRate = config.getParameter("healAmount", 5) / self.duration
 	bonusHandler=effect.addStatModifierGroup({})
 	effect.setStatModifierGroup(bonusHandler,{{stat="healthRegen",amount=((self.healingRate*math.max(0, 1 + status.stat("healingBonus") )) - self.penaltyRate)}})
-	self.cooldown=math.max(15-self.duration,0)--base time is 15 seconds
+	self.cooldown=math.max(0-self.duration,0)--base time is 15 seconds
 	effect.modifyDuration(self.cooldown)
 	self.timer=0.0
 	self.timerSound = 0

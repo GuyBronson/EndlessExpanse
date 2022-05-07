@@ -1,0 +1,105 @@
+{
+  "itemName" : "enx_bloodhuntershotgun",
+  "price" : 700,
+  "inventoryIcon" : "bloodhuntershotgun.png",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "High quality shotgun said to have pierced the hide of a great wolf. 
+^red;Inflicts heavy bleeding^reset;",
+  "shortdescription" : "Blood Hunter's Shotgun",
+  "category" : "shotgun",
+  "level" : 4,
+  "tooltipKind" : "gununique",
+  "weaponType" : "shotgun",
+  "itemTags" : ["weapon", "ranged", "shotgun", "upgradeableWeapon"],
+  "twoHanded" : false,
+
+  "animation" : "/items/active/weapons/ranged/unique/fugun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "bloodhuntershotgun.png",
+	"middlefullbright" : "bloodhuntershotgunfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/animations/muzzleflash/matterblastmuzzleyellow.png"
+  },
+  "animationCustom" : {
+  "animatedParts" : {
+      "parts" : {
+        "middlefullbright" : {
+	  "properties" : { 
+	  "offset" : [1.1, 0.05] 
+			}
+        }
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/weapons/blastcannon.ogg"],
+      "cooldown":[  "/sfx/weapons/shotgunreload.ogg"]
+    }
+  },
+
+  "baseOffset" : [1.1, 0.05],
+  "muzzleOffset" : [1.645, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 1.6,
+    "baseDps" : 11,
+    "energyUsage" : 45,
+    "inaccuracy" : 0.08,
+
+    "projectileCount" : 7,
+    "fireType" : "auto",
+
+    "projectileType" : "heavybullet",
+    "projectileParameters" : {
+      "speed" : 80,
+      "knockback" : 12,
+	  "statusEffects" : ["bleedinglonghunter"]
+    },
+    "stances" : {
+      "idle":{
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "twoHanded": false,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire":{
+        "duration": 0.1,
+        "armRotation": 3,
+        "weaponRotation": 8,
+        "twoHanded": false,
+        "allowRotate": false,
+        "allowFlip": true
+      },
+      "cooldown":{
+        "duration": 0.2,
+        "armRotation": -7,
+        "weaponRotation": -355,
+        "twoHanded": false,
+        "allowRotate": false,
+        "allowFlip": true
+      }
+    }
+  },
+
+  "critChance" : 8,
+  "critBonus" : 10,
+  "isReloader" : 1,
+  "isShotgun" : 1,
+  "isAmmoBased" : 1,
+  "magazineSize" : 4,
+  "reloadTime" : 1,
+
+  //recoil
+  "hasRecoil" : 1,
+  "recoilSpeed" : 300,
+  "recoilForce" : 600,
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
