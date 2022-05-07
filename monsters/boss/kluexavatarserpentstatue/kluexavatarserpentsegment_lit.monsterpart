@@ -1,9 +1,0 @@
-{
-  "name" : "segmentlit",
-  "category" : "segment",
-  "type" : "bodylit",
-
-  "frames" : {
-    "bodylit" : "kluexavatarserpentsegment_lit.png"
-  }
-}
