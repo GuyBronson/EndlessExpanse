@@ -1,9 +1,0 @@
-{
-  "name" : "head",
-  "category" : "head",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "kluexavatarserpenthead.png"
-  }
-}
