@@ -1,12 +1,12 @@
 {
     "input": [
         {
-            "item": "orphanpaste",
+            "item": "enx_ohbabysyrup",
             "count": 1
         }
     ],
     "output": {
-        "item": "orphanpasteobject",
+        "item": "enx_ohbabysyrupobject",
         "count": 1
     },
     "groups": [

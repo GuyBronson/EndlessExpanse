@@ -3,7 +3,7 @@
     { "item" : "money", "count" : 485 }
   ],
   "output" : {
-    "item" : "orphanpaste",
+    "item" : "enx_ohbabysyrup",
     "count" : 1
   },
   "groups" : [ "fufoodshopfloran", "all", "items", "nouncrafting","norecycling" ],
