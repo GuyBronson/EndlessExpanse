@@ -15,21 +15,31 @@
   "itemTags" : ["weapon","ranged", "sniperrifle", "plasma", "upgradeableWeapon"],
   "twoHanded" : true,
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "/items/active/weapons/ranged/unique/fugun.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "longinus.png",
+	"middlefullbright" : "longinusfullbright.png",
     "barrel" : "",
     "muzzleFlash" : "/animations/muzzleflash/fuplasmamuzzle3blue.png"
   },
   "animationCustom" : {
+  "animatedParts" : {
+      "parts" : {
+        "middlefullbright" : {
+		  "properties" : {
+		    "offset" : [1.3, 0.2]
+		  }
+		}
+      }
+    },
     "sounds" : {
       "fire" : [ "/sfx/weapons/energy-whip2.wav" ]
     }
   },
 
   "baseOffset" : [1.3, 0.2],
-  "muzzleOffset" : [3.4, 0.27],
+  "muzzleOffset" : [2.65, 0.27],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -92,32 +102,5 @@
 
   "altAbilityType" : "fudronelauncheradv",
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
-
-  "upgradeParameters" : {
-    "shortdescription" : "^cyan;Longinus MkII^reset; ^yellow;^reset;",
-  "description" : "Higher Calibre. Super duper fun.
-^cyan;Counts as 'plasma' for set bonuses.^reset;
-^yellow;Counts as Hunting weapon^reset;",
-  "animationParts" : {
-    "middle" : "longinus2.png"
-    },
-    "inventoryIcon" : [
-    { "image" : "longinus2.png:" }
-    ],
-    "critChance" : 3,
-    "critBonus" : 4,
-    "primaryAbility" : {
-	    "fireTime" : 1.8,
-	    "baseDps" : 8,
-	    "energyUsage" : 40.0,
-
-	    "projectileType" : "longinusbullet",
-	    "projectileParameters" : {
-	      "speed" : 120,
-	      "knockback" : 20,
-	      "damageKind" : "bow"
-	    }
-    }
-  }
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
