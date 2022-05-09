@@ -12,14 +12,24 @@
   "category" : "pistol",
   "itemTags" : ["weapon","ranged","plasma","pistol","upgradeableWeapon"],
   "weaponType" : "^#e43774;Upgradeable^reset;",
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "/items/active/weapons/ranged/unique/fugun.animation",
   "animationParts" : {
     "butt" : "",
     "barrel" : "",
     "middle" : "zenith.png",
+	"middlefullbright" : "zenithfullbright.png",
     "muzzleFlash" : "/animations/muzzleflash/fuplasmamuzzle1.png"
   },
   "animationCustom" : {
+  "animatedParts" : {
+      "parts" : {
+        "middlefullbright" : {
+		  "properties" : {
+		    "offset" : [0.74, 0.26]
+		  }
+		}
+      }
+    },
     "sounds" : { "fire" : [ "/sfx/weapons/dkmarauder3.wav" ] },
     "lights" : { "muzzleFlash" : {"color" : [122, 22, 22] } }
   },

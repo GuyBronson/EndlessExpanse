@@ -13,21 +13,30 @@
   "tooltipKind" : "gun2",
 
   "twoHanded" : false,
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "/items/active/weapons/ranged/unique/fugun.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "arconcannon.png",
+	"middlefullbright" : "arconcannofullbright.png",
     "barrel" : "",
     "muzzleFlash" : "/animations/muzzleflash/fuplasmamuzzle1.png"
   },
   "animationCustom" : {
+  "animatedParts" : {
+      "parts" : {
+        "middlefullbright" : {
+		  "properties" : {
+		    "offset" : [1, 0.25]
+		  }
+		}
+      }
+    },
     "sounds" : { "fire" : [ "/sfx/weapons/protopistol.ogg" ] },
     "lights" : { "muzzleFlash" : {"color" : [122, 22, 22] } }
   },
 
-  "baseOffset" : [0.0, 0.34],
+  "baseOffset" : [1, 0.25],
   "muzzleOffset" : [1.9, 0.40],
-  "handGrip" : "wrap",
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
   "elementalType" : "physical",
@@ -55,9 +64,9 @@
         "allowFlip" : true
       },
       "fire" : {
-        "duration" : 0,
-        "armRotation" : 0,
-        "weaponRotation" : 0,
+        "duration" : 0.05,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
         "twoHanded" : false,
 
         "allowRotate" : false,
@@ -83,33 +92,6 @@
   "recoilSpeed" : 300,
   "recoilForce" : 1200,
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
-
-    "upgradeParameters" : {
-    "scripts" : [ "/items/active/weapons/ranged/gun.lua"],
-  "shortdescription" : "ArCon Blaster MkII",
-  "description" : "Attaches to the forearm. Fires plasma bursts.
-^yellow;Counts as 'plasma' for set bonuses^reset;",
-  "animationParts" : {
-      "middle" : "arconcannon2.png",
-      "muzzleFlash" : "/animations/muzzleflash/matterblastmuzzlepurple.png"
-    },
-    "critChance" : 1.5,
-    "critBonus" : 5,
-    "inventoryIcon" : [ { "image" : "arconcannon2.png" } ],
-	  "primaryAbility" : {
-	    "fireTime" : 0.15,
-	    "baseDps" : 5.65,
-	    "energyUsage" : 31,
-	    "fireType" : "auto",
-	    "inaccuracy" : 0.03,
-	    "projectileCount" : 2,
-	    "projectileType" : "brainbullet2",
-	    "projectileParameters" : {
-	      "processing":"?hueshift=-180",
-	      "speed" : 65
-	    }
-	  }
-      }
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 
 }

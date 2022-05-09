@@ -6,8 +6,8 @@
   "maxStack" : 1,
   "rarity" : "rare",
    "description" : "^orange;Set Bonuses^reset;:
-^yellow;^reset; Electric/Plasma: +^green;1^reset;% Crit Chance, +^green;25^reset;% Crit Damage, Damage x^green;1.15^reset;
-^yellow;^reset; ^cyan;Immune^reset;: Extreme Cold/Rads, Poison, Oxygen",
+^yellow;^reset; Electric/Plasma: +^green;5^reset;% Crit Chance, +^green;25^reset;% Crit Damage, Damage x^green;2^reset;
+^yellow;^reset; ^cyan;Immune^reset;: Extreme Cold/Rads, Poison, Oxygen, Pressure, Extreme Pressure",
   "shortdescription" : "ArCon Helm",
   "category" : "headarmour",
   "tooltipKind" : "armornew2",
@@ -55,7 +55,7 @@
   ],
   "colorOptions" : [
 	// WHITE
-    { "ffca8a" : "e6e6e6", "e0975c" : "b6b6b6", "a85636" : "7b7b7b", "6f2919" : "373737" },
+    { "ffca8a" : "e6e6e6", "e0975c" : "e7e7ee", "a85636" : "7c7e8d", "6f2919" : "424c5a" },
     // BLACK
     { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" },
     // GREY
