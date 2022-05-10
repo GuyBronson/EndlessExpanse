@@ -1,0 +1,160 @@
+{
+  "itemName" : "enx_arconstarstream",
+  "price" : 960,
+  "inventoryIcon" : "icon.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "A heavy plasma bow created by ArCon.",
+  "shortdescription" : "ArCon Starstream",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow", "plasma", "upgradeableWeapon"],
+
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+
+  "level" : 6,
+
+  "animation" : "/items/active/weapons/bow/energybow.animation",
+  "animationParts" : {
+    "bow" : "starstream.png",
+    "bowFullbright" : "starstreamfullbright.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : {
+      "bow" : { "properties" : {
+        "offset" : [0, 0]
+      }},
+      "bowFullbright" : { "properties" : {
+        "offset" : [0, 0]
+      }}
+    }},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/melee/laser_weapon_swing2.ogg" ],
+      "perfectRelease" : [ "/sfx/melee/laser_weapon_swing1.ogg" ]
+    },
+	"particleEmitters" : {
+    "bow" : {
+      "active" : true,
+      "offsetRegion" : [-0.5, -1.0, 0.25, 1.0],
+      "emissionRate" : 4,
+      "particles" : [
+        { "particle" : "kluexstaff"}
+      ],
+      "transformationGroups" : ["weapon"]
+    }
+  }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "drawSpeedMultiplier" : "constant",
+    "projectileType" : "enx_starstreamarrow",
+    "powerProjectileType" : "enx_chargedstarstreamarrow",
+    "projectileParameters" : {
+      "power" : 8,
+	  "piercing" : true
+    }
+  },
+
+  "altAbilityType" : "bowshot",
+  "altAbility" : {
+    "name" : "Entropy",
+    "energyPerShot" : 120,
+    "drawSpeedMultiplier" : "constant",
+    "projectileType" : "enx_starstreamarrow",
+    "powerProjectileType" : "enx_starstreamarrow",
+    "projectileParameters" : {
+      "power" : 10,
+      "speed" : 100,
+      "actionOnReap" : [
+	  {
+          "action" : "projectile",
+          "type" : "enx_chargedstarstreamarrow",
+          "angleAdjust" : -100,
+          "inheritDamageFactor" : 0.2,
+          "inheritSpeedFactor" : 1,
+		   "projectileParameters" : {
+      "speed" : 250}
+        },
+        {
+          "action" : "projectile",
+          "type" : "enx_chargedstarstreamarrow",
+          "angleAdjust" : -75,
+          "inheritDamageFactor" : 0.2,
+          "inheritSpeedFactor" : 1,
+		   "projectileParameters" : {
+      "speed" : 250}
+        },
+        {
+          "action" : "projectile",
+          "type" : "enx_chargedstarstreamarrow",
+          "angleAdjust" : -50,
+          "inheritDamageFactor" : 0.2,
+          "inheritSpeedFactor" : 1,
+		   "projectileParameters" : {
+      "speed" : 250}
+        },
+        {
+          "action" : "projectile",
+          "type" : "enx_chargedstarstreamarrow",
+          "angleAdjust" : -25,
+          "inheritDamageFactor" : 0.2,
+          "inheritSpeedFactor" : 1,
+		   "projectileParameters" : {
+      "speed" : 250}
+        },
+        {
+          "action" : "projectile",
+          "type" : "enx_chargedstarstreamarrow",
+          "angleAdjust" : 0,
+          "inheritDamageFactor" : 0.2,
+          "inheritSpeedFactor" : 1,
+		   "projectileParameters" : {
+      "speed" : 250}
+        },
+        {
+          "action" : "projectile",
+          "type" : "enx_chargedstarstreamarrow",
+          "angleAdjust" : 25,
+          "inheritDamageFactor" : 0.2,
+          "inheritSpeedFactor" : 1,
+		   "projectileParameters" : {
+      "speed" : 250}
+        },
+        {
+          "action" : "projectile",
+          "type" : "enx_chargedstarstreamarrow",
+          "angleAdjust" : 50,
+          "inheritDamageFactor" : 0.2,
+          "inheritSpeedFactor" : 1,
+		   "projectileParameters" : {
+      "speed" : 250}
+        },
+		{
+          "action" : "projectile",
+          "type" : "enx_chargedstarstreamarrow",
+          "angleAdjust" : 75,
+          "inheritDamageFactor" : 0.2,
+          "inheritSpeedFactor" : 1,
+		   "projectileParameters" : {
+      "speed" : 250}
+        },
+        {
+          "action" : "projectile",
+          "type" : "enx_chargedstarstreamarrow",
+          "angleAdjust" : 100,
+          "inheritDamageFactor" : 0.2,
+          "inheritSpeedFactor" : 1,
+		   "projectileParameters" : {
+      "speed" : 250}
+        }
+      ]
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildbow.lua"
+}
