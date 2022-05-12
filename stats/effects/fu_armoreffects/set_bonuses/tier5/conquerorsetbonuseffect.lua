@@ -2,9 +2,9 @@ require "/stats/effects/fu_armoreffects/setbonuses_common.lua"
 setName="fu_conquerorset"
 
 weaponBonus={
-	{stat = "critChance", amount = 1},
+	{stat = "critChance", amount = 5},
 	{stat = "critDamage", amount = 0.25},
-	{stat = "powerMultiplier", effectiveMultiplier = 1.15}
+	{stat = "powerMultiplier", effectiveMultiplier = 2}
 }
 
 armorBonus={
@@ -12,6 +12,8 @@ armorBonus={
 	{stat = "poisonStatusImmunity", amount = 1},
 	{stat = "biomeradiationImmunity", amount = 1},
 	{stat = "biomecoldImmunity", amount = 1},
+	{stat = "extremepressureProtection", amount = 1},
+	{stat = "pressureProtection", amount = 1},
 	{stat = "ffextremeradiationImmunity", amount = 1},
 	{stat = "ffextremecoldImmunity", amount = 1}
 }
@@ -35,7 +37,7 @@ function update(dt)
 end
 
 function checkWeapons()
-	local weapons=weaponCheck({"plasma","electric"})
+	local weapons=weaponCheck({"plasma","electric","energy"})
 
 	if weapons["either"] then
 		effect.setStatModifierGroup(effectHandlerList.weaponBonusHandle,weaponBonus)

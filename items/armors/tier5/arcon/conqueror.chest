@@ -5,8 +5,9 @@
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
   "maxStack" : 1,
   "rarity" : "rare",
-   "description" : "^orange;Set Bonuses^reset;:
-^yellow;^reset; Electric/Plasma: +^green;5^reset;% Crit Chance, +^green;25^reset;% Crit Damage, Damage x^green;2^reset;
+   "description" : "An ArCon brand chestplate featuring high energy reserves and high mobility while allowing for adequate protection.
+^orange;Set Bonuses^reset;:
+^yellow;^reset; Electric/Plasma/Energy: +^green;5^reset;% Crit Chance, +^green;25^reset;% Crit Damage, Damage x^green;2^reset;
 ^yellow;^reset; ^cyan;Immune^reset;: Extreme Cold/Rads, Poison, Oxygen, Pressure, Extreme Pressure",
   "shortdescription" : "ArCon Armor",
   "category" : "chestarmour",
@@ -40,7 +41,7 @@
     {
       "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
       "stat" : "maxEnergy",
-      "amount" : 4
+      "amount" : 6
     },
     {
       "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
@@ -50,7 +51,17 @@
 	{
       "levelFunction" : "fuArmorResistMultiplier",
       "stat" : "physicalResistance",
-      "amount" : 0.013334
+      "amount" : 0.02
+    },
+	{
+      "levelFunction" : "fuArmorResistMultiplier",
+      "stat" : "electricResistance",
+      "amount" : 0.02
+    },
+	{
+      "levelFunction" : "fuArmorResistMultiplier",
+      "stat" : "radioactiveResistance",
+      "amount" : 0.02
     }
   ],
 

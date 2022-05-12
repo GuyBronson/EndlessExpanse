@@ -4,7 +4,7 @@
     "price": 1500,
     "maxStack": 1,
     "rarity": "rare",
-    "description": "A dangerously powerful minigun.\n^cyan;Counts as 'plasma' for set bonuses^reset;\n^yellow;Heavy. Extreme fire rate^reset;",
+    "description": "A dangerously powerful minigun.\n^cyan;Counts as 'plasma' for set bonuses^reset;\n^yellow;Extreme fire rate^reset;",
     "shortdescription": "ArCon Warden",
     "tooltipKind": "gun2",
     "category": "assaultRifle",
@@ -16,18 +16,30 @@
         "plasma",
         "upgradeableWeapon"
     ],
-    "inventoryIcon": "wardenicon.png",
+    "inventoryIcon": "warden.png:1",
     "cursor": "/cursors/fuwardenreticle.cursor",
     "animation": "warden.animation",
     "animationParts": {
         "butt": "",
-        "middle": "wardenicon.png",
+        "middle": "warden.png:1",
+		"middlefullbright" : "wardenfullbright.png:1",
         "barrel": "",
         "muzzleFlash": "/animations/muzzleflash/fuplasmamuzzle1.png",
         "charge": "warden.png",
-        "chargehold": "wardenhold.png"
+        "chargehold": "warden.png",
+		"chargefullbright": "wardenfullbright.png",
+        "chargeholdfullbright": "wardenfullbright.png"
     },
     "animationCustom": {
+	"animatedParts" : {
+      "parts" : {
+        "middlefullbright" : {
+		  "properties" : {
+		    "offset" : [1.5, -1.0]
+		  }
+		}
+      }
+    },
         "sounds": {
             "fire": [
                 "/sfx/weapons/arconpew.ogg"
@@ -58,34 +70,35 @@
         }
     },
     "baseOffset": [
-        0.5,
+        1.5,
         -1.0
     ],
     "muzzleOffset": [
-        2.0,
+        2.65,
         0.315
     ],
     "scripts": [
-        "/items/active/scripts/thea-gun.lua",
-        "/items/active/scripts/heavyweapon.lua"
+        "/items/active/scripts/thea-gun.lua"
     ],
-    "elementalType": "radioactive",
+    "elementalType": "physical",
     "primaryAbility": {
         "scripts": [
             "/items/active/weapons/ranged/abilities/thea-minigun.lua"
         ],
         "class": "TheaMinigun",
         "fireTime": 0.06,
-        "baseDps": 24,
-        "energyUsage": 45.0,
-        "inaccuracy": 0.050,
-        "chargeTime": 1.347,
-        "resetTime": 1.4,
+        "baseDps": 30,
+        "energyUsage": 43.0,
+        "inaccuracy": 0.040,
+        "chargeTime": 1.1,
+        "resetTime": 1.2,
         "walkWhileFiring": true,
         "projectileType": "brainbullet2",
         "projectileCount": 1,
         "projectileParameters": {
-            "knockback": 3.5
+			"speed": 80,
+            "knockback": 3.5,
+			"statusEffects" : ["burning"]
         },
         "stances": {
             "idle": {
@@ -142,7 +155,7 @@
     "recoilForce": 500,
     "altAbilityType": "railgunshotpower",
     "altAbility": {
-        "energyCost": 100,
+        "energyCost": 80,
         "projectileType": "energyzone",
         "name": "Energy Zone",
         "projectileParameters": {
@@ -150,30 +163,5 @@
             "speed": 0
         }
     },
-    "builder": "/items/buildscripts/buildunrandweapon.lua",
-    "upgradeParameters": {
-        "shortdescription": "^cyan;Chaingun of Destiny^reset; ^yellow;^reset;",
-        "description": "Nothing compares. Anywhere.\n^cyan;Counts as 'plasma' for set bonuses^reset;\n^yellow;Heavy. Extreme fire rate^reset;",
-        "inventoryIcon": "wardenicon2.png",
-        "animationParts": {
-            "muzzleFlash": "/animations/muzzleflash/fuplasmamuzzle1.png",
-            "middle": "wardenicon2.png",
-            "charge": "warden2.png",
-            "chargehold": "wardenhold2.png"
-        },
-        "primaryAbility": {
-            "fireTime": 0.045,
-            "baseDps": 30,
-            "energyUsage": 44.0,
-            "inaccuracy": 0.05,
-            "chargeTime": 1.2,
-            "resetTime": 1.2,
-            "walkWhileFiring": true,
-            "projectileType": "brainbullet2",
-            "projectileCount": 2,
-            "projectileParameters": {
-                "knockback": 5
-            }
-        }
-    }
+    "builder": "/items/buildscripts/buildunrandweapon.lua"
 }

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "tritaniumbar", "count" : 6 },
+    { "item" : "advancealloy", "count" : 10 },
+    { "item" : "carbonplate", "count" : 6 },
+    { "item" : "unstableparticles", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "enx_arconstarstream",
+    "count" : 1
+  },
+  "groups" : [ "armory3", "ranged2", "all" ]
+}
