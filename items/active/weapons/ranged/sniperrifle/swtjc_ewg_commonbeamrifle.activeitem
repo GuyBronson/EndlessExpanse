@@ -124,9 +124,5 @@
     "iconDrawables" : ["butt", "middle", "barrel"]
   }],
   "critChance": 1,
-  "critBonus" : 3,
-
-  "magazineSize" : [6,12],
-  "reloadTime" : [0.5,3],
-  "isAmmoBased": [0,1]
+  "critBonus" : 3
 }
