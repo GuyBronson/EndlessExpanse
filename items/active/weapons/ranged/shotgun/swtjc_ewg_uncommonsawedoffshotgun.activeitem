@@ -78,9 +78,6 @@
 
   "critChance" : 3,
   "critBonus" : 7,
-  "isAmmoBased": [0,1],
-  "magazineSize" : [2,6],
-  "reloadTime" : [1.3,2.3],
   "isShotgun" : 1,
 
   "builder" : "/items/buildscripts/buildweapon.lua",
