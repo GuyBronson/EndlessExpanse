@@ -72,9 +72,6 @@
 
   "critChance" : 1,
   "critBonus" : 2,
-  "isAmmoBased": [0,1],
-  "magazineSize" : [12,22],
-  "reloadTime" : [1.0,1.75],
   "isMachinePistol" : 1,
   //recoil stats
   "hasRecoil" : 1,
