@@ -74,9 +74,6 @@
 
   "critChance": 2,
   "critBonus" : 9,
-  "isAmmoBased" : 1,
-  "magazineSize" : [10,50],
-  "reloadTime" : [0.55,2.35],
   "isAssaultRifle" : 1,
 
 
