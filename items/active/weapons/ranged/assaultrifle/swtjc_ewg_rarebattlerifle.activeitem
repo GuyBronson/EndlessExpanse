@@ -17,7 +17,7 @@
     "particleEmitters" : {
       "muzzleFlash" : {
         "particles" : [
-          { "particle" : "fushellcasing", "offset" : [-3.0, 0.0] }
+          { "particle" : "fushellcasing", "offset" : [-2.5, 0.0] }
         ]
       }
     }
@@ -121,17 +121,17 @@
     },
     "animationParts" : {
       "butt" : {
-        "path" : "/items/active/weapons/ranged/assaultrifle/butt/<variant>.png",
+        "path" : "/items/active/weapons/ranged/assaultrifle/battleriflebutt/<variant>.png",
         "variants" : 20,
         "paletteSwap" : true
       },
       "middle" : {
-        "path" : "/items/active/weapons/ranged/assaultrifle/middle/<variant>.png",
+        "path" : "/items/active/weapons/ranged/assaultrifle/battleriflemiddle/<variant>.png",
         "variants" : 20,
         "paletteSwap" : true
       },
       "barrel" : {
-        "path" : "/items/active/weapons/ranged/shotgun/barrel/<variant>.png",
+        "path" : "/items/active/weapons/ranged/assaultrifle/battleriflebarrel/<variant>.png",
         "variants" : 20,
         "paletteSwap" : true
       },
