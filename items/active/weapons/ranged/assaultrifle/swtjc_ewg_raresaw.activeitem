@@ -74,9 +74,7 @@
     }
   },
 
-  "isAmmoBased": [0,1],
-  "magazineSize" : [25,70],
-  "reloadTime" : [1.5,2.5],
+ 
   "isAssaultRifle" : 1,
   //recoil stats
   "hasRecoil" : 1,

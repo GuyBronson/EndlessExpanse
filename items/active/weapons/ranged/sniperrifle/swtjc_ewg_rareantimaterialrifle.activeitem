@@ -66,9 +66,6 @@
 
   "critChance" : 1,
   "critBonus" : 5,
-  "isAmmoBased": [0,1],
-  "magazineSize" : [3,9],
-  "reloadTime" : [1.7,3.1],
   "isSniper" : 1,
   //recoil stats
   "hasRecoil" : 1,

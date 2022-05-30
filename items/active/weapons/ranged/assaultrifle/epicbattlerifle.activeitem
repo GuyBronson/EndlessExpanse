@@ -74,9 +74,6 @@
 
   "critChance": 2,
   "critBonus" : 9,
-  "isAmmoBased" : 1,
-  "magazineSize" : [10,50],
-  "reloadTime" : [0.55,2.35],
   "isAssaultRifle" : 1,
 
 
@@ -124,17 +121,17 @@
     },
     "animationParts" : {
       "butt" : {
-        "path" : "/items/active/weapons/ranged/assaultrifle/butt/<variant>.png",
+        "path" : "/items/active/weapons/ranged/assaultrifle/battleriflebutt/<variant>.png",
         "variants" : 20,
         "paletteSwap" : true
       },
       "middle" : {
-        "path" : "/items/active/weapons/ranged/assaultrifle/middle/<variant>.png",
+        "path" : "/items/active/weapons/ranged/assaultrifle/battleriflemiddle/<variant>.png",
         "variants" : 20,
         "paletteSwap" : true
       },
       "barrel" : {
-        "path" : "/items/active/weapons/ranged/shotgun/barrel/<variant>.png",
+        "path" : "/items/active/weapons/ranged/assaultrifle/battleriflebarrel/<variant>.png",
         "variants" : 20,
         "paletteSwap" : true
       },

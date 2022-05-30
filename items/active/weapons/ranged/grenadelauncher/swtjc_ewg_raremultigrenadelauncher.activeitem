@@ -90,9 +90,6 @@
 
   "critChance" : 2,
   "critBonus" : 9,
-  "isAmmoBased": [0,1],
-  "magazineSize" : [4,8],
-  "reloadTime" : [1.75,2.55],
   "isGrenadeLauncher" : 1,
 
   "builder" : "/items/buildscripts/buildweapon.lua",
