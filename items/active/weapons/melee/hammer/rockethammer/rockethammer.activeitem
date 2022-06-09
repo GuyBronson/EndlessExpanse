@@ -18,6 +18,7 @@
   "animation" : "/items/active/weapons/melee/hammer/rockethammer/comborockethammer.animation",
   "animationParts" : {
     "handle" : "rockethammer.png",
+	"handlefullbright" : "rockethammerfullbright.png",
     "blade" : ""
   },
   "animationCustom" : { },
