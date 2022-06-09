@@ -24,7 +24,6 @@
       "blade" : {
         "properties" : {
           "zLevel" : 0,
-          "fullbright" : true,
           "centered" : true,
           "image" : "<partImage><paletteSwaps>",
           "offset" : [0.0, 0.0],
@@ -36,6 +35,7 @@
         "properties" : {
           "zLevel" : 1,
           "centered" : true,
+		  "fullbright" : true,
           "image" : "<partImage><paletteSwaps>",
           "offset" : [0.0, 0.0],
           "transformationGroups" : ["weapon"],
