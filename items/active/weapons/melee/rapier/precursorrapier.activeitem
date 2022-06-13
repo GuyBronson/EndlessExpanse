@@ -12,13 +12,13 @@
   "twoHanded" : false,
   "itemTags" : ["weapon", "melee", "rapier", "upgradeableWeapon","precursor" ],
 
-  "inventoryIcon" : "precursorrapier_ycar.png",
+  "inventoryIcon" : "precursorrapier.png",
 
   "animation" : "piercecomboglow.animation",
   "animationParts" : {
     "handle": "",
-    "blade" : "precursorrapier_ycar.png",
-    "bladefullbright" : "precursorrapier_fullbright.png"
+    "blade" : "precursorrapier.png",
+    "bladefullbright" : "precursorrapierfullbright.png"
   },
   "animationCustom" : { },
   "critChance" : 1,

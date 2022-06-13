@@ -70,7 +70,6 @@
         "properties" : {
           "zLevel" : 0,
           "centered" : true,
-          "fullbright" : true,
           "image" : "<partImage><paletteSwaps>",
           "offset" : [0.0, 0.0],
           "transformationGroups" : ["weapon"]
@@ -80,6 +79,7 @@
         "properties" : {
           "zLevel" : 1,
           "centered" : true,
+		  "fullbright" : true,
           "image" : "<partImage><paletteSwaps>",
           "offset" : [0.0, 0.0],
           "transformationGroups" : ["weapon"]
@@ -131,7 +131,7 @@
       "active" : false,
       "transformationGroups" : ["weapon"],
       "offsetRegion" : [-1.0, 2.0, 1.0, 4.2],
-      "emissionRate" : 5,
+      "emissionRate" : 0,
       "particles" : [
         { "particle" : "smoke"}
       ]
