@@ -15,7 +15,7 @@
 		"path": "/planetSizes/huge",
 		"value": {
 			"size": [8000, 4000],
-			"gravityRange": [80, 110],
+			"gravityRange": [70],
 			"dayLengthRange": [1500, 4000],
 			"layerDefaults": {
 				"secondaryRegionPeriod": [1200, 3000],
@@ -67,7 +67,7 @@
 		"path": "/planetSizes/mega",
 		"value": {
 			"size": [11000, 7000],
-			"gravityRange": [85, 150],
+			"gravityRange": [70],
 			"dayLengthRange": [1800, 4400],
 			"layerDefaults": {
 				"secondaryRegionPeriod": [1500, 3000],
@@ -117,7 +117,7 @@
 		"path": "/planetSizes/immense",
 		"value": {
 			"size": [16000, 8000],
-			"gravityRange": [90, 180],
+			"gravityRange": [70],
 			"dayLengthRange": [1800, 5000],
 			"layerDefaults": {
 				"secondaryRegionPeriod": [1500, 3000],
@@ -167,7 +167,7 @@
 		"path": "/planetSizes/mammoth",
 		"value": {
 			"size": [64000, 24000],
-			"gravityRange": [120, 190],
+			"gravityRange": [70],
 			"dayLengthRange": [3200, 7000],
 			"layerDefaults": {
 				"secondaryRegionPeriod": [1500, 3000],
