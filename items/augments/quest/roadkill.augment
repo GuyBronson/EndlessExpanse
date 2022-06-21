@@ -4,7 +4,7 @@
   "rarity" : "common",
   "category" : "eppAugment",
   "inventoryIcon" : "lostcattag.png",
-  "description" : "A small golden cat tag. The name 'Fluffles' is engraved in it",
+  "description" : "A small golden cat tag. The name 'Fluffles' is engraved in it,
 +^green;10^reset;% Poison Resist
 ^cyan;Haunting Meow^reset;",
   "shortdescription" : "Lost Cat Tag",
