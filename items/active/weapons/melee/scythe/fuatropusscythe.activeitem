@@ -21,7 +21,7 @@
   },
   "animationCustom" : { },
 
-  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua", "/items/active/scripts/atropuslifedrain.lua"],
 
   "elementalType" : "bioweapon",
 
