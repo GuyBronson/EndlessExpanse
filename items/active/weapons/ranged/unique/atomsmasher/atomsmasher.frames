@@ -1,9 +1,12 @@
 {
   "frameGrid" : {
-    "size" : [68, 21],
-    "dimensions" : [10, 1],
+    "size" : [70, 22],
+    "dimensions" : [5, 1],
     "names" : [
-      [ "idle", "squirm.1",  "squirm.2",  "squirm.3",  "squirm.4",  "squirm.5", "squirm.6", "squirm.7", "squirm.8", "fire" ]
-    ]
+      [ "squirm.1",  "squirm.2",  "squirm.3",  "squirm.4", "fire" ]
+    ],
+	 "aliases" : {
+    "idle" : "squirm.1"
+  }
   }
 }

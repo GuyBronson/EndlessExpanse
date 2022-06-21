@@ -10,7 +10,7 @@
             }
           },
           "squirm" : {
-            "frames" : 8,
+            "frames" : 4,
             "cycle" : 1.0,
             "mode" : "loop",
             "properties" : {
@@ -18,7 +18,7 @@
             }
           },
           "fire" : {
-            "frames" : 4,
+            "frames" : 3,
             "cycle" : 0.25,
             "mode" : "loop",
             "properties" : {
@@ -36,7 +36,7 @@
             }
           },
           "squirm" : {
-            "frames" : 8,
+            "frames" : 4,
             "cycle" : 1.0,
             "mode" : "loop",
             "properties" : {
@@ -44,7 +44,7 @@
             }
           },
           "fire" : {
-            "frames" : 4,
+            "frames" : 3,
             "cycle" : 0.25,
             "mode" : "loop",
             "properties" : {
@@ -72,8 +72,8 @@
         "properties" : {
           "centered" : true,
           "zLevel" : 0,
-          "fullbright" : true,
-          "offset" : [0.9, 1.2],
+          "fullbright" : false,
+          "offset" : [1.4, -0.5],
           "transformationGroups" : ["weapon"]
         },
 
@@ -100,7 +100,8 @@
       "gnomefullbright" : {
         "properties" : {
           "centered" : true,
-          "offset" : [0.9, 1.2],
+		  "fullbright" : true,
+          "offset" : [1.4, -0.5],
           "zLevel" : 1,
 
           "transformationGroups" : ["weapon"]
@@ -128,9 +129,9 @@
       },
       "beamorigin" : {
         "properties" : {
-          "zLevel" : 2,
+          "zLevel" : 10,
           "centered" : true,
-          "offset" : [4.5, 0.85],
+          "offset" : [4.25, -0.6535],
           "fullbright" : true,
           "transformationGroups" : ["weapon"]
         },
