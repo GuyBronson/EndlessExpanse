@@ -1,8 +1,8 @@
 {
   "name" : "drain",
   "effectConfig" : {
-    "drainMultiplier" : 1,
-    "cooldown" : 1
+    "drainMultiplier" : 0.25,
+    "cooldown" : 2.5
   },
   "defaultDuration" : 60,
 
