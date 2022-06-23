@@ -21,8 +21,8 @@
 
   "femaleFrames" : {
     "body" : "chest.png",
-    "backSleeve" : "bsleeve.png",
-    "frontSleeve" : "fsleeve.png"
+    "backSleeve" : "Bsleeve.png",
+    "frontSleeve" : "Fsleeve.png"
   },
 
   "level" : 5,
