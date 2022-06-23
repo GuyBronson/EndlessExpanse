@@ -1,11 +1,11 @@
 {
   "itemName" : "precursorpistolxray",
   "price" : 1600,
-  "inventoryIcon" : "precursorpistolxray.png",
+  "inventoryIcon" : "precursorpistolxray.png:shoot.1",
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "Fire through solid materials!
-^yellow;Reveal enemies and terrain^reset;",
+  "description" : "A strangely modified precursor sidearm.
+^yellow;Pierces tiles, ignores defense, and lowers resistances^reset;",
   "shortdescription" : "Precursor X-Ray Gun",
   "category" : "energy",
   "level" : 5,
@@ -14,13 +14,13 @@
   "itemTags" : ["weapon","ranged","pistol", "energy", "precursor", "upgradeableWeapon"],
   "twoHanded" : false,
 
-  "animation" : "/items/active/weapons/ranged/unique/fugun.animation",
+  "animation" : "precursorpistolxray.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "precursorpistolxray.png",
     "middlefullbright" : "precursorpistolxrayfullbright.png",
     "barrel" : "",
-    "muzzleFlash" : "/animations/muzzleflash/matterblastmuzzlegreen.png"
+    "muzzleFlash" : ""
   },
   "animationCustom" : {
     "animatedParts" : {
@@ -37,7 +37,7 @@
     }
   },
 
-  "baseOffset" : [0.5, 0.2],
+  "baseOffset" : [0.75, 0.2],
   "muzzleOffset" : [0.8, 0.125],
 
   "scripts" : [ "/items/active/weapons/ranged/gun.lua" ],
@@ -48,7 +48,7 @@
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
     "fireTime" : 1,
-    "baseDps" : 0.1,
+    "baseDps" : 2,
     "energyUsage" : 20.0,
     "inaccuracy" : 0.2,
 
@@ -62,10 +62,11 @@
 	"speed":55,
 	"knockback":0,
 	"statusEffects":[
-	  {"effect":"minibossglow", "duration":8.0}
+	  {"effect":"defenseboostneg20", "duration":8.0}
 	  ],
 	"bounces":3,
-	"damageKind":"ice"
+	"damageType":"ignoresDef",
+	"damageKind": "radioactiveplasma"
 	},
 	  "stances" : {
 	    "idle" : {
@@ -105,9 +106,6 @@
         ]
       }
     },
-
-  "critChance" : 4,
-  "critBonus" : 12,
 
     "builder" : "/items/buildscripts/buildunrandweapon.lua"
 

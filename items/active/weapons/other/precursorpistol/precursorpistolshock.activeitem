@@ -1,7 +1,7 @@
 {
   "itemName" : "precursorpistolshock",
   "price" : 1600,
-  "inventoryIcon" : "precursorpistolshock.png",
+  "inventoryIcon" : "precursorpistolshock.png:shoot.1",
   "maxStack" : 1,
   "rarity" : "rare",
   "description" : "Shockingly fun
@@ -14,13 +14,13 @@
   "itemTags" : ["weapon","ranged","pistol", "energy", "precursor", "upgradeableWeapon","electric"],
   "twoHanded" : false,
 
-  "animation" : "/items/active/weapons/ranged/unique/fugun.animation",
+  "animation" : "precursorpistolshock.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "precursorpistolshock.png",
     "middlefullbright" : "precursorpistolshockfullbright.png",
     "barrel" : "",
-    "muzzleFlash" : "/animations/muzzleflash/matterblastmuzzlepurple.png"
+    "muzzleFlash" : ""
   },
   "animationCustom" : {
     "animatedParts" : {
@@ -38,7 +38,7 @@
   },
 
   "baseOffset" : [0.5, 0.2],
-  "muzzleOffset" : [0.8, 0.125],
+  "muzzleOffset" : [0.8, 0.3],
 
   "scripts" : [ "/items/active/weapons/ranged/gun.lua" ],
 

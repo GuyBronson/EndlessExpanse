@@ -1,20 +1,20 @@
 {
   "itemName" : "precursorpistolice",
   "price" : 1600,
-  "inventoryIcon" : "precursorpistolice.png",
+  "inventoryIcon" : "precursorpistolice.png:shoot.1",
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "Frickin' Freezing!
-^yellow;Freeze enemies with cold^reset;",
-  "shortdescription" : "Precursor Freeze Gun",
+  "description" : "An ncient and unorthodox weapon fires incredibly cold cryo rounds.
+^yellow;Freezes enemies solid^reset;",
+  "shortdescription" : "Precursor Cryolator",
   "category" : "energy",
   "level" : 5,
   "tooltipKind" : "gununique",
   "weaponType" : "pistol",
   "itemTags" : ["weapon","ranged","pistol", "energy", "precursor", "upgradeableWeapon","ice"],
-  "twoHanded" : false,
+  "twoHanded" : true,
 
-  "animation" : "/items/active/weapons/ranged/unique/fugun.animation",
+  "animation" : "precursorpistolice.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "precursorpistolice.png",
@@ -27,7 +27,7 @@
       "parts" : {
         "middlefullbright" : {
 		  "properties" : {
-		    "offset" : [0.5, 0.2]
+		    "offset" : [0.7, 0.3]
 		  }
 		}
       }
@@ -37,8 +37,8 @@
     }
   },
 
-  "baseOffset" : [0.5, 0.2],
-  "muzzleOffset" : [0.8, 0.125],
+  "baseOffset" : [0.7, 0.3],
+  "muzzleOffset" : [2, 0.125],
 
   "scripts" : [ "/items/active/weapons/ranged/gun.lua" ],
 
@@ -47,8 +47,8 @@
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
-    "fireTime" : 0.75,
-    "baseDps" : 5,
+    "fireTime" : 0.07,
+    "baseDps" : 14,
     "energyUsage" : 40.0,
     "inaccuracy" : 0.05,
 
@@ -59,14 +59,13 @@
     "projectileType" : "fuicebullet",
     "projectileParameters" : {
       "fullbright" : true,
-      "timeToLive" : 0.55,
-      "speed" : 30
+      "speed" : 60
     },
 	  "stances" : {
 	    "idle" : {
 	      "armRotation" : 1,
 	      "weaponRotation" : 0,
-	      "twoHanded" : false,
+	      "twoHanded" : true,
 
 	      "allowRotate" : true,
 	      "allowFlip" : true
@@ -75,7 +74,7 @@
 	      "duration" : 0,
 	      "armRotation" : 5,
 	      "weaponRotation" : 5,
-	      "twoHanded" : false,
+	      "twoHanded" : true,
 
 	      "allowRotate" : true,
 	      "allowFlip" : true
@@ -84,7 +83,7 @@
 	      "duration" : 0.1,
 	      "armRotation" : 5,
 	      "weaponRotation" : 5,
-	      "twoHanded" : false,
+	      "twoHanded" : true,
 
 	      "allowRotate" : true,
 	      "allowFlip" : true
