@@ -4,7 +4,7 @@
   "inventoryIcon" : "precursorpistolice.png:shoot.1",
   "maxStack" : 1,
   "rarity" : "rare",
-  "description" : "An ncient and unorthodox weapon fires incredibly cold cryo rounds.
+  "description" : "An ancient and unorthodox weapon that fires incredibly cold cryo rounds.
 ^yellow;Freezes enemies solid^reset;",
   "shortdescription" : "Precursor Cryolator",
   "category" : "energy",
