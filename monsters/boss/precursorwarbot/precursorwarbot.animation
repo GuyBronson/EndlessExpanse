@@ -6,7 +6,9 @@
         "default" : "idle",
         "states" : {
           "idle" : {
-            "frames" : 2,
+            "frames" : 4,
+			"cycle" : 0.3,
+            "mode" : "loop",
             "properties" : {
               //"immediateSound" : "/sfx/npc/boss/robotboss_idle1.ogg",
               //"immediateSoundRangeMultiplier" : 0.5,
@@ -17,108 +19,109 @@
             "frames" : 1,
             "properties" : {
               "immediateSound" : "/sfx/npc/boss/robotboss_pain1.ogg",
-              "immediateSoundRangeMultiplier" : 0.5,
-              "particleEmittersOff" : [ "chargeUp", "teslaUp","rocketUp" ]
+              "immediateSoundRangeMultiplier" : 0.5
             }
           },
           "walk" : {
-            "frames" : 8,
-            "cycle" : 1.2,
+            "frames" : 4,
+            "cycle" : 0.3,
             "mode" : "loop",
             "properties" : {
-              "particleEmittersOff" : [ "chargeUp", "teslaUp","rocketUp" ]
+              "particleEmittersOff" : [  ]
             }
           },
           "jump" : {
             "frames" : 1,
             "properties" : {
               "immediateSound" : "/sfx/tech/mech_jump1.ogg",
-              "immediateSoundRangeMultiplier" : 0.5,
-              "particleEmittersOff" : [ "chargeUp", "teslaUp","rocketUp" ]
+              "immediateSoundRangeMultiplier" : 0.5
             }
           },
           "fall" : {
             "frames" : 1
           },
           "chargewindup" : {
-            "frames" : 3,
-            "cycle" : 0.45,
+            "frames" : 4,
+            "cycle" : 0.3,
             "mode" : "loop",
             "properties" : {
-              "particleEmittersOff" : [ "chargeUp", "teslaUp","rocketUp" ],
-              "immediateSound" : "/sfx/melee/charge_traildash1.ogg",
-              "immediateSoundRangeMultiplier" : 0.5
+              "immediateSound" : "/sfx/melee/charge_traildash1.ogg"
             }
           },
           "charge" : {
             "frames" : 4,
-            "cycle" : 0.6,
+            "cycle" : 0.3,
 
             "mode" : "loop",
             "properties" : {
             "immediateSound" : "/sfx/npc/boss/robotboss_turnhostile.ogg",
-            "immediateSoundRangeMultiplier" : 0.5,
-            "particleEmittersOff" : [ "chargeUp", "teslaUp", "rocketUp" ]
+            "immediateSoundRangeMultiplier" : 0.5
             }
           },
           "chargewinddown" : {
-            "frames" : 3,
-            "cycle" : 0.45,
+            "frames" : 4,
+            "cycle" : 0.3,
             "properties" : {
               "immediateSound" : "/sfx/tech/mech_powerdown.ogg",
-              "immediateSoundRangeMultiplier" : 0.5,
-              "particleEmittersOff" : [ "chargeUp", "teslaUp", "rocketUp" ]
+              "immediateSoundRangeMultiplier" : 0.5
             }
           },
-          "firewindup" : {
-            "frames" : 3,
-            "cycle" : 1.58,
+          "fire1windup" : {
+            "frames" : 4,
+            "cycle" : 0.3,
             "mode" : "loop",
             "properties" : {
               "immediateSound" : "/sfx/melee/charge_up1.ogg",
-              "immediateSoundRangeMultiplier" : 0.5,
-              "particleEmittersOn" : [ "chargeUp" ],
-              "particleEmittersOff" : [ "teslaUp","rocketUp" ]
+              "immediateSoundRangeMultiplier" : 0.5
             }
           },
           "fire" : {
-            "frames" : 1,
-            "cycle" : 0.5,
+            "frames" : 4,
+            "cycle" : 0.3,
             "properties" : {
               "immediateSound" : "/sfx/tech/mech_powerdown.ogg",
-              "immediateSoundRangeMultiplier" : 0.5,
-              "particleEmittersOff" : [ "chargeUp", "teslaUp", "rocketUp" ]
+              "immediateSoundRangeMultiplier" : 0.5
             }
           },
-          "firewinddown" : {
-            "frames" : 3,
-            "cycle" : 0.45,
+          "fire1winddown" : {
+            "frames" : 4,
+            "cycle" : 0.3,
             "properties" : {
               "immediateSound" : "/sfx/tech/mech_powerdown.ogg",
-              "immediateSoundRangeMultiplier" : 0.5,
-              "particleEmittersOff" : [ "chargeUp", "teslaUp", "rocketUp" ]
+              "immediateSoundRangeMultiplier" : 0.5
             }
           },
-          "teslawindup" : {
-            "frames" : 3,
-            "cycle" : 1.32,
+		  "fire2windup" : {
+            "frames" : 4,
+            "cycle" : 0.3,
             "mode" : "loop",
             "properties" : {
-              "immediateSound" : "/sfx/melee/charge_up8.ogg",
-              "immediateSoundRangeMultiplier" : 0.5,
-              "particleEmittersOn" : [ "teslaUp" ],
-              "particleEmittersOff" : [ "chargeUp","rocketUp" ]
+              "immediateSound" : "/sfx/melee/charge_up1.ogg",
+              "immediateSoundRangeMultiplier" : 0.5
             }
           },
-          "wavewindup" : {
-            "frames" : 3,
-            "cycle" : 1.58,
-            "mode" : "loop",
+          "fire2" : {
+            "frames" : 4,
+            "cycle" : 0.3,
             "properties" : {
-              "immediateSound" : "/sfx/melee/charge_up5.ogg",
-              "immediateSoundRangeMultiplier" : 0.5,
-              "particleEmittersOn" : [ "rocketUp" ],
-              "particleEmittersOff" : [ "teslaUp","chargeUp" ]
+              "immediateSound" : "/sfx/tech/mech_powerdown.ogg",
+              "immediateSoundRangeMultiplier" : 0.5
+            }
+          },
+          "fire2winddown" : {
+            "frames" : 4,
+            "cycle" : 0.3,
+            "properties" : {
+              "immediateSound" : "/sfx/tech/mech_powerdown.ogg",
+              "immediateSoundRangeMultiplier" : 0.5
+            }
+          },
+		  "honk" : {
+            "frames" : 4,
+            "cycle" : 0.3,
+            "properties" : {
+              "immediateSound" : "/sfx/tech/mech_horn_truck.ogg",
+              "immediateSoundRangeMultiplier" : 0.5
             }
           }
         }
@@ -153,7 +156,7 @@
             "mode" : "transition",
             "transition" : "off",
             "properties" : {
-              "particleEmittersOn" : [ "releaseParticles" ]
+              "particleEmittersOff" : [ "releaseParticles" ]
             }
           }
         }
@@ -163,7 +166,7 @@
     "parts" : {
       "body" : {
         "properties" : {
-          "zLevel" : 10,
+          "zLevel" : 0,
           "transformationGroups" : [ "body" ],
           "offset" : [0.5, 0.75]
         },
@@ -181,69 +184,188 @@
             },
             "hurt" : {
               "properties" : {
-                "image" : "<partImage>:hurt.<frame>"
+                "image" : "<partImage>:idle.<frame>"
               }
             },
             "jump" : {
               "properties" : {
-                "image" : "<partImage>:jump.<frame>"
+                "image" : "<partImage>:idle.<frame>"
               }
             },
             "fall" : {
               "properties" : {
-                "image" : "<partImage>:fall.<frame>"
+                "image" : "<partImage>:idle.<frame>"
               }
             },
             "chargewindup" : {
               "properties" : {
-                "image" : "<partImage>:windup.<frame>"
+                "image" : "<partImage>:idle.<frame>"
               }
             },
             "charge" : {
               "properties" : {
-                "image" : "<partImage>:charge.<frame>"
+                "image" : "<partImage>:charge.<frame>",
+				"damageArea": [
+									[-5, 0],
+									[-2.5, 1],
+									[1, 1],
+									[4, -1.25],
+									[5.5, -2.25],
+									[6, -5],
+									[5.5, -5.25],
+									[0, -5]
+								]
               }
             },
             "chargewinddown" : {
               "properties" : {
-                "image" : "<partImage>:winddown.<frame>"
+                "image" : "<partImage>:melee.<frame>"
               }
             },
-            "firewindup" : {
+            "fire1windup" : {
               "properties" : {
-                "image" : "<partImage>:firewindup.<frame>"
+                "image" : "<partImage>:idle.<frame>"
               }
             },
             "fire" : {
               "properties" : {
-                "image" : "<partImage>:fire.<frame>"
+                "image" : "<partImage>:fire1.<frame>"
               }
             },
-            "firewinddown" : {
+            "fire1winddown" : {
               "properties" : {
-                "image" : "<partImage>:firewinddown.<frame>"
+                "image" : "<partImage>:idle.<frame>"
               }
             },
-            "teslawindup" : {
+            "fire2windup" : {
               "properties" : {
-                "image" : "<partImage>:windup.<frame>"
+                "image" : "<partImage>:idle.<frame>"
               }
             },
-            "wavewindup" : {
+            "fire2" : {
               "properties" : {
-                "image" : "<partImage>:windup.<frame>"
+                "image" : "<partImage>:fire2.<frame>"
+              }
+            },
+            "fire2winddown" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
               }
             }
           },
           "damage" : {
             "stunned" : {
               "properties" : {
-                "image" : "<partImage>:hurt.<frame>"
+                "image" : "<partImage>:idle.<frame>"
               }
             }
           }
         }
-      }
+      },
+      "bodyfullbright" : {
+        "properties" : {
+          "zLevel" : 1,
+		  "fullbright" : true,
+          "transformationGroups" : [ "body" ],
+          "offset" : [0.5, 0.75]
+        },
+        "partStates" : {
+          "body" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:walk.<frame>"
+              }
+            },
+            "hurt" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "chargewindup" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "charge" : {
+              "properties" : {
+                "image" : "<partImage>:charge.<frame>",
+				"damageArea": [
+									[-5, 0],
+									[-2.5, 1],
+									[1, 1],
+									[4, -1.25],
+									[5.5, -2.25],
+									[6, -5],
+									[5.5, -5.25],
+									[0, -5]
+								]
+              }
+            },
+            "chargewinddown" : {
+              "properties" : {
+                "image" : "<partImage>:melee.<frame>"
+              }
+            },
+            "fire1windup" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "fire" : {
+              "properties" : {
+                "image" : "<partImage>:fire1.<frame>"
+              }
+            },
+            "fire1winddown" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "fire2windup" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+            "fire2" : {
+              "properties" : {
+                "image" : "<partImage>:fire2.<frame>"
+              }
+            },
+            "fire2winddown" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            },
+			"honk" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+			}
+          },
+          "damage" : {
+            "stunned" : {
+              "properties" : {
+                "image" : "<partImage>:idle.<frame>"
+              }
+            }
+          }
+        }
+      }	  
     }
   },
 
@@ -613,6 +735,7 @@
     "aggroHop" : [ "/sfx/npc/boss/droidboss_turnhostile.ogg" ],
     "idle" :["/sfx/npc/boss/droidboss_idle.ogg"],
     "attack" :["/sfx/npc/boss/droidboss_attack2.ogg"],
+	"honk" :["/sfx/tech/mech_horn_truck.ogg"],
     "melee" :["/sfx/npc/boss/droidboss_attack.ogg"],
     "wallCrash" :["/sfx/npc/boss/droidboss_die.ogg"],
     "pain1" :["/sfx/npc/boss/droidboss_hurt.ogg"],

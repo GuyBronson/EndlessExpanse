@@ -1,7 +1,7 @@
 {
 	"type": "precursorwarbot",
-	"shortdescription": "Precursor Warbot",
-	"description": "Its ancient brain houses long-lost secrets of the cosmos.",
+	"shortdescription": "Precursor Experimental War Tank",
+	"description": "Its ancient AI has long since gone rogue.",
 
 	"categories": ["precursorwarbot"],
 	"parts": ["body"],
@@ -12,6 +12,8 @@
 		"default": "fuprecursorLootBoss",
 		"brain": "madnessBrainHarvestingRobot"
 	}],
+
+	"renderLayer" : "foregroundEntity",
 
 	"baseParameters": {
 		"scripts": [
@@ -25,10 +27,10 @@
 		"behaviorConfig": {
 			"damageOnTouch": true,
 
-			"targetQueryRange": 50,
+			"targetQueryRange": 150,
 			"targetOnDamage": true,
 			"keepTargetInSight": true,
-			"keepTargetInRange": 50,
+			"keepTargetInRange": 150,
 			"targetOutOfSightTime": 5,
 
 			"foundTargetActions": [{
@@ -37,84 +39,34 @@
 
 			"fleeActions": [],
 
-			"hostileActions": [{
-					"name": "action-swoosh-charge",
-					"cooldown": 1.5,
-					"parameters": {
-						"maximumRange": 20,
-						"minimumRange": 2,
-						"windupTime": 1.0,
-
-						"chargeTime": 1.0,
-						"chargeSpeed": 85,
-						"chargeControlForce": 350,
-						"wallKnockback": true,
-						"wallCrashSound": "wallCrash",
-						"wallCrashEmitter": "",
-
-						"winddownTime": 0.5,
-						"winddownStopForce": 200,
-
-						"projectileType": "electricchargeswoosh",
-						"fireOffset": [2, -1],
-						"projectileParameters": {
-							"power": 15
-						}
-					}
-				},
+			"hostileActions": [
 				{
-					"name": "action-fire",
-					"cooldown": 20,
-					"parameters": {
-						"requireLineOfSight": true,
-						"maximumRange": 35,
-						"minimumRange": 25,
-						"windupState": "teslawindup",
-						"windupTime": 1.32,
-
-						"projectileType": "turretpod2",
-						"power": 3,
-
-						"fireOffset": [1.0, 1],
-						"aimAtTarget": false,
-						"projectileCount": 1,
-						"fireSound": "attack",
-						"fireState": "hurt",
-						"winddownState": "chargewinddown",
-						"winddownTime": 0.45
-					}
-				},
-				{
-					"name": "action-fire",
-					"cooldown": 15,
-					"parameters": {
-						"requireLineOfSight": true,
-						"maximumRange": 35,
-						"minimumRange": 25,
-						"windupState": "teslawindup",
-						"windupTime": 1.32,
-
-						"projectileType": "turretpod",
-						"power": 6,
-
-						"fireOffset": [1.0, 1],
-						"aimAtTarget": false,
-						"projectileCount": 1,
-						"fireSound": "attack",
-						"fireState": "hurt",
-						"winddownState": "chargewinddown",
-						"winddownTime": 0.45
-					}
-				},
+        "name" : "action-charge",
+        "cooldown" : 6.0,
+        "parameters" : {
+          "maximumRange" : 24,
+          "minimumRange" : 0,
+          "windupTime" : 0.35,
+          "chargeTime" : 0.5,
+          "chargeSpeed" : 300, //18
+          "chargeControlForce" : 500, //500
+          "wallCrashSound" : "wallCrash",
+          "wallCrashEmitter" : "",
+          "windupState" : "chargewindup",
+          "chargeState" : "charge",
+          "winddownTime" : 1,
+          "winddownState" : "chargewinddown"
+        }
+      },
 				{
 					"name": "action-fire",
 					"cooldown": 1,
 					"parameters": {
 						"requireLineOfSight": true,
-						"maximumRange": 25,
+						"maximumRange": 50,
 						"minimumRange": 5,
-						"windupState": "teslawindup",
-						"windupTime": 1.32,
+						"windupState": "fire2windup",
+						"windupTime": 0.4,
 
 						"projectileType": "precursorshot2a",
 						"projectileParameters": {
@@ -128,17 +80,16 @@
 						"power": 6,
 
 						"fireOffsets": [
-							[1.0, 1],
-							[1, -1],
-							[1, 2]
+							[1.0, 0.5],
+							[1, -0.5]
 						],
 						"aimAtTarget": true,
-						"projectileCount": 3,
+						"projectileCount": 6,
 						"projectileInterval": 0.1,
 						"fireSound": "attack",
-						"fireState": "hurt",
-						"winddownState": "chargewinddown",
-						"winddownTime": 0.45
+						"fireState": "fire2",
+						"winddownState": "fire2winddown",
+						"winddownTime": 0.4
 					}
 				},
 				{
@@ -147,134 +98,94 @@
 					"parameters": {
 						"requireLineOfSight": true,
 						"maximumRange": 50,
-						"minimumRange": 15,
-						"windupState": "firewindup",
-						"windupTime": 1.5,
+						"minimumRange": 5,
+						"windupState": "fire2windup",
+						"windupTime": 0,
 
 						"projectileType": "precursorball",
 						"projectileParameters": {
-							"statusEffects": ["madnessgain3"],
-							"periodicActions": [{
-									"time": 0.05,
-									"loop": true,
-									"action": "explosion",
-									"foregroundRadius": 3,
-									"backgroundRadius": 3,
-									"explosiveDamageAmount": 5,
-									"delaySteps": 0
-								},
-								{
-									"time": 0.05,
-									"loop": true,
-									"action": "projectile",
-									"type": "precursorshot2a",
-									"inheritDamageFactor": 0.15,
-									"fuzzAngle": 360
-								}
-							],
 							"actionOnReap": [{
-									"action": "config",
-									"file": "/projectiles/explosions/atomsmasherboom/atomsmasherboomyellow.config"
-								},
-								{
-									"action": "explosion",
-									"foregroundRadius": 5,
-									"backgroundRadius": 0,
-									"explosiveDamageAmount": 40,
-									"delaySteps": 0
-								},
-								{
-									"action": "projectile",
-									"type": "precursorstarter",
-									"fuzzAngle": 360,
-									"inheritDamageFactor": 0.3,
-									"angleAdjust": 0
-								},
-								{
-									"action": "projectile",
-									"type": "precursorstarter",
-									"fuzzAngle": 360,
-									"inheritDamageFactor": 0.3,
-									"angleAdjust": 0
-								},
-								{
-									"action": "projectile",
-									"type": "precursorstarter",
-									"fuzzAngle": 360,
-									"inheritDamageFactor": 0.3,
-									"angleAdjust": 0
-								}
-							]
+								"action": "config",
+								"file": "/projectiles/explosions/precursorexplosion/precursorexplosion2.config"
+							}],
+							"power": 6,
+							"speed": 30
 						},
 						"power": 12,
 
-						"fireOffset": [-2, 0],
+						"fireOffsets": [
+							[7, 0]
+						],
 						"aimAtTarget": true,
 						"projectileCount": 1,
+						"projectileInterval": 0,
 						"fireSound": "attack",
-						"range": 24,
 						"fireState": "fire",
-						"winddownState": "firewinddown",
-						"winddownTime": 0.8
+						"winddownState": "fire",
+						"winddownTime": 0.45
 					}
 				},
 				{
 					"name": "action-fire",
-					"cooldown": 3,
+					"cooldown": 15,
 					"parameters": {
 						"requireLineOfSight": true,
-						"maximumRange": 20,
-						"minimumRange": 2,
-						"windupState": "wavewindup",
-						"windupTime": 1.37,
+						"maximumRange": 50,
+						"minimumRange": 5,
+						"windupState": "fire2windup",
+						"windupTime": 0,
 
-						"projectileType": "waveblast",
-						"power": 7,
+						"projectileType": "gausscannonshot",
 						"projectileParameters": {
-							"statusEffects": ["madnessgain2"],
-							"speed": 80
+							"power": 15,
+							"speed": 75
 						},
+						"power": 15,
 
-						"fireOffset": [1.0, 0],
+						"fireOffsets": [
+							[7, 0]
+						],
 						"aimAtTarget": true,
 						"projectileCount": 1,
+						"projectileInterval": 0,
 						"fireSound": "attack",
-						"range": 18,
-						"fireState": "hurt",
-						"winddownState": "chargewinddown",
-						"winddownTime": 0.45
+						"fireState": "fire",
+						"winddownState": "fire",
+						"winddownTime": 0.4
+					}
+				},
+				{
+					"name": "action-fire",
+					"cooldown": 30,
+					"parameters": {
+						"requireLineOfSight": true,
+						"maximumRange": 25,
+						"minimumRange": 5,
+						"windupState": "fire2windup",
+						"windupTime": 0,
+
+						"projectileType": "fusoundwave",
+						"projectileParameters": {
+							"power": 30,
+							"speed": 45
+						},
+						"power": 15,
+
+						"fireOffsets": [
+							[7, 0]
+						],
+						"aimAtTarget": true,
+						"projectileCount": 1,
+						"projectileInterval": 0,
+						"fireSound": "honk",
+						"fireState": "idle",
+						"winddownState": "idle",
+						"winddownTime": 0.4
 					}
 				}
 			],
 
-			"concurrentHostileActions": [{
-					"name": "action-leap",
-					"cooldown": 0.5,
-					"parameters": {
-						"minimumRange": 5,
-						"maximumRange": 75,
-						"maxXRange": 40,
-						"windupTime": 0.5,
-						"windupState": "wavewindup",
-
-						"leapVelocity": 60,
-						"collisionCheck": true,
-						"highArc": true,
-						"leapState": "chargewindup",
-						"fallState": "chargewinddown",
-
-						"winddownState": "",
-						"winddownTime": 0.2
-					}
-				},
-				{
-					"name": "action-statuseffect",
-					"cooldown": 45,
-					"parameters": {
-						"effect": "radioactiveaura",
-						"duration": 15
-					}
-				}
+			"concurrentHostileActions": [
 			],
 
 
@@ -283,8 +194,8 @@
 			"approachActions": [{
 				"name": "approach-walk",
 				"parameters": {
-					"canJump": true,
-					"maxJumps": 8,
+					"canJump": false,
+					"maxJumps": 0,
 					"jumpXVelocity": 12,
 					"jumpYVelocity": 30,
 					"jumpXControlForce": 50,
@@ -300,8 +211,8 @@
 				{
 					"name": "approach-walk",
 					"parameters": {
-						"canJump": true,
-						"maxJumps": 8,
+						"canJump": false,
+						"maxJumps": 0,
 						"jumpXVelocity": 12,
 						"jumpYVelocity": 30,
 						"jumpXControlForce": 50,
@@ -323,25 +234,15 @@
 
 		"touchDamage": {
 			"poly": [
-				[1, 5],
-				[2, 4],
-				[2, 3],
-				[2, 1],
-				[1, 0],
-				[3, -2],
-				[1, -4],
-				[-1, -4],
-				[-3, -2],
-				[-1, -0],
-				[-2, 1],
-				[-2, 3],
-				[-2, 4],
-				[-1, 5]
+				[8, 1.5],
+				[-8, 1.5],
+				[-8, -3],
+				[8, -3]
 			],
 			"damage": 12,
 
 			"teamType": "enemy",
-			"damageSourceKind": "slash",
+			"damageSourceKind": "hammer",
 			"knockback": 20,
 			"statusEffects": []
 		},
@@ -351,20 +252,10 @@
 
 		"movementSettings": {
 			"collisionPoly": [
-				[1, 5],
-				[2, 4],
-				[2, 3],
-				[2, 1],
-				[1, 0],
-				[3, -2],
-				[1, -4],
-				[-1, -4],
-				[-3, -2],
-				[-1, -0],
-				[-2, 1],
-				[-2, 3],
-				[-2, 4],
-				[-1, 5]
+				[8, 1.5],
+				[-8, 1.5],
+				[-8, -3.7],
+				[8, -3.7]
 			],
 
 			"mass": 1.0,
@@ -399,11 +290,14 @@
 			"primaryScriptDelta": 5,
 
 			"stats": {
+				"grit": {
+					"baseValue": 1
+				},
 				"knockbackStunTime": {
 					"baseValue": 0.25
 				},
 				"knockbackThreshold": {
-					"baseValue": 9
+					"baseValue": 500
 				},
 				"maxHealth": {
 					"baseValue": 820
@@ -421,13 +315,13 @@
 					"baseValue": 0.7
 				},
 				"fireResistance": {
-					"baseValue": 0.6
+					"baseValue": 0.45
 				},
 				"fireStatusImmunity": {
 					"baseValue": 1.0
 				},
 				"iceResistance": {
-					"baseValue": 0.2
+					"baseValue": 0.45
 				},
 				"iceStatusImmunity": {
 					"baseValue": 0.0
@@ -439,19 +333,19 @@
 					"baseValue": 0.0
 				},
 				"poisonResistance": {
-					"baseValue": 0.99
+					"baseValue": 0.45
 				},
 				"poisonStatusImmunity": {
 					"baseValue": 1.0
 				},
 				"radioactiveResistance": {
-					"baseValue": 0.5
+					"baseValue": 0.45
 				},
 				"shadowResistance": {
-					"baseValue": 0.4
+					"baseValue": 0.45
 				},
 				"cosmicResistance": {
-					"baseValue": 0.55
+					"baseValue": 0.45
 				},
 				"shadowImmunity": {
 					"baseValue": 1
@@ -487,13 +381,13 @@
 					"baseValue": 1
 				},
 				"centensianenergyResistance": {
-					"baseValue": 0.9
+					"baseValue": 0.45
 				},
 				"centensianenergyStatusImmunity": {
-					"baseValue": 0.9
+					"baseValue": 0.45
 				},
 				"xanafianResistance": {
-					"baseValue": 0.9
+					"baseValue": 0.45
 				},
 				"xanafianStatusImmunity": {
 					"baseValue": 1

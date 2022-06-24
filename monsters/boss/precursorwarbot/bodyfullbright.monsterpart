@@ -4,6 +4,6 @@
   "type" : "bodyfullbright",
 
   "frames" : {
-    "body" : "precursorwarbotfullbright.png"
+    "bodyfullbright" : "precursortankfullbright.png"
   }
 }
