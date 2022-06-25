@@ -12,12 +12,12 @@
   "twoHanded" : true,
   "itemTags" : [ "weapon", "melee","cosmic", "scythe", "upgradeableWeapon","aetherium"],
 
-  "inventoryIcon" : "aetheriumscythe_carithekitty.png",
+  "inventoryIcon" : "aetheriumscythe.png",
 
   "animation" : "/items/active/weapons/melee/scythe/largeedgedbglow.animation",
   "animationParts" : {
     "handle" : "",
-    "blade" : "aetheriumscythe_carithekitty.png",
+    "blade" : "aetheriumscythe.png",
     "bladefullbright" : "aetheriumscythefullbright.png"
   },
   "animationCustom" : { },
@@ -29,7 +29,7 @@
   "primaryAbilityType" : "largeedgedcombo",
   "primaryAbility" : {
     "fireTime" : 0.83,
-    "baseDps" : 11.7,
+    "baseDps" : 12.7,
     "damageConfig" : {
       "damageSourceKind" : "aetherbroadsword"
     },
@@ -134,17 +134,7 @@
   },
 
   "altAbilityType" : "futravelingslash",
-  "critChance" : 4,
+  "critChance" : 8,
   "critBonus" : 14,
-  "upgradeParameters": {
-    "description" : "Venomous be thy tongue.",
-	"shortdescription" : "Aetherium Starslasher",
-	"inventoryIcon" : "aetheriumscythe_carithekittyt8.png",
-	"animationParts" : {
-      "blade" : "aetheriumscythe_carithekittyt8.png",
-      "bladefullbright" : "aetheriumscythefullbrightt8.png"
-    },
-	"critChance" : 8
-  },
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
