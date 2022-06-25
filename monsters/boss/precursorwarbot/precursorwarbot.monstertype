@@ -166,7 +166,7 @@
 
 						"projectileType": "fusoundwave",
 						"projectileParameters": {
-							"power": 30,
+							"power": 20,
 							"speed": 45
 						},
 						"power": 15,
