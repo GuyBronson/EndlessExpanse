@@ -48,7 +48,7 @@
           "minimumRange" : 0,
           "windupTime" : 0.35,
           "chargeTime" : 0.5,
-          "chargeSpeed" : 300, //18
+          "chargeSpeed" : 1300, //18
           "chargeControlForce" : 500, //500
           "wallCrashSound" : "wallCrash",
           "wallCrashEmitter" : "",
@@ -175,8 +175,8 @@
 							[7, 0]
 						],
 						"aimAtTarget": true,
-						"projectileCount": 1,
-						"projectileInterval": 0,
+						"projectileCount": 3,
+						"projectileInterval": 0.3,
 						"fireSound": "honk",
 						"fireState": "idle",
 						"winddownState": "idle",
@@ -260,7 +260,7 @@
 
 			"mass": 1.0,
 
-			"runSpeed": 12,
+			"runSpeed": 16,
 
 			"airFriction": 0
 
