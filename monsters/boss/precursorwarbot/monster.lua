@@ -87,7 +87,7 @@ function init()
     monster.setDamageBar(config.getParameter("damageBar"));
   end
 
-  monster.setName("Precursor War Bot")
+  monster.setName("Precursor Experimental War Tank")
 
   monster.setDamageBar("special")
 

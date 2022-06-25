@@ -1,0 +1,147 @@
+{
+  "itemName" : "fucrossgun",
+  "level" : 5,
+  "price" : 1500,
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "A very powerful energy blaster.
+^cyan;Counts as 'energy' for set bonuses^reset;
+^yellow;Extreme fire rate^reset;",
+  "shortdescription" : "Galactic Assault",
+  "tooltipKind" : "gun2",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","assaultrifle", "energy", "upgradeableWeapon"],
+  "inventoryIcon" : "galacticassault.png:1",
+
+  "cursor" : "/cursors/galacticassaultcursor.cursor",
+
+  "animation" : "galacticassault.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "galacticassault.png:3",
+	"middlefullbright" : "galacticassaultidlefullbright.png:3",
+    "barrel" : "",
+    "muzzleFlash" : "muzzleflash.png",
+    "charge" : "galacticassault.png",
+    "chargehold" : "galacticassault.png",
+	"chargefullbright": "galacticassaultfullbright.png",
+    "chargeholdfullbright": "galacticassaultfullbright.png"
+  },
+
+  "animationCustom" : {
+  "animatedParts" : {
+      "parts" : {
+        "middlefullbright" : {
+		  "properties" : {
+		    "offset" : [1.9, -1.0]
+		  }
+		}
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/weapons/arconpew.ogg" ],
+	  "chargeLoop" : [ "/sfx/weapons/arconcharge.ogg" ],
+	  "holdLoop" : [ "/sfx/objects/camera_pan_loop.ogg" ],
+	  "discharge" : [ "/sfx/weapons/arconwinddown.ogg" ]
+    },
+    "particleEmitters" : {
+      "chargeUp" : {
+        "burstCount" : 3,
+        "particles" : [
+          { "particle" : "rocketbarrelpuff", "offset" : [0.0, 0.0] }
+        ]
+      }
+    }
+  },
+
+  "baseOffset" : [1.9, -1.0],
+  "muzzleOffset" : [2.4, 0.215],
+
+  "scripts" : ["/items/active/scripts/thea-gun.lua"],
+
+  "elementalType" : "radioactive",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/abilities/thea-minigun.lua"],
+    "class" : "TheaMinigun",
+
+    "fireTime" : 0.08,
+    "baseDps" : 29,
+    "energyUsage" : 45.0,
+    "inaccuracy" : 0.02,
+
+	"chargeTime" : 1.347,
+	"resetTime" : 1.4,
+
+	"walkWhileFiring" : true,
+
+    "projectileType" : "enx_galacticstar",
+	"projectileCount" : 2,
+	"projectileParameters" : {
+          "knockback" : 3.5
+        },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "armRotation" : -2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "armRotation" : 6,
+        "weaponRotation" : 6,
+	    "weaponOffset" : [-0.15, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 6,
+        "weaponRotation" : 6,
+	    "weaponOffset" : [-0.15, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "discharge" : {
+        "duration" : 0.1,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+	}
+  },
+
+  "critChance" : 0.5,
+  "critBonus" : 3,
+  "altAbilityType" : "railgunshotpower",
+  "altAbility" : {
+    "energyCost" : 100,
+    "projectileType" : "energyzone",
+    "name" : "Energy Zone",
+    "projectileParameters" : {
+      "timeToLive" : 12,
+      "speed" : 0
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

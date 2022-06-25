@@ -59,9 +59,9 @@
 			"stances":{
 				"idle":{
 					"armRotation":-20,
-					"weaponRotation":50,
+					"weaponRotation":70,
 					"twoHanded":false,
-					"weaponOffset":[0,1],
+					"weaponOffset":[-0.2,0.5],
 					"allowRotate":false,
 					"allowFlip":true,
 					"aimAngle":0

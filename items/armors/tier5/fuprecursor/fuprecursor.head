@@ -38,7 +38,7 @@
     {
       "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
       "stat" : "maxHealth",
-      "amount" : 1
+      "amount" : 2
     },
 	{
       "levelFunction" : "fuArmorResistMultiplier",
