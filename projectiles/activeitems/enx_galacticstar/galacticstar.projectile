@@ -1,0 +1,36 @@
+{
+  "projectileName" : "enx_galacticstar",
+  "image" : "galacticstartrail.png",
+  "animationCycle" : 0.35,
+  "fullbright" : true,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "periodicActions": [
+    {
+      "time": 0.01,
+      "repeat": true,
+      "action": "particle",
+      "rotate": true,
+      "specification": {
+        "type": "textured",
+        "image": "/projectiles/activeitems/enx_galacticstar/galacticstartrail.png",
+        "position": [ 0, 0 ],
+        "layer": "back",
+        "timeToLive": 0.1,
+        "destructionTime": 0.2,
+        "destructionAction": "fade",
+        "fullbright": true
+      }
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "power" : 5.0,
+  "speed" : 60,
+  "damageKind" : "radioactiveplasma"
+}
