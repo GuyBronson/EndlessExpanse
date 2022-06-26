@@ -1,20 +1,21 @@
 function init()
   modes = {
-    AA = "/zb/researchTree/researchTree",
-    AB = "/interface/scripted/mmutility/mmutility",
-    BA = "/interface/scripted/statWindow/statWindow",
-    BB = "/zb/questList/questList"
+    primaryA = "/zb/researchTree/researchTree",
+    primaryB = "/interface/scripted/mmutility/mmutility",
+    altA = "/interface/scripted/statWindow/statWindow",
+    altB = "/zb/questList/questList"
   }
   sfx = {
-    AA = "",
-    AB = "3",
-    BA = "",
-    BB = "2"
+    primaryA = "",
+    primaryB = "3",
+    altA = "",
+    altB = "2"
   }
 end
 
 function activate(fireMode, shiftHeld)
-        key = string.format("%s%s",fireMode and "A" or "B", shiftHeld and "A" or "B")
+  key = string.format("%s%s",fireMode, shiftHeld and "A" or "B")
+
 	activeItem.interact("ScriptPane", modes[key]..".config", player.id())
 	animator.playSound("activate"..sfx[key])
 end
