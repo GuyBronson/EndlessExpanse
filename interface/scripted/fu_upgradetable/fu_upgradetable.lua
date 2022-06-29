@@ -128,7 +128,7 @@ end
 
 function essenceMath(iLvl)
 	local prevValue = root.evalFunction("weaponEssenceValue", iLvl)
-	local newValue = (self.maxEssenceValue * iLvl / 3) + 200
+	local newValue = (self.maxEssenceValue * iLvl / 5)
 	return math.max(math.floor(newValue-prevValue),0)
 end
 
