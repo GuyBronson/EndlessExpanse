@@ -28,7 +28,7 @@
         "middlefullbright" : {
 		  "properties" : {
 			//Same as BaseOffset
-		    "offset" : [1.3, -0.15]
+		    "offset" : [1.45, 0.2]
 		  }
 		}
       }
@@ -47,8 +47,8 @@
     }
   },
 
-  "baseOffset" : [1.3, -0.15],
-  "muzzleOffset" : [2.4, 0.325],
+  "baseOffset" : [1.45, 0.2],
+  "muzzleOffset" : [2.65, 0.225],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -90,8 +90,8 @@
 	    },
 	    "cooldown" : {
 	      "duration" : 0.03,
-	      "armRotation" : -2,
-	      "weaponRotation" : -2,
+	      "armRotation" : 1,
+	      "weaponRotation" : 1,
 	      "twoHanded" : true,
 
 	      "allowRotate" : false,
