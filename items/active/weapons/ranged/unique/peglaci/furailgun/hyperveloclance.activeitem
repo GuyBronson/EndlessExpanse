@@ -1,0 +1,103 @@
+{
+	"itemName" : "furailgun",
+	"level" : 5,
+	"price" : 1500,
+	"maxStack" : 1,
+	"rarity" : "rare",
+	"description" : "The 'V' stands for 'Violence'
+^yellow;Capable of piercing any and all material^reset;",
+	"shortdescription" : "HyperV Arbalest",
+	"tooltipKind" : "gun2",
+	"category" : "sniperRifle",
+	"twoHanded" : true,
+	"itemTags" : ["weapon","ranged","sniperrifle", "energy", "upgradeableWeapon"],
+
+	"inventoryIcon" : "hyperveloclance.png:idle",
+
+	"animation" : "hyperveloclance.animation",
+	"animationParts" : {
+		"body" : "hyperveloclance.png",
+		"fullbright" : "hyperveloclancefb.png",
+		"muzzleFlash" : ""
+	},
+	"animationCustom" : {
+		"sounds" : {
+		  "fire" : [ "/sfx/weapons/furailgunshot.wav" ]
+		}
+	},
+	"muzzleOffset" : [2.0,0.5],
+
+	"scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+	"critChance" : 9,
+	"critBonus" : 12,
+	"isSniper" : 1,
+
+	"hasRecoil" : 1,
+	"recoilSpeed" : 300,
+	"recoilForce" : 1500,
+	
+	"elementalType" : "physical",
+
+	"primaryAbility" : {
+		"scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+		"class" : "GunFire",
+
+		"fireTime" : 2.0,
+		"baseDps" : 4,
+		"energyUsage" : 120,
+		"inaccuracy" : 0,
+		"fireType" : "auto",
+
+		"projectileType" : "railgunrod",
+		"projectileParameters" : {
+			"knockback" : 20,
+			"speed" : 100,
+			"power" : 2
+		},
+		"projectileCount" : 1,
+
+		"stances" : {
+			"idle" : {
+				"frontArmFrame" : "run.3",
+				"armRotation" : 0,
+				"weaponRotation" : 0,
+				"twoHanded" : true,
+
+				"allowRotate" : true,
+				"allowFlip" : true
+			},
+			"fire" : {
+				"frontArmFrame" : "run.3",
+				"duration" : 0.3,
+				"armRotation" : 4,
+				"weaponRotation" : 0,
+			
+				"twoHanded" : true,
+				
+				"animationStates" : {
+					"body" : "empty"
+				},
+
+				"allowRotate" : false,
+				"allowFlip" : false
+			},
+			"cooldown" : {
+				"frontArmFrame" : "run.3",
+				"duration" : 1.5,
+				"armRotation" : 0,
+				"weaponRotation" : 0,
+				
+				"twoHanded" : true,
+				
+				"animationStates" : {
+					"body" : "charging"
+				},
+
+				"allowRotate" : true,
+				"allowFlip" : true
+			}
+		}
+	},
+	"builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

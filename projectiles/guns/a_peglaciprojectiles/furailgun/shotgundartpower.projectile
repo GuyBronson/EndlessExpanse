@@ -22,7 +22,7 @@
       "angleAdjust" : 0
     }
   ],
-  "damageKind" : "electric",
+  "damageKind" : "physical",
   "emitters" : [ "peglacitrail" ],
     "periodicActions":[
     {
@@ -38,7 +38,7 @@
       "inheritDamageFactor" :0,
       "timeToLive" : 0.5,
       "fuzzAngle" : 0,
-      "projectileParameters" : { "damageSourceKind" : "electric" }
+      "projectileParameters" : { "damageSourceKind" : "physical" }
    }
     ]
 }
