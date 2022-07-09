@@ -8,11 +8,13 @@
 	"pointLight" : false,
 	"lightColor" : [100, 40, 40],
 	"power" : 10.0,
-	"speed" : 240,
+	"speed" : 60,
 	"timeToLive" : 5,
 	"piercing" : true,
-	"physics" : "laser",
+	"physics" : "lineriflebullet",
 	"damageKind" : "physical",
+	"scripts" : ["/projectiles/activeitems/arbalest/arbalestshot.lua"],
+	"scriptDelta" : 1,
 	"periodicActions" : [
 		{
 			"action" : "particle",
@@ -22,14 +24,21 @@
 			"specification" : {
 				"type" : "textured",
 				"image" : "/projectiles/activeitems/arbalest/arbalesttrail.png",
-				"position" : [0,0],
+				"position" : [-1,0],
 				"layer" : "back",
+				"collidesForeground" : false,
 				"fullbright" : true,
-				"timeToLive" : 1,
-				"destructionTime" : 0.5,
+				"timeToLive" : 0.1,
+				"destructionTime" : 0.9,
 				"destructionAction" : "fade"
 			}
  		}
+	],
+	"actionOnReap" : [
+		{
+			"action" : "config",
+			"file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+		}
 	]
 }
 

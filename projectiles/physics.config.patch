@@ -1,4 +1,4 @@
-[
+[[
 {
     "op": "add",
     "path": "/mechbattery/collisionEnabled",
@@ -980,7 +980,34 @@
     "liquidFriction" : 3.0,
     "groundFriction" : 15.0,
     "maximumCorrection" : 0
-	}
+	}  
   }
+  ],
+	[
+		// Linerifle physics from Elithian Alliance do what i need done so check to see if that mod's installed 
+		{"op" : "test", "path" : "/lineriflebullet", "inverse" : true},
+		{"op" : "add",
+			"path" : "/lineriflebullet",
+			"value" : {
+				"gravityMultiplier" : 0.0,
+				"bounceFactor" : 0.0,
+				"stopOnFirstBounce" : true,
+				"maxMovementPerStep" : 0.4,
+				"collisionPoly" : [ [-0.25, -0.25], [0.25, -0.25], [0.25, 0.25], [-0.25, 0.25] ],
+				"ignorePlatformCollision" : true,
+				
+				"enableSurfaceSlopeCorrection" : true,
+				"slopeSlidingFactor" : 0.0,
+				"stickyCollision" : true,
+				"stickyForce" : 200.0,
+				  
+				"groundFriction" : 0,
+				"airFriction" : 0.0,
+				"liquidFriction" : 0.0,
+				"speedLimit" : null,
+				"maximumCorrection" : 0.75
+			}	  
+		}
+	]
 ]
 
