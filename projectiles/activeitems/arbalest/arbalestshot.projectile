@@ -1,0 +1,35 @@
+{
+	"projectileName" : "enx_arbalestshot",
+	"image" : "arbalestshot.png",
+	"animationCycle" : 0.1,
+	"animationLoops" : true,
+	"frameNumber" : 1,
+	"fullbright" : true,
+	"pointLight" : false,
+	"lightColor" : [100, 40, 40],
+	"power" : 10.0,
+	"speed" : 240,
+	"timeToLive" : 5,
+	"piercing" : true,
+	"physics" : "laser",
+	"damageKind" : "physical",
+	"periodicActions" : [
+		{
+			"action" : "particle",
+			"time" : 0.01,
+			"repeat" : true,
+			"rotate" : true,
+			"specification" : {
+				"type" : "textured",
+				"image" : "/projectiles/activeitems/arbalest/arbalesttrail.png",
+				"position" : [0,0],
+				"layer" : "back",
+				"fullbright" : true,
+				"timeToLive" : 1,
+				"destructionTime" : 0.5,
+				"destructionAction" : "fade"
+			}
+ 		}
+	]
+}
+

@@ -30,9 +30,9 @@
 						"cycle" : 1,
 						"mode" : "loop"
 					},
-					"charging" : {
-						"frames" : 3,
-						"cycle" : 1.2,
+					"cooldown" : {
+						"frames" : 2,
+						"cycle" : 1.5,
 						"mode" : "transition",
 						"transition" : "idle"
 					}
@@ -44,42 +44,36 @@
 				"properties" : {
 					"image" : "<partImage><paletteSwaps>",
 					"centered" : true,
-					"offset" : [1.5,-0.25],
+					"offset" : [1.5,-0.625],
 					"transformationGroups" : ["weapon"]
 				},
 				"partStates" : {
 					"body" : {
 						"idle" : {
 							"properties" : {"image" : "<partImage>:idle"}
-						},
-						"empty" : {
-							"properties" : {"image" : "<partImage>:empty"}
-						},
-						"charging" : {
-							"properties" : {"image" : "<partImage>:charging.<frame>"}
 						}
 					}
 				}
 			},
-			"fullbright" : {
+			"lights" : {
 				"properties" : {
 					"image" : "<partImage><paletteSwaps>",
 					"fullbright" : true,
 					"centered" : true,
-					"offset" : [1.5,-0.25],
+					"offset" : [3.375,-0.75],
 					"zLevel" : 1,
 					"transformationGroups" : ["weapon"]
 				},
 				"partStates" : {
 					"body" : {
 						"idle" : {
-							"properties" : {"image" : "<partImage>:idle"}
+							"properties" : {"image" : "<partImage>:full"}
 						},
 						"empty" : {
 							"properties" : {"image" : "<partImage>:empty"}
 						},
-						"charging" : {
-							"properties" : {"image" : "<partImage>:charging.<frame>"}
+						"cooldown" : {
+							"properties" : {"image" : "<partImage>:charge.<frame>"}
 						}
 					}
 				}
@@ -88,7 +82,7 @@
 				"properties" : {
 					"zLevel" : 2,
 					"centered" : true,
-					"offset" : [0.625,0.375],
+					"offset" : [0,0],
 					"fullbright" : true,
 					"transformationGroups" : ["muzzle"]
 				},

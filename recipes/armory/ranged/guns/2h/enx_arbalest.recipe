@@ -6,7 +6,7 @@
    { "item" : "wire", "count" : 4 }
   ],
   "output" : {
-    "item" : "furailgun",
+    "item" : "enx_arbalest",
     "count" : 1
   },
   "groups" : [ "armory3", "ranged2", "all" ]

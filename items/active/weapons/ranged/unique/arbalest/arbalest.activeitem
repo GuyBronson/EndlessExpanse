@@ -1,31 +1,31 @@
 {
-	"itemName" : "furailgun",
+	"itemName" : "enx_arbalest",
 	"level" : 5,
 	"price" : 1500,
 	"maxStack" : 1,
 	"rarity" : "rare",
 	"description" : "The 'V' stands for 'Violence'
 ^yellow;Capable of piercing any and all material^reset;",
-	"shortdescription" : "HyperV Arbalest",
+	"shortdescription" : "Hyper-V Arbalest",
 	"tooltipKind" : "gun2",
 	"category" : "sniperRifle",
 	"twoHanded" : true,
 	"itemTags" : ["weapon","ranged","sniperrifle", "energy", "upgradeableWeapon"],
 
-	"inventoryIcon" : "hyperveloclance.png:idle",
+	"inventoryIcon" : "arbalest.png:idle",
 
-	"animation" : "hyperveloclance.animation",
+	"animation" : "arbalest.animation",
 	"animationParts" : {
-		"body" : "hyperveloclance.png",
-		"fullbright" : "hyperveloclancefb.png",
+		"body" : "arbalest.png",
+		"lights" : "arbalest_lights.png",
 		"muzzleFlash" : ""
 	},
 	"animationCustom" : {
 		"sounds" : {
-		  "fire" : [ "/sfx/weapons/furailgunshot.wav" ]
+		  "fire" : [ "/sfx/weapons/enx_arbalestshot.wav" ]
 		}
 	},
-	"muzzleOffset" : [2.0,0.5],
+	"muzzleOffset" : [0,0],
 
 	"scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -49,12 +49,7 @@
 		"inaccuracy" : 0,
 		"fireType" : "auto",
 
-		"projectileType" : "railgunrod",
-		"projectileParameters" : {
-			"knockback" : 20,
-			"speed" : 100,
-			"power" : 2
-		},
+		"projectileType" : "enx_arbalestshot",
 		"projectileCount" : 1,
 
 		"stances" : {
@@ -91,7 +86,7 @@
 				"twoHanded" : true,
 				
 				"animationStates" : {
-					"body" : "charging"
+					"body" : "cooldown"
 				},
 
 				"allowRotate" : true,
