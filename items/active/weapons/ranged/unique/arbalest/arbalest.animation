@@ -10,8 +10,8 @@
 				"states" : {
 					"off" : {},
 					"fire" : {
-						"frames" : 1,
-						"cycle" : 1,
+						"frames" : 4,
+						"cycle" : 0.4,
 						"mode" : "transition",
 						"transition" : "off"
 					}
@@ -28,11 +28,12 @@
 					"empty" : {
 						"frames" : 1,
 						"cycle" : 1,
-						"mode" : "loop"
+						"mode" : "transition",
+						"transition" : "cooldown"
 					},
 					"cooldown" : {
 						"frames" : 2,
-						"cycle" : 1.5,
+						"cycle" : 1.8,
 						"mode" : "transition",
 						"transition" : "idle"
 					}
@@ -82,21 +83,17 @@
 				"properties" : {
 					"zLevel" : 2,
 					"centered" : true,
-					"offset" : [0,0],
+					"offset" : [2.125,0.375],
 					"fullbright" : true,
 					"transformationGroups" : ["muzzle"]
 				},
 				"partStates" : {
 					"firing" : {
 						"off" : {
-							"properties" : {
-								"image" : ""
-							}
+							"properties" : {"image" : ""}
 						},
 						"fire" : {
-							"properties" : {
-								"image" : ""
-							}
+							"properties" : {"image" : "<partImage>:<frame>"}
 						}
 					}
 				}
@@ -122,7 +119,7 @@
 		"muzzleFlash" : {
 			"active" : false,
 			"position" : [0,0],
-			"color" : [255,255,255]
+			"color" : [180,180,25]
 		}
 	},
 	"sounds" : {

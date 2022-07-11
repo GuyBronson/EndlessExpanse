@@ -18,24 +18,20 @@
 	"animationParts" : {
 		"body" : "arbalest.png",
 		"lights" : "arbalest_lights.png",
-		"muzzleFlash" : ""
+		"muzzleFlash" : "arbalest_muzzle.png"
 	},
 	"animationCustom" : {
 		"sounds" : {
 		  "fire" : [ "/sfx/weapons/enx_arbalestshot.wav" ]
 		}
 	},
-	"muzzleOffset" : [0,0],
+	"muzzleOffset" : [2,0],
 
 	"scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
 	"critChance" : 9,
 	"critBonus" : 12,
 	"isSniper" : 1,
-
-	"hasRecoil" : 1,
-	"recoilSpeed" : 300,
-	"recoilForce" : 1500,
 	
 	"elementalType" : "physical",
 
@@ -43,9 +39,9 @@
 		"scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
 		"class" : "GunFire",
 
-		"fireTime" : 2.0,
+		"fireTime" : 3.0,
 		"baseDps" : 4,
-		"energyUsage" : 120,
+		"energyUsage" : 65,
 		"inaccuracy" : 0,
 		"fireType" : "auto",
 
@@ -64,8 +60,8 @@
 			},
 			"fire" : {
 				"frontArmFrame" : "run.3",
-				"duration" : 0.3,
-				"armRotation" : 4,
+				"duration" : 0,
+				"armRotation" : 0,
 				"weaponRotation" : 0,
 			
 				"twoHanded" : true,
@@ -79,15 +75,11 @@
 			},
 			"cooldown" : {
 				"frontArmFrame" : "run.3",
-				"duration" : 1.5,
+				"duration" : 2.8,
 				"armRotation" : 0,
 				"weaponRotation" : 0,
 				
 				"twoHanded" : true,
-				
-				"animationStates" : {
-					"body" : "cooldown"
-				},
 
 				"allowRotate" : true,
 				"allowFlip" : true
