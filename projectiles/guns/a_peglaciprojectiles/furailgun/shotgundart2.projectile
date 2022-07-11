@@ -12,7 +12,7 @@
   "power" : 10,
   "fullbright" : true,
    "lightColor" : [40, 40, 100],
-  "damageKind" : "physical",
+  "damageKind" : "electric",
    "actionOnReap" : [
     {
       "action" : "projectile",
@@ -36,7 +36,7 @@
       "inheritDamageFactor" :0.03,
       "timeToLive" : 0.5,
       "fuzzAngle" : 0,
-      "projectileParameters" : { "damageSourceKind" : "physical" }
+      "projectileParameters" : { "damageSourceKind" : "electric" }
    }
     ]
 }
