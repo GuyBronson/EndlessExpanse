@@ -1,0 +1,8 @@
+{
+  "frames" : "aetheriumphantomtrail.png",
+  "variants" : 1,
+  "frameNumber" : 4,
+  "loops" : 100.0,
+  "animationCycle" : 0.6,
+  "offset" : [0, 0]
+}

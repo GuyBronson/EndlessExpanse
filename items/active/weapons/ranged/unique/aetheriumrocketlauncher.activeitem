@@ -18,7 +18,7 @@
     "middle" : "aetheriumrocketlauncher.png",
     "middlefullbright" : "aetheriumrocketlauncherfullbright.png",
     "barrel" : "",
-    "muzzleFlash" : "/animations/muzzleflash/matterblastlightblue.png"
+    "muzzleFlash" : ""
   },
   "animationCustom" : {
     "animatedParts" : {
@@ -27,7 +27,7 @@
           "properties" : {
             "centered" : true,
             "image" : "<partImage><paletteSwaps>",
-            "offset" : [1.30, 0.785],
+            "offset" : [1.60, 0.785],
             "transformationGroups" : ["weapon"],
             "fullbright" : true,
             "zLevel" : 1
@@ -49,8 +49,8 @@
   },
 
 
-  "baseOffset" : [1.30, 0.785],
-  "muzzleOffset" : [1.5, 0.15],
+  "baseOffset" : [1.60, 0.785],
+  "muzzleOffset" : [1.1, 0.15],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
@@ -61,7 +61,7 @@
     "class" : "GunFire",
 
     "fireTime" : 2,
-    "baseDps" : 5.5,
+    "baseDps" : 10,
     "energyUsage" : 60,
 
     "projectileCount" : 6,
@@ -71,13 +71,15 @@
     "projectileType" : "aethermissile",
     "projectileParameters" : {
       "speed" : 40,
-      "knockback" : 8
+      "knockback" : 8,
+	  "damageKind" : "aether"
     },
 
     "stances" : {
-      "idle" : {
+       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
+        "weaponOffset" : [0, 0],
         "twoHanded" : true,
 
         "allowRotate" : true,
@@ -85,17 +87,19 @@
       },
       "fire" : {
         "duration" : 0,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.2, 0],
         "twoHanded" : true,
 
         "allowRotate" : false,
         "allowFlip" : false
       },
       "cooldown" : {
-        "duration" : 0.25,
-        "armRotation" : 5,
-        "weaponRotation" : 5,
+        "duration" : 0.4,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.2, 0],
         "twoHanded" : true,
 
         "allowRotate" : false,

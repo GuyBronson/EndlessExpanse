@@ -29,7 +29,7 @@
         "middlefullbright" : {
 		  "properties" : {
 			//Same as BaseOffset
-		    "offset" : [1.5, 0.35]
+		    "offset" : [1.45, 0.2]
 		  }
 		}
       }
@@ -48,8 +48,8 @@
     }
   },
 
-  "baseOffset" : [1.5, 0.35],
-  "muzzleOffset" : [1.8, 0.125],
+  "baseOffset" : [1.45, 0.2],
+  "muzzleOffset" : [2, 0.225],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
 
