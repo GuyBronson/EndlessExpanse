@@ -112,15 +112,15 @@
 		"value": {
 			"primaryDungeon": "shoggothdungeon",
 			"threatLevel": 7,
-			"gravity": 110,
-			"airless": true,
+			"gravity": 80,
+			"airless": false,
 			"worldSize": [2000, 2000],
 			"dungeonBaseHeight": 1400,
 			"dungeonSurfaceHeight": 1209,
 			"ambientLightLevel": [15, 25, 10],
 			"biome": "shoggothbiome",
 			"musicTrack": "/sfx/ambiance/shoggoth.ogg",
-			"environmentStatusEffects": ["ffbiomecold3"]
+			"environmentStatusEffects": []
 		}
 	},
 	{
