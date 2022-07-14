@@ -3,21 +3,19 @@
   "materialName" : "precursordetail",
   "particleColor" : [60, 60, 60, 255],
   "itemDrop" : "precursordetail",
-  "description" : "An ancient construct of unknown origin",
-  "shortdescription" : "Precursor Tech Tile",
+  "description" : "Bulky metallic paneling. Gives off a subtle warmth",
+  "shortdescription" : "Precursor Casing Panel",
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
   "health" : 32,
   "category": "materials",
 
-  "renderTemplate" : "/tiles/fuclassicnopaint.config",
+  "renderTemplate" : "/tiles/materials/precursor/precursordetail.config",
   "renderParameters" : {
     "texture" : "precursordetail.png",
-    "variants" : 56,
+    "variants" : 2,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
     "zLevel" : 0
   }
 }
-
-
