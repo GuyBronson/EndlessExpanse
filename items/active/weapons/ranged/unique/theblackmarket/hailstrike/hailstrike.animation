@@ -10,19 +10,31 @@
         "states" : {
           "off" : {},
           "fire" : {
-            "frames" : 2,
-            "cycle" : 0.2,
+            "frames" : 4,
+            "cycle" : 0.25,
             "mode" : "transition",
             "transition" : "off"
           }
         }
       },
-      "middle" : {
-        "default" : "idle",
+	  "charge" : {
+        "default" : "off",
         "states" : {
-          "idle" : {
+          "off" : {},
+		  "charging" : {
             "frames" : 4,
-            "cycle" : 0.4,
+            "cycle" : 0.25,
+            "mode" : "loop"
+          }
+        }
+      },
+	  "chargehold" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+		  "on" : {
+            "frames" : 4,
+            "cycle" : 0.25,
             "mode" : "loop"
           }
         }
@@ -41,36 +53,20 @@
       "middle" : {
         "properties" : {
           "centered" : true,
-          "zLevel" : 0,
-          "fullbright" : true,
+		  "zLevel" : -2,
+          "image" : "<partImage><paletteSwaps>",
           "offset" : [0, 0], // x offset is set dynamically
           "transformationGroups" : ["weapon"]
-        },
-        "partStates" : {
-          "middle" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle.<frame><paletteSwaps>"
-              }
-            }
-          }
         }
       },
-      "middlefullbright" : {
+	   "middlefullbright" : {
         "properties" : {
+		  "zLevel" : -1,
           "centered" : true,
-          "offset" : [0.8, -0.55],
-          "zLevel" : 1,
+		  "fullbright" : true,
+          "image" : "<partImage><paletteSwaps>",
+          "offset" : [1.9, -1], // x offset is set dynamically
           "transformationGroups" : ["weapon"]
-        },
-        "partStates" : {
-          "middle" : {
-            "idle" : {
-              "properties" : {
-                "image" : "<partImage>:idle.<frame><paletteSwaps>"
-              }
-            }
-          }
         }
       },
       "barrel" : {
@@ -94,7 +90,87 @@
           "firing" : {
             "fire" : {
               "properties" : {
-                "image" : "<partImage>:<variant>.<frame>"
+                "image" : "<partImage>.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "charge" : {
+        "properties" : {
+          "zLevel" : 0,
+          "centered" : true,
+		  //NOTE: This offset value is generally the same as the weapon's baseOffset
+          "offset" : [1.9, -1.0],
+          "fullbright" : false,
+          "transformationGroups" : ["weapon"]
+        },
+
+        "partStates" : {
+          "charge" : {
+            "charging" : {
+              "properties" : {
+                "image" : "<partImage>:<frame>"
+              }
+            }
+          }
+        }
+      },
+	  "chargehold" : {
+        "properties" : {
+          "zLevel" : 0,
+          "centered" : true,
+		  //NOTE: This offset value is generally the same as the weapon's baseOffset
+          "offset" : [1.9, -1.0],
+          "fullbright" : false,
+          "transformationGroups" : ["weapon"]
+        },
+
+        "partStates" : {
+          "chargehold" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<frame>"
+              }
+            }
+          }
+        }
+      },
+	  	"chargefullbright" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : true,
+		  //NOTE: This offset value is generally the same as the weapon's baseOffset
+          "offset" : [1.9, -1.0],
+          "fullbright" : true,
+          "transformationGroups" : ["weapon"]
+        },
+
+        "partStates" : {
+          "charge" : {
+            "charging" : {
+              "properties" : {
+                "image" : "<partImage>:<frame>"
+              }
+            }
+          }
+        }
+      },
+	  "chargeholdfullbright" : {
+        "properties" : {
+          "zLevel" : 1,
+          "centered" : true,
+		  //NOTE: This offset value is generally the same as the weapon's baseOffset
+          "offset" : [1.9, -1.0],
+          "fullbright" : true,
+          "transformationGroups" : ["weapon"]
+        },
+
+        "partStates" : {
+          "chargehold" : {
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<frame>"
               }
             }
           }
@@ -116,6 +192,7 @@
 
   "particleEmitters" : {
     "muzzleFlash" : {
+      "emissionRate" : 10.0,
       "transformationGroups" : ["muzzle"],
       "offsetRegion" : [0, 0, 0, 0],
       "particles" : [ ]
@@ -131,6 +208,9 @@
   },
 
   "sounds" : {
-    "fire" : [ ]
+    "fire" : [ ],
+	"chargeLoop" : [ ],
+	"holdLoop" : [ ],
+	"discharge" : [ ]
   }
 }

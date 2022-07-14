@@ -14,20 +14,26 @@
   "itemTags" : ["weapon","ranged","assaultrifle", "assaultrifle", "energy", "upgradeableWeapon"],
 
   "inventoryIcon" : [
-    { "image" : "hailstrike.png:idle.1" }
+    { "image" : "hailstrike.png:1" }
   ],
+  
+  "cursor" : "/cursors/hailstrikereticle.cursor",
 
   "animation" : "hailstrike.animation",
   "animationParts" : {
     "butt" : "",
-    "middle" : "hailstrike.png",
-    "middlefullbright" : "hailstrikefullbright.png",
+    "middle" : "hailstrike.png:1",
+	"middlefullbright" : "hailstrikefullbright.png:1",
     "barrel" : "",
-    "muzzleFlash" : ""
+    "muzzleFlash" : "",
+    "charge" : "hailstrike.png",
+    "chargehold" : "hailstrike.png",
+	"chargefullbright": "hailstrikefullbright.png",
+    "chargeholdfullbright": "hailstrikefullbright.png"
   },
   "animationCustom" : {
     "lights" : { "glow" : {
-      "active" : true,
+      "active" : false,
       "position" : [0.75, 0.5],
       "color" : [0, 120, 120]
     }},
@@ -35,27 +41,31 @@
       "fire" : [ "/sfx/weapons/hailstrike.ogg" ]
     }
   },
-  "baseOffset" : [0.8, -0.55],
-  "muzzleOffset" : [2.2, -0.25],
+  "baseOffset" : [1.9, -1],
+  "muzzleOffset" : [2.6, 0.2],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua", "/items/active/scripts/heavyweapon2.lua"],
+  "scripts" : ["/items/active/scripts/thea-gun.lua"],
 
   "elementalType" : "cosmic",
 
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
+    "scripts" : ["/items/active/weapons/ranged/abilities/thea-minigun.lua"],
+    "class" : "TheaMinigun",
 
-    "fireTime" : 0.24,
-    "baseDps" : 6.25,
-    "energyUsage" : 40,
+    "fireTime" : 0.08,
+    "baseDps" : 29,
+    "energyUsage" : 50,
     "inaccuracy" : 0.056,
-    "fireType" : "auto",
+    
+	"chargeTime" : 1,
+	"resetTime" : 1.4,
+
+	"walkWhileFiring" : true,
 
     "projectileType" : "fuhailstrikeshot",
     "projectileParameters" : {
       "knockback" : 1.5,
-      "speed" : 72
+      "speed" : 80
     },
     "projectileCount" : 1,
 
@@ -63,6 +73,14 @@
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+	  "charge" : {
+        "armRotation" : -2,
+        "weaponRotation" : 2,
         "twoHanded" : true,
 
         "allowRotate" : true,
@@ -77,10 +95,20 @@
         "allowRotate" : false,
         "allowFlip" : false
       },
-      "cooldown" : {
-        "duration" : 0.0,
-        "armRotation" : 1,
-        "weaponRotation" : 1,
+	  "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : 6,
+        "weaponRotation" : 6,
+	    "weaponOffset" : [-0.15, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "discharge" : {
+        "duration" : 0.1,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
         "twoHanded" : true,
 
         "allowRotate" : false,
@@ -91,80 +119,9 @@
 
   "critChance" : 2,
   "critBonus" : 2,
-  //recoil
-  "hasRecoil" : 1,
-  "recoilSpeed" : 200,
-  "recoilForce" : 1500,
 
 
   "altAbilityType" : "hailstrikealt",
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua",
-
-  "upgradeParameters" : {
-    "scripts" : [ "/items/active/weapons/ranged/gun.lua", "/items/active/scripts/heavyweapon2.lua" ],
-    "shortdescription" : "^cyan;Deathstrike^reset; ^yellow;^reset;",
-  "description" : "Perfection.
-^cyan;+2 projectiles^reset;
-^yellow;Homing projectiles^reset;
-^green;Alt ignores walls^reset;",
-  "animationParts" : {
-    "butt" : "",
-    "middle" : "deathstrike.png",
-    "middlefullbright" : "deathstrikefullbright.png",
-    "barrel" : "",
-    "muzzleFlash" : ""
-    },
-    "inventoryIcon" : [
-    { "image" : "deathstrike.png:idle.1" }
-    ],
-    "critChance" : 4,
-    "critBonus" : 4,
-	  "primaryAbility" : {
-	    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-	    "class" : "GunFire",
-
-	    "fireTime" : 0.24,
-	    "baseDps" : 7.4,
-	    "energyUsage" : 45,
-	    "inaccuracy" : 0.056,
-	    "fireType" : "auto",
-
-	    "projectileType" : "fuhailstrikeshot",
-	    "projectileParameters" : {
-	      "knockback" : 2.2,
-	      "speed" : 72
-	    },
-	    "projectileCount" : 2,
-
-	    "stances" : {
-	      "idle" : {
-		"armRotation" : 0,
-		"weaponRotation" : 0,
-		"twoHanded" : true,
-
-		"allowRotate" : true,
-		"allowFlip" : true
-	      },
-	      "fire" : {
-		"duration" : 0,
-		"armRotation" : 1,
-		"weaponRotation" : 1,
-		"twoHanded" : true,
-
-		"allowRotate" : false,
-		"allowFlip" : false
-	      },
-	      "cooldown" : {
-		"duration" : 0.0,
-		"armRotation" : 1,
-		"weaponRotation" : 1,
-		"twoHanded" : true,
-
-		"allowRotate" : false,
-		"allowFlip" : false
-	      }
-	    }
-	  }
-  }
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
 }
