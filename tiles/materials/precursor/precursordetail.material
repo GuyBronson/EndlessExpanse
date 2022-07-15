@@ -3,8 +3,12 @@
   "materialName" : "precursordetail",
   "particleColor" : [60, 60, 60, 255],
   "itemDrop" : "precursordetail",
-  "description" : "Bulky metallic paneling. Gives off a subtle warmth",
   "shortdescription" : "Precursor Casing Panel",
+  "description" : "Bulky metallic paneling. Radiates noticeable heat.",
+  "floranDescription" : "It'sss sso warm... floran might faint.",
+  "glitchDescription" : "Exhausted. Whatever lies within this casing is overwhelming.",
+  "apexDescription" : "It's places like these that make me wish we had no hair.",
+  "novakidDescription" : "Hoo boy! It feels almost like starbathin'!",
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
   "health" : 32,
   "category": "materials",
@@ -16,6 +20,6 @@
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : true,
-    "zLevel" : 0
+    "zLevel" : 70
   }
 }

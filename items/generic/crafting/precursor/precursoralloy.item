@@ -4,7 +4,7 @@
   "price" : 15,
   "category" : "craftingMaterial",
   "inventoryIcon" : "precursoralloy.png",
-  "description" : "You've no idea what metals this is made from.",
+  "description" : "Precursor Metal. Its forging process and very composition are lost to time.",
   "shortdescription" : "Precursor Alloy",
   "learnBlueprintsOnPickup" : [
     "precursorchain",

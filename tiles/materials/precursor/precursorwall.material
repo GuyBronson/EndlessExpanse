@@ -3,7 +3,7 @@
   "materialName" : "precursorwall",
   "particleColor" : [60, 60, 60, 255],
   "itemDrop" : "precursorwall",
-  "description" : "An ancient construct of unknown origin",
+  "description" : "Precisely cut Lunari crystals set inside a metallic frame",
   "shortdescription" : "Precursor Wall Panel",
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
   "health" : 32,
@@ -12,11 +12,11 @@
   "renderTemplate" : "/tiles/fuclassicnopaint.config",
   "renderParameters" : {
     "texture" : "precursorwall.png",
-    "variants" : 5,
+    "variants" : 3,
     "lightTransparent" : false,
     "occludesBelow" : false,
     "multiColored" : true,
-    "zLevel" : 0
+    "zLevel" : 50
   },
 
   "liquidInteractions" : [
