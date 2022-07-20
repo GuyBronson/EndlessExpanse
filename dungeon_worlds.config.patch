@@ -112,15 +112,15 @@
 		"value": {
 			"primaryDungeon": "shoggothdungeon",
 			"threatLevel": 7,
-			"gravity": 110,
-			"airless": true,
+			"gravity": 80,
+			"airless": false,
 			"worldSize": [2000, 2000],
 			"dungeonBaseHeight": 1400,
 			"dungeonSurfaceHeight": 1209,
 			"ambientLightLevel": [15, 25, 10],
 			"biome": "shoggothbiome",
 			"musicTrack": "/sfx/ambiance/shoggoth.ogg",
-			"environmentStatusEffects": ["ffbiomecold3"]
+			"environmentStatusEffects": ["dontstarve"]
 		}
 	},
 	{
@@ -129,8 +129,8 @@
 		"value": {
 			"primaryDungeon": "eldershoggoth",
 			"threatLevel": 7,
-			"gravity": 110,
-			"airless": true,
+			"gravity": 80,
+			"airless": false,
 			"worldSize": [2000, 2000],
 			"dungeonBaseHeight": 1400,
 			"dungeonSurfaceHeight": 1209,
@@ -142,7 +142,7 @@
 				[0.10, "darkblast"]
 			],
 			"biome": "shoggothbiome",
-			"environmentStatusEffects": ["ffbiomecold3"]
+			"environmentStatusEffects": ["dontstarve"]
 		}
 	},
 	{
@@ -151,18 +151,18 @@
 		"value": {
 			"primaryDungeon": "eldershoggoth2",
 			"threatLevel": 8,
-			"gravity": 110,
+			"gravity": 80,
 			"airless": true,
 			"worldSize": [2000, 2000],
 			"dungeonBaseHeight": 1400,
 			"dungeonSurfaceHeight": 1209,
 			"ambientLightLevel": [15, 25, 10],
 			"weatherPool": [
-				[1.0, "freezestorm"]
+				[]
 			],
 			"biome": "shoggothbiome"
 		},
-		"environmentStatusEffects": ["ffbiomecold4"]
+		"environmentStatusEffects": ["dontstarve"]
 	},
 	{
 		"op": "add",
