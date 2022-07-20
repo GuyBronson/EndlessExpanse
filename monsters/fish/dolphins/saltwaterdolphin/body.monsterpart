@@ -1,0 +1,8 @@
+{
+	"name": "saltwaterdolphin",
+	"category": "saltwaterdolphin",
+	"type": "body",
+	"frames": {
+		"body": "saltwaterdolphin.png"
+	}
+}
