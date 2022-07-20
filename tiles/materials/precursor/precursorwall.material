@@ -3,7 +3,7 @@
   "materialName" : "precursorwall",
   "particleColor" : [60, 60, 60, 255],
   "itemDrop" : "precursorwall",
-  "description" : "Precisely cut Lunari crystals set inside a metallic frame",
+  "description" : "Wall paneling made from flawless Lunari crystals set inside a metal frame.",
   "shortdescription" : "Precursor Wall Panel",
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
   "health" : 32,
