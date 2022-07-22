@@ -12,24 +12,10 @@
   "renderTemplate" : "/tiles/fuclassicnopaint.config",
   "renderParameters" : {
     "texture" : "precursorpanel.png",
-    "variants" : 5,
+    "variants" : 7,
     "lightTransparent" : false,
     "occludesBelow" : false,
     "multiColored" : true,
-    "zLevel" : 48
-  },
-
-  "liquidInteractions" : [
-    {
-      "liquidId" : 2,
-      "consumeLiquid" : 0.55,
-      "transformMaterialId" : 37
-    },
-    {
-      "liquidId" : 52,
-      "consumeLiquid" : 0.55,
-      "transformMaterialId" : 37
-    }
-  ]
-
+    "zLevel" : 200
+  }
 }
