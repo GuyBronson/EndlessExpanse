@@ -1,12 +1,12 @@
 {
-  "type" : "largefish3",
-  "shortdescription" : "Megalak",
+  "type" : "largefish2",
+  "shortdescription" : "Tressalak",
   "description" : "A feared oceanic predator, curiously nearly identical on numerous worlds.",
 
-  "categories" : [ "largefish2" ],
+  "categories" : [ "megashark" ],
   "parts" : [ "head", "tail" ],//,"fin"
 
-  "animation" : "largefish2.animation",
+  "animation" : "megashark.animation",
 
   "baseParameters" : {
     "scripts" : [
@@ -21,7 +21,7 @@
     ],
 
     "metaBoundBox" : [-2.0, -2.0, 2.0, 2.0],
-    "scale" : 2.0,
+    "scale" : 1.0,
 
     "movementSettings" : {
       "collisionPoly" : [ [-4, -1.0], [4, -1.0], [4, 0.5], [-4, 0.5] ],
@@ -76,7 +76,7 @@
 
     "touchDamage" : {
       "poly" : [ [-2.5, -1.0], [2.5, -1.0], [2.5, 0.5], [-2.5, 0.5] ],
-      "damage" : 25,
+      "damage" : 15,
 
       "teamType" : "enemy",
       "damageSourceKind" : "slash",
@@ -106,7 +106,7 @@
           "baseValue" : 9
         },
         "maxHealth" : {
-          "baseValue" : 192
+          "baseValue" : 92
         },
         "protection" : {
           "baseValue" : 0.0

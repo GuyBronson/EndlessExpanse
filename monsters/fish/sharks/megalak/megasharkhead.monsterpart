@@ -1,0 +1,9 @@
+{
+  "name" : "megasharkhead",
+  "category" : "megashark",
+  "type" : "head",
+
+  "frames" : {
+    "head" : "megasharkhead.png"
+  }
+}

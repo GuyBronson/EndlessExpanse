@@ -1,0 +1,9 @@
+{
+  "name" : "minishark",
+  "category" : "minishark",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "minishark.png"
+  }
+}
