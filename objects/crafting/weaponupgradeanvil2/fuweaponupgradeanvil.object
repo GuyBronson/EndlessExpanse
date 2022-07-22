@@ -29,8 +29,8 @@
       "lightPosition" : [0, 1],
 
       "imagePosition" : [-44, 0],
-      "frames" : 12,
-      "animationCycle" : 2.5,
+      "frames" : 10,
+      "animationCycle" : 1,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]
@@ -41,8 +41,8 @@
       "lightPosition" : [0, 1],
 
       "imagePosition" : [-44, 0],
-      "frames" : 12,
-      "animationCycle" : 2.5,
+      "frames" : 10,
+      "animationCycle" : 1,
 
       "spaceScan" : 0.1,
       "anchors" : [ "bottom" ]

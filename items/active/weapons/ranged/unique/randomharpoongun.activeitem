@@ -7,7 +7,7 @@
   "description" : "Impale your enemies, rather than just killing them.
 ^yellow;Inflicts bleeding^reset;
 ^cyan;Hunting weapon^reset;",
-  "shortdescription" : "Harpoon Gun",
+  "shortdescription" : "Dolphin Slayer",
   "category" : "sniperRifle",
   "level" : 1,
   "tooltipKind" : "gun2",
@@ -28,7 +28,7 @@
     }
   },
 
-  "baseOffset" : [1.5, 0.32],
+  "baseOffset" : [2.5, -0.8],
   "muzzleOffset" : [1.645, 0.125],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
@@ -38,17 +38,17 @@
   "primaryAbility" : {
     "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
     "class" : "GunFire",
-    "fireTime" : 0.934,
-    "baseDps" : 9.2,
+    "fireTime" : 2,
+    "baseDps" : 7,
     "energyUsage" : 32.5,
-    "inaccuracy" : 0,
+    "inaccuracy" : 0.01,
     "projectileCount" : 1,
     "fireType" : "auto",
 
     "projectileType" : "harpoon2",
     "projectileParameters" : {
-      "speed" : 76,
-      "knockback" : 16,
+      "speed" : 110,
+      "knockback" : 30,
       "knockbackDirectional" : true,
       "lightColor" : [0, 0, 0]
     },
@@ -82,17 +82,13 @@
 	  }
   },
 
-  "critChance" : 5,
-  "critBonus" : 5,
+  "critChance" : 10,
+  "critBonus" : 10,
   "isSniper" : 1,
   //recoil
   "hasRecoil" : 1,
-  "recoilSpeed" : 200,
-  "recoilForce" : 300,
-
-  "isAmmoBased" : 1,
-  "magazineSize" : 6,
-  "reloadTime" : 1.2,
+  "recoilSpeed" : 600,
+  "recoilForce" : 800,
 
   "altAbilityType" : "superharpoon",
 
