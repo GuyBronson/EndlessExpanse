@@ -1,0 +1,9 @@
+{
+  "name" : "megasharktail",
+  "category" : "megashark",
+  "type" : "tail",
+
+  "frames" : {
+    "tail" : "megasharktail.png"
+  }
+}
