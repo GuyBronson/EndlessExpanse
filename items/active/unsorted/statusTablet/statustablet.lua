@@ -1,8 +1,8 @@
 function init()
   modes = {
-    primaryA = "/interface/scripted/statWindow/statWindow",
-    primaryB = "/zb/researchTree/researchTree",
-    altA = "/interface/scripted/mmutility/mmutility",
+    primaryA = "/zb/researchTree/researchTree",
+    primaryB = "/interface/scripted/mmutility/mmutility",
+    altA = "/interface/scripted/statWindow/statWindow",
     altB = "/zb/questList/questList"
   }
   sfx = {
