@@ -3,7 +3,7 @@
   "materialName" : "precursorfloor",
   "particleColor" : [60, 60, 60, 255],
   "itemDrop" : "precursorfloor",
-  "description" : "An ancient construct of unknown origin",
+  "description" : "Precursor floor panel. Exudes an uncomfortable warmth.",
   "shortdescription" : "Precursor Floor",
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
   "health" : 32,
@@ -12,7 +12,7 @@
   "renderTemplate" : "/tiles/fuclassicnopaint.config",
   "renderParameters" : {
     "texture" : "precursorfloor.png",
-    "variants" : 10,
+    "variants" : 4,
     "lightTransparent" : false,
     "occludesBelow" : false,
     "multiColored" : true,
