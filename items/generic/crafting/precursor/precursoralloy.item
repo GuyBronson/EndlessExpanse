@@ -4,7 +4,7 @@
   "price" : 15,
   "category" : "craftingMaterial",
   "inventoryIcon" : "precursoralloy.png",
-  "description" : "Precursor Metal. Its forging process and very composition are lost to time.",
+  "description" : "Precursor Metal. Solarium-Lead-Gold alloy forged through a lost process.",
   "shortdescription" : "Precursor Alloy",
   "learnBlueprintsOnPickup" : [
     "precursorchain",

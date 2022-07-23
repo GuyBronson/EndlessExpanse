@@ -3,7 +3,7 @@
     "category": "block",
     "rarity": "rare",
     "inventoryIcon": "precursorsloped.png",
-    "description": "Glorious ancient metal\n^green;Extractable^reset;.",
-    "shortdescription": "Precursor Sloped Panel",
+    "description": "Precursor metal with embedded lights.\n^green;Extractable^reset;.",
+    "shortdescription": "Precursor Sloped Metal",
     "materialId": 6770
 }
