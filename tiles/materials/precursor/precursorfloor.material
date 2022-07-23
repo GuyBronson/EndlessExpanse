@@ -3,7 +3,7 @@
   "materialName" : "precursorfloor",
   "particleColor" : [60, 60, 60, 255],
   "itemDrop" : "precursorfloor",
-  "description" : "Precursor floor panel. Exudes an uncomfortable warmth.",
+  "description" : "Exudes an uncomfortable warmth.",
   "shortdescription" : "Precursor Floor",
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
   "health" : 32,
@@ -12,10 +12,10 @@
   "renderTemplate" : "/tiles/fuclassicnopaint.config",
   "renderParameters" : {
     "texture" : "precursorfloor.png",
-    "variants" : 4,
+    "variants" : 1,
     "lightTransparent" : false,
     "occludesBelow" : false,
     "multiColored" : true,
-    "zLevel" : 0
+    "zLevel" : 500
   }
 }
