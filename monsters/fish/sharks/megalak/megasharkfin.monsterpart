@@ -1,0 +1,10 @@
+{
+  "name" : "megasharkfin",
+  "category" : "megashark",
+  "type" : "fin",
+
+  "frames" : {
+    "backfin" : "megasharkfinback.png",
+    "frontfin" : "megasharkfinfront.png"
+  }
+}

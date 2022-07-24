@@ -1,13 +1,13 @@
 {
   "type" : "dolphin2",
-  "shortdescription" : "Tressalak",
+  "shortdescription" : "Minnalak",
   "description" : "A feared oceanic predator, curiously nearly identical on numerous worlds.",
 
   "reversed" : true,
-  "categories" : [ "dolphin2" ],
+  "categories" : [ "minishark" ],
   "parts" : [ "body" ],
 
-  "animation" : "dolphin2.animation",
+  "animation" : "minishark.animation",
 
   "dropPools" : [
     {
