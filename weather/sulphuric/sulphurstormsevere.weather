@@ -56,7 +56,7 @@
     },
     {
 
-      "density" : 0.09,
+      "density" : 0.03,
       "autoRotate" : true,
 
       "particle" : {
