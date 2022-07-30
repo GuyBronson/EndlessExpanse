@@ -5,7 +5,7 @@
   "particles" : [
     {
 
-      "density" : 0.05,
+      "density" : 0.1,
       "autoRotate" : true,
 
       "particle" : {
@@ -23,7 +23,24 @@
       }
     },
     {
-      "density" : 0.05,
+      "density" : 0.1,
+      "particle" : {
+        "type" : "textured",
+        "image" : "/particles/sulphuricrain/1.png",
+        "velocity" : [0, -35.5],
+        "approach" : [15, 15],
+        "angularVelocity" : 0,
+        "timeToLive" : 20,
+        "destructionAction" : "Image",
+        "destructionTime" : 0.1,
+        "destructionImage" : "/particles/sulphuricsplash/1.png",
+        "collidesForeground" : true,
+        "collidesLiquid" : true,
+        "ignoreWind" : false
+      }
+    },
+    {
+      "density" : 0.09,
       "particle" : {
         "type" : "textured",
         "image" : "/particles/sulfursand/1.png",
@@ -35,7 +52,7 @@
       }
     },
     {
-      "density" : 0.05,
+      "density" : 0.09,
       "particle" : {
         "type" : "textured",
         "image" : "/particles/sulfursand/2.png",
@@ -47,7 +64,7 @@
       }
     },
     {
-      "density" : 0.09,
+      "density" : 0.12,
       "particle" : {
         "type" : "textured",
         "image" : "/particles/sulfursand/3.png",
@@ -66,7 +83,7 @@
         "power" : 1
       },
       "velocity" : [0, -100],
-      "ratePerX" : 0.2,
+      "ratePerX" : 0.1,
       "spawnAboveRegion" : 30,
       "spawnHorizontalPad" : 10,
       "windAffectAmount" : 1
@@ -74,10 +91,10 @@
     {
       "projectile" : "sulphurstone",
       "parameters" : {
-        "power" : 4
+        "power" : 9
       },
       "velocity" : [0, -50],
-      "ratePerX" : 0.004,
+      "ratePerX" : 0.01,
       "spawnAboveRegion" : 20,
       "spawnHorizontalPad" : 20,
       "windAffectAmount" : 0.5
@@ -85,20 +102,20 @@
     {
       "projectile" : "sand",
       "parameters" : {
-        "power" : 2
+        "power" : 3
       },
       "velocity" : [0, -15],
-      "ratePerX" : 0.08,
+      "ratePerX" : 0.1,
       "spawnAboveRegion" : 20,
       "spawnHorizontalPad" : 120,
       "windAffectAmount" : 1.0
     }
   ],
 
-  "statusEffects" : ["sandstorm", "sulphuricweatherstorm2"],
+  "statusEffects" : ["sulphuricweatherstorm"],
 
-  "duration" : [40, 120],
-  "maximumWind" : 72.0,
-  "lightningFrequency" : 0.112,
-  "weatherNoises" : [ "/sfx/weather/DesertMedium.ogg" ]
+  "duration" : [60, 180],
+  "maximumWind" : 92.0,
+  "lightningFrequency" : 0.242,
+  "weatherNoises" : [ "/sfx/weather/Downpour.ogg" ]
 }

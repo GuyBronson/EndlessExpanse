@@ -93,7 +93,6 @@
 "path" : "/aethercalm",
 "value" : [
     [0.60, "clear"],
-    [0.10, "sulphurstormlesser"],
     [0.05, "gravrain"],
     [0.05, "orangegravrain"],
     [0.05, "gravrainlight"],
@@ -408,7 +407,7 @@
     [0.15, "firestorm"],
     [0.1, "ember"],
     [0.1, "tarrain" ],
-    [0.1, "sulphuracidrain"],
+    [0.1, "sulphurstorm"],
     [0.1, "sulphuriccloud"],
     [0.2, "magmastorm"],
     [0.2, "magmastormgreater"],
@@ -425,10 +424,9 @@
     [0.1, "windstorm" ],
     [0.1, "firestorm"],
     [0.2, "magmastorm"],
-    [0.2, "sulphuracidrain"],
+    [0.3, "sulphurstorm"],
     [0.1, "sulphuriccloud"],
-    [0.2, "magmastormgreater"],
-    [0.2, "sulphurstormsevere"]
+    [0.2, "magmastormgreater"]
    ]
 },
 {
@@ -558,9 +556,7 @@
 "value" : [
     [0.3, "clear"],
     [0.2, "tarrain"],
-    [0.2, "sulphurstormlesser"],
-    [0.1, "sulphurstorm"],
-    [0.3, "sulphuracidrain"],
+    [0.5, "sulphurstorm"],
     [0.05, "fulightningstorm2"],
     [0.05, "fulightningrain2"],
     [0.001, "largemeteor"],
@@ -575,9 +571,7 @@
 "path" : "/sulphuric2",
 "value" : [
     [0.2, "tarrain"],
-    [0.2, "sulphurstormlesser"],
-    [0.1, "sulphurstorm"],
-    [0.3, "sulphuracidrain"],
+    [0.5, "sulphurstorm"],
     [0.025, "fulightningstorm2"],
     [0.025, "fulightningrain2"],
     [0.02, "fuheatblast3"],
@@ -592,9 +586,7 @@
 "path" : "/sulphuricinsane",
 "value" : [
     [0.1, "tarrain"],
-    [0.3, "sulphurstormlesser"],
-    [0.3, "sulphurstorm"],
-    [0.3, "sulphuracidrain"],
+    [0.9, "sulphurstorm"],
     [0.005, "meteorshower"],
     [0.001, "largemeteor"],
     [0.02, "fuheatblast3"],
@@ -609,8 +601,7 @@
 "value" : [
     [0.3, "clear"],
     [0.2, "tarrain"],
-    [0.1, "sulphurstormlesser"],
-    [0.1, "sulphuracidrain"],
+    [0.2, "sulphurstorm"],
     [0.2, "fu_smog"],
     [0.1, "fog2"],
     [0.1, "sulphuriccloud"]
@@ -987,8 +978,7 @@
 "value" : [
     [0.1, "fuheatblast2"],
     [0.1, "fulightningstorm"],
-    [0.5, "sulphurstormlesser"],
-    [0.1, "sulphurstormsevere"],
+    [0.6, "sulphurstorm"],
     [0.2, "fuearthquake"]
    ]
 },
@@ -998,8 +988,7 @@
 "value" : [
     [0.2, "fuheatblast3"],
     [0.1, "fulightningstorm"],
-    [0.1, "sulphurstormlesser"],
-    [0.5, "sulphurstormsevere"],
+    [0.6, "sulphurstorm"],
     [0.2, "fuearthquake"]
    ]
 },

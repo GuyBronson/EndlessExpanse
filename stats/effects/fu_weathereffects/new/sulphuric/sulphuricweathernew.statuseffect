@@ -41,5 +41,5 @@
 	"animationConfig" : "sulphuricweathernew.animation",
 
 	"label" : "Acidic Atmosphere (Resist: ^#a10000;Physical^reset;)",
-	"icon" : "/interface/statuses/acid1.png"
+	"icon" : "/interface/statuses/acid.png"
 }
