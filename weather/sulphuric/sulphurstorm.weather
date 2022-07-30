@@ -14,9 +14,12 @@
         "velocity" : [0, -2],
         "approach" : [15, 15],
         "angularVelocity" : 0,
-        "timeToLive" : 1000,
+        "timeToLive" : 20,
         "collidesForeground" : true,
-        "collidesLiquid" : true
+        "collidesLiquid" : true,
+        "destructionAction" : "shrink",
+        "destructionTime" : 2,
+        "ignoreWind" : false
       }
     },
     {
@@ -58,47 +61,25 @@
   ],
   "projectiles" : [
     {
+      "projectile" : "sulphuricrain",
+      "parameters" : {
+        "power" : 1
+      },
+      "velocity" : [0, -100],
+      "ratePerX" : 0.2,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 10,
+      "windAffectAmount" : 1
+    },
+    {
       "projectile" : "sulphurstone",
       "parameters" : {
-        "power" : 6
+        "power" : 4
       },
       "velocity" : [0, -50],
       "ratePerX" : 0.004,
       "spawnAboveRegion" : 20,
       "spawnHorizontalPad" : 20,
-      "windAffectAmount" : 0.5
-    },
-    {
-      "projectile" : "sulphurstone2",
-      "parameters" : {
-        "power" : 5
-      },
-      "velocity" : [0, -50],
-      "ratePerX" : 0.005,
-      "spawnAboveRegion" : 15,
-      "spawnHorizontalPad" : 30,
-      "windAffectAmount" : 0.5
-    },
-    {
-      "projectile" : "sulphurstone3",
-      "parameters" : {
-        "power" : 4
-      },
-      "velocity" : [0, -50],
-      "ratePerX" : 0.007,
-      "spawnAboveRegion" : 10,
-      "spawnHorizontalPad" : 30,
-      "windAffectAmount" : 0.5
-    },
-    {
-      "projectile" : "sulphurstone4",
-      "parameters" : {
-        "power" : 3
-      },
-      "velocity" : [0, -50],
-      "ratePerX" : 0.007,
-      "spawnAboveRegion" : 5,
-      "spawnHorizontalPad" : 30,
       "windAffectAmount" : 0.5
     },
     {
@@ -111,17 +92,6 @@
       "spawnAboveRegion" : 20,
       "spawnHorizontalPad" : 120,
       "windAffectAmount" : 1.0
-    },
-    {
-      "projectile" : "sulphuricrain",
-      "parameters" : {
-        "power" : 1
-      },
-      "velocity" : [0, -100],
-      "ratePerX" : 0.1,
-      "spawnAboveRegion" : 30,
-      "spawnHorizontalPad" : 10,
-      "windAffectAmount" : 1
     }
   ],
 
