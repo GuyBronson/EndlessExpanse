@@ -40,6 +40,6 @@
 
 	"animationConfig" : "sulphuricweathernew.animation",
 
-	"label" : "Extreme Acid Storm (Resist: ^#a10000;Physical^reset;)",
+	"label" : "Corrosion Monsoon",
 	"icon" : "/interface/statuses/acid.png"
 }

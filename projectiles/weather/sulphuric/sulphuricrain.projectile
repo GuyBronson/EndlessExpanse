@@ -1,6 +1,6 @@
 {
   "projectileName" : "sulphuricrain",
-  "physics" : "weather",
+  "physics" : "rain",
   "image" : "sulphuricrain.png",
   "animationCycle" : 0.5,
   "frameNumber" : 4,
@@ -14,5 +14,8 @@
       "newMod" : "tilleddry",
       "radius" : 5
     }
-  ]
+  ],
+  "onlyHitTerrain" : true,
+  "hydrophobic" : true,
+  "masterOnly" : true
 }
