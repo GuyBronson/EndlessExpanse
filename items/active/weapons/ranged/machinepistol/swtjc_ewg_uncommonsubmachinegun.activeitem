@@ -70,9 +70,6 @@
   "critBonus" : 3,
   "isMachinePistol" : 1,
   //recoil stats
-  "hasRecoil" : 1,
-  "recoilSpeed" : 200,
-  "recoilForce" : 400,
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
@@ -118,17 +115,17 @@
     },
     "animationParts" : {
       "butt" : {
-        "path" : "/items/active/weapons/ranged/pistol/butt/<variant>.png",
-        "variants" : 20,
+        "path" : "/items/active/weapons/ranged/machinepistol/submacbutt/<variant>.png",
+        "variants" : 15,
         "paletteSwap" : true
       },
-      "middle" : {
-        "path" : "/items/active/weapons/ranged/assaultrifle/middle/<variant>.png",
+       "middle" : {
+        "path" : "/items/active/weapons/ranged/machinepistol/submacmiddle/<variant>.png",
         "variants" : 20,
         "paletteSwap" : true
       },
       "barrel" : {
-        "path" : "/items/active/weapons/ranged/pistol/barrel/<variant>.png",
+        "path" : "/items/active/weapons/ranged/machinepistol/submacbarrel/<variant>.png",
         "variants" : 20,
         "paletteSwap" : true
       },

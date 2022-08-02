@@ -2,6 +2,9 @@
   {"op": "add","path": "/hasRecoil","value": 1},
   {"op": "add","path": "/recoilSpeed","value": 200},
   {"op": "add","path": "/recoilForce","value": 500},
+  {"op": "add","path": "/magazineSize","value": [12,29]},
+  {"op": "add","path": "/reloadTime","value": [1.2,2]},
+  {"op": "add","path": "/isAmmoBased","value": [0,1]},
   {
     "op": "add",
     "path": "/critChance",
