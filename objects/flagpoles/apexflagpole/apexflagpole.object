@@ -12,12 +12,12 @@
   "shortdescription" : "Apex Flag",
   "race" : "apex",
 
-  "apexDescription" : "This Apex flag is not one us Resistance types respond well to.",
+  "apexDescription" : "This Apex flag is not one us Resistance types respond well to, although we have used it on occasion to confuse Miniknog scouts.",
   "avianDescription" : "The Apex flag of oppression.",
   "floranDescription" : "Floran think this monkey flag mean ssspeed boost!",
   "glitchDescription" : "Statement. An Apex flag.",
   "humanDescription" : "This Apex flag is somewhat familiar.",
-  "hylotlDescription" : "This Apex flag reminds us of their barbaric hierarchy.",
+  "hylotlDescription" : "This Apex flag reminds us of their barbaric hierarchy and wanton militarism.",
   "novakidDescription" : "This ain't the flag of no civil Apex folk, that's for sure.",
 
   "interactAction" : "OpenTeleportDialog",
