@@ -8,17 +8,17 @@
   "price" : 0,
   "radioMessagesOnPickup" : [ "pickupflag" ],
 
-  "description" : "The flag of the Protectorate. Use ^green;[E]^reset; to bookmark a teleportation location.",
+  "description" : "The human flag. Use ^green;[E]^reset; to bookmark a teleportation location.",
   "shortdescription" : "Human Flag",
   "race" : "human",
 
-  "apexDescription" : "A human flag. Looks like it represents their organisation.",
+  "apexDescription" : "A human flag. Looks like it represents their government. A much more pleasant sight than the Miniknog flag.",
   "avianDescription" : "I see this human symbol a lot.",
   "floranDescription" : "Floran like meatman flag!",
-  "glitchDescription" : "Statement. A human flag, depicting the alternate symbol of the Terrene Protectorate.",
-  "humanDescription" : "The other flag of the Protectorate!",
-  "hylotlDescription" : "This human flag represents intercolonial co-operation.",
-  "novakidDescription" : "Can't say I'm as familiar with this Protectorate flag.",
+  "glitchDescription" : "Statement. A human flag, depicting their government in its entirety.",
+  "humanDescription" : "The flag of our government!",
+  "hylotlDescription" : "This human flag represents their rather enlightened democratic government.",
+  "novakidDescription" : "Can't say I'm as familiar with this Human flag.",
 
   "interactAction" : "OpenTeleportDialog",
   "interactData" : "/interface/warping/destinationonly.config",
