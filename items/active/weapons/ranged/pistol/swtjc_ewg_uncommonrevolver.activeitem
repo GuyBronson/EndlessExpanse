@@ -24,7 +24,7 @@
     "class" : "GunFire",
 
     "fireTime" : [0.7, 2.0],
-    "baseDps" : [5.0, 5.5],
+    "baseDps" : [6.5, 7],
     "energyUsage" : [19.5, 22.5],
     "inaccuracy" : 0.024,
 
@@ -65,19 +65,16 @@
 
   "critChance" : 1,
   "critBonus" : 6,
-  "isAmmoBased": [0,1],
-  "magazineSize" : [6,8],
-  "reloadTime" : [1.15,2.0],
+ 
   "isPistol" : 1,
   //recoil stats
-  "hasRecoil" : 1,
-  "recoilSpeed" : 200,
-  "recoilForce" : 300,
+  
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
     "nameGenerator" : "swtjc_ewg_revolvernames.config:nameGen",
     "elementalType" : [
+	  "physical",
       "fire",
       "ice",
       "electric",
@@ -87,56 +84,60 @@
       "cosmic"
     ],
     "elementalConfig" : {
+       "physical" : {
+        "primaryAbility" : { "projectileType" : "huntingbullet", "projectileParameters" : { "damageKind" : "bow", "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
+      },
       "fire" : {
-        "primaryAbility" : { "projectileType" : "fireplasma" },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/rifle1.ogg", "/sfx/gun/rifle2.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "primaryAbility" : { "projectileType" : "fireplasma", "projectileParameters" : { "damageKind" : "fireplasmashotgun", "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "ice" : {
-        "primaryAbility" : { "projectileType" : "iceplasma" },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/rifle1.ogg", "/sfx/gun/rifle2.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "primaryAbility" : { "projectileType" : "iceplasma", "projectileParameters" : { "damageKind" : "iceplasmashotgun", "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "poison" : {
-        "primaryAbility" : { "projectileType" : "poisonplasma" },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/rifle1.ogg", "/sfx/gun/rifle2.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "primaryAbility" : { "projectileType" : "poisonplasma", "projectileParameters" : { "damageKind" : "poisonplasmashotgun", "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "electric" : {
-        "primaryAbility" : { "projectileType" : "electricplasma" },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/rifle1.ogg", "/sfx/gun/rifle2.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "primaryAbility" : { "projectileType" : "electricplasma", "projectileParameters" : { "damageKind" : "electricplasmashotgun", "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "radioactive" : {
-        "primaryAbility" : { "projectileType" : "radioactiveplasma" },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/rifle1.ogg", "/sfx/gun/rifle2.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "primaryAbility" : { "projectileType" : "radioactiveplasma", "projectileParameters" : { "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "shadow" : {
-        "primaryAbility" : { "projectileType" : "shadowplasma" },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/rifle1.ogg", "/sfx/gun/rifle2.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "primaryAbility" : { "projectileType" : "shadowplasma", "projectileParameters" : { "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "cosmic" : {
-        "primaryAbility" : { "projectileType" : "cosmicplasma" },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/rifle1.ogg", "/sfx/gun/rifle2.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "primaryAbility" : { "projectileType" : "cosmicplasma", "projectileParameters" : {"speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       }
     },
     "animationParts" : {
       "butt" : {
-        "path" : "/items/active/weapons/ranged/pistol/butt/<variant>.png",
-        "variants" : 20,
+        "path" : "/items/active/weapons/ranged/pistol/rvbutt/<variant>.png",
+        "variants" : 10,
         "paletteSwap" : true
       },
       "middle" : {
-        "path" : "/items/active/weapons/ranged/pistol/middle/<variant>.png",
-        "variants" : 20,
+        "path" : "/items/active/weapons/ranged/pistol/rvmiddle/<variant>.png",
+        "variants" : 1,
         "paletteSwap" : true
       },
       "barrel" : {
-        "path" : "/items/active/weapons/ranged/shotgun/barrel/<variant>.png",
-        "variants" : 20,
+        "path" : "/items/active/weapons/ranged/pistol/rvbarrel/<variant>.png",
+        "variants" : 15,
         "paletteSwap" : true
       },
       "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
     },
     "gunParts" : ["butt", "middle", "barrel"],
     "altAbilities" : [ ],
-    "palette" : "/items/active/weapons/colors/ranged.weaponcolors",
+    "palette" : "/items/active/weapons/colors/rangedspecial.weaponcolors",
     "iconDrawables" : ["butt", "middle", "barrel"]
   }]
 }

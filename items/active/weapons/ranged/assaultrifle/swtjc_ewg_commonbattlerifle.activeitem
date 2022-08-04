@@ -34,7 +34,7 @@
     "class" : "GunFire",
 
     "fireTime" : [0.14, 0.18],
-    "baseDps" : [8.7, 10.7],
+    "baseDps" : [11.7, 13.7],
     "energyUsage" : [27, 30],
     "inaccuracy" : 0.02,
 
@@ -42,7 +42,8 @@
 
     "projectileType" : "standardbullet",
     "projectileParameters" : {
-      "knockbackRange" : [5,10]
+      "knockbackRange" : [5,10],
+	  "speed" : 90
     },
 
     "stances" : {
@@ -132,7 +133,7 @@
       "swtjc_ewg_shattershot",
       "forcebubble"
     ],
-    "palette" : "/items/active/weapons/colors/ranged.weaponcolors",
+    "palette" : "/items/active/weapons/colors/rangedspecial.weaponcolors",
     "iconDrawables" : ["butt", "middle", "barrel"]
   }]
 }
