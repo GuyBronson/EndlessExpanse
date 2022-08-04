@@ -17,7 +17,7 @@
     "particleEmitters" : {
       "muzzleFlash" : {
         "particles" : [
-          { "particle" : "fushellcasing", "offset" : [-3.0, 0.0] }
+          { "particle" : "fushellcasing", "offset" : [-2.75, 0.0] }
         ]
       }
     }
@@ -34,8 +34,8 @@
     "class" : "GunFire",
 
     "fireTime" : [0.1, 0.3],
-    "baseDps" : [16,20],
-    "energyUsage" : [28.5, 31.5],
+    "baseDps" : [26,28],
+    "energyUsage" : [65, 75],
     "projectileCount" : [5,8],
     "inaccuracy" : 0.10,
 
@@ -75,7 +75,7 @@
       }
     }
   },
-  "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg", "/sfx/gun/dragonhead_fire1.ogg" ],
+  "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ],
 
   "critChance" : 2,
   "critBonus" : 4,

@@ -17,7 +17,7 @@
     "particleEmitters" : {
       "muzzleFlash" : {
         "particles" : [
-          { "particle" : "fushellcasing", "offset" : [-3.0, 0.0] }
+          { "particle" : "fushellcasing", "offset" : [-2.75, 0.0] }
         ]
       }
     }
@@ -32,8 +32,8 @@
     "class" : "GunFire",
 
     "fireTime" : [0.1, 0.3],
-    "baseDps" : [18,22],
-    "energyUsage" : [28.5, 31.5],
+    "baseDps" : [28,30],
+    "energyUsage" : [65, 75],
     "projectileCount" : [5,8],
     "inaccuracy" : 0.05,
 
@@ -80,6 +80,7 @@
   "builderConfig" : [{
     "nameGenerator" : "swtjc_ewg_autoshotgunnames.config:nameGen",
     "elementalType" : [
+	  "physical",
       "fire",
       "ice",
       "electric",
@@ -89,33 +90,37 @@
       "cosmic"
     ],
     "elementalConfig" : {
+	  "physical" : {
+        "primaryAbility" : { "projectileType" : "huntingbullet", "projectileParameters" : { "damageKind" : "bow", "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
+      },
       "fire" : {
         "primaryAbility" : { "projectileType" : "fireplasma", "projectileParameters" : { "damageKind" : "fireplasmashotgun", "speed": 90 } },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "ice" : {
         "primaryAbility" : { "projectileType" : "iceplasma", "projectileParameters" : { "damageKind" : "iceplasmashotgun", "speed": 90 } },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "poison" : {
         "primaryAbility" : { "projectileType" : "poisonplasma", "projectileParameters" : { "damageKind" : "poisonplasmashotgun", "speed": 90 } },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "electric" : {
         "primaryAbility" : { "projectileType" : "electricplasma", "projectileParameters" : { "damageKind" : "electricplasmashotgun", "speed": 90 } },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "radioactive" : {
         "primaryAbility" : { "projectileType" : "radioactiveplasma", "projectileParameters" : { "damageKind" : "poisonplasmashotgun", "speed": 90 } },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "shadow" : {
         "primaryAbility" : { "projectileType" : "shadowplasma", "projectileParameters" : { "damageKind" : "poisonplasmashotgun", "speed": 90 } },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "cosmic" : {
         "primaryAbility" : { "projectileType" : "cosmicplasma", "projectileParameters" : { "damageKind" : "poisonplasmashotgun", "speed": 90 } },
-        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/pulserifle1.ogg", "/sfx/gun/pulserifle2.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg", "/sfx/gun/dragonhead_fire1.ogg" ]
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       }
     },
     "animationParts" : {
