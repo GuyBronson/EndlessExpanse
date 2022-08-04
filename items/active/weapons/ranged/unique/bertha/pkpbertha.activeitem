@@ -1,0 +1,182 @@
+{
+  "itemName" : "enx_pkpbertha",
+  "price" : 3000,
+  "inventoryIcon" : "pkpbertha.png:1",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "A light machine gun with a high fire rate.
+^cyan;Fast projectiles and reinforced bullets, which cause bleeding^reset;",
+  "shortdescription" : "Bertha",
+  "category" : "assaultRifle",
+  "level" : 4,
+  "tooltipKind" : "gun2",
+  "weaponType" : "assaultRifle",
+  "itemTags" : ["weapon","ranged","ancient", "upgradeableWeapon", "assaultrifle"],
+  "twoHanded" : true,
+
+  "animation" : "pkpbertha.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "pkpbertha.png:1",
+    "middlefullbright" : "",
+    "barrel" : "",
+    "muzzleFlash" : "muzzleflash.png",
+	"charge" : "pkpbertha.png:1",
+    "chargehold" : "pkpbertha.png",
+	"chargefullbright": "",
+    "chargeholdfullbright": ""
+  },
+  "animationCustom" : {
+	"particleEmitters" : {
+      "muzzleFlash" : {
+        "particles" : [
+          { "particle" : "fushellcasing", "offset" : [-4.35, -1.3] }
+        ]
+      }
+    },
+    "animatedParts" : {
+      "parts" : {
+        "middlefullbright" : {
+		  "properties" : {
+		    "offset" : [1.7, -0.8]
+		  }
+		}
+      }
+    },
+    "sounds" : {
+	  "chargeLoop" : ["/sfx/weapons/reloadfast2.ogg"],
+      "fire" : [ "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg" ]
+    },
+    "lights" : { "muzzleFlash" : {"color" : [255, 165, 0] } }
+  },
+
+  "baseOffset" : [2.5, 0.2],
+  "muzzleOffset" : [3.6, 0.23],
+  "scripts" : ["/items/active/scripts/thea-gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/abilities/thea-minigun.lua"],
+    "class" : "TheaMinigun",
+
+    "fireTime" : 0.15,
+    "baseDps" : 22,
+    "energyUsage" : 25.0,
+    "inaccuracy" : 0.02,
+
+	"chargeTime" : 0.5,
+	"resetTime" : 0.5,
+
+	"walkWhileFiring" : true,
+
+    "projectileType" : [ "piercingbullet", "standardbullet" ],
+	"projectileCount" : 1,
+	"projectileParameters" : {
+		  "speed" : 75,
+          "knockback" : 3.5,
+		  "statusEffects" : [ "bleedinglong" ]
+        },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "armRotation" : -2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "armRotation" : -4,
+        "weaponRotation" : -4,
+	    "weaponOffset" : [-0.15, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : -3,
+        "weaponRotation" : -3,
+	    "weaponOffset" : [-0.15, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "discharge" : {
+        "duration" : 0.1,
+        "armRotation" : -2,
+        "weaponRotation" : -2,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+	}
+  },
+   "altAbility" : {
+    "name" : "Blank Blast",
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.45,
+    "baseDps" : 25,
+    "energyUsage" : 20,
+    "inaccuracy" : 0,
+    "fireType" : "auto",
+    "timeToLive" : 1.5,
+    "projectileType" : "fireexplosion",
+    "projectileParameters" : {
+      "knockback" : 120,
+      "speed" : 0,
+	  "statuseffects":["fuparalysis"]
+    },
+    "projectileCount" : 1,
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+     "fire": {
+				"armRotation": 20,
+				"weaponRotation": 90,
+				"armAngularVelocity": 110,
+				"twoHanded": false,
+				"duration": 0.5,
+				"allowRotate": false,
+				"allowFlip": true
+			},
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+		"armAngularVelocity": 110,
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+
+  "critChance" : 8,
+  "critBonus" : 10,
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
