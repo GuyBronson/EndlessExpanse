@@ -12,12 +12,12 @@
   "shortdescription" : "Protectorate Flag",
   "race" : "human",
 
-  "apexDescription" : "A human flag. Looks like it represents their organisation.",
-  "avianDescription" : "I see this human symbol a lot.",
-  "floranDescription" : "Floran like meatman flag!",
-  "glitchDescription" : "Statement. A human flag, depicting the symbol of the Protectorate.",
-  "humanDescription" : "The flag of the Protectorate!",
-  "hylotlDescription" : "This human flag represents intercolonial co-operation.",
+  "apexDescription" : "The Protectorate flag. A sight that inspires hope and optimism amid even the most downtrodden Apex.",
+  "avianDescription" : "The wings of the Protectorate symbol always give me a sense of joy.",
+  "floranDescription" : "Floran like Protectorate flag!",
+  "glitchDescription" : "Pride. A flag depicting the symbol of the Protectorate.",
+  "humanDescription" : "The flag of the Terrene Protectorate! Even with all that's happened to Earth it's nice to see it fly proud.",
+  "hylotlDescription" : "This flag represents the noble cause of the Protectorate, perhaps there is something even we Hylotl can learn from it.",
   "novakidDescription" : "The gold n' white of the Protectorate, flappin' away.",
 
   "interactAction" : "OpenTeleportDialog",
