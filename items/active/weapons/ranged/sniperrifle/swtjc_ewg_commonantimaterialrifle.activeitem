@@ -30,10 +30,11 @@
     "energyUsage" : [27, 37],
     "inaccuracy" : 0.005,
 
-    "projectileType" : "fuphysicalbeam",
+    "projectileType" : "standardbullet",
     "projectileParameters" : {
       "knockbackRange" : [20, 40],
-      "statusEffects" : [ "slow" ]
+      "statusEffects" : [ "bleedinglong" ],
+	  "speed": 150
     },
 
     "stances" : {
@@ -127,7 +128,7 @@
       "swtjc_ewg_shattershot",
       "forcebubble"
     ],
-    "palette" : "/items/active/weapons/colors/ranged.weaponcolors",
+    "palette" : "/items/active/weapons/colors/rangedspecial.weaponcolors",
     "iconDrawables" : ["butt", "middle", "barrel"]
   }]
 }
