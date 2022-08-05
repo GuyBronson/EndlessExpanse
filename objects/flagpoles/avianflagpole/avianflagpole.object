@@ -12,12 +12,12 @@
   "shortdescription" : "Avian Flag",
   "race" : "avian",
 
-  "apexDescription" : "The Avian flag reflects their longing to return to the skies.",
-  "avianDescription" : "Our flag is a symbol of hope that one day we will fly again.",
+  "apexDescription" : "The Avian flag reflects their longing to return to the skies that represent their afterlife.",
+  "avianDescription" : "Our flag is a symbol of hope that one day we will fly again in the aether.",
   "floranDescription" : "Floran think this mean angelsss!",
   "glitchDescription" : "Statement. A striking Avian flag.",
   "humanDescription" : "The Avian flag has a spiritual aura to it.",
-  "hylotlDescription" : "As their flag shows, the Avians cling to the past.",
+  "hylotlDescription" : "As their flag shows, the Avians cling to the faith. But one must commend the artisty of it.",
   "novakidDescription" : "This flag's a beaut, all right.",
 
   "interactAction" : "OpenTeleportDialog",

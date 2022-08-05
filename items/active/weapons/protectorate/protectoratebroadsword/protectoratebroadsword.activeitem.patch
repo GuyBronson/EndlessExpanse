@@ -3,7 +3,6 @@
 {"op": "add","path": "/critChance","value": 2},
 {"op": "add","path": "/critBonus","value": 7},
 {"op": "replace","path": "/tooltipKind","value": "swordunique"},
-{"op": "replace","path": "/level","value": 5},
   {
     "op": "add",
     "path": "/itemTags/-",
@@ -19,8 +18,8 @@
     "op": "add",
     "path": "/upgradeParameters",
     "value": {
-      "shortdescription": "^cyan;Master Sword^reset; ^yellow;^reset;",
-      "description": "An exquisite sword.",
+      "shortdescription": "^cyan;Grand Protector's Broadsword^reset; ^yellow;^reset;",
+      "description": "A powerful experimental weapon designed by the Terrene Protectorate, enhanced and upgraded.",
       "animationParts": {
         "sword": "protectoratebroadsword2.png",
         "swordfullbright": "protectoratebroadsword2fullbright.png"
@@ -38,8 +37,8 @@
     "op": "add",
     "path": "/upgradeParameters2",
     "value": {
-      "shortdescription": "^cyan;Power Sword^reset; ^yellow;^reset;",
-      "description": "An exquisite sword.",
+      "shortdescription": "^cyan;Terrene Blade^reset; ^yellow;^reset;",
+      "description": "The ultimate weapon to avenge Earth's death.",
       "animationParts": {
         "sword": "protectoratebroadsword3.png",
         "swordfullbright": "protectoratebroadsword3fullbright.png"
