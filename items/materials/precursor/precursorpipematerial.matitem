@@ -9,7 +9,7 @@
         2.5,
         2.0
     ],
-    "description": "Thick, super-dense pipes made of an unknown alloy.\n^green;Extractable^reset;.",
+    "description": "Precursor piping. The inside seems to excite your geiger counter.\n^green;Extractable^reset;.",
     "shortdescription": "Precursor Pipe",
     "materialId": 6790
 }
