@@ -8,7 +8,7 @@
   "tooltipKind" : "gun2",
   "category" : "swtjc_ewg_flakCannon",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","shotgun","upgradeableWeapon"],
+  "itemTags" : ["weapon","ranged","shotgun","upgradeableWeapon","rocketlauncher"],
   "level" : 1,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
@@ -17,7 +17,7 @@
     "particleEmitters" : {
       "muzzleFlash" : {
         "particles" : [
-          { "particle" : "fushellcasing", "offset" : [-3.0, 0.0] }
+          { "particle" : "enx_flackshellcasing", "offset" : [-3.0, 0.0] }
         ]
       }
     }
@@ -34,7 +34,7 @@
     "class" : "GunFire",
 
     "fireTime" : [2.0, 4.0],
-    "baseDps" : [7.0, 9],
+    "baseDps" : [9.0, 11],
     "energyUsage" : [35, 38.5],
     "projectileCount" : [15,20],
     "inaccuracy" : 0.08,
@@ -42,7 +42,8 @@
     "projectileType" : "standardbullet",
     "projectileParameters" : {
       "damageKind" : "shotgunbullet",
-      "knockbackRange" : [20, 40]
+      "knockbackRange" : [45,80],
+	  "speed": 90
     },
 
     "stances" : {
@@ -77,33 +78,33 @@
       }
     }
   },
-  "fireSounds" : [ "/sfx/gun/grenadeblast1.ogg", "/sfx/gun/rocketblast1.ogg", "/sfx/gun/rocketblast2.ogg", "/sfx/gun/rocketblast3.ogg" ],
+  "fireSounds" : [ "/sfx/gun/rocketblast1.ogg", "/sfx/gun/rocketblast2.ogg", "/sfx/gun/rocketblast3.ogg" ],
 
   "critChance" : 3,
   "critBonus" : 3,
   "isShotgun" : 1,
   //recoil stats
   "hasRecoil" : 1,
-  "recoilSpeed" : 200,
-  "recoilForce" : 300,
+  "recoilSpeed" : 1200,
+  "recoilForce" : 2400,
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
     "nameGenerator" : "swtjc_ewg_flakcannonnames.config:nameGen",
     "animationParts" : {
       "butt" : {
-        "path" : "/items/active/weapons/ranged/rocketlauncher/butt/<variant>.png",
-        "variants" : 20,
+        "path" : "/items/active/weapons/ranged/shotgun/fcbutt/<variant>.png",
+        "variants" : 8,
         "paletteSwap" : true
       },
       "middle" : {
-        "path" : "/items/active/weapons/ranged/rocketlauncher/middle/<variant>.png",
-        "variants" : 20,
+        "path" : "/items/active/weapons/ranged/shotgun/fcmiddle/<variant>.png",
+        "variants" : 15,
         "paletteSwap" : true
       },
       "barrel" : {
-        "path" : "/items/active/weapons/ranged/rocketlauncher/barrel/<variant>.png",
-        "variants" : 20,
+        "path" : "/items/active/weapons/ranged/shotgun/fcbarrel/<variant>.png",
+        "variants" : 15,
         "paletteSwap" : true
       },
       "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
@@ -142,7 +143,7 @@
       "swtjc_ewg_shattershot",
       "forcebubble"
     ],
-    "palette" : "/items/active/weapons/colors/ranged.weaponcolors",
+    "palette" : "/items/active/weapons/colors/rangedspecial.weaponcolors",
     "iconDrawables" : ["butt", "middle", "barrel"]
   }]
 }
