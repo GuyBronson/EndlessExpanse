@@ -9,7 +9,7 @@
         2.5,
         2.0
     ],
-    "description": "Ancient panelling of unknown origin\n^green;Extractable^reset;.",
-    "shortdescription": "Precursor Rune Panel",
+    "description": "Precursor display screen.\n^green;Extractable^reset;.",
+    "shortdescription": "Precursor Screen",
     "materialId": 6697
 }

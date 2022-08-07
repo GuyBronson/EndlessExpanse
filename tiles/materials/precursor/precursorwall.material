@@ -1,21 +1,21 @@
 {
-  "materialId" : 6694,
-  "materialName" : "precursorfloor",
+  "materialId" : 6664,
+  "materialName" : "precursorwall",
   "particleColor" : [60, 60, 60, 255],
-  "itemDrop" : "precursorfloor",
-  "description" : "An ancient construct of unknown origin",
-  "shortdescription" : "Precursor Floor",
+  "itemDrop" : "precursorwall",
+  "description" : "Wall paneling made from flawless Lunari crystals set inside a metal frame.",
+  "shortdescription" : "Precursor Wall Panel",
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
   "health" : 32,
   "category": "materials",
 
   "renderTemplate" : "/tiles/fuclassicnopaint.config",
   "renderParameters" : {
-    "texture" : "precursorfloor.png",
-    "variants" : 10,
+    "texture" : "precursorwall.png",
+    "variants" : 3,
     "lightTransparent" : false,
     "occludesBelow" : false,
     "multiColored" : true,
-    "zLevel" : 0
+    "zLevel" : 600
   }
 }

@@ -7,16 +7,16 @@
   "description" : "Glorious ancient metal.",
   "shortdescription" : "Precursor Sloped Panel",
   "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
-  "health" : 16,
+  "health" : 32,
   "category" : "materials",
 
   "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
   "renderParameters" : {
     "texture" : "precursorsloped.png",
-    "variants" : 5,
+    "variants" : 1,
     "lightTransparent" : false,
     "occludesBelow" : true,
     "multiColored" : false,
-    "zLevel" : 4998
+    "zLevel" : 5250
   }
 }

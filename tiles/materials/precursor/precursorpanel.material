@@ -1,23 +1,21 @@
 {
-  "materialId" : 6696,
-  "materialName" : "precursordetail",
+  "materialId" : 6665,
+  "materialName" : "precursorpanel",
   "particleColor" : [60, 60, 60, 255],
-  "itemDrop" : "precursordetail",
+  "itemDrop" : "precursorpanel",
   "description" : "An ancient construct of unknown origin",
-  "shortdescription" : "Precursor Tech Tile",
+  "shortdescription" : "Precursor Panel",
   "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
   "health" : 32,
   "category": "materials",
 
   "renderTemplate" : "/tiles/fuclassicnopaint.config",
   "renderParameters" : {
-    "texture" : "precursordetail.png",
-    "variants" : 56,
+    "texture" : "precursorpanel.png",
+    "variants" : 7,
     "lightTransparent" : false,
-    "occludesBelow" : true,
+    "occludesBelow" : false,
     "multiColored" : true,
-    "zLevel" : 0
+    "zLevel" : 550
   }
 }
-
-
