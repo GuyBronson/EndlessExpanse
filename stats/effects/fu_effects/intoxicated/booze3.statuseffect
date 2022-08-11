@@ -1,11 +1,14 @@
 {
   "name" : "booze3",
   "blockingStat" : "boozeImmunity",
-  "effectConfig" : {},
+  "effectConfig" : {
+  "defenseAmount" : -30,
+  "powerModifier" : 1.4
+  },
   "defaultDuration" : 5,
 
   "scripts" : [
-    "booze2.lua"
+    "booze.lua"
   ],
 
   "animationConfig" : "booze.animation",
