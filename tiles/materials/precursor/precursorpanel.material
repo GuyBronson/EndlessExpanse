@@ -1,0 +1,21 @@
+{
+  "materialId" : 6665,
+  "materialName" : "precursorpanel",
+  "particleColor" : [60, 60, 60, 255],
+  "itemDrop" : "precursorpanel",
+  "description" : "An ancient construct of unknown origin",
+  "shortdescription" : "Precursor Panel",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 32,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/fuclassicnopaint.config",
+  "renderParameters" : {
+    "texture" : "precursorpanel.png",
+    "variants" : 7,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 550
+  }
+}

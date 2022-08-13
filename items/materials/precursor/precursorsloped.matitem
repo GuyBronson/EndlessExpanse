@@ -1,0 +1,9 @@
+{
+    "itemName": "precursorsloped",
+    "category": "block",
+    "rarity": "rare",
+    "inventoryIcon": "precursorsloped.png",
+    "description": "Precursor metal with embedded lights.\n^green;Extractable^reset;.",
+    "shortdescription": "Precursor Sloped Metal",
+    "materialId": 6770
+}

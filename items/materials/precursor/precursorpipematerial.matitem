@@ -1,0 +1,15 @@
+{
+    "itemName": "precursorpipematerial",
+    "category": "block",
+    "rarity": "legendary",
+    "inventoryIcon": "precursorpipematerial.png",
+    "dropCollision": [
+        -2.5,
+        -2.0,
+        2.5,
+        2.0
+    ],
+    "description": "Precursor piping. The inside seems to excite your geiger counter.\n^green;Extractable^reset;.",
+    "shortdescription": "Precursor Pipe",
+    "materialId": 6790
+}

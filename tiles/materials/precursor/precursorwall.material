@@ -1,0 +1,21 @@
+{
+  "materialId" : 6664,
+  "materialName" : "precursorwall",
+  "particleColor" : [60, 60, 60, 255],
+  "itemDrop" : "precursorwall",
+  "description" : "Wall paneling made from flawless Lunari crystals set inside a metal frame.",
+  "shortdescription" : "Precursor Wall Panel",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 32,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/fuclassicnopaint.config",
+  "renderParameters" : {
+    "texture" : "precursorwall.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 600
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "materialId" : 6697,
+  "materialName" : "precursordecorative",
+  "particleColor" : [60, 60, 60, 255],
+  "itemDrop" : "precursordecorative",
+  "description" : "Precursor display screen. The symbols are mesmerizing, yet entirely illegible.",
+  "shortdescription" : "Precursor Screen",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 32,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/fuclassicnopaint.config",
+  "renderParameters" : {
+    "texture" : "precursordecorative.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 605
+  }
+}
