@@ -28,8 +28,8 @@
 
   "primaryAbilityType" : "katanacombo",
   "primaryAbility":{
-    "fireTime":0.72,
-    "baseDps":8,
+    "fireTime":0.6,
+    "baseDps":10,
     "damageConfig":{
       "knockback":20,
       "damageSourceKind" : "aetherbroadsword"
@@ -39,18 +39,7 @@
 
   "critChance" : 1,
   "critBonus" : 8,
-  "upgradeParameters": {
-    "description" : "A real hard sword for a real hard dude.",
-	"shortdescription" : "Aetherium Soulslasher",
-	"inventoryIcon" : "aetheriumkatanat8.png",
-	"animationParts" : {
-      "blade" : "aetheriumkatanat8.png",
-      "bladefullbright" : "aetheriumkatanafullbrightt8.png"
-    },
-	"primaryAbility":{
-	  "fireTime":0.6
-	  }
-  },
+  
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
 
 }

@@ -1,0 +1,161 @@
+{
+  "globalTagDefaults": {
+    "paletteSwaps": ""
+  },
+  "animatedParts": {
+    "stateTypes": {
+      "firing": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "fire": {
+            "frames": 3,
+            "cycle": 0.24,
+            "mode": "transition",
+            "transition": "off"
+          }
+        }
+      },
+	  "empty": {
+        "default": "off",
+        "states": {
+          "off": {},
+          "fire": {
+            "frames": 8,
+            "cycle": 0.75,
+            "mode": "transition",
+            "transition": "off"
+          }
+        }
+      }
+    },
+    "parts": {
+      "middle": {
+        "properties": {
+          "zLevel": 1,
+          "centered": true,
+          "image": "retribution.png:shoot.1",
+          "offset": [
+            0,
+            0
+          ],
+          "transformationGroups": [
+            "weapon"
+          ]
+        },
+        "partStates": {
+          "firing": {
+            "fire": {
+              "properties": {
+                "image": "retribution.png:shoot.<frame>"
+              }
+            },
+			"empty": {
+            "empty": {
+              "properties": {
+                "image": "retribution.png:empty.<frame>"
+              }
+            }
+          }
+          }
+        }
+      },
+      "middleFullbright": {
+        "properties": {
+          "zLevel": 2,
+          "centered": true,
+          "image": "retributionfullbright.png:shoot.1",
+          "offset": [
+            0,
+            0
+          ],
+          "transformationGroups": [
+            "weapon"
+          ],
+          "anchorPart": "middle",
+          "fullbright": true
+        },
+        "partStates": {
+          "firing": {
+            "fire": {
+              "properties": {
+                "image": "retributionfullbright.png:shoot.<frame>"
+              }
+            }
+          },
+		  "empty": {
+            "empty": {
+              "properties": {
+                "image": "retributionfullbright.png:empty.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "muzzleFlash": {
+        "properties": {
+          "zLevel": -1,
+          "centered": true,
+          "offset": [
+            0.75,
+            0
+          ],
+          "fullbright": true,
+          "transformationGroups": [
+            "muzzle"
+          ]
+        },
+        "partStates": {
+          "firing": {
+            "fire": {
+              "properties": {
+                "image": "<partImage>:<variant>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rotationGroups": {
+    "weapon": {
+      "angularVelocity": 0
+    }
+  },
+  "transformationGroups": {
+    "weapon": {},
+    "muzzle": {}
+  },
+  "particleEmitters": {
+    "muzzleFlash": {
+      "transformationGroups": [
+        "muzzle"
+      ],
+      "offsetRegion": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "particles": []
+    }
+  },
+  "lights": {
+    "muzzleFlash": {
+      "active": false,
+      "position": [
+        0,
+        0
+      ],
+      "color": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "sounds": {
+    "fire": [],
+	"empty": []
+  }
+}
