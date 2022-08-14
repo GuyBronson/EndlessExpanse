@@ -65,7 +65,7 @@ function GunFire:init()
 			--self.cooldownTimer=self.fireTime+self.reloadTime
 		end
 	else
-		self.cooldownTimer = self.fireTime
+		self.cooldownTimer = math.min(1,self.fireTime)
 	end
 
 	self.weapon.onLeaveAbility = function()
