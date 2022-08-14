@@ -1,0 +1,116 @@
+{
+  "itemName" : "futrigun",
+  "price" : 3600,
+  "inventoryIcon" :"retribution.png:shoot.1",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "A heavy hand cannon that packs a hefty punch with quick, high caliber smart bullets that also happen to be superheated.",
+  "shortdescription" : "Retribution",
+  "category" : "Smart Revolver",
+  "level" : 4,
+  "tooltipKind" : "gununique",
+  "twoHanded": true,
+  "itemTags" : ["weapon","ranged","pistol", "upgradeableWeapon"],
+  
+  "animation" : "retribution.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "retribution.png",
+    "middlefullbright" : "retributionfullbright.png",
+    "muzzleFlash" : "/animations/muzzleflash/matterblastmuzzleyellow.png"
+  },
+  "animationCustom" : {
+  "animatedParts" : {
+      "parts" : {
+        "middlefullbright" : {
+		  "properties" : {
+		    "offset" : [1.4, 0.27]
+		  }
+		}
+      }
+    },
+    "sounds" : {
+      "fire" : [ "/sfx/weapons/dkmarauder2.wav" ]
+    }
+  },
+
+  "baseOffset" : [1.4, 0.27],
+  "muzzleOffset" : [1.5,0.375],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "elementalType" : "hellfire",
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.3,
+    "baseDps" : 18.2,
+    "energyUsage" : 0,
+    "inaccuracy" : 0,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "futrigunbullet",
+    "projectileParameters" : {
+      "speed" : 145,
+      "statusEffects" : ["burningnapalm"],
+      "knockback" : 5
+    },
+
+    "stances": {
+      "idle": {
+        "armRotation": 0,
+        "weaponRotation": 0,
+        "weaponOffset" : [0, 0],
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "fire": {
+        "duration": 0.1,
+        "armRotation": 3,
+        "weaponRotation": 2,
+        "weaponOffset" : [-0.1, 0],
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true
+      },
+      "cooldown": {
+        "duration": 0.1,
+        "armRotation": 3,
+        "weaponRotation": 2,
+        "weaponOffset" : [-0.1, 0],
+        "twoHanded": true,
+        "allowRotate": true,
+        "allowFlip": true
+      }
+    },
+	"empty" : {
+        "duration" : 0.85,
+        "armRotation" : -25,
+        "weaponRotation" : 55,
+		"weaponOffset" : [-0.25, 0.0],
+        "twoHanded" : true,
+
+        "aimAngle" : 0,
+        "allowRotate" : false,
+        "allowFlip" : true,
+
+		"frontArmFrameSequence" : [
+		  [0.0, "rotation"],
+		  [0.1, "walk.2"],
+		  [0.3, "run.3"],
+		  [0.55, "run.1"]
+		],
+        "backArmFrame" : "rotation"
+      }
+  },
+
+  "critChance" : 4,
+  "critBonus" : 5,
+  "isAmmoBased" : 1,
+  "magazineSize" : 6,
+  "reloadTime" : 1.2,
+  //recoil
+  
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

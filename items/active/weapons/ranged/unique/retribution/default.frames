@@ -1,0 +1,11 @@
+{
+  "frameGrid" : {
+    "size" : [40, 20],
+    "dimensions" : [8, 2],
+
+    "names" : [
+      [ "shoot.1", "shoot.2", "shoot.3", null, null, null, null, null ],
+	  [ "empty.1", "empty.2", "empty.3", "empty.4", "empty.5", "empty.6", "empty.7", "empty.8"]
+    ]
+  }
+}
