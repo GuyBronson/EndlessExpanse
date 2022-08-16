@@ -1,5 +1,5 @@
 {
-  "itemName" : "crewcontract_chef2",
+  "itemName" : "enx_crewcontract_chef2",
   "tooltipKind": "codex",
   "price" : 0,
   "level" : 1,
@@ -14,7 +14,7 @@
   "animation" : "crewcontract.animation",
   "animationCustom" : {},
   "scripts" : ["crewcontract.lua"],
-  //"learnBlueprintsOnPickup" : ["crewcontract_chef3"],
+  //"learnBlueprintsOnPickup" : ["enx_crewcontract_chef3"],
   "fireTime" : 2.0,
   "fireOffset" : [1.0, 0.0],
 

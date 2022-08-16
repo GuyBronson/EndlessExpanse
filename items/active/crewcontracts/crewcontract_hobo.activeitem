@@ -1,5 +1,5 @@
 {
-  "itemName" : "crewcontract_hobo",
+  "itemName" : "enx_crewcontract_hobo",
   "tooltipKind": "codex",
   "price" : 0,
   "level" : 1,
@@ -9,7 +9,7 @@
   "description" : "Hires... a homeless guy that pukes on things. Increases max fuel by 250, but constantly makes you drunk.",
   "shortdescription" : "Hobo Contract",
   "twoHanded" : true,
-  "learnBlueprintsOnPickup" : [ "crewcontract_hobo" ],
+  "learnBlueprintsOnPickup" : [ "enx_crewcontract_hobo" ],
   "inventoryIcon" : "crewcontract.png",
   "animation" : "crewcontract.animation",
   "animationCustom" : {},

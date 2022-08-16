@@ -7,6 +7,6 @@
   "description" : "A book containing ancient and malign texts.",
   "shortdescription" : "^#ffe50e;Elder Tome^reset;",
   "itemTags" : [ "reagent","artifactElder" ]//,
-  //"learnBlueprintsOnPickup" : [ "crewcontract_cultist" ],
+  //"learnBlueprintsOnPickup" : [ "enx_crewcontract_cultist" ],
   //"collectablesOnPickup" : { "fu_elderrelics" : "eldertome" }
 }

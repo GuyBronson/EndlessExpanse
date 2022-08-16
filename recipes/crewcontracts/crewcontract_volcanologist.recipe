@@ -3,7 +3,7 @@
     { "item" : "money", "count" : 35000 }
   ],
   "output" : {
-    "item" : "crewcontract_volcanologist",
+    "item" : "enx_crewcontract_volcanologist",
     "count" : 1
   },
 

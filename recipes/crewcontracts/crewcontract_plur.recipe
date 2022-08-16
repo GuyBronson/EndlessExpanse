@@ -4,7 +4,7 @@
     { "item" : "yellowstim", "count" : 4 }
   ],
   "output" : {
-    "item" : "crewcontract_plur",
+    "item" : "enx_crewcontract_plur",
     "count" : 1
   },
 

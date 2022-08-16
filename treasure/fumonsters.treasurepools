@@ -61,7 +61,7 @@
   "dollfaceTreasure": [
     [1, {
       "fill" : [
-        {"item" : "crewcontract_magicalgirl"}
+        {"item" : "enx_crewcontract_magicalgirl"}
       ],
       "pool" : [
         {"weight" : 1.0, "pool" : "fucuteequipment"}

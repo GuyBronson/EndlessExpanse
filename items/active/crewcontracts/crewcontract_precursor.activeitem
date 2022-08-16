@@ -1,5 +1,5 @@
 {
-  "itemName" : "crewcontract_precursor",
+  "itemName" : "enx_crewcontract_precursor",
   "tooltipKind": "base",
   "price" : 0,
   "level" : 6,
@@ -11,8 +11,8 @@
   "radioMessagesOnPickup": ["pickupCrewContractPrecursor"],
   "twoHanded" : true,
 
-  "inventoryIcon" : "crewcontract_precursor.png",
-  "animation" : "crewcontract_precursor.animation",
+  "inventoryIcon" : "enx_crewcontract_precursor.png",
+  "animation" : "enx_crewcontract_precursor.animation",
   "animationCustom" : {},
   "scripts" : ["crewcontract.lua"],
 

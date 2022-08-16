@@ -4,7 +4,7 @@
 //		{ "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
 //	],
 //	[
-//		{ "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "crewcontract_engineer" },
+//		{ "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "enx_crewcontract_engineer" },
 //		{ "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "advcircuit" },
 //		{ "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "cpu" },
 //		{ "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fulabscreen" },
