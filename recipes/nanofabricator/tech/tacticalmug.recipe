@@ -5,7 +5,7 @@
     { "item" : "flashlight", "count" : 1 }
   ],
   "output" : {
-    "item" : "tacticalmug",
+    "item" : "enx_tacticalmug",
     "count" : 1
   },
   "groups" : [ "nanofabricator1", "tech", "all" ]

@@ -370,7 +370,7 @@
         {"weight" : 0.009, "item" : "fubonearmor3chest-recipe"},
         {"weight" : 0.009, "item" : "fubonearmor3legs-recipe"},
         {"weight" : 0.009, "item" : "perpetualaccelerator"},
-        {"weight" : 0.03, "item" : "precursorhookshot"},
+        {"weight" : 0.03, "item" : "enx_precursorhookshot"},
         {"weight" : 0.05, "item" : "railhook3"}
       ],
       "poolRounds" : [

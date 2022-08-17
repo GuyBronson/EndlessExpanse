@@ -16,7 +16,7 @@ local recipes =
 {inputs = { eldertome=1, elderrelic6=2, elderrelic9=1 }, outputs = { cultiststaff2=1 }, time = 15.0 },
 {inputs = { eldertome=1, elderrelic12=2, elderrelic14=1 }, outputs = { cultiststaff3=1 }, time = 15.0 },
 {inputs = { nocxiumbar=5, elderrelic6=1, elderrelic3=4 }, outputs = { elderaxe=1 }, time = 15.0 },
-{inputs = { cthulureward=1, elderrelic8=1, elderrelic12=1 }, outputs = { eldergrappler=1 }, time = 15.0},
+{inputs = { cthulureward=1, elderrelic8=1, elderrelic12=1 }, outputs = { enx_eldergrappler=1 }, time = 15.0},
 {inputs = { nocxiumbar=5, eldertome=1, elderrelic12=5 }, outputs = { eldershield=1 }, time = 15.0 },
 {inputs = { nocxiumbar=6, elderrelic12=1, elderrelic6=1 }, outputs = { elderarmorhead=1 }, time = 15.0 },
 {inputs = { nocxiumbar=7, elderrelic2=1, elderrelic14=1 }, outputs = { elderarmorchest=1 }, time = 15.0},

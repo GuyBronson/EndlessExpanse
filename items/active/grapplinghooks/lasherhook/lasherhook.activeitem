@@ -1,5 +1,5 @@
 {
-  "itemName" : "lasherhook",
+  "itemName" : "enx_lasherhook",
   "price" : 3000,
   "inventoryIcon" : "lasherhookicon.png",
   "rarity" : "uncommon",
@@ -10,7 +10,7 @@
   "category" : "^#e43774;Upgradeable Tool^reset;",
   "fireTime" : 0,
   "twoHanded" : false,
-//  "learnBlueprintsOnPickup" : [ "lasherhook2" ],
+//  "learnBlueprintsOnPickup" : [ "enx_lasherhook2" ],
   "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
   "animationScripts" : ["/items/active/effects/renderrope.lua"],
 

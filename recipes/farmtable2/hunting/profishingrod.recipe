@@ -4,7 +4,7 @@
     { "item" : "goldbar", "count" : 1 }
   ],
   "output" : {
-    "item" : "profishingrod",
+    "item" : "enx_profishingrod",
     "count" : 1
   },
   "groups" : [ "craftingfarm2", "hunting" ]

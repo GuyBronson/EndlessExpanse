@@ -5,7 +5,7 @@
     { "item" : "neptuniumore", "count" : 4 }
   ],
   "output" : {
-    "item" : "radienhook",
+    "item" : "enx_radienhook",
     "count" : 1
   },
   "groups" : [ "radiencrafting", "all","object" ]

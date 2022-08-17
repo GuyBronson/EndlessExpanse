@@ -1175,7 +1175,7 @@
         {"weight" : 0.02, "item" : "slimelauncher"},
         {"weight" : 0.02, "item" : "slimesword"},
         {"weight" : 0.02, "item" : "slimedagger"},
-        {"weight" : 0.02, "item" : "slimegrapplinghook"},
+        {"weight" : 0.02, "item" : "enx_slimegrapplinghook"},
         {"weight" : 0.02, "item" : "wavyslimesword"}
       ],
       "poolRounds" : [
@@ -1965,7 +1965,7 @@
   ],
   "frankLootBoss" : [
     [1, {
-      "fill" : [{"item" : [ "websnapper", 1]  }, {"item" : [ "venomsample", 10]}],
+      "fill" : [{"item" : [ "enx_websnapper", 1]  }, {"item" : [ "venomsample", 10]}],
       "pool" : [
         {"weight" : 0.33, "pool" : "money"},
         {"weight" : 0.33, "item" : [ "liquidpus", 10]},

@@ -4,7 +4,7 @@
   "path": "/hylotlmissionReward/0/1/pool/-",
   "value": {
    "weight": 0.01,
-   "item": "fuhylotlblueprinta"
+   "item": "enx_hylotlblueprinta"
   }
  },
  {
@@ -12,7 +12,7 @@
   "path": "/hylotlmissionReward/0/1/pool/-",
   "value": {
    "weight": 0.01,
-   "item": "fuhylotlblueprintm"
+   "item": "enx_hylotlblueprintm"
   }
  },
  {
@@ -20,7 +20,7 @@
   "path": "/hylotlmissionReward/0/1/pool/-",
   "value": {
    "weight": 0.01,
-   "item": "fuhylotlblueprints"
+   "item": "enx_hylotlblueprints"
   }
  },
  {
@@ -40,9 +40,9 @@
         {"weight" : 0.15, "item" : [ "capturepod", 4]},
         {"weight" : 0.15, "pool" : "rareMelee"},
         {"weight" : 0.1, "pool" : "shield"},
-        {"weight" : 0.04, "item" : "fuhylotlblueprinta"},
-        {"weight" : 0.04, "item" : "fuhylotlblueprintm"},
-        {"weight" : 0.04, "item" : "fuhylotlblueprints"}
+        {"weight" : 0.04, "item" : "enx_hylotlblueprinta"},
+        {"weight" : 0.04, "item" : "enx_hylotlblueprintm"},
+        {"weight" : 0.04, "item" : "enx_hylotlblueprints"}
       ],
       "poolRounds" : [
         [0.5, 5],

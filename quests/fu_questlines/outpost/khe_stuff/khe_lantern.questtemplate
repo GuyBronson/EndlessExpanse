@@ -23,7 +23,7 @@
 		"turnInDescription": "Bring ^cyan;Khe^reset; the ingredients.",
 
 		"conditions": [
-			{"type": "gatherItem","itemName": "lanterror","count": 1,"consume": true},
+			{"type": "gatherItem","itemName": "enx_lanterror","count": 1,"consume": true},
 			{"type": "gatherItem","itemName": "accordion","count": 1,"consume": true}
 		]
 	}

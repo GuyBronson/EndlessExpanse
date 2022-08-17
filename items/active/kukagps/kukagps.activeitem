@@ -1,5 +1,5 @@
 {
-  "itemName" : "fu_gps",
+  "itemName" : "enx_gps",
   "shortdescription" : "GPS",
   "description" : "^cyan;Primary^reset;: Geographic information
 ^yellow;Secondary^reset;: Weather and datetime information

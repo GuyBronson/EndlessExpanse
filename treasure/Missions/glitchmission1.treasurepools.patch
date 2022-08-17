@@ -4,7 +4,7 @@
   "path": "/glitchmission1Reward/0/1/pool/-",
   "value": {
    "weight": 0.015,
-   "item": "fuglitchblueprinta"
+   "item": "enx_glitchblueprinta"
   }
  },
  {
@@ -12,7 +12,7 @@
   "path": "/glitchmission1Reward/0/1/pool/-",
   "value": {
    "weight": 0.015,
-   "item": "fuglitchblueprintm"
+   "item": "enx_glitchblueprintm"
   }
  },
  {
@@ -20,7 +20,7 @@
   "path": "/glitchmission1Reward/0/1/pool/-",
   "value": {
    "weight": 0.015,
-   "item": "fuglitchblueprints"
+   "item": "enx_glitchblueprints"
   }
  },
  {
@@ -40,9 +40,9 @@
         {"weight" : 0.15, "item" : [ "capturepod", 4]},
         {"weight" : 0.15, "pool" : "rareMelee"},
         {"weight" : 0.1, "pool" : "shield"},
-        {"weight" : 0.06, "item" : "fuglitchblueprinta"},
-        {"weight" : 0.06, "item" : "fuglitchblueprintm"},
-        {"weight" : 0.06, "item" : "fuglitchblueprints"}
+        {"weight" : 0.06, "item" : "enx_glitchblueprinta"},
+        {"weight" : 0.06, "item" : "enx_glitchblueprintm"},
+        {"weight" : 0.06, "item" : "enx_glitchblueprints"}
       ],
       "poolRounds" : [
         [0.5, 5],

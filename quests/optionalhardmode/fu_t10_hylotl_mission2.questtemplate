@@ -5,7 +5,7 @@
 	"text": "Hero visits the library! Right? Get events out of order sometimes. Kevin probably went there. Go look.",
 	"completionText": "Artifact had energy signature, yus. Different. Encoded message. Kevin's. \"There was no Kevin.\" That's...concerning. Well...cookie trail.",
 	"moneyRange": [0, 0],
-	"rewards" : [ [ [ "fu_t10_floranarena2beacon", 1 ] ] ],
+	"rewards" : [ [ [ "enx_t10_floranarena2beacon", 1 ] ] ],
 
 	"questGiverIndicator": "mainquestgiver",
 	"questReceiverIndicator": "mainquestreceiver",

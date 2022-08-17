@@ -3,7 +3,7 @@
     { "item" : "essence", "count" : 20 }
   ],
   "output" : {
-    "item" : "fumementomori",
+    "item" : "enx_mementomori",
     "count" : 1
   },
   "groups" : [ "fushadowstore", "all", "shadow", "nouncrafting","norecycling" ],

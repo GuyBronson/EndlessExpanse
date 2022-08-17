@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "greenslime", "count" : 20 }
   ],
-  "output" : { "item" : "slimegrapplinghook", "count" : 1 },
+  "output" : { "item" : "enx_slimegrapplinghook", "count" : 1 },
   "groups" : [ "slimecentrifuge2", "random" ]
 }

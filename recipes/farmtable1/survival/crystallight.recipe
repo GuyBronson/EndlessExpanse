@@ -4,7 +4,7 @@
     { "item" : "fuflashlight", "count" : 1 }
   ],
   "output" : {
-    "item" : "crystallight",
+    "item" : "enx_crystallight",
     "count" : 1
   },
   "groups" : [ "craftingfarm", "survival" ]
