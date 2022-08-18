@@ -19,7 +19,7 @@
 //    "xenochest",
 //    "xenolegs",
 //    "xenohead",
-//    "xenoshield"
+//    "enx_xenoshield"
 //  ],
   "itemTags" : [ "upgradeableWeapon", "defensive" ],
   "level" : 3,

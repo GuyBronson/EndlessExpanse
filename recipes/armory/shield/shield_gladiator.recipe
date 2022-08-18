@@ -4,7 +4,7 @@
     { "item" : "zerchesiumbar", "count" : 2 }
   ],
   "output" : {
-    "item" : "gladiatorshield",
+    "item" : "enx_gladiatorshield",
     "count" : 1
   },
   "groups" : [ "armory3", "shields", "all" ]

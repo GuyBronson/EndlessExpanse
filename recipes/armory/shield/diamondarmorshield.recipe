@@ -6,7 +6,7 @@
     { "item" : "morphiteore", "count" : 1 }
   ],
   "output" : {
-    "item" : "diamondshield",
+    "item" : "enx_diamondshield",
     "count" : 1
   },
   "groups" : [ "armory3", "shield", "all" ]

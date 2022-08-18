@@ -5,7 +5,7 @@
     { "item" : "sharpenedclaw", "count" : 3 }
   ],
   "output" : {
-    "item" : "reptileshield",
+    "item" : "enx_reptileshield",
     "count" : 1
   },
   "groups" : [ "armory2", "shield", "all" ]

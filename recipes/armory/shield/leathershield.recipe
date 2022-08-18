@@ -4,7 +4,7 @@
     { "item" : "plantfibre", "count" : 2 }
   ],
   "output" : {
-    "item" : "leathershield",
+    "item" : "enx_leathershield",
     "count" : 1
   },
   "groups" : [ "armory1", "shield", "craftinganvil", "weapons", "all" ]

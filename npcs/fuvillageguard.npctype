@@ -107,8 +107,8 @@
               "advalloyshortspear"
             ],
             "alt" : [
-              { "name" : "bubbleshield" },
-              { "name" : "xenoshield" }
+              { "name" : "enx_bubbleshield" },
+              { "name" : "enx_xenoshield" }
             ]
           },
           {
@@ -134,8 +134,8 @@
               "advalloyshortspear"
             ],
             "alt" : [
-              { "name" : "bubbleshield" },
-              { "name" : "xenoshield" }
+              { "name" : "enx_bubbleshield" },
+              { "name" : "enx_xenoshield" }
             ]
           },
           {
@@ -161,8 +161,8 @@
               "advalloyshortspear"
             ],
             "alt" : [
-              { "name" : "bubbleshield" },
-              { "name" : "xenoshield" }
+              { "name" : "enx_bubbleshield" },
+              { "name" : "enx_xenoshield" }
             ]
           },
           {
@@ -188,8 +188,8 @@
               "advalloyshortspear"
             ],
             "alt" : [
-              { "name" : "bubbleshield" },
-              { "name" : "xenoshield" }
+              { "name" : "enx_bubbleshield" },
+              { "name" : "enx_xenoshield" }
             ]
           }
         ] ]
@@ -222,12 +222,12 @@
               "lightningcrossbow"
             ],
             "alt" : [
-              { "name" : "zerchesiumshield" },
-              { "name" : "telebriumshield" },
-              { "name" : "titaniumshield" },
-              { "name" : "durasteelshield" },
-              { "name" : "telebriumshield" },
-              { "name" : "gladiatorshield" }
+              { "name" : "enx_zerchesiumshield" },
+              { "name" : "enx_telebriumshield" },
+              { "name" : "enx_titaniumshield" },
+              { "name" : "enx_durasteelshield" },
+              { "name" : "enx_telebriumshield" },
+              { "name" : "enx_gladiatorshield" }
             ]
           },
           {
@@ -256,12 +256,12 @@
               "lightningcrossbow"
             ],
             "alt" : [
-              { "name" : "zerchesiumshield" },
-              { "name" : "telebriumshield" },
-              { "name" : "titaniumshield" },
-              { "name" : "durasteelshield" },
-              { "name" : "telebriumshield" },
-              { "name" : "gladiatorshield" }
+              { "name" : "enx_zerchesiumshield" },
+              { "name" : "enx_telebriumshield" },
+              { "name" : "enx_titaniumshield" },
+              { "name" : "enx_durasteelshield" },
+              { "name" : "enx_telebriumshield" },
+              { "name" : "enx_gladiatorshield" }
             ]
           },
           {
@@ -290,12 +290,12 @@
               "lightningcrossbow"
             ],
             "alt" : [
-              { "name" : "zerchesiumshield" },
-              { "name" : "telebriumshield" },
-              { "name" : "titaniumshield" },
-              { "name" : "durasteelshield" },
-              { "name" : "telebriumshield" },
-              { "name" : "gladiatorshield" }
+              { "name" : "enx_zerchesiumshield" },
+              { "name" : "enx_telebriumshield" },
+              { "name" : "enx_titaniumshield" },
+              { "name" : "enx_durasteelshield" },
+              { "name" : "enx_telebriumshield" },
+              { "name" : "enx_gladiatorshield" }
             ]
           },
           {
@@ -324,12 +324,12 @@
               "lightningcrossbow"
             ],
             "alt" : [
-              { "name" : "zerchesiumshield" },
-              { "name" : "telebriumshield" },
-              { "name" : "titaniumshield" },
-              { "name" : "durasteelshield" },
-              { "name" : "telebriumshield" },
-              { "name" : "gladiatorshield" }
+              { "name" : "enx_zerchesiumshield" },
+              { "name" : "enx_telebriumshield" },
+              { "name" : "enx_titaniumshield" },
+              { "name" : "enx_durasteelshield" },
+              { "name" : "enx_telebriumshield" },
+              { "name" : "enx_gladiatorshield" }
             ]
           }
         ] ]

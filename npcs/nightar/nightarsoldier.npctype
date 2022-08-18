@@ -34,7 +34,7 @@
             "chest" : [ { "name" : "fumantizitier2chest" } ],
             "legs" : [ { "name" : "fumantizitier2pants" } ],
             "primary" : [ "nightarshortsword" ],
-            "alt" : [ "tungstenshield" ],
+            "alt" : [ "enx_tungstenshield" ],
             "sheathedprimary" : [ "tungstenbow" ]
           }
         ] ]

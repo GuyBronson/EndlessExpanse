@@ -5,7 +5,7 @@
     { "item" : "solaricrystal", "count" : 2 }
   ],
   "output" : {
-    "item" : "quietusshield",
+    "item" : "enx_quietusshield",
     "count" : 1
   },
   "groups" : [ "armory3", "shield", "all" ]

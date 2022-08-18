@@ -7,7 +7,7 @@
     { "item" : "shadowgasliquid", "count" : 50 }
   ],
   "output" : {
-    "item" : "shadowshield",
+    "item" : "enx_shadowshield",
     "count" : 1
   },
   "groups" : [ "armory3", "shield", "all" ]

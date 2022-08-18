@@ -510,7 +510,7 @@
 	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item" : "woodenmace"} } ],
 	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item" : "stonemace"} } ],
 	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item" : "stonemace2"} } ],
-	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item" : "primitiveshield"} } ],
+	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item" : "enx_primitiveshield"} } ],
 	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item" : "stonescythe"} } ],
 	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item" : "stonespear"} } ],
 	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item" : "stoneaxe"} } ],

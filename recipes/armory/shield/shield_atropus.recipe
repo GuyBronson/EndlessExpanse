@@ -7,7 +7,7 @@
     { "item" : "miraclegrass", "count" : 2 }
   ],
   "output" : {
-    "item" : "atropusshield",
+    "item" : "enx_atropusshield",
     "count" : 1
   },
   "groups" : [ "armory3", "shield", "all" ]

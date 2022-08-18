@@ -64,7 +64,7 @@
             "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [ "carbonblade" ],
-            "alt" : [ "fupioneershield" ]
+            "alt" : [ "enx_pioneershield" ]
           },
           {
             "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
@@ -85,7 +85,7 @@
             "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "fuoperativelegs", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [ "zerchesiumsword","advalloylongsword","blooddiamondlongsword","fuambersword","carbonlongsword" ],
-            "alt" : [ "fupioneershield" ]
+            "alt" : [ "enx_pioneershield" ]
           },
           {
             "chest" : [ { "name" : "fuoperativechest", "parameters" : { "colorIndex" : 1 } } ],

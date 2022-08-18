@@ -114,10 +114,10 @@
             // Main hand. Can list as many options as you want (for all weapon slots).
             "primary" : [ "aegisaltpistol3", "aegisaltpistol" ],
             // Off hand. Make sure all primaries are compatible with all secondaries, delete if primary is 2h.
-            "secondary" : [ "pandorasboxprotectorateshield" ],
+            "secondary" : [ "enx_pandorasboxprotectorateshield" ],
 
             "sheathedprimary" : [ "aegisaltpistol3" ], // Main hand, secondary option. Very optional.
-            "sheathedsecondary" : [ "pandorasboxprotectorateshield" ] // Off hand, secondary option. Very optional.
+            "sheathedsecondary" : [ "enx_pandorasboxprotectorateshield" ] // Off hand, secondary option. Very optional.
           }
       ] ]
     ]

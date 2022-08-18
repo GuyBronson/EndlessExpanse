@@ -2,7 +2,7 @@
   "kingnutmidgeTreasure" : [
     [1, {
       "pool" : [
-        {"weight" : 0.15, "item" : "pandorasboxnutmidgeshield"},
+        {"weight" : 0.15, "item" : "enx_pandorasboxnutmidgeshield"},
         {"weight" : 0.25, "item" : [ "bone", 2]}
       ],
       "allowDuplication" : false
@@ -54,7 +54,7 @@
   "ancientruinsBoss": [
     [1,
       {"fill" : [
-        {"item" : "furelicshield" }
+        {"item" : "enx_relicshield" }
       ]}
     ]
   ],
@@ -642,7 +642,7 @@
         {"weight" : 0.005, "item" :  [ "elderarmorchest", 1]},
         {"weight" : 0.005, "item" :  [ "elderarmorhead", 1]},
         {"weight" : 0.005, "item" :  [ "elderarmorpants", 1]},
-        {"weight" : 0.005, "item" :  [ "eldershield", 1]},
+        {"weight" : 0.005, "item" :  [ "enx_eldershield", 1]},
         {"weight" : 0.012, "item" :  [ "eldercarbine", 1]},
         {"weight" : 0.012, "item" :  [ "elderpistol", 1]},
         {"weight" : 0.012, "item" :  [ "elderblade", 1]},

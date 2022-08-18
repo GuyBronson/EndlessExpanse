@@ -92,7 +92,7 @@
           {
             "primary" : [ "cutestaff" ],
             "sheathedprimary" : [ "cuterapier" ],
-            "sheathedalt" : [ "cuteshield" ]
+            "sheathedalt" : [ "enx_cuteshield" ]
           }
         ] ]
     ]

@@ -68,7 +68,7 @@
       [0, [
           {
             "primary" : [ "aegisaltmace", "irradiummace", "zerchesiummace", "triangliummace", "titaniummace", "durasteelmace", "densealloymace" ],
-            "alt" : [ "bubbleshield", "battlershield", "warswornshield", "quantumshield" ]
+            "alt" : [ "enx_bubbleshield", "enx_battlershield", "enx_warswornshield", "enx_quantumshield" ]
           }
         ] ]
     ]

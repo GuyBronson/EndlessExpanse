@@ -116,7 +116,7 @@
       [0, [
           {
             "primary" : [ "carbonaxe", "advalloyaxe", "effigiumaxe" ],
-            "secondary" : [ "tungstenshield", "titaniumshield" ],
+            "secondary" : [ "enx_tungstenshield", "enx_titaniumshield" ],
             "sheathedprimary" : [ "carbonbow", "compoundbow" ]
           }
         ] ]

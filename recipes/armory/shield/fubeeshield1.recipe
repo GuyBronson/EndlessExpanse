@@ -5,7 +5,7 @@
     { "item" : "apiary_frame_dawn", "count" : 5 }
   ],
   "output" : {
-    "item" : "fubeeshield",
+    "item" : "enx_beeshield",
     "count" : 1
   },
   "groups" : [ "armory3", "all", "shield" ]

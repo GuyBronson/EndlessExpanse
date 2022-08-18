@@ -4,7 +4,7 @@
     { "item" : "ironbar", "count" : 2 }
   ],
   "output" : {
-    "item" : "telebriumshield",
+    "item" : "enx_telebriumshield",
     "count" : 1
   },
   "groups" : [ "armory1", "shield", "all" ]

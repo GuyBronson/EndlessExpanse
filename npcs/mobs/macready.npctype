@@ -20,7 +20,7 @@
             "chest" : [ { "name" : "fieldscientistchest" } ],
             "legs" : [ { "name" : "fieldscientistlegs" } ],
             "primary" : [ "fuatropusshortsword" ],
-            "alt" : [ "atropusshield" ]
+            "alt" : [ "enx_atropusshield" ]
           },
           {
             "head" : [ { "name" : "macreadyhead", "parameters" : { "colorIndex" : 4 } } ],
