@@ -1171,15 +1171,6 @@
   },
   {
     "op": "add",
-    "path": "/npcCombat/rangedWeaponRanges/fugoldengun",
-    "value": {
-      "minRange": 8,
-      "maxRange": 32,
-      "forceMoveRange": 40
-    }
-  },
-  {
-    "op": "add",
     "path": "/npcCombat/rangedWeaponRanges/isn_flintlock",
     "value": {
       "minRange": 8,
