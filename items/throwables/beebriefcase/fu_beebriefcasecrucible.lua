@@ -40,7 +40,6 @@ function update(dt, fireMode, shiftHeld)
   if storage.firing and animator.animationState("firing") == "off" then
     item.consume(1)
     if player then
-	  --player.giveBlueprint("fu_beebriefcase")
       world.spawnProjectile("fu_beebriefcasetemp", mcontroller.position())
 	  status.addEphemeralEffect("fu_death")
 	  activationText = config.getParameter("activationText")
