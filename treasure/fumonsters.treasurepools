@@ -1195,7 +1195,7 @@
         {"weight" : 0.15, "pool" : "thrownWeapon"},
         {"weight" : 0.05, "pool" : "weapon"},
         {"weight" : 0.10, "pool" : "food"},
-        {"weight" : 0.01, "item" : "fumysterioustrashbag"},
+        {"weight" : 0.01, "item" : "enx_mysterioustrashbag"},
         {"weight" : 0.03, "pool" : "augments"},
         {"weight" : 0.03, "pool" : "petcollars2"},
         {"weight" : 0.03, "pool" : "fuLootStims"},

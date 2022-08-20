@@ -1,7 +1,7 @@
 {
   "input" : [],
   "output" : {
-    "item" : "fu_defaultunlockdiagnoser",
+    "item" : "enx_defaultunlockdiagnoser",
     "count" : 1
   },
   "groups" : [ "plain", "all" ]

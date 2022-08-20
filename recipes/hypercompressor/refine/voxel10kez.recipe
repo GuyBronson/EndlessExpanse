@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "easyvoxel10k", "count" : 1 }
+    { "item" : "enx_easyvoxel10k", "count" : 1 }
   ],
   "output" : { "item" : "money", "count" : 9980 },
   "duration" : 0,

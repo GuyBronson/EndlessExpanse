@@ -140,7 +140,7 @@ function getCurrency(type)
 			return player.hasCountOfItem("manipulatormodule")
 		end
 	elseif self.isUpgradeKit then
-		return player.hasCountOfItem("cuddlehorse")
+		return player.hasCountOfItem("enx_upgradekit")
 	else
 		return player.currency("essence")
 	end
@@ -156,7 +156,7 @@ function consumeCurrency(cost,type)
 			return player.consumeItem({name = "manipulatormodule", count = cost})
 		end
 	elseif self.isUpgradeKit then
-		return player.consumeItem({name = "cuddlehorse", count = cost})
+		return player.consumeItem({name = "enx_upgradekit", count = cost})
 	else
 		return player.consumeCurrency("essence", cost)
 	end

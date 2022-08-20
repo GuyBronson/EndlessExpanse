@@ -1,5 +1,5 @@
 {
-  "itemName" : "HarvesterBeam2",
+  "itemName" : "enx_harvesterbeamgun2",
   "maxStack" : 1,
   "price" : 5000,
   "rarity" : "rare",
@@ -9,7 +9,7 @@ Right-click: till soil",
   "tooltipKind" : "base",
   "twoHanded" : true,
 "category":"tool",
- // "learnBlueprintsOnPickup" : [ "HarvesterBeam3" ],
+ // "learnBlueprintsOnPickup" : [ "enx_harvesterbeamgun3" ],
   "inventoryIcon" : "HarvesterBeam2Icon.png",
 
   "animation" : "HarvesterBeam2.animation",

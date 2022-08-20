@@ -365,7 +365,7 @@
         {"weight" : 0.01, "item" : "precursorbattery1-recipe"},
         //Other + Tools
         {"weight" : 0.009, "item" : "enx_crewcontract_precursor"},
-        {"weight" : 0.003, "item" : "cuddlehorse"},
+        {"weight" : 0.003, "item" : "enx_upgradekit"},
         {"weight" : 0.009, "item" : "fubonearmor3head-recipe"},
         {"weight" : 0.009, "item" : "fubonearmor3chest-recipe"},
         {"weight" : 0.009, "item" : "fubonearmor3legs-recipe"},

@@ -109,7 +109,7 @@
     }]
   ],
 
-  "fu_lootbox" : [
+  "enx_lootbox" : [
     [0, {
       "pool" : [
         {"weight" : 0.1, "pool" : "fuResearchPool"},
@@ -161,7 +161,7 @@
   "fu_lootboxHigh" : [
     [0, {
       "pool" : [
-        {"weight" : 0.2, "item" : "fu_lootbox"},
+        {"weight" : 0.2, "item" : "enx_lootbox"},
         {"weight" : 0.1, "pool" : "fuResearchPool"},
         {"weight" : 0.05, "pool" : "fuEssence"},
         {"weight" : 0.05, "pool" : "fuEssenceHigh"},

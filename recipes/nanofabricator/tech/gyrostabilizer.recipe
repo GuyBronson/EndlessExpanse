@@ -6,7 +6,7 @@
     { "item" : "powercore", "count" : 1 }
   ],
   "output" : {
-    "item" : "gyrostabilizer",
+    "item" : "enx_gyrostabilizer",
     "count" : 1
   },
   "groups" : [ "nanofabricator3", "tech", "all" ]

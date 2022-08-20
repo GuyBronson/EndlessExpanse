@@ -17,7 +17,7 @@ function init()
 end
 
 function update(dt)
-	if not player.primaryHandItem() or player.primaryHandItem().name ~= "fu_matmodplacer" then
+	if not player.primaryHandItem() or player.primaryHandItem().name ~= "enx_matmodplacer" then
 		pane.dismiss()
 	end
     updateSearch()
@@ -120,7 +120,7 @@ end
 function essentialCheck()
 	for _,v in pairs({ "beamaxe", "wiretool", "painttool", "inspectiontool"}) do
 		local test=player.essentialItem(v)
-		if test and test.name=="fu_matmodplacer" then
+		if test and test.name=="enx_matmodplacer" then
 			return true
 		end
 	end
@@ -135,7 +135,7 @@ function doUnlock()
 
         if tech and not inEssentialSlot then
 			if player.consumeItem(player.primaryHandItem()) then
-				player.giveItem({name = "fu_matmodplacer", count = 1, parameters = {matMod = tech.matMod, fuel = tech.fuel, fuelValue = tech.fuelValue}})
+				player.giveItem({name = "enx_matmodplacer", count = 1, parameters = {matMod = tech.matMod, fuel = tech.fuel, fuelValue = tech.fuelValue}})
 			end
 			pane.dismiss()
         end

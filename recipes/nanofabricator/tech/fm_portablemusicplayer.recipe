@@ -6,7 +6,7 @@
     { "item" : "tungstenbar", "count" : 1 }
   ],
   "output" : {
-    "item" : "fm_portablemusicplayer",
+    "item" : "enx_portablemusicplayer",
     "count" : 1
   },
   "groups" : [ "nanofabricator", "nanofabricator1", "tech", "all" ]

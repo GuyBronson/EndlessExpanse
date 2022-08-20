@@ -11,7 +11,7 @@
 	"missionUnlockedCinema" : "/cinematics/coordinates.cinematic",
 	"rewards" : [
 		[
-			[ "cuddlehorse" ],
+			[ "enx_upgradekit" ],
 			[ "bobotaf", 1 ],
 			[ "wisperaf", 1 ],
 			[ "fuscienceresource", 500 ]

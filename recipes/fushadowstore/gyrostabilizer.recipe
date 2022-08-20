@@ -3,7 +3,7 @@
     { "item" : "essence", "count" : 1200 }
   ],
   "output" : {
-    "item" : "gyrostabilizer",
+    "item" : "enx_gyrostabilizer",
     "count" : 1
   },
   "groups" : [ "fushadowstore", "all", "items", "nouncrafting","norecycling" ],

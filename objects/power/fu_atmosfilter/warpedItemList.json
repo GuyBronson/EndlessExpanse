@@ -287,7 +287,7 @@
 			"team": "enemy"
 		}]
 	},
-	"gyrostabilizer": {
+	"enx_gyrostabilizer": {
 		"effects": [{
 			"status": "gyrostat",
 			"team": "enemy"
@@ -331,7 +331,7 @@
 			"types": ["monster"]
 		}]
 	},
-	"fu_monsterdetector": {
+	"enx_monsterdetector": {
 		"effects": [{
 			"status": "detectmonster",
 			"team": "enemy",

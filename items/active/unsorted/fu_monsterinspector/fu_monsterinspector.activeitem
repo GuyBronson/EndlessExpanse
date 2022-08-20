@@ -1,5 +1,5 @@
 {
-    "itemName" : "fu_monsterinspector",
+    "itemName" : "enx_monsterinspector",
     "price" : 800,
     "inventoryIcon" : "inspectionmode.png",
     "maxStack" : 1,

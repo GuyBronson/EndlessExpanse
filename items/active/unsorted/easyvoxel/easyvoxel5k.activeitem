@@ -1,5 +1,5 @@
 {
-  "itemName" : "easyvoxel5k",
+  "itemName" : "enx_easyvoxel5k",
   "price" : 5000,
   "level" : 1,
   "maxStack" : 999999,
@@ -18,7 +18,7 @@
   "fireOffset" : [1.0, 0.0],
 
   "treasure" : {
-    "pool" : "easyvoxel5k",
+    "pool" : "enx_easyvoxel5k",
     "level" : 3
   }
 }

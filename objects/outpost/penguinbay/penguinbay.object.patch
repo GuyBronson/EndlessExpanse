@@ -50,7 +50,7 @@
     "op": "add",
     "path": "/interactData/items/-",
     "value": {
-      "item": "gyrostabilizer"
+      "item": "enx_gyrostabilizer"
     }
   },
   {

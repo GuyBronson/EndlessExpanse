@@ -19,7 +19,7 @@
             "head" : [ { "name" : "scientisthead" } ],
             "chest" : [ { "name" : "cultistchest" } ],
             "legs" : [ { "name" : "cultistlegs" } ],
-            "primary" : [ "npcpetcapturepod", "npccultistscandroidcapturepod", "npccultistscandroidcapturepod", "npccultistscandroidcapturepod" ],
+            "primary" : [ "npcpetcapturepod", "enx_npccultistscandroidcapturepod", "enx_npccultistscandroidcapturepod", "enx_npccultistscandroidcapturepod" ],
             "sheathedprimary" : [ "npcmachinepistol", "blisterpistol" ],
             "alt" : [  "npccultistbroadsword", "npccultistshortsword" ]
           }
@@ -29,7 +29,7 @@
             "head" : [ { "name" : "scientisthead" } ],
             "chest" : [ { "name" : "cultistchest" } ],
             "legs" : [ { "name" : "cultistlegs" } ],
-            "primary" : [ "npcpetcapturepod", "npccultistscandroidcapturepod", "npccultistscandroidcapturepod", "npccultistscandroidcapturepod" ],
+            "primary" : [ "npcpetcapturepod", "enx_npccultistscandroidcapturepod", "enx_npccultistscandroidcapturepod", "enx_npccultistscandroidcapturepod" ],
             "sheathedprimary" : [ "npcmachinepistol", "blisterpistol", "quietuspistol" ],
             "alt" : [  "npccultistbroadsword", "npccultistbroadsword", "fucultistaxe", "fucultistdagger" ]
           }
@@ -39,7 +39,7 @@
             "head" : [ { "name" : "scientisthead" } ],
             "chest" : [ { "name" : "cultistchest" } ],
             "legs" : [ { "name" : "cultistlegs" } ],
-            "primary" : [ "npcpetcapturepod", "npccultistscandroidcapturepod", "npccultistscandroidcapturepod", "npccultistscandroidcapturepod" ],
+            "primary" : [ "npcpetcapturepod", "enx_npccultistscandroidcapturepod", "enx_npccultistscandroidcapturepod", "enx_npccultistscandroidcapturepod" ],
             "sheathedprimary" : [ "npcmachinepistol", "blisterpistol", "quietussmg", "murdermanipulator" ],
             "alt" : [  "npccultistbroadsword", "npccultistbroadsword", "fucultistaxe", "fucultistdagger", "fucultistspear", "fucultistmace", "spikesword", "quietusrapier", "quietusmace", "quietusaxe" ]
           }
@@ -49,7 +49,7 @@
             "head" : [ { "name" : "scientisthead" } ],
             "chest" : [ { "name" : "cultistchest" } ],
             "legs" : [ { "name" : "cultistlegs" } ],
-            "primary" : [ "npcpetcapturepod", "npccultistscandroidcapturepod", "npccultistscandroidcapturepod", "npccultistscandroidcapturepod" ],
+            "primary" : [ "npcpetcapturepod", "enx_npccultistscandroidcapturepod", "enx_npccultistscandroidcapturepod", "enx_npccultistscandroidcapturepod" ],
             "sheathedprimary" : [ "blisterpistol", "quietussmg", "murdermanipulator", "pistolquietusfu" ],
             "alt" : [  "npccultistbroadsword", "npccultistbroadsword", "fucultistaxe", "fucultistdagger", "fucultistspear", "fucultistmace", "spikesword", "quietusrapier", "quietusmace", "quietusaxe", "quietusspear" ]
           }
@@ -59,7 +59,7 @@
             "head" : [ { "name" : "scientisthead" } ],
             "chest" : [ { "name" : "cultistchest" } ],
             "legs" : [ { "name" : "cultistlegs" } ],
-            "primary" : [ "npcpetcapturepod", "npccultistscandroidcapturepod", "npccultistscandroidcapturepod", "npccultistscandroidcapturepod" ],
+            "primary" : [ "npcpetcapturepod", "enx_npccultistscandroidcapturepod", "enx_npccultistscandroidcapturepod", "enx_npccultistscandroidcapturepod" ],
             "sheathedprimary" : [ "blisterpistol", "quietussmg", "murdermanipulator", "pistolquietusfu" ],
             "alt" : [  "npccultistbroadsword", "npccultistbroadsword", "fucultistaxe", "fucultistdagger", "fucultistspear", "fucultistmace", "spikesword", "quietusrapier", "quietusmace", "quietusaxe", "quietusspear", "quietusscythe", "fuatropusaxe", "fuatropusbroadsword", "fuatropusdagger", "fuatropusgreataxenpc", "fuatropushammer", "fuatropusscythe", "fuatropusshortsword", "fuatropusspear",  "fucultistscythe" ]
           }

@@ -1,5 +1,5 @@
 {
-    "itemName" : "fu_defaultunlockdiagnoser",
+    "itemName" : "enx_defaultunlockdiagnoser",
     "price" : 0,
     "inventoryIcon" : "fu_defaultunlockdiagnoser.png",
     "maxStack" : 1,

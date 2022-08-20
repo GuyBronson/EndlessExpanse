@@ -672,7 +672,8 @@
 	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "meatkibble"} } ],
 
 
-	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "fu_defaultunlockdiagnoser"} } ],
+
+	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "enx_defaultunlockdiagnoser"} } ],
 	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "fu_solidrailplatform"} } ],
 
 

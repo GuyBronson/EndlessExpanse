@@ -1,5 +1,5 @@
 {
-  "easyvoxel1k" : [
+  "enx_easyvoxel1k" : [
     [0, {
       "pool" : [
         {"weight" : 1, "item" : ["money", 1000]}
@@ -7,7 +7,7 @@
     }]
   ],
 
-  "easyvoxel2k" : [
+  "enx_easyvoxel2k" : [
     [0, {
       "pool" : [
         {"weight" : 1, "item" : ["money", 2000]}
@@ -15,7 +15,7 @@
     }]
   ],
 
-  "easyvoxel5k" : [
+  "enx_easyvoxel5k" : [
     [0, {
       "pool" : [
         {"weight" : 1, "item" : ["money", 5000]}
@@ -23,7 +23,7 @@
     }]
   ],
 
-  "easyvoxel10k" : [
+  "enx_easyvoxel10k" : [
     [0, {
       "pool" : [
         {"weight" : 1, "item" : ["money", 10000]}

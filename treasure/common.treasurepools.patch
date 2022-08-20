@@ -25,7 +25,7 @@
   {
     "op": "add",
     "path": "/tool/0/1/pool/-",
-    "value": {"weight": 0.0035,"item": ["cuddlehorse",1]}
+    "value": {"weight": 0.0035,"item": ["enx_upgradekit",1]}
   },
   {
     "op": "add",
@@ -35,7 +35,7 @@
   {
     "op": "add",
     "path": "/tool/0/1/pool/-",
-    "value": {"weight": 0.01,"item": ["gyrostabilizer",1]}
+    "value": {"weight": 0.01,"item": ["enx_gyrostabilizer",1]}
   },
   {
     "op": "add",

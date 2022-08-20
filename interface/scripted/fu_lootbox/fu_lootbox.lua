@@ -368,7 +368,7 @@ function doneOpening()
 
 	do
 		local cursorItem = player.swapSlotItem()
-		if cursorItem and cursorItem.name == "fu_lootbox" then
+		if cursorItem and cursorItem.name == "enx_lootbox" then
 			itemLevel = cursorItem.parameters.level or math.floor(self.level + 0.5)
 			player.setSwapSlotItem(nil)
 			hasLootbox = true
@@ -377,7 +377,7 @@ function doneOpening()
 
 	if not hasLootbox then
 		for i = 0, 10 do
-			if player.consumeItem({name = "fu_lootbox", parameters = {level = i}}, true, true) then
+			if player.consumeItem({name = "enx_lootbox", parameters = {level = i}}, true, true) then
 				hasLootbox = true
 				itemLevel = i
 				break
@@ -386,7 +386,7 @@ function doneOpening()
 	end
 
 	if not hasLootbox then
-		if player.consumeItem({name = "fu_lootbox"}, true) then
+		if player.consumeItem({name = "enx_lootbox"}, true) then
 			hasLootbox = true
 			itemLevel = math.floor(self.level + 0.5)
 		end

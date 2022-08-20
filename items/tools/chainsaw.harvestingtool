@@ -12,7 +12,7 @@
   "frames" : 5,
   "animationCycle" : 0.1,
   "tooltipKind" : "tool",
-//  "learnBlueprintsOnPickup" : [ "HarvesterBeam" ],
+//  "learnBlueprintsOnPickup" : [ "enx_harvesterbeamgun" ],
   "handPosition" : [-6, 3],
   "fireTime" : 0.08,
   "blockRadius" : 5,

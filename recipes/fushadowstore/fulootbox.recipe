@@ -3,7 +3,7 @@
     { "item" : "essence", "count" : 500 }
   ],
   "output" : {
-    "item" : "fu_lootbox",
+    "item" : "enx_lootbox",
     "count" : 1
   },
   "groups" : [ "fushadowstore", "all", "items", "nouncrafting","norecycling" ],
