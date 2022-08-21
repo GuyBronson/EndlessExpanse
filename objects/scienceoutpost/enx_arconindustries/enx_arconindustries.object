@@ -1,0 +1,93 @@
+{
+  "objectName" : "enx_arconindustries",
+  "colonyTags" : [ "crafting", "human" ],
+  "rarity" : "rare",
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "^red;ArCon Industries^reset;",
+        "subtitle" : "Arms Dealer"
+      }
+    },
+    "buyFactor" : 4.5,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "arconrifle-recipe" },
+      { "item" : "arconcannon-recipe" },
+      { "item" : "zenith-recipe" },
+      { "item" : "longinus-recipe" },
+      { "item" : "arconshield-recipe" },
+	  { "item" : "blastcannon-recipe" },
+	  { "item" : "enx_arconstarstream-recipe" },
+	  { "item" : "warden-recipe" },
+	  { "item" : "conquerorhead" },
+	  { "item" : "conquerorchest" },
+	  { "item" : "conquerorlegs" }
+    ]
+  },
+  "printable" : false,
+  "description" : "This clerk over here is selling blueprints for ArCon equipment!",
+  "shortdescription" : "^red;Arcon Industries^reset;",
+  "race" : "human",
+  "category" : "shop",
+  "price" : 0,
+  "inventoryIcon" : "enx_arconindustries.png:default.0",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "enx_arconindustries.png:<color>.<frame>"} ],
+      "imagePosition" : [-28, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 8,
+      "animationCycle" : 4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "enx_arconindustries.png:<color>.<frame>"} ],
+      "imagePosition" : [-28, 0],
+
+      "direction" : "right",
+
+      "frames" : 8,
+      "animationCycle" : 4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+   "scripts" : [ "/objects/outpost/repairo/repairo.lua" ],
+  "scriptDelta" : 20,
+  "chatRadius" : 10,
+  "chatCooldown" : 10,
+  "chatOptions" : [
+	"*looks at the clock on her laptop* Dammit, not lunch break yet.",
+	"I'd like this job a little more if it wasn't for Brickass...",
+	"So, planning on buying anything? No? It's gonna be a slow day, huh...",
+	"Don't mind the fact I'm watching cat videos on my work laptop.",
+	"Do you need anything?",
+	"Managing the weapons would be nicer if Brickass didn't run off with them all the time.",
+	"Go talk to the info lady if you're looking for other places to shop at.",
+	"Yeah, ArCon's an arms dealer. So what?",
+	"Quit eyeballing those weapons, they're non-functional for safety purposes.",
+	"I wish I got a raise so this job was actually worth something.",
+	"Brickass once ordered 500 plasma batteries. Needless to say, it was pure chaos.",
+	"Hands off the guns, please.",
+	"I will say this. Our products are surprisingly robust.",
+	"If you're looking for some plasma arms, we've got you covered.",
+	"Please don't bother me while I'm doing *actual* work.",
+	"*looks bored*",
+	"Kon's a pretty nice person. They make some sweet candy.",
+	"Lemme tell you, don't drink the stuff at the Starbuck's. It'll mess you up for the rest of the day."
+  ],
+  "offeredQuests" : [
+  ],
+  "turnInQuests" : [
+  ]
+}
