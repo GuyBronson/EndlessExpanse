@@ -1,0 +1,145 @@
+{
+  "objectName" : "enx_strangemailman",
+  "colonyTags" : [ "crafting", "human" ],
+  "rarity" : "rare",
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "^green;Strange Mailman^reset;",
+        "subtitle" : "Exotic Arms Dealer/Courier"
+      }
+    },
+	"rotationTime" : 86400,
+	"numItems" : 6,
+    "buyFactor" : 4.5,
+    "sellFactor" : 0.2,
+	"rotateStock" : true,
+	"items" : [
+      { "item" : "fuGravBalls" },
+	  { "item" : "deathbringer" },
+	  { "item" : "shadowburst" },
+	  { "item" : "freedombird" },
+	  { "item" : "squelcher" },
+	  { "item" : "gumballgun" },
+	  { "item" : "armcannon" },
+	  { "item" : "fupowerglove" },
+	  { "item" : "fugoldengun" },
+	  { "item" : "bloodyknife" },
+	  { "item" : "facebreaker" },
+	  { "item" : "gravitonpistolunique" },
+	  { "item" : "energyassaultunique" },
+	  { "item" : "shovelspear" },
+	  { "item" : "fushovelspear" },
+	  { "item" : "panishment" },
+	  { "item" : "electrobaton2" },
+	  { "item" : "burrowerrang" },
+	  { "item" : "teslagun2" },
+	  { "item" : "razorneedler" },
+	  { "item" : "radneedler" },
+	  { "item" : "scorchneedler" },
+	  { "item" : "shockneedler" },
+	  { "item" : "toxicneedler" },
+	  { "item" : "ff_bubblegun2" },
+	  { "item" : "randomharpoongun2" },
+	  { "item" : "friendmaker2" },
+	  { "item" : "tethersnap2" },
+	  { "item" : "tethersnap3" },
+	  { "item" : "iceaxe2" },
+	  { "item" : "classiczapper" },
+	  { "item" : "ironkatana2" },
+	  { "item" : "shockarang" },
+	  { "item" : "marinerspear" },
+	  { "item" : "fuapexclaws" },
+	  { "item" : "stormwarden" },
+	  { "item" : "gorgolithtail" },
+	  { "item" : "fuyinyang" },
+	  { "item" : "futrigun" },
+	  { "item" : "fiendefeller" },
+	  { "item" : "klinokrov" },
+	  { "item" : "fupixelbreaker" },
+	  { "item" : "fufreezecannonKhe" },
+	  { "item" : "fugjallarhorn" },
+	  { "item" : "hellraiser" },
+	  { "item" : "dolphinhammer" },
+	  { "item" : "bleakblade" },
+	  { "item" : "negablade" },
+	  { "item" : "meathammer" },
+	  { "item" : "cinder" },
+	  { "item" : "mrscorchy" },
+	  { "item" : "enx_bloodhuntershotgun" },
+	  { "item" : "enx_bloodhuntersaxe" },
+	  { "item" : "enx_pkpbertha" },
+	  { "item" : "enx_arbalest" },
+	  { "item" : "enx_loveandhatestaff" },
+	  { "item" : "angryrocket" },
+	  { "item" : "fucrossgun" },
+	  { "item" : "extramissile" },
+	  { "item" : "quantumball" },
+	  { "item" : "bluegravball" },
+	  { "item" : "orangegravball" }
+	  ]
+  },
+  "printable" : false,
+  "description" : "Is this guy even a mailman...?",
+  "shortdescription" : "^green;Strange Mailman^reset;",
+  "race" : "human",
+  "category" : "shop",
+  "price" : 0,
+  "inventoryIcon" : "enx_strangemailman.png:default.0",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "enx_strangemailman.png:<color>.<frame>"} ],
+      "imagePosition" : [0, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 30,
+      "animationCycle" : 4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "enx_strangemailman.png:<color>.<frame>"} ],
+      "imagePosition" : [0, 0],
+
+      "direction" : "right",
+
+      "frames" : 30,
+      "animationCycle" : 4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+   "scripts" : [ "/objects/outpost/repairo/repairo.lua" ],
+  "scriptDelta" : 20,
+  "chatRadius" : 10,
+  "chatCooldown" : 10,
+  "chatOptions" : [
+  "Exploring the wastes makes you wish for a radiation storm.",
+  "How many have I killed to get here? Uh... How about we talk about it later.",
+  "Why am I talking to you again?",
+  "Don't just stare at me like that",
+  "You break it you buy it. And if you don't I'm gonna MAKE you buy it.",
+  "I can beat anyone with the power of friendship... And this gun I found!",
+  "If it refuses to die after the first explosion, you didn't use enough explosions.",
+  "I once threw a grenade into the blender to see what'd happen. I predictably blew my hands off.",
+  "Where is that crazy russian gun dealer that I've been hearing about.",
+  "Miniguns and grenades are a good combination. And lots of C4. Hell everything needs C4.",
+  "Been hearing that some mailman got shot in the head while delivering some kinda coin or whatnot. Probably not even worth the round used.",
+  "No, I was not shot in the head... At least I think I wasn't. Can't tell with all the firefights I've been in.",
+  "Maybe someday we can troll Letheia with a bunch of pipe bombs... Together.",
+  "Sussus amo- Oh my god what am I saying.",
+  "Ya ever meet a moron in a checkered suit? If so, put a bullet in his skull for me.",
+  "Some people call me a terrorist. The art of making explosives and blowing them up for a chuckle or two is still fun regardless of who got turned into a red smear."
+  ],
+  "offeredQuests" : [
+  ],
+  "turnInQuests" : [
+  ]
+}
