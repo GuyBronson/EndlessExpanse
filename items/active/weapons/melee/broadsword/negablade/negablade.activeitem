@@ -1,13 +1,11 @@
 {
   "itemName" : "negablade",
-  "price" : 11500,
+  "price" : 20000,
   "level" : 6,
   "maxStack" : 1,
-  "rarity" : "Legendary",
-  "description" : "Said to house the screaming, corrupted essence of a thousand innocents.
-^cyan;Heavy. Slows wielder^reset;
-^green;Friggin Huge^reset;",
-  "shortdescription" : "The Negablade",
+  "rarity" : "essential",
+  "description" : "A custom-built weapon wielded by Fonaris. Fine tuned and built to last.",
+  "shortdescription" : "Escanor",
   "tooltipKind" : "sword2",
   "category" : "broadsword",
   "twoHanded" : true,
@@ -15,7 +13,7 @@
   //"collectablesOnPickup" : { "fu_weaponbroadsword" : "negablade" },
   "inventoryIcon" : "negablade.png",
 
-  "animation" : "negablade.animation",
+  "animation" : "/items/active/weapons/melee/broadsword/negablade.animation",
   "animationParts" : {
     "handle" : "",
     "blade" : "negablade.png",
@@ -25,7 +23,7 @@
   "animationCustom" : {
     "lights" : { "glow" : {
       "active" : true,
-      "position" : [0.75, 0.5],
+      "position" : [0.75, 0.8],
       "color" : [34, 117, 22],
       "flickerPeriod" : 0.3,
       "flickerMinIntensity" : 0.95,
@@ -35,6 +33,9 @@
     }},
     "sounds" : {
       "fire" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ],
+	  "fire2" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ],
+	  "fire3" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ],
+	  "fire4" : [ "/sfx/melee/swing_broadsword_fire1.ogg", "/sfx/melee/swing_broadsword_fire2.ogg", "/sfx/melee/swing_broadsword_fire3.ogg" ],
       "fireStart" : [ "/sfx/tech/tech_jetpack_thrust1.ogg" ],
       "fireLoop" : [ "/sfx/melee/rocketspear_loop_fire.ogg" ],
       "fireEnd" : [ "/sfx/melee/rocketspear_stop_fire.ogg" ]
@@ -42,23 +43,27 @@
   },
 
   "scripts" : [
-    "/items/active/weapons/melee/meleeweapon.lua",
-    "/items/active/scripts/heavyweapon.lua"
+    "/items/active/weapons/melee/meleeweapon.lua"
   ],
 
-  "muzzleOffset" : [0, 3.75],
+  "muzzleOffset" : [4, 4.3],
 
-  "elementalType" : "poison",
+  "elementalType" : "fire",
+  
+  "primaryAbilityType" : "broadswordcombo",
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
-    "class" : "MeleeSlash",
-
-    "fireTime" : 2.0,
-    "baseDps" : 8.94,
-    "damageConfig" : {
-      "damageSourceKind" : "poisonbroadsword",
-      "statusEffects" : [ "burning" ],
-      "knockback" : 50,
+    "fireTime" : 1.0,
+    "baseDps" : 15,
+    "damageConfig" : { 
+	  "comboSteps" : 4,
+	  "stepDamageConfig":[
+				{"baseDamageFactor":1.0, "knockback":15},
+				{"baseDamageFactor":0.9, "knockback":15},
+				{"baseDamageFactor":1.3, "knockback":20, "statusEffects" : [ "defenseboostneg20" ]},
+				{"baseDamageFactor":0.5, "knockback":30}
+				],
+      "damageSourceKind" : "firebroadsword",
+      "statusEffects" : [ "burningnapalm" ],
       "knockbackMode" : "facing",
       "timeoutGroup" : "primary"
     },
@@ -70,8 +75,9 @@
         "allowRotate" : false,
         "allowFlip" : true
       },
-      "windup" : {
-        "duration" : 0.1,
+      "windup1" : {
+		"armAngularVelocity" : 50,
+        "duration" : 0.3,
         "armRotation" : 90,
         "weaponRotation" : -10,
         "twoHanded" : true,
@@ -80,7 +86,8 @@
         "allowRotate" : false,
         "allowFlip" : true
       },
-      "preslash" : {
+      "preslash1" : {
+	    "armAngularVelocity" : 50,
         "duration" : 0.025,
         "armRotation" : 55,
         "weaponRotation" : -45,
@@ -90,7 +97,7 @@
         "allowRotate" : false,
         "allowFlip" : false
       },
-      "fire" : {
+      "fire1" : {
         "duration" : 0.4,
         "armRotation" : -45,
         "weaponRotation" : -55,
@@ -99,13 +106,189 @@
 
         "allowRotate" : false,
         "allowFlip" : false
-      }
+      },
+	  "wait1": {
+		"duration": 0.2,
+		"armRotation": -45,
+		"weaponRotation": -55,
+		"weaponOffset": [0, 0],
+		"twoHanded": true,
+		"allowFlip": true,
+		"allowRotate": false
+	},
+	  "windup2" : {
+		"armAngularVelocity" : 75,
+		"duration" : 0.4,
+        "armRotation" : 45,
+        "weaponRotation" : -30,
+        "allowRotate" : false,
+        "allowFlip" : true,
+		"twoHanded" : true,
+		"weaponOffset" : [ 0.15, 0.2 ]
+      },
+	  "preslash2" : {
+	    "duration" : 0.1,
+        "armRotation" : -90,
+        "weaponRotation" : -165,
+        "allowRotate" : false,
+        "allowFlip" : false,
+		"twoHanded" : true,
+		"weaponOffset" : [ 0.15, 0.2 ]
+      },
+	  "fire2" : {
+		"duration" : 0.35,
+        "armRotation" : -90,
+        "weaponRotation" : -165,
+        "allowRotate" : false,
+        "allowFlip" : false,
+		"twoHanded" : true,
+		"weaponOffset" : [ 0.15, 0.2 ]
+      },
+	  "wait2": {
+		"duration": 0.2,
+		"armRotation": -90,
+		"weaponRotation": -165,
+		"weaponOffset": [0, 0],
+		"twoHanded": true,
+		"allowFlip": true,
+		"allowRotate": false
+	},
+	"windup3" : {
+		"armAngularVelocity" : 75,
+		"duration" : 0.4,
+        "armRotation" : -110,
+        "weaponRotation" : -165,
+        "allowRotate" : false,
+        "allowFlip" : true,
+		"twoHanded" : true,
+		"weaponOffset" : [ 0.15, 0 ]
+      },
+	  "preslash3" : {
+	    "duration" : 0.1,
+        "armRotation" : -110,
+        "weaponRotation" : -165,
+        "allowRotate" : false,
+        "allowFlip" : false,
+		"twoHanded" : true,
+		"weaponOffset" : [ 0.15, 0.2 ]
+      },
+	  "fire3" : {
+		"duration" : 0.35,
+        "armRotation" : -30,
+        "weaponRotation" : -220,
+        "allowRotate" : false,
+        "allowFlip" : false,
+		"twoHanded" : true,
+		"weaponOffset" : [ 0.15, -0.4 ]
+      },
+	  "wait3": {
+		"duration": 0.2,
+		"armRotation": -30,
+		"weaponRotation": -220,
+		"weaponOffset": [0, 0],
+		"twoHanded": true,
+		"allowFlip": true,
+		"allowRotate": false
+	},
+	"windup4" : {
+		"armAngularVelocity" : 120,
+		"duration" : 0.4,
+        "armRotation" : -130,
+        "weaponRotation" : -165,
+        "allowRotate" : false,
+        "allowFlip" : true,
+		"twoHanded" : false,
+		"weaponOffset" : [ 0.15, 0 ]
+      },
+	  "preslash4" : {
+	    "duration" : 0.1,
+        "armRotation" : -130,
+        "weaponRotation" : -165,
+        "allowRotate" : false,
+        "allowFlip" : false,
+		"twoHanded" : true,
+		"weaponOffset" : [ 0.15, 0.2 ]
+      },
+	"fire4": {
+		"duration": 0.2,
+		"armRotation": 80,
+		"weaponRotation": -150,
+		"weaponOffset": [0, 0],
+		"twoHanded": true,
+		"allowFlip": true,
+		"allowRotate": false
+	},
+	"wait4": {
+		"duration": 0.2,
+		"armRotation": 80,
+		"weaponRotation": -150,
+		"weaponOffset": [0, 0],
+		"allowRotate": false,
+		"allowFlip": true,
+		"twoHanded": true
+	}
     }
   },
 
   "aimOffset" : 0.0,
 
   "altAbilityType" : "flamethrowersword",
+    "altAbility" : {
+    "name" : "Forged in Flame",
+    "type" : "flamethrowersword",
+    "scripts" : ["/items/active/weapons/melee/abilities/spear/rocketspear/rocketspear.lua"],
+    "class" : "RocketSpear",
+
+    "baseDps" : 14,
+    "cooldownTime" : 0.5,
+    "energyUsage" : 45,
+    "fireTime" : 0.15,
+    "inaccuracy" : 0.1,
+
+    "elementalConfig" : {
+      "fire" : {
+        "projectileType" : "flamethrower"
+      },
+      "ice" : {
+        "projectileType" : "icethrower"
+      },
+      "poison" : {
+        "projectileType" : "poisonthrower"
+      },
+      "electric" : {
+        "projectileType" : "lightningthrower"
+      }
+    },
+    "projectileParameters" : {
+      "speed" : 10,
+	  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/fireexplosionknockback.config"
+    }
+  ]
+    },
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.0,
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "armRotation" : 0,
+        "weaponRotation" : -90,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
   "critChance" : 10,
   "critBonus" : 32,
   "builder" : "/items/buildscripts/buildunrandweapon.lua"
