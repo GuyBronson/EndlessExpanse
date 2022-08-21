@@ -42,7 +42,7 @@ item =
 			}
 		}
 	},
-	name= "botpod",
+	name= "enx_botpod",
 	count= 1
 }
 

@@ -178,7 +178,7 @@
     [1, {
       "pool" : [
         {"weight" : 0.001, "pool" : "artifactloot" },
-        {"weight" : 0.01, "item" : [ "mysteriousparcel", 1]},
+        {"weight" : 0.01, "item" : [ "enx_mysteriousparcel", 1]},
         {"weight" : 0.03, "pool" : "augments"},
         {"weight" : 0.03, "pool" : "petcollars2"},
         {"weight" : 1.0, "item" : ["snowball", 10]},
@@ -254,7 +254,7 @@
       "pool" : [
         {"weight" : 0.8, "pool" : "fuBasicMaterials"},
         {"weight" : 0.04, "pool" : "fuspecialLoot"},
-        {"weight" : 0.01, "item" : [ "mysteriousparcel", 1]},
+        {"weight" : 0.01, "item" : [ "enx_mysteriousparcel", 1]},
         {"weight" : 0.1, "pool" : "fuGenes"},
         {"weight" : 0.20, "item" : "uncathat"},
         {"weight" : 0.20, "item" : "kittyhead"},
@@ -316,7 +316,7 @@
         {"weight" : 0.04, "pool" : "shield"},
         {"weight" : 0.012, "pool" : "instrument"},
         {"weight" : 0.005, "pool" : "costume"},
-        {"weight" : 0.0005, "item" : [ "mysteriousparcel", 1]},
+        {"weight" : 0.0005, "item" : [ "enx_mysteriousparcel", 1]},
         {"weight" : 0.003, "item" : "teleportercore"},
         {"weight" : 0.025, "item" : "torch" }
       ],
@@ -335,7 +335,7 @@
     [1, {
         "pool" : [
           {"weight" : 0.001, "pool" : "artifactloot" },
-          {"weight" : 0.01, "item" : [ "mysteriousparcel", 1]},
+          {"weight" : 0.01, "item" : [ "enx_mysteriousparcel", 1]},
           {"weight" : 0.03, "pool" : "augments"},
           {"weight" : 0.03, "pool" : "petcollars2"},
           {"weight" : 0.40, "pool" : "money"},
@@ -426,7 +426,7 @@
   "ffwastelandChest" : [
     [1, {
         "pool" : [
-        {"weight" : 0.01, "item" : [ "mysteriousparcel", 1]},
+        {"weight" : 0.01, "item" : [ "enx_mysteriousparcel", 1]},
           {"weight" : 0.001, "pool" : "artifactloot" },
           {"weight" : 0.03, "pool" : "augments"},
           {"weight" : 0.03, "pool" : "petcollars2"},
@@ -605,7 +605,7 @@
     [1, {
       "pool" : [
         {"weight" : 0.001, "pool" : "artifactloot" },
-        {"weight" : 0.01, "item" : [ "mysteriousparcel", 1]},
+        {"weight" : 0.01, "item" : [ "enx_mysteriousparcel", 1]},
         {"weight" : 0.08, "item" : ["beesilk", 5]},
         {"weight" : 0.03, "pool" : "augments"},
         {"weight" : 0.03, "pool" : "petcollars2"},
@@ -764,7 +764,7 @@
     [1, {
       "pool" : [
         {"weight" : 0.001, "pool" : "artifactloot" },
-        {"weight" : 0.01, "item" : [ "mysteriousparcel", 1]},
+        {"weight" : 0.01, "item" : [ "enx_mysteriousparcel", 1]},
         {"weight" : 0.03, "pool" : "augments"},
         {"weight" : 0.03, "pool" : "petcollars2"},
         {"weight" : 0.08, "item" : ["beesilk", 5]},
@@ -899,7 +899,7 @@
     [1, {
       "pool" : [
         {"weight":0.1, "pool":"salvageComponent"},
-        {"weight" : 0.01, "item" : [ "mysteriousparcel", 1]},
+        {"weight" : 0.01, "item" : [ "enx_mysteriousparcel", 1]},
         {"weight" : 0.001, "pool" : "artifactloot" },
         {"weight" : 0.08, "item" : ["beesilk", 5]},
         {"weight" : 0.03, "pool" : "augments"},
@@ -1032,7 +1032,7 @@
       ],
       "pool" : [
         {"weight" : 0.001, "pool" : "artifactloot" },
-        {"weight" : 0.01, "item" : [ "mysteriousparcel", 1]},
+        {"weight" : 0.01, "item" : [ "enx_mysteriousparcel", 1]},
         {"weight":0.1, "pool":"salvageComponent"},
         {"weight" : 0.03, "pool" : "arconLoot"},
         {"weight" : 0.08, "item" : ["beesilk", 5]},
@@ -1103,7 +1103,7 @@
     [1, {
       "pool" : [
         {"weight":0.1, "pool":"salvageComponent"},
-        {"weight" : 0.01, "item" : [ "mysteriousparcel", 1]},
+        {"weight" : 0.01, "item" : [ "enx_mysteriousparcel", 1]},
         {"weight" : 0.001, "pool" : "artifactloot" },
         {"weight" : 0.08, "item" : ["beesilk", 5]},
         {"weight" : 0.05, "pool" : "augments"},
@@ -1243,7 +1243,7 @@
       "pool" : [
         {"weight":0.1, "pool":"salvageComponent"},
         {"weight" : 0.001, "pool" : "artifactloot" },
-        {"weight" : 0.01, "item" : [ "mysteriousparcel", 1]},
+        {"weight" : 0.01, "item" : [ "enx_mysteriousparcel", 1]},
         {"weight" : 0.03, "pool" : "augments"},
         {"weight" : 0.03, "pool" : "petcollars2"},
         {"weight" : 0.1, "item" : [ "essence", 150]},
@@ -1372,7 +1372,7 @@
     [1, {
       "pool" : [
         {"weight" : 0.001, "pool" : "artifactloot" },
-        {"weight" : 0.01, "item" : [ "mysteriousparcel", 1]},
+        {"weight" : 0.01, "item" : [ "enx_mysteriousparcel", 1]},
         {"weight" : 0.08, "item" : ["beesilk", 5]},
         {"weight" : 0.03, "pool" : "augments"},
         {"weight" : 0.03, "pool" : "petcollars2"},
@@ -1594,7 +1594,7 @@
         {"weight" : 0.03, "pool" : "petcollars2"},
         {"weight" : 0.20, "pool" : "money"},
         {"weight" : 0.005, "item" : [ "cthulhuplush", 1]},
-        {"weight" : 0.0333, "item" : [ "mysteriousparcel", 1]},
+        {"weight" : 0.0333, "item" : [ "enx_mysteriousparcel", 1]},
         {"weight" : 0.0333, "item" : [ "fuscienceresource", 15]},
         {"weight" : 0.0333, "item" : [ "fuscienceresource", 15]},
         {"weight" : 0.0333, "item" : [ "fuscienceresource", 15]},

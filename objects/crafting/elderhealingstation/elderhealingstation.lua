@@ -3,7 +3,7 @@ require "/scripts/util.lua"
 function craftingRecipe(items)
   if #items ~= 1 then return end
   local item = items[1]
-  --if not item or item.name ~= "botpod" or item.name ~= "elderpod" or item.name ~= "filledcapturepod" then return end
+  --if not item or item.name ~= "enx_botpod" or item.name ~= "enx_elderpod" or item.name ~= "filledcapturepod" then return end
   self.acceptedPods = config.getParameter("acceptedPods")
   if not item or not self.acceptedPods[item.name] then return end
 

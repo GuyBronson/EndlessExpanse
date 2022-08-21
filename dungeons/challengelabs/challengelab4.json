@@ -1465,7 +1465,7 @@
                  "properties":
                     {
                      "parameters":"{\"railConfig\" : { \"speed\" : 11\n}}",
-                     "vehicle":"fu_solidrailplatform"
+                     "vehicle":"enx_solidrailplatform"
                     },
                  "propertytypes":
                     {

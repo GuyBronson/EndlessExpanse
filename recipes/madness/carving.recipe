@@ -6,7 +6,7 @@
     { "item" : "blooddiamond", "count" : 1 }
   ],
   "output" : {
-    "item" : "carving",
+    "item" : "enx_strangecarving",
     "count" : 4
   },
   "groups" : [ "tomedais2", "books", "all" ],

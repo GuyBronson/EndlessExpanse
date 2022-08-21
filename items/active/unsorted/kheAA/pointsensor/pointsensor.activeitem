@@ -1,5 +1,5 @@
 {
-	"itemName": "network_pointsensor",
+	"itemName": "enx_network_pointsensor",
 	"price": 150,
 	"maxStack": 1,
 	"rarity": "common",

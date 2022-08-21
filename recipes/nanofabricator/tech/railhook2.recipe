@@ -5,7 +5,7 @@
     { "item" : "zerchesiumbar", "count" : 3 }
   ],
   "output" : {
-    "item" : "railhook2",
+    "item" : "enx_railhook2",
     "count" : 1
   },
   "groups" : [ "nanofabricator2", "tech", "all" ]

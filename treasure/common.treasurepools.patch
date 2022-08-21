@@ -18,7 +18,7 @@
   {
     "op": "add",
     "path": "/basicTreasure/0/1/pool/-",
-    "value": {"weight": 0.005,"item": ["smalldata",1]}
+    "value": {"weight": 0.005,"item": ["enx_researchdata",1]}
   },
 
   //super ultra rare chance for transmutation matrix
@@ -30,7 +30,7 @@
   {
     "op": "add",
     "path": "/tool/0/1/pool/-",
-    "value": {"weight": 0.01,"item": ["pocketanchor",1]}
+    "value": {"weight": 0.01,"item": ["enx_pocketanchor",1]}
   },
   {
     "op": "add",
@@ -1011,7 +1011,7 @@
   "op": "add",
   "path": "/challengeChestTreasure/0/1/fill/-",
   "value": {
-   "item": "smalldata"
+   "item": "enx_researchdata"
   }
  },
  {

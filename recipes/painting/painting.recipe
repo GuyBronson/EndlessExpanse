@@ -7,7 +7,7 @@
 	{ "item" : "bluedye", "count" : 1 }
   ],
   "output" : {
-    "item" : "paintingrandom", "count" : 1
+    "item" : "enx_paintingrandom", "count" : 1
   },
   "groups" : [ "paintingeasel", "all" ],
   "duration" : 10

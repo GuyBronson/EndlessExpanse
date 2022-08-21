@@ -7,7 +7,7 @@
     { "item" : "elderrelic1", "count" : 1 }
   ],
   "output" : {
-    "item" : "perpetualaccelerator",
+    "item" : "enx_perpetualaccelerator",
     "count" : 1
   },
   "groups" : [ "nanofabricator3", "tech", "all" ]

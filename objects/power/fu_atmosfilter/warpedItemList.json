@@ -11,7 +11,7 @@
 			"team": "enemy"
 		}]
 	},
-	"madnesstoken2": {
+	"enx_unknownartifact": {
 		"effects": [{
 			"status": "insanity",
 			"team": "enemy"
@@ -35,7 +35,7 @@
 			"team": "friendly"
 		}]
 	},
-	"madnesstoken3": {
+	"enx_glowingglyph": {
 		"effects": [{
 			"status": "insanity",
 			"team": "enemy"

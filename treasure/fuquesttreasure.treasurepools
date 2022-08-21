@@ -140,7 +140,7 @@
 "precursorUnlock" : [
     [1, {
       "fill" : [
-        {"item" : ["sciencebrochure2", 1]}
+        {"item" : ["enx_precursordatakey", 1]}
       ]
     } ]
   ],
@@ -369,9 +369,9 @@
         {"weight" : 0.009, "item" : "fubonearmor3head-recipe"},
         {"weight" : 0.009, "item" : "fubonearmor3chest-recipe"},
         {"weight" : 0.009, "item" : "fubonearmor3legs-recipe"},
-        {"weight" : 0.009, "item" : "perpetualaccelerator"},
+        {"weight" : 0.009, "item" : "enx_perpetualaccelerator"},
         {"weight" : 0.03, "item" : "enx_precursorhookshot"},
-        {"weight" : 0.05, "item" : "railhook3"}
+        {"weight" : 0.05, "item" : "enx_railhook3"}
       ],
       "poolRounds" : [
         [0.33, 1],

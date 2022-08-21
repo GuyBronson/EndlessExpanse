@@ -31,7 +31,7 @@ function update(dt)
 	local buffer=world.containerItems(entity.id())
 	if #buffer==1 then
 		if buffer[1] and not buffer[2] then
-			if buffer[1].name == "botpod" then
+			if buffer[1].name == "enx_botpod" then
 				if not healTimer then
 					healTimer=0.0
 					animator.setAnimationState("healState", "on")

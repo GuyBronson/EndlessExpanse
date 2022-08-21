@@ -1,5 +1,5 @@
 {
-  "itemName" : "mechtablet",
+  "itemName" : "enx_mechtablet",
   "shortdescription" : "Mech Tablet",
   "description" : "^cyan;Primary^reset;: Mech Assembly
 ^yellow;Secondary^reset;: Mech Fuel",

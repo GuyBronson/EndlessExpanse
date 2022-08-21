@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "voynich", "count" : 1 }
+    { "item" : "enx_voynich", "count" : 1 }
   ],
   "output" : {
     "item" : "fumadnessresource",

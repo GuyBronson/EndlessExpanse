@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "madness_knowledge", "count" : 1 }
+    { "item" : "enx_madknowledge", "count" : 1 }
   ],
   "output" : {
     "item" : "fumadnessresource",

@@ -1,5 +1,5 @@
 {
-  "name" : "fu_solidrailplatform",
+  "name" : "enx_solidrailplatform",
   "boundBox" : [-2.5, -0.25, 2.5, 0.75],
   "slaveControlTimeout" : 2.0,
   "slaveControlHeartbeat" : 1.0,
@@ -40,5 +40,5 @@
     "speed" : 15
   },
 
-  "popItem" : "fu_solidrailplatform"
+  "popItem" : "enx_solidrailplatform"
 }

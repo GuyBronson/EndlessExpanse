@@ -1,8 +1,8 @@
 {
   "input" : [
-	{ "item" : "bloodritual", "count" : 1 },
-	{ "item" : "carving", "count" : 2 },
-	{ "item" : "insaneramblings", "count" : 5 },
+	{ "item" : "enx_bloodritual", "count" : 1 },
+	{ "item" : "enx_strangecarving", "count" : 2 },
+	{ "item" : "enx_insaneramblings", "count" : 5 },
 	{ "item" : "faceskin", "count" : 2 },
 	{ "item" : "attunedpaper", "count" : 50 },
 	{ "item" : "leather", "count" : 2 }

@@ -9,7 +9,7 @@
     "config" : "/interface/windowconfig/craftingeasel.config",
     "filter" : [ "paintingeasel" ]
   },
- // "learnBlueprintsOnPickup": ["paintingrandom"],
+ // "learnBlueprintsOnPickup": ["enx_paintingrandom"],
   "description" : "Express yourself through art.",
   "shortdescription" : "^orange;Painting Easel^reset;",
   "race" : "generic",

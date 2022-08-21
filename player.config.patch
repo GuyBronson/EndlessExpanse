@@ -674,7 +674,7 @@
 
 
 	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "enx_defaultunlockdiagnoser"} } ],
-	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "fu_solidrailplatform"} } ],
+	[ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "enx_solidrailplatform"} } ],
 
 
 

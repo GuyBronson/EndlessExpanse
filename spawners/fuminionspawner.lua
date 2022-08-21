@@ -38,7 +38,7 @@ item =
 			}
 		}
 	},
-	name= "elderpod",
+	name= "enx_elderpod",
 	count= 1
 }
 

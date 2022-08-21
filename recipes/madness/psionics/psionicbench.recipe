@@ -4,7 +4,7 @@
    { "item" : "titaniumbar", "count" : 2 },
    { "item" : "liquidbioooze", "count" : 4 },
    { "item" : "copperbar", "count" : 12 },
-   { "item" : "insaneramblings", "count" : 1 }
+   { "item" : "enx_insaneramblings", "count" : 1 }
   ],
   "output" : {
     "item" : "psionicbench",
