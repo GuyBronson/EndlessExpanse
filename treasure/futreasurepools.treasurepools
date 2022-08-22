@@ -292,7 +292,6 @@
        {"weight" : 0.037, "item" : "kirhos4-codex"},
        {"weight" : 0.037, "item" : "kirhos5-codex"},
        {"weight" : 0.037, "item" : "kirhos6-codex"},
-       {"weight" : 0.037, "item" : "kirhos7-codex"},
 
        {"weight" : 0.037, "item" : "funightardoc1-codex"},
        {"weight" : 0.037, "item" : "funightardoc2-codex"},
@@ -1207,7 +1206,6 @@
         {"weight" : 0.04, "item" : [ "crunchychick", 1]},
         {"weight" : 0.02, "item" : [ "crunchychickdeluxe", 1]},
         {"weight" : 0.02, "item" : [ "crunchychickevil", 1]},
-        {"weight" : 0.005, "item" : [ "fu_beebriefcasekevin", 1]},
         {"weight" : 0.04, "item" : [ "portablelight", 1]}
       ]
     }]
@@ -1584,7 +1582,6 @@
         {"weight" : 0.007, "item" : [ "bloodyknife", 1]},
         {"weight" : 0.005, "item" : [ "ffwizardhat", 1]},
         {"weight" : 0.004, "item" : [ "fupowerglove", 1]},
-        {"weight" : 0.004, "item" : [ "fugoldengun", 1]},
         {"weight" : 0.007, "item" : [ "facebreaker", 1]},
         {"weight" : 0.005, "item" : "fuwidemageback"},
         {"weight" : 0.004, "item" : [ "gravitonpistolunique", 1]},
@@ -1641,7 +1638,6 @@
         {"weight" : 0.009, "item" : [ "bloodyknife", 1]},
         {"weight" : 0.03, "item" : [ "ffwizardhat", 1]},
         {"weight" : 0.004, "item" : [ "fupowerglove", 1]},
-        {"weight" : 0.004, "item" : [ "fugoldengun", 1]},
         {"weight" : 0.007, "item" : [ "facebreaker", 1]},
         {"weight" : 0.004, "item" : [ "gravitonpistolunique", 1]},
         {"weight" : 0.003, "item" : [ "skullreaperhelm", 1]},
@@ -1742,7 +1738,6 @@
         {"weight" : 0.007, "item" : [ "bloodyknife", 1]},
         {"weight" : 0.005, "item" : [ "ffwizardhat", 1]},
         {"weight" : 0.004, "item" : [ "fupowerglove", 1]},
-        {"weight" : 0.004, "item" : [ "fugoldengun", 1]},
         {"weight" : 0.007, "item" : [ "facebreaker", 1]},
         {"weight" : 0.004, "item" : [ "gravitonpistolunique", 1]},
         {"weight" : 0.004, "item" : [ "fuicaruswings", 1]},
@@ -1860,7 +1855,6 @@
         {"weight" : 0.007, "item" : [ "bloodyknife", 1]},
         {"weight" : 0.005, "item" : [ "ffwizardhat", 1]},
         {"weight" : 0.004, "item" : [ "fupowerglove", 1]},
-        {"weight" : 0.004, "item" : [ "fugoldengun", 1]},
         {"weight" : 0.007, "item" : [ "facebreaker", 1]},
         {"weight" : 0.004, "item" : [ "fuicaruswings", 1]},
         {"weight" : 0.004, "item" : [ "fufallenangelwings", 1]},
@@ -2002,7 +1996,6 @@
         {"weight" : 0.003, "item"  : [ "freedombird", 1]},
         {"weight" : 0.01, "item"  : [ "squelcher", 1]},
         {"weight" : 0.004, "item" : [ "fupowerglove", 1]},
-        {"weight" : 0.004, "item" : [ "fugoldengun", 1]},
         {"weight" : 0.007, "item" : [ "facebreaker", 1]},
         {"weight" : 0.003, "item" : [ "bleakblade", 1]},
         {"weight" : 0.004, "item" : [ "gravitonpistolunique", 1]},

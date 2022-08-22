@@ -67,18 +67,15 @@
   "chatRadius" : 10,
   "chatCooldown" : 10,
   "chatOptions" : [
-    "*sigh* This job is so boooooring sometimes.",
 	"*looks at the clock on her laptop* Dammit, not lunch break yet.",
 	"I'd like this job a little more if it wasn't for Brickass...",
-	"So, planning on buying anything? No? It's gonna be a slow day, huh?",
+	"So, planning on buying anything? No? It's gonna be a slow day, huh...",
 	"Don't mind the fact I'm watching cat videos on my work laptop.",
 	"Do you need anything?",
-	"The customer is not always right, and anyone that says that clearly doesn't know the meaning of that phrase.",
-	"Please don't be another Karen. I've already had to deal with two of them today.",
 	"Managing the weapons would be nicer if Brickass didn't run off with them all the time.",
 	"Go talk to the info lady if you're looking for other places to shop at.",
 	"Yeah, ArCon's an arms dealer. So what?",
-	"Quit eyeballing those weapons, they're non-functional on purpose.",
+	"Quit eyeballing those weapons, they're non-functional for safety purposes.",
 	"I wish I got a raise so this job was actually worth something.",
 	"Brickass once ordered 500 plasma batteries. Needless to say, it was pure chaos.",
 	"Hands off the guns, please.",
@@ -87,8 +84,7 @@
 	"Please don't bother me while I'm doing *actual* work.",
 	"*looks bored*",
 	"Kon's a pretty nice person. They make some sweet candy.",
-	"Lemme tell you, don't drink the stuff at the Starbuck's. It'll mess you up for the rest of the day.",
-	"I went to college and ended up as a desk clerk. Yep, that's life for ya."
+	"Lemme tell you, don't drink the stuff at the Starbuck's. It'll mess you up for the rest of the day."
   ],
   "offeredQuests" : [
   ],

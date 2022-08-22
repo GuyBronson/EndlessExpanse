@@ -1,0 +1,138 @@
+{
+  "itemName" : "enx_zephyrlaunchermk2",
+  "price" : 4602,
+  "inventoryIcon" : "zephyrlaunchermk2.png:1",
+  "maxStack" : 1,
+  "rarity" : "legendary",
+  "description" : "The Zephyr launcher, albeit reborn.
+^cyan;Fast projectiles^reset;
+^yellow;Extreme fire rate^reset;",
+  "shortdescription" : "Zephyr Hurricane",
+  "category" : "assaultRifle",
+  "level" : 7,
+  "tooltipKind" : "gun2",
+  "weaponType" : "assaultRifle",
+  "itemTags" : ["weapon","ranged","ancient", "upgradeableWeapon", "assaultrifle","ancient"],
+  "twoHanded" : true,
+
+  "animation" : "zephyrlaunchermk2.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "zephyrlaunchermk2.png:1",
+    "middlefullbright" : "zephyrlaunchermk2fullbright.png:1",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png",
+	"charge" : "zephyrlaunchermk2.png:1",
+    "chargehold" : "zephyrlaunchermk2.png",
+	"chargefullbright": "zephyrlaunchermk2fullbright.png:1",
+    "chargeholdfullbright": "zephyrlaunchermk2fullbright.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "parts" : {
+        "middlefullbright" : {
+		  "properties" : {
+		    "offset" : [1.7, -0.8]
+		  }
+		}
+      }
+    },
+    "sounds" : {
+	  "chargeLoop" : [ "/sfx/npc/monsters/kluextotem_wake2.ogg" ]
+    },
+    "lights" : { "muzzleFlash" : {"color" : [90, 90, 0] } }
+  },
+
+  "baseOffset" : [1.7, -0.8],
+  "muzzleOffset" : [2.7, -0.2],
+  "scripts" : ["/items/active/scripts/thea-gun.lua"],
+
+  "elementalType" : "cosmic",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/abilities/thea-minigun.lua"],
+    "class" : "TheaMinigun",
+
+    "fireTime" : 0.05,
+    "baseDps" : 45,
+    "energyUsage" : 60.0,
+    "inaccuracy" : 0.1,
+
+	"chargeTime" : 1.1,
+	"resetTime" : 1.1,
+
+	"walkWhileFiring" : true,
+
+    "projectileType" : ["fireworkgun", "fireworkgunblue", "fireworkgunyellow", "fireworkgungreen", "fireworkgunred"],
+	"projectileCount" : 1,
+	"projectileParameters" : {
+		  "speed" : 75,
+          "knockback" : 10,
+		  "actionOnReap":[
+	{
+      "action" : "projectile",
+      "type" : "firework3",
+      "inheritDamageFactor" : 2,
+      "fuzzAngle" : 5,
+      "angle" : 0
+    }
+		  ]
+        },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "charge" : {
+        "armRotation" : -2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "armRotation" : -4,
+        "weaponRotation" : -4,
+	    "weaponOffset" : [-0.15, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.05,
+        "armRotation" : -3,
+        "weaponRotation" : -3,
+	    "weaponOffset" : [-0.15, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "discharge" : {
+        "duration" : 0.1,
+        "armRotation" : -2,
+        "weaponRotation" : -2,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+	}
+  },
+
+
+  "critChance" : 5,
+  "critBonus" : 20,
+
+
+  "altAbilityType" : "sparkles",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

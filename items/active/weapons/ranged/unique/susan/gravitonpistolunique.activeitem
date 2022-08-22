@@ -1,9 +1,9 @@
 {
   "itemName" : "gravitonpistolunique",
-  "price" : 120,
-  "inventoryIcon" : "gravitonpistolunique.png",
+  "price" : 2500,
+  "inventoryIcon" : "gravitonpistolunique.png:ready1",
     "maxStack" : 1,
-    "rarity" : "essential",
+    "rarity" : "legendary",
   "description" : "A famous modified Graviton pistol thought lost forever.
 ^yellow;Causes Freeze^reset;
 ^green;Powerful knockback^reset;",
@@ -12,15 +12,16 @@
   "category" : "pistol",
   "itemTags" : ["weapon","ranged","pistol", "energy","upgradeableWeapon","gravity"],
   "tooltipKind" : "gununique",
-  "twoHanded" : false,
+  "twoHanded" : true,
   "weaponType" : "Energy",
  // "learnBlueprintsOnPickup" : [ "gravitongun" ],
 
 
-  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animation" : "gravitonpistolunique.animation",
   "animationParts" : {
     "butt" : "",
     "middle" : "gravitonpistolunique.png",
+	"middlefullbright" : "gravitonpistoluniquefullbright.png",
     "barrel" : "",
     "muzzleFlash" : "/animations/muzzleflash/matterblastmuzzlepurple.png"
   },
@@ -30,24 +31,31 @@
     "lights" : { "muzzleFlash" : {"color" : [75, 0, 124] } }
   },
 
-  "baseOffset" : [0.67, 0.3],
-  "muzzleOffset" : [1.5, 0.125],
+  "baseOffset" : [1, 0.125],
+  "muzzleOffset" : [1.75, 0.55],
 
-  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "scripts" : ["/items/active/weapons/ranged/thea-gun.lua"],
 
   "elementalType" : "cosmic",
 
   "primaryAbility" : {
-    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
-    "class" : "GunFire",
-    "fireTime" : 1,
-    "baseDps" : 7.7,
-    "energyUsage" : 40,
+    "scripts" : ["/items/active/weapons/ranged/abilities/thea-ammofire.lua"],
+    "class" : "TheaAmmoFire",
+    "fireTime" : 0.3,
+    "baseDps" : 17,
+    "energyUsage" : 0,
     "fireType" : "auto",
     "inaccuracy" : 0,
+	
+	"readyTime" : 0.2, //Time between finishing the reload animation and being able to fire the first shot again
+	
+	"maxAmmo" : 8,
+	"cycleAfterShot" : true,
+	
     "projectileCount" : 1,
-    "projectileType" : "electricblast",
+    "projectileType" : "gravitonorbsmall4",
     "projectileParameters" : {
+	  "timeToLive" : 2,
       "speed" : 35,
       "damageKind" : "cosmic",
       "knockback" : 30,
@@ -57,11 +65,12 @@
 	      "time" : 0.05,
 	      "loop" : true,
 	      "action" : "projectile",
-	      "type" : "icegas",
-	      "inheritDamageFactor" :0.05,
+	      "type" : "gasburstxith",
+	      "inheritDamageFactor" :0.15,
 	      "fuzzAngle" : 360,
+		  "speed" : 10,
 	      "config" : {
-	        "damageKind" : "ice",
+	        "damageKind" : "cosmic",
 	        "timeToLive" : 2
 	      }
 	   }
@@ -81,37 +90,53 @@
       "idle" : {
         "armRotation" : 0,
         "weaponRotation" : 0,
-        "twoHanded" : false,
+        "twoHanded" : true,
 
         "allowRotate" : true,
         "allowFlip" : true
       },
       "fire" : {
         "duration" : 0,
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : false,
+        "armRotation" : 4,
+        "weaponRotation" : 12,
+        "twoHanded" : true,
 
         "allowRotate" : false,
-        "allowFlip" : false
+        "allowFlip" : true
       },
       "cooldown" : {
-        "duration" : 0.0,
-        "armRotation" : 0,
-        "weaponRotation" : 0,
-        "twoHanded" : false,
+        "duration" : 0.30,
+        "armRotation" : 4,
+        "weaponRotation" : 12,
+        "twoHanded" : true,
 
         "allowRotate" : false,
-        "allowFlip" : false
+        "allowFlip" : true
+      },
+      "reload" : {
+        "duration" : 0.85,
+        "armRotation" : -25,
+        "weaponRotation" : 55,
+		"weaponOffset" : [-0.25, 0.0],
+        "twoHanded" : true,
+
+        "aimAngle" : 0,
+        "allowRotate" : false,
+        "allowFlip" : true,
+
+		"frontArmFrameSequence" : [
+		  [0.0, "rotation"],
+		  [0.1, "walk.2"],
+		  [0.3, "run.3"],
+		  [0.55, "run.1"]
+		],
+        "backArmFrame" : "rotation"
       }
     }
   },
 
   "critChance" : 1,
   "critBonus" : 5,
-  "isAmmoBased" : 1,
-  "magazineSize" : 8,
-  "reloadTime" : 1.125,
 
-  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  "builder" : "/items/buildscripts/thea-buildammoweapon.lua"
 }

@@ -89,10 +89,10 @@
 	  "middlefullbright" : {
         "properties" : {
           "centered" : true,
-		  "fullbright": true,
-		  "zLevel": 2,
           "image" : "<partImage><paletteSwaps>",
-          "offset" : [0, 0], // x offset is set dynamically
+		  "zLevel": 1,
+		  "fullbright": true,
+          "offset" : [1, 0.125], // x offset is set dynamically
           "transformationGroups" : ["weapon"]
         },
         "partStates" : {
@@ -180,7 +180,7 @@
 
   "sounds" : {
     "fire" : [ ],
-	"reloadLoop" : ["/sfx/weapons/reloadfast1","/sfx/weapons/reloadfast2"],
-	"reload" : ["/sfx/weapons/reloadfast1","/sfx/weapons/reloadfast2"]
+	"reloadLoop" : [ ],
+	"reload" : [ ]
   }
 }

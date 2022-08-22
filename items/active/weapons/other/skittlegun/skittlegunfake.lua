@@ -75,7 +75,6 @@ function update(dt, fireMode, shiftHeld)
 						effectUtil.effectSelf("l6doomed",storage.fireTimer)
 						effectUtil.effectSelf("gravrainHiddenNoBlock",storage.fireTimer)
 						effectUtil.effectSelf("negativemiasma",storage.fireTimer)
-						--world.spawnProjectile("fu_beebriefcasetemp",mcontroller.position())
 						effectUtil.say("KEVIN. Banana...donkey.")
 					else
 						effectUtil.say("KEVIN!!!")
