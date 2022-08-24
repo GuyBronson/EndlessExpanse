@@ -65,7 +65,6 @@
 "path" : "/aetherharsh",
 "value" : [
     [0.20, "clear"],
-    [0.05, "fulightningrain"],
     [0.20, "cosmicblast"]
    ]
 },
@@ -258,7 +257,6 @@
 "value" : [
     [0.50, "clear"],
     [0.40, "crystalstorm"],
-    [0.20, "healingstorm"],
     [0.005, "meteorshower"]
     ]
 },
@@ -429,7 +427,6 @@
 "op" : "add",
 "path" : "/sulphuricinsane",
 "value" : [
-    [0.1, "tarrain"],
     [0.3, "sulphurstorm"],
     [0.3, "sulphuracidrain"],
     [0.005, "meteorshower"],
@@ -562,15 +559,6 @@
 
 {
 "op" : "add",
-"path" : "/fugasgiant",
-"value" : [
-    [0.333, "gasgiantstorm"]
-   ]
-},
-
-
-{
-"op" : "add",
 "path" : "/fugentle",
 "value" : [
     [0.10, "rain"],
@@ -613,7 +601,6 @@
 "op" : "add",
 "path" : "/fugentlepretty",
 "value" : [
-    [0.2, "fupretty"],
     [0.2, "rain"],
     [0.2, "glowingrain"],
     [0.4, "clear"]
@@ -669,8 +656,7 @@
 "op" : "add",
 "path" : "/fudesertgentle",
 "value" : [
-    [0.96, "clear"],
-    [0.04, "sandstormlesser"]
+    [1, "clear"]
    ]
 },
 {
