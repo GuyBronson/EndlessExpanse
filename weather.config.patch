@@ -56,8 +56,8 @@
 "path" : "/aethercalm",
 "value" : [
     [0.60, "clear"],
-    [0.05, "gravrainlight"],
-    [0.05, "orangegravrainlight"]
+    [0.05, "gravrain"],
+    [0.05, "orangegravrain"]
    ]
 },
 {
@@ -74,8 +74,8 @@
 "path" : "/aetherrainy",
 "value" : [
     [0.20, "heavyrain"],
-    [0.10, "gravrainlight"],
-    [0.10, "orangegravrainlight"]
+    [0.10, "gravrain"],
+    [0.10, "orangegravrain"]
    ]
 },
 
@@ -314,7 +314,7 @@
     [0.1, "windstorm" ],
     [0.1, "firestorm"],
     [0.2, "sulphuracidrain"],
-    [0.2, "magmastormgreater"]
+    [0.2, "magmastorm"]
    ]
 },
 {
@@ -441,7 +441,7 @@
 "path" : "/sulphuriccalm",
 "value" : [
     [0.3, "clear"],
-    [0.1, "sulphurstormlesser"],
+    [0.1, "sulphurstorm"],
     [0.2, "fu_smog"],
     [0.1, "sulphuriccloud"]
     ]
@@ -470,8 +470,7 @@
 "op" : "add",
 "path" : "/tidewater3",
 "value" : [
-    [0.05, "fog"],
-    [0.05, "fog2"],
+    [0.1, "fog"],
     [0.2, "crystalrain"],
     [0.5, "heavyrain"]
     ]
@@ -498,9 +497,8 @@
 "value" : [
     [0.02, "clear"],
     [0.1, "poisongasstorm"],
-    [0.2, "ashstorm"],
-    [0.2, "ash"],
-    [0.3, "ashstormlesser"]
+    [0.5, "ashstorm"],
+    [0.2, "ash"]
     ]
 },
 
@@ -510,7 +508,7 @@
 "value" : [
     [0.02, "clear"],
     [0.1, "poisongasstorm"],
-    [0.2, "ashstorm"],
+    [0.5, "ashstorm"],
     [0.2, "ash"]
     ]
 },
@@ -701,7 +699,7 @@
 "path" : "/fudesertveryharsh",
 "value" : [
     [0.1, "fuheatblast2"],
-    [0.5, "sulphurstormlesser"]
+    [0.5, "sulphurstorm"]
    ]
 },
 {
@@ -709,7 +707,7 @@
 "path" : "/fudesertultraharsh",
 "value" : [
     [0.2, "fuheatblast3"],
-    [0.1, "sulphurstormlesser"]
+    [0.1, "sulphurstorm"]
    ]
 },
 
@@ -750,7 +748,7 @@
 "path" : "/snowyfrozenlesser",
 "value" : [
     [0.25, "fusuddenchill" ],
-    [0.5, "freezestormminor"]
+    [0.5, "freezestormlesser"]
    ]
 },
 {
