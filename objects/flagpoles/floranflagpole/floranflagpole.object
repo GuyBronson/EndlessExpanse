@@ -12,12 +12,12 @@
   "shortdescription" : "Floran Flag",
   "race" : "floran",
 
-  "apexDescription" : "The Floran flag is a lot less bloodthirsty than you'd expect.",
+  "apexDescription" : "The Floran flag is a lot less agressive than you'd expect.",
   "avianDescription" : "The Floran flag is actually quite pretty.",
   "floranDescription" : "Floran, Floran, Floran yeah! Ssstab with flagpole!",
   "glitchDescription" : "Statement. The simplistic beauty of the Floran flag.",
   "humanDescription" : "A flower for the Florans.",
-  "hylotlDescription" : "A horrifying Floran symbol for a horrifying species.",
+  "hylotlDescription" : "A surprisingly quaint symbol representing the Floran race.",
   "novakidDescription" : "That's a right cute flag. You're tellin' me it's Floran?",
 
   "interactAction" : "OpenTeleportDialog",

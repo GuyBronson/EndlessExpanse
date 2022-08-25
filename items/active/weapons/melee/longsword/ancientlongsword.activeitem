@@ -4,12 +4,13 @@
   "level" : 6,
   "maxStack" : 1,
   "rarity" : "legendary",
-  "description" : "A weapon of the ancients.",
+  "description" : "A weapon of the ancients.
+^cyan;Counts as an axe^reset;",
   "shortdescription" : "Ancient's Warblade",
   "tooltipKind" : "swordunique",
   "category" : "longsword",
   "twoHanded" : false,
-  "itemTags" : ["weapon","melee","longsword","upgradeableWeapon","ancient"],
+  "itemTags" : ["weapon","melee","longsword","upgradeableWeapon","ancient", "axe"],
   "inventoryIcon" : "alienswad_sacre.png",
   "animation" : "combolongswordglow.animation",
   "animationParts" : {

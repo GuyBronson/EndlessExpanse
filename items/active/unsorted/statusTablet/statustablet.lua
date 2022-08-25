@@ -1,23 +1,23 @@
 function init()
   modes = {
-    primaryA = "/zb/researchTree/researchTree",
-    primaryB = "/interface/scripted/mmutility/mmutility",
-    altA = "/interface/scripted/statWindow/statWindow",
-    altB = "/zb/questList/questList"
+    primaryNoShift = "/interface/scripted/statWindow/statWindow",
+    primaryShiftHeld = "/interface/scripted/mmutility/mmutility",
+    altNoShift = "/zb/researchTree/researchTree",
+    altShiftHeld = "/zb/questList/questList"
   }
   sfx = {
-    primaryA = "",
-    primaryB = "3",
-    altA = "",
-    altB = "2"
+    primaryNoShift = "",
+    primaryShiftHeld = "3",
+    altNoShift = "",
+    altShiftHeld = "2"
   }
 end
 
 function activate(fireMode, shiftHeld)
-  key = string.format("%s%s",fireMode, shiftHeld and "A" or "B")
+  key = string.format("%s%s",fireMode, shiftHeld and "ShiftHeld" or "NoShift")
 
-	activeItem.interact("ScriptPane", modes[key]..".config", player.id())
-	animator.playSound("activate"..sfx[key])
+  activeItem.interact("ScriptPane", modes[key]..".config", player.id())
+  animator.playSound("activate"..sfx[key])
 end
 
 function update()

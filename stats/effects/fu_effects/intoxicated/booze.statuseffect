@@ -1,7 +1,10 @@
 {
   "name" : "booze",
   "blockingStat" : "boozeImmunity",
-  "effectConfig" : {},
+  "effectConfig" : {
+  "defenseAmount" : -20,
+  "powerModifier" : 1.2
+  },
   "defaultDuration" : 60,
 
   "scripts" : [

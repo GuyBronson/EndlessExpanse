@@ -318,12 +318,6 @@
 			"team": "all"
 		}]
 	},
-	"fu_beebriefcase": {
-		"effects": [{
-			"status": "fubeesting",
-			"team": "enemy"
-		}]
-	},
 	"capturegun": {
 		"effects": [{
 			"status": "warpedcapture",

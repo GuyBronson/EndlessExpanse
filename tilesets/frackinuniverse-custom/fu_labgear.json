@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":152,
+ "tilecount":154,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -774,7 +774,17 @@
           "imagePositionY" : "0",
           "object" : "scienceinfobooth",
           "tilesetDirection" : "left"
-      }                                
+      },
+	  "152" : {
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "enx_arconindustries"
+      },
+	  "153" : {
+          "imagePositionX" : "0",
+          "imagePositionY" : "0",
+          "object" : "enx_strangemailman"
+      }
     },
       
  "tiles":
@@ -1386,7 +1396,15 @@
      "151":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/scienceinfobooth.png"
-        }                              
+        },
+	 "152":
+        {
+         "image":"../../tiled/frackinuniverse-custom/objects/enx_arconindustries.png"
+        },
+	 "153":
+        {
+         "image":"../../tiled/frackinuniverse-custom/objects/enx_strangemailman.png"
+        }	
     },
  "tilewidth":285
 }      

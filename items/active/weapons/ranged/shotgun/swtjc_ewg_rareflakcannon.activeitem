@@ -5,10 +5,10 @@
   "rarity" : "Rare",
   "description" : "The bane of flocks of space birds throughout the galaxy (among other things).",
   "shortdescription" : "Rare Flak Cannon",
-  "tooltipKind" : "gun",
+  "tooltipKind" : "gun2",
   "category" : "swtjc_ewg_flakCannon",
   "twoHanded" : true,
-  "itemTags" : ["weapon","ranged","shotgun","upgradeableWeapon"],
+  "itemTags" : ["weapon","ranged","shotgun","upgradeableWeapon","rocketlauncher"],
   "level" : 1,
 
   "animation" : "/items/active/weapons/ranged/gun.animation",
@@ -17,7 +17,7 @@
     "particleEmitters" : {
       "muzzleFlash" : {
         "particles" : [
-          { "particle" : "fushellcasing", "offset" : [-3.0, 0.0] }
+          { "particle" : "enx_flakshellcasing", "offset" : [-3.0, 0.0] }
         ]
       }
     }
@@ -32,14 +32,14 @@
     "class" : "GunFire",
 
     "fireTime" : [2.0, 4.0],
-    "baseDps" : [7.0, 9],
+    "baseDps" : [13.0, 15],
     "energyUsage" : [36.75, 40.25],
     "projectileCount" : [15,20],
-    "inaccuracy" : 0.08,
+    "inaccuracy" : 0.02,
 
     "projectileParameters" : {
       "damageKind" : "shotgunbullet",
-      "knockbackRange" : [20, 40]
+      "knockbackRange" : [45,80]
     },
 
     "stances" : {
@@ -80,13 +80,14 @@
   "isShotgun" : 1,
   //recoil stats
   "hasRecoil" : 1,
-  "recoilSpeed" : 200,
-  "recoilForce" : 300,
+  "recoilSpeed" : 1200,
+  "recoilForce" : 2400,
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
     "nameGenerator" : "swtjc_ewg_flakcannonnames.config:nameGen",
     "elementalType" : [
+	  "physical",
       "fire",
       "ice",
       "electric",
@@ -96,49 +97,53 @@
       "cosmic"
     ],
     "elementalConfig" : {
+     "physical" : {
+        "primaryAbility" : { "projectileType" : "huntingbullet", "projectileParameters" : { "damageKind" : "bow", "statusEffects" : [ "bleedinglong" ], "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/rocketblast1.ogg", "/sfx/gun/rocketblast2.ogg", "/sfx/gun/rocketblast3.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
+      },
       "fire" : {
-        "primaryAbility" : { "projectileType" : "fireplasma", "projectileParameters" : { "damageKind" : "fireplasmashotgun", "statusEffects" : [ "burning" ] } },
-        "fireSounds" : [ "/sfx/gun/rocket_fire1.ogg" ]
+        "primaryAbility" : { "projectileType" : "fireplasma", "projectileParameters" : { "damageKind" : "fireplasmashotgun", "statusEffects" : [ "burning" ], "speed": 90 } },
+        "fireSounds" : ["/sfx/gun/rocketblast1.ogg", "/sfx/gun/rocketblast2.ogg", "/sfx/gun/rocketblast3.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "ice" : {
-        "primaryAbility" : { "projectileType" : "iceplasma", "projectileParameters" : { "damageKind" : "iceplasmashotgun", "statusEffects" : [ "frostslow" ] } },
-        "fireSounds" : [ "/sfx/gun/rocket_ice1.ogg" ]
+        "primaryAbility" : { "projectileType" : "iceplasma", "projectileParameters" : { "damageKind" : "iceplasmashotgun", "statusEffects" : [ "frostslow" ], "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/rocketblast1.ogg", "/sfx/gun/rocketblast2.ogg", "/sfx/gun/rocketblast3.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "poison" : {
-        "primaryAbility" : { "projectileType" : "poisonplasma", "projectileParameters" : { "damageKind" : "poisonplasmashotgun", "statusEffects" : [ "weakpoison" ] } },
-        "fireSounds" : [ "/sfx/gun/rocket_poison1.ogg" ]
+        "primaryAbility" : { "projectileType" : "poisonplasma", "projectileParameters" : { "damageKind" : "poisonplasmashotgun", "statusEffects" : [ "weakpoison" ], "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/rocketblast1.ogg", "/sfx/gun/rocketblast2.ogg", "/sfx/gun/rocketblast3.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "electric" : {
-        "primaryAbility" : { "projectileType" : "electricplasma", "projectileParameters" : { "damageKind" : "electricplasmashotgun", "statusEffects" : [ "electrified" ] } },
-        "fireSounds" : [ "/sfx/gun/rocket_electric1.ogg" ]
+        "primaryAbility" : { "projectileType" : "electricplasma", "projectileParameters" : { "damageKind" : "electricplasmashotgun", "statusEffects" : [ "electrified" ], "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/rocketblast1.ogg", "/sfx/gun/rocketblast2.ogg", "/sfx/gun/rocketblast3.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "radioactive" : {
-        "primaryAbility" : { "projectileType" : "radioactiveplasma", "projectileParameters" : { "statusEffects" : [ "radiationburn" ] } },
-       "fireSounds" : [ "/sfx/gun/rocket_electric1.ogg" ]
+        "primaryAbility" : { "projectileType" : "radioactiveplasma", "projectileParameters" : { "damageKind" : "radioactiveplasma", "statusEffects" : [ "radiationburn" ], "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/rocketblast1.ogg", "/sfx/gun/rocketblast2.ogg", "/sfx/gun/rocketblast3.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "shadow" : {
-        "primaryAbility" : { "projectileType" : "shadowplasma", "projectileParameters" : { "statusEffects" : [ "shadowgasfx" ] } },
-       "fireSounds" : [ "/sfx/gun/rocket_electric1.ogg" ]
+        "primaryAbility" : { "projectileType" : "shadowplasma", "projectileParameters" : { "damageKind" : "shadowplasma", "statusEffects" : [ "shadowgasfx" ], "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/rocketblast1.ogg", "/sfx/gun/rocketblast2.ogg", "/sfx/gun/rocketblast3.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "cosmic" : {
-        "primaryAbility" : { "projectileType" : "cosmicplasma", "projectileParameters" : { "statusEffects" : [ "percentarmorboostneg2" ] } },
-       "fireSounds" : [ "/sfx/gun/rocket_electric1.ogg" ]
+        "primaryAbility" : { "projectileType" : "cosmicplasma", "projectileParameters" : { "damageKind" : "cosmicplasma", "statusEffects" : [ "percentarmorboostneg2" ], "speed": 90 } },
+        "fireSounds" : [ "/sfx/gun/rocketblast1.ogg", "/sfx/gun/rocketblast2.ogg", "/sfx/gun/rocketblast3.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       }
     },
     "animationParts" : {
       "butt" : {
-        "path" : "/items/active/weapons/ranged/rocketlauncher/butt/<variant>.png",
-        "variants" : 20,
+        "path" : "/items/active/weapons/ranged/shotgun/fcbutt/<variant>.png",
+        "variants" : 8,
         "paletteSwap" : true
       },
       "middle" : {
-        "path" : "/items/active/weapons/ranged/rocketlauncher/middle/<variant>.png",
-        "variants" : 20,
+        "path" : "/items/active/weapons/ranged/shotgun/fcmiddle/<variant>.png",
+        "variants" : 15,
         "paletteSwap" : true
       },
       "barrel" : {
-        "path" : "/items/active/weapons/ranged/rocketlauncher/barrel/<variant>.png",
-        "variants" : 20,
+        "path" : "/items/active/weapons/ranged/shotgun/fcbarrel/<variant>.png",
+        "variants" : 15,
         "paletteSwap" : true
       },
       "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
@@ -197,7 +202,7 @@
       "swtjc_ewg_shattershot",
       "forcebubble"
     ],
-    "palette" : "/items/active/weapons/colors/ranged.weaponcolors",
+    "palette" : "/items/active/weapons/colors/rangedspecial.weaponcolors",
     "iconDrawables" : ["butt", "middle", "barrel"]
   }]
 }

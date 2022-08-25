@@ -14,7 +14,7 @@
   "animation" : "/items/active/weapons/ranged/gun.animation",
   "animationParts" : { },
   "animationCustom" : { },
-  "baseOffset" : [-1.25, 0.5],
+  "baseOffset" : [-1.25, 0.375],
   "muzzleOffset" : [0.0, 0.0],
 
   "scripts" : ["/items/active/weapons/ranged/gun.lua"],
@@ -24,7 +24,7 @@
     "class" : "GunFire",
 
     "fireTime" : [1.5, 3.0],
-    "baseDps" : [6.25, 9.6],
+    "baseDps" : [8.4, 11.8],
     "energyUsage" : [28.5, 37.5],
     "inaccuracy" : 0.005,
     "projectileParameters" : {
@@ -68,9 +68,6 @@
   "critBonus" : 5,
   "isSniper" : 1,
   //recoil stats
-  "hasRecoil" : 1,
-  "recoilSpeed" : 200,
-  "recoilForce" : 1500,
 
   "builder" : "/items/buildscripts/buildweapon.lua",
   "builderConfig" : [{
@@ -86,53 +83,55 @@
       "cosmic"
     ],
     "elementalConfig" : {
-      "physical" : {
-        "primaryAbility" : { "projectileType" : "fuphysicalbeam", "projectileParameters" : { "statusEffects" : [ "stun" ] } },
-        "fireSounds" : [ "/sfx/gun/pulsecannon_blast1.ogg", "/sfx/gun/elemental_lance.ogg", "/sfx/gun/plasma_shotgun1.ogg", "/sfx/gun/plasma_shotgun2.ogg", "/sfx/gun/plasma_shotgun3.ogg", "/sfx/gun/plasma_shotgun4.ogg", "/sfx/gun/plasma_sniper1.ogg", "/sfx/gun/plasma_sniper2.ogg", "/sfx/gun/plasma_sniper3.ogg", "/sfx/gun/plasma_sniper4.ogg" ]
+     "physical" : {
+        "primaryAbility" : { "projectileType" : "huntingbullet", "projectileParameters" : { "damageKind" : "bow", "statusEffects" : [ "bleedinglong" ], "speed": 150 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "fire" : {
-        "primaryAbility" : { "projectileType" : "heatbeam", "projectileParameters" : { "statusEffects" : [ "burning" ] } },
-        "fireSounds" : [ "/sfx/gun/pulsecannon_blast1.ogg", "/sfx/gun/elemental_lance.ogg", "/sfx/gun/plasma_shotgun1.ogg", "/sfx/gun/plasma_shotgun2.ogg", "/sfx/gun/plasma_shotgun3.ogg", "/sfx/gun/plasma_shotgun4.ogg", "/sfx/gun/plasma_sniper1.ogg", "/sfx/gun/plasma_sniper2.ogg", "/sfx/gun/plasma_sniper3.ogg", "/sfx/gun/plasma_sniper4.ogg" ]
+        "primaryAbility" : { "projectileType" : "fireplasma", "projectileParameters" : { "damageKind" : "fireplasmashotgun", "statusEffects" : [ "burning" ], "speed": 150 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "ice" : {
-        "primaryAbility" : { "projectileType" : "fuicebeam2", "projectileParameters" : { "statusEffects" : [ "frostslow" ] } },
-        "fireSounds" : [ "/sfx/gun/pulsecannon_blast1.ogg", "/sfx/gun/elemental_lance.ogg", "/sfx/gun/plasma_shotgun1.ogg", "/sfx/gun/plasma_shotgun2.ogg", "/sfx/gun/plasma_shotgun3.ogg", "/sfx/gun/plasma_shotgun4.ogg", "/sfx/gun/plasma_sniper1.ogg", "/sfx/gun/plasma_sniper2.ogg", "/sfx/gun/plasma_sniper3.ogg", "/sfx/gun/plasma_sniper4.ogg" ]
+        "primaryAbility" : { "projectileType" : "iceplasma", "projectileParameters" : { "damageKind" : "iceplasmashotgun", "statusEffects" : [ "frostslow" ], "speed": 150 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "poison" : {
-        "primaryAbility" : { "projectileType" : "fupoisonbeam", "projectileParameters" : { "statusEffects" : [ "weakpoison" ] } },
-        "fireSounds" : [ "/sfx/gun/pulsecannon_blast1.ogg", "/sfx/gun/elemental_lance.ogg", "/sfx/gun/plasma_shotgun1.ogg", "/sfx/gun/plasma_shotgun2.ogg", "/sfx/gun/plasma_shotgun3.ogg", "/sfx/gun/plasma_shotgun4.ogg", "/sfx/gun/plasma_sniper1.ogg", "/sfx/gun/plasma_sniper2.ogg", "/sfx/gun/plasma_sniper3.ogg", "/sfx/gun/plasma_sniper4.ogg" ]
+        "primaryAbility" : { "projectileType" : "poisonplasma", "projectileParameters" : { "damageKind" : "poisonplasmashotgun", "statusEffects" : [ "weakpoison" ], "speed": 150 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "electric" : {
-        "primaryAbility" : { "projectileType" : "fuelectricbeam", "projectileParameters" : { "statusEffects" : [ "electrified" ] } },
-        "fireSounds" : [ "/sfx/gun/pulsecannon_blast1.ogg", "/sfx/gun/elemental_lance.ogg", "/sfx/gun/plasma_shotgun1.ogg", "/sfx/gun/plasma_shotgun2.ogg", "/sfx/gun/plasma_shotgun3.ogg", "/sfx/gun/plasma_shotgun4.ogg", "/sfx/gun/plasma_sniper1.ogg", "/sfx/gun/plasma_sniper2.ogg", "/sfx/gun/plasma_sniper3.ogg", "/sfx/gun/plasma_sniper4.ogg" ]
+        "primaryAbility" : { "projectileType" : "electricplasma", "projectileParameters" : { "damageKind" : "electricplasmashotgun", "statusEffects" : [ "electrified" ], "speed": 150 } },
+        "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "radioactive" : {
-        "primaryAbility" : { "projectileType" : "furadioactivebeam", "projectileParameters" : { "statusEffects" : [ "radiationburn" ] } },
-        "fireSounds" : [ "/sfx/gun/pulsecannon_blast1.ogg", "/sfx/gun/elemental_lance.ogg", "/sfx/gun/plasma_shotgun1.ogg", "/sfx/gun/plasma_shotgun2.ogg", "/sfx/gun/plasma_shotgun3.ogg", "/sfx/gun/plasma_shotgun4.ogg", "/sfx/gun/plasma_sniper1.ogg", "/sfx/gun/plasma_sniper2.ogg", "/sfx/gun/plasma_sniper3.ogg", "/sfx/gun/plasma_sniper4.ogg" ]
+        "primaryAbility" : { "projectileType" : "radioactiveplasma", "projectileParameters" : { "statusEffects" : [ "radiationburn" ], "speed": 150 } },
+       "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "shadow" : {
-        "primaryAbility" : { "projectileType" : "fushadowbeam", "projectileParameters" : { "statusEffects" : [ "shadowgasfx" ] } },
-        "fireSounds" : [ "/sfx/gun/pulsecannon_blast1.ogg", "/sfx/gun/elemental_lance.ogg", "/sfx/gun/plasma_shotgun1.ogg", "/sfx/gun/plasma_shotgun2.ogg", "/sfx/gun/plasma_shotgun3.ogg", "/sfx/gun/plasma_shotgun4.ogg", "/sfx/gun/plasma_sniper1.ogg", "/sfx/gun/plasma_sniper2.ogg", "/sfx/gun/plasma_sniper3.ogg", "/sfx/gun/plasma_sniper4.ogg" ]
+        "primaryAbility" : { "projectileType" : "shadowplasma", "projectileParameters" : { "statusEffects" : [ "shadowgasfx" ], "speed": 150 } },
+       "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       },
       "cosmic" : {
-        "primaryAbility" : { "projectileType" : "fucosmicbeam", "projectileParameters" : { "statusEffects" : [ "percentarmorboostneg2" ] } },
-        "fireSounds" : [ "/sfx/gun/pulsecannon_blast1.ogg", "/sfx/gun/elemental_lance.ogg", "/sfx/gun/plasma_shotgun1.ogg", "/sfx/gun/plasma_shotgun2.ogg", "/sfx/gun/plasma_shotgun3.ogg", "/sfx/gun/plasma_shotgun4.ogg", "/sfx/gun/plasma_sniper1.ogg", "/sfx/gun/plasma_sniper2.ogg", "/sfx/gun/plasma_sniper3.ogg", "/sfx/gun/plasma_sniper4.ogg" ]
+        "primaryAbility" : { "projectileType" : "cosmicplasma", "projectileParameters" : { "statusEffects" : [ "percentarmorboostneg2" ], "speed": 150 } },
+       "fireSounds" : [ "/sfx/gun/pistol1.ogg", "/sfx/gun/pistol2.ogg", "/sfx/gun/pistol3.ogg", "/sfx/gun/pistol4.ogg", "/sfx/gun/mech_flakcannon1.ogg","/sfx/gun/mech_flakcannon2.ogg","/sfx/gun/mech_flakcannon3.ogg", "/sfx/gun/revolver1.ogg", "/sfx/gun/revolver2.ogg", "/sfx/gun/shotgun1.ogg", "/sfx/gun/shotgun2.ogg", "/sfx/gun/shotgun3.ogg", "/sfx/gun/shotgun4.ogg" ]
       }
     },
     "animationParts" : {
-      "butt" : {
-        "path" : "/items/active/weapons/ranged/sniperrifle/butt/<variant>.png",
-        "variants" : 20,
-        "paletteSwap" : true
+       "butt" : {
+        "path" : "/items/active/weapons/ranged/sniperrifle/ambutt/<variant>.png",
+        "variants" : 15,
+        "paletteSwap" : true,
+		"offset" : [0,-0.125]
       },
       "middle" : {
-        "path" : "/items/active/weapons/ranged/sniperrifle/middle/<variant>.png",
-        "variants" : 20,
-        "paletteSwap" : true
+        "path" : "/items/active/weapons/ranged/sniperrifle/ambody/<variant>.png",
+        "variants" : 15,
+        "paletteSwap" : true,
+		"offset" : [0,-0.125]
       },
       "barrel" : {
-        "path" : "/items/active/weapons/ranged/sniperrifle/barrel/<variant>.png",
-        "variants" : 20,
+        "path" : "/items/active/weapons/ranged/sniperrifle/ambarrel/<variant>.png",
+        "variants" : 15,
         "paletteSwap" : true
       },
       "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
@@ -185,7 +184,7 @@
       "swtjc_ewg_shattershot",
       "forcebubble"
     ],
-    "palette" : "/items/active/weapons/colors/ranged.weaponcolors",
+    "palette" : "/items/active/weapons/colors/rangedspecial.weaponcolors",
     "iconDrawables" : ["butt", "middle", "barrel"]
   }]
 }

@@ -1,0 +1,26 @@
+{
+  "materialId" : 6769,
+  "materialName" : "precursorgirder",
+  "frames" : "precursorgirder.png",
+  "particleColor" : [60, 60, 60, 255],
+  "variants" : 1,
+  "itemDrop" : "precursorgirder",
+  "shortdescription" : "Precursor Girder",
+  "description" : "Sturdy girder, fitted with Lunari lights. A staple of Precursor architecture.",
+  "glitchDescription" : "Astonished. The structural strength of this material is unparalleled.",
+  "novakidDescription" : "I dun' think even a train could dent this!",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 32,
+  "category": "materials",
+
+  "renderTemplate" : "/tiles/enx_pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "precursorgirder.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : false,
+    "zLevel" : 5500,
+    "radiantLight" : [0, 90, 90]
+  }
+}

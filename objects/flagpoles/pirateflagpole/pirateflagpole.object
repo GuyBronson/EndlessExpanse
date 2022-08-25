@@ -13,11 +13,11 @@
   "race" : "generic",
 
   "apexDescription" : "A pirate's flag... I need to stay on guard.",
-  "avianDescription" : "Grounded are no stranger to pirates. But these ones friends or foe?",
+  "avianDescription" : "Grounded are no stranger to pirates. But are these ones friends or foe?",
   "floranDescription" : "Floran will make off with pirate richesss.",
   "glitchDescription" : "Cautious. Space pirates must be in the area.",
   "humanDescription" : "Oh sweet, pirates! Wait no, that's a bad thing.",
-  "hylotlDescription" : "The flag of scourges and bullies that take to the seas and sky.",
+  "hylotlDescription" : "The flag of scourges and bullies that take to the seas, sky, and space.",
   "novakidDescription" : "Pirates? Guess I oughta be prepared for a fight.",
 
   "interactAction" : "OpenTeleportDialog",

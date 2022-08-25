@@ -3,7 +3,7 @@ require "/scripts/unifiedGravMod.lua"
 setName="fu_warphunterset"
 
 weaponBonus={
-	{stat = "powerMultiplier", effectiveMultiplier = 3.4}
+	{stat = "powerMultiplier", effectiveMultiplier = 2.5}
 }
 
 armorBonus={
@@ -41,7 +41,7 @@ function update(dt)
 end
 
 function checkWeapons()
-	local mininglasers=weaponCheck({"mininglaser"})
+	local mininglasers=weaponCheck({"mininglaser","energy"})
 	local notweapons=not weaponCheck({"weapon"})["either"]
 	if (mininglasers["primary"] and mininglasers["alt"]) or (mininglasers["twoHanded"] and mininglasers["either"]) or (notweapons and mininglasers["either"]) then
 		effect.setStatModifierGroup(effectHandlerList.weaponBonusHandle,weaponBonus)
