@@ -1,18 +1,21 @@
 {
   "projectileName" : "sulphuricrain",
-  "physics" : "weather",
+  "physics" : "rain",
   "image" : "sulphuricrain.png",
   "animationCycle" : 0.5,
   "frameNumber" : 4,
   "damageKind" : "corrosive",
   "damageType" : "IgnoresDef",
   "actionOnReap" : [
-    { "action" : "liquid", "liquid" : "sulphuricacid", "quantity" : 0.15 },
+    { "action" : "liquid", "liquid" : "sulphuricacid", "quantity" : 0.2 },
     {
       "action" : "applySurfaceMod",
       "previousMod" : "tilled",
       "newMod" : "tilleddry",
       "radius" : 5
     }
-  ]
+  ],
+  "onlyHitTerrain" : true,
+  "hydrophobic" : true,
+  "masterOnly" : true
 }

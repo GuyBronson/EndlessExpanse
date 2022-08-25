@@ -1,19 +1,17 @@
 {
   "projectileName" : "sulphurstone",
   "image" : "sulphurstone.png",
+  "frameNumber" : 1,
   "animationCycle" : 0.25,
   "level" : 3,
-  "frameNumber" : 1,
-  "damageKindImage" : "icon.png",
   "pointLight" : false,
+  "damageKind" : "default",
+  "damageType" : "IgnoresDef",
+  "power" : 1.0,
   "actionOnReap" : [
     {
       "action" : "config",
       "file" : "/projectiles/explosions/weatheringexplosion/weatheringexplosion.config"
-    },
-    { "action" : "liquid", "liquid" : "sulphuricacid", "quantity" : 0.2 }
-  ],
-  "power" : 1.0,
-  "damageKind" : "default",
-  "damageType" : "IgnoresDef"
+    }
+  ]
 }
