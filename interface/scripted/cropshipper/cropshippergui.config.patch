@@ -1067,21 +1067,6 @@
   {
     "op": "add",
     "path": "/acceptItems/-",
-    "value": "kirifruit"
-  },
-  {
-    "op": "add",
-    "path": "/acceptItems/-",
-    "value": "nakatibark"
-  },
-  {
-    "op": "add",
-    "path": "/acceptItems/-",
-    "value": "pirufrond"
-  },
-  {
-    "op": "add",
-    "path": "/acceptItems/-",
     "value": "aenemapetal"
   },
   {
