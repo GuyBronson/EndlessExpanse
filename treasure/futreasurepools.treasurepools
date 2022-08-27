@@ -667,8 +667,7 @@
        {"weight" : 0.2, "item" : "wrappedbodybirb"},
        {"weight" : 0.1, "item" : "blooddiamond"},
        {"weight" : 0.1, "item" : "diamond"},
-       {"weight" : 0.1, "item" : "wrappedbody"},
-       {"weight" : 0.01, "item" : "jarredfetus"}
+       {"weight" : 0.1, "item" : "wrappedbody"}
      ]
    }]
   ],
@@ -684,7 +683,6 @@
        {"weight" : 0.10, "item" : "humaneyeball"},
        {"weight" : 0.10, "item" : "severedear"},
        {"weight" : 0.02, "item" : "severedhandinabagaugment"},
-       {"weight" : 0.06, "item" : "jarredfetus"},
        {"weight" : 0.002, "item" : "protheonshard"}
      ]
    }]
@@ -734,9 +732,7 @@
        {"weight" : 0.02, "item" : "fubrain"},
        {"weight" : 0.02, "item" : ["fubrain",2]},
        {"weight" : 0.02, "item" : ["fubrain",3]},
-       {"weight" : 0.02, "item" : "severedhandinabagaugment"},
-       {"weight" : 0.008, "item" : "orphanpaste"},
-       {"weight" : 0.03, "item" : "jarredfetus"}
+       {"weight" : 0.02, "item" : "severedhandinabagaugment"}
      ],
       "poolRounds" : [
         [0.13, 1],
@@ -764,9 +760,7 @@
          {"weight" : 0.10, "item" : ["platform", 10]},
          {"weight" : 0.10, "item" : ["redwoodbark", 10]},
          {"weight" : 0.05, "item" : ["commonaxe", 10]},
-         {"weight" : 0.02, "item" : ["chainsaw", 1]},
-	       {"weight" : 0.01, "item" : ["orphanpaste", 2]},
-         {"weight" : 0.01, "item" : "jarredfetus"}
+         {"weight" : 0.02, "item" : ["chainsaw", 1]}
        ]
      }]
    ],
@@ -882,7 +876,6 @@
         {"weight" : 0.01, "item" : ["vileconch", 1]},
         {"weight" : 0.01, "item" : ["attunedpaper", 25]},
         {"weight" : 0.01, "item" : ["nicepaper", 50]},
-         {"weight" : 0.01, "item" : "jarredfetus"}
       ]
     }]
   ],
@@ -1069,7 +1062,6 @@
 	  {"weight" : 0.04, "item" : "sanityleech"},
           {"weight" : 0.01, "item" : ["attunedpaper", 25]},
           {"weight" : 0.01, "item" : ["nicepaper", 50]},
-          {"weight" : 0.05, "item" : "jarredfetus"},
           {"weight" : 0.09, "item" : ["glassmaterial", 5]},
           {"weight" : 0.333, "item" : [ "cryonicextract", 1]},
           {"weight" : 0.333, "item" : [ "hardenedcarapace", 1]},
@@ -1181,7 +1173,6 @@
         {"weight" : 0.1, "item" : [ "oonfortaglobule", 7]},
         {"weight" : 0.1, "item" : [ "erithianalgae", 6]},
         {"weight" : 0.1, "item" : [ "fuscienceresource", 15]},
-         {"weight" : 0.05, "item" : "jarredfetus"}
       ]
     }]
   ],
@@ -2347,7 +2338,6 @@
          {"weight" : 0.48, "item" : "fuhair"},
          {"weight" : 0.42, "item" : "futooth"},
          {"weight" : 0.08, "item" : "fufemur"},
-         {"weight" : 0.02, "item" : "jarredfetus"}
        ],
       "poolRounds" : [
         [0.8, 1],
