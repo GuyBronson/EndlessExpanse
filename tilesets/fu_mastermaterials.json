@@ -1303,9 +1303,6 @@
             "material" : "fudynastwoodbaseboard"
         },
         "438" : {
-            "material" : "fudynastwoodbridge"
-        },
-        "438" : {
             "material" : "fudynastwoodenplatform"
         },
         "439" : {
@@ -1589,6 +1586,9 @@
         },
         "533" : {
             "material" : "nightarwindow"
+        },
+        "534" : {
+            "material" : "fudynastwoodbridge"
         }
     },
     "tiles" : {
@@ -2882,9 +2882,6 @@
         "428" : {
             "image" : "../tiled/frackinuniverse-custom/materials/fudynastwoodbaseboard.png"
         },
-        "429" : {
-            "image" : "../tiled/frackinuniverse-custom/materials/fudynastwoodbridge.png"
-        },
         "430" : {
             "image" : "../tiled/frackinuniverse-custom/materials/fudynastwoodenplatform.png"
         },
@@ -3169,6 +3166,9 @@
         },
         "524" : {
             "image" : "../tiled/frackinuniverse-custom/materials/nightarwindow.png"
+        },
+        "534" : {
+            "image" : "../tiled/frackinuniverse-custom/materials/fudynastwoodbridge.png"
         }
     }
 }
