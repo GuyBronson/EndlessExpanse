@@ -65,7 +65,6 @@
       { "item" : "apexbrainjar", "price":800  },
       { "item" : "mantizanwine" },
       { "item" : "snarshedgarflipps" },
-      { "item" : "orphanpaste" },
       { "item" : "solidfuel", "price":1 },
       { "item" : "aichip", "price":25000 },
 	    { "item" : "fucontrabandgoods", "price":500 },

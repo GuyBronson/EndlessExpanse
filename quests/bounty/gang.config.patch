@@ -19,7 +19,7 @@
   {
     "op": "add",
     "path": "/genericPrefix/-",
-    "value": "Hellbound"
+    "value": "Heckbound"
   },
   {
     "op": "add",
@@ -74,11 +74,6 @@
   {
     "op": "add",
     "path": "/genericPrefix/-",
-    "value": "Refuse-Laden"
-  },
-  {
-    "op": "add",
-    "path": "/genericPrefix/-",
     "value": "Cantankerous"
   },
   {
@@ -119,82 +114,7 @@
   {
     "op": "add",
     "path": "/genericMid/-",
-    "value": " Related to Kevin"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " Greg"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
     "value": " Injurious"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " Drain-Cleaner"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " Blood-Drinker"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " Whale-Killer"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " Nova-Killer"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " Floran Hunter"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " Hylotl Murderer"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " Mass Murderer"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " Anime Fan"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " Otaku"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " Weeb"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " Avali Hunter"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " Drowner of Puppies"
-  },
-  {
-    "op": "add",
-    "path": "/genericMid/-",
-    "value": " the Squelch"
   },
   {
     "op": "add",
@@ -241,7 +161,6 @@
     "path": "/suffix/-",
     "value": " Silly Walkers"
   },
-
   {
     "op": "add",
     "path": "/hatPrefix/goggles2",
@@ -261,15 +180,6 @@
     "path": "/hatPrefix/headinjar",
     "value": [
       "Jarhead"
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/hatPrefix/duncette",
-    "value": [
-      "Loser",
-      "Meme-Tard",
-      "Weirdo"
     ]
   },
   {
@@ -312,22 +222,6 @@
     "path": "/hatPrefix/beammasterhelm",
     "value": [
       "Warrior"
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/hatPrefix/funinjamask2",
-    "value": [
-      "Hayabusa",
-      "Weeb"
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/hatPrefix/funinjamask",
-    "value": [
-      "Otaku",
-      "Weeb"
     ]
   },
   {
@@ -378,16 +272,6 @@
   },
   {
     "op": "add",
-    "path": "/hatPrefix/duncecap",
-    "value": [
-      "Dumbass",
-      "Fool",
-      "Idiot",
-      "Forum Troll"
-    ]
-  },
-  {
-    "op": "add",
     "path": "/hatPrefix/skullreaperhelm3",
     "value": [
       "Slaughterer"
@@ -397,7 +281,7 @@
     "op": "add",
     "path": "/hatPrefix/skullreaperhelm2",
     "value": [
-      "Murderer"
+      "Reaper"
     ]
   },
   {
@@ -435,15 +319,6 @@
     "path": "/hatPrefix/fubeekeeperhead",
     "value": [
       "Buzzer"
-    ]
-  },
-  {
-    "op": "add",
-    "path": "/hatPrefix/kungfuheadband",
-    "value": [
-      "Daniel-San",
-      "Mr.Kabuki",
-      "Mr.Miyagi"
     ]
   },
   {

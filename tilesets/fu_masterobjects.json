@@ -259,12 +259,6 @@
             "object" : "atropustable",
             "tilesetDirection" : "right"
         },
-        "41" : {
-            "imagePositionX" : "0",
-            "imagePositionY" : "0",
-            "object" : "avaliaerogellight",
-            "tilesetDirection" : "right"
-        },
         "42" : {
             "imagePositionX" : "0",
             "imagePositionY" : "0",
@@ -3925,7 +3919,7 @@
             "object" : "zerchtable",
             "tilesetDirection" : "right"
         },
-        "652" : {
+        "41" : {
             "imagePositionX" : "-8",
             "imagePositionY" : "0",
             "object" : "zerchwalllamp",
@@ -4056,9 +4050,6 @@
         },
         "40" : {
             "image" : "../tiled/frackinuniverse-custom/objects/atropustable.png"
-        },
-        "41" : {
-            "image" : "../tiled/frackinuniverse-custom/objects/avaliaerogellight.png"
         },
         "42" : {
             "image" : "../tiled/frackinuniverse-custom/objects/avikanlavalamp.png"
@@ -5890,7 +5881,7 @@
         "651" : {
             "image" : "../tiled/frackinuniverse-custom/objects/zerchtable.png"
         },
-        "652" : {
+        "41" : {
             "image" : "../tiled/frackinuniverse-custom/objects/zerchwalllamp.png"
         }
     }

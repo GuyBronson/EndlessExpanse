@@ -3,7 +3,7 @@
  "properties":
     {},
  "spacing":0,
- "tilecount":154,
+ "tilecount":152,
  "tileheight":279,
   "tileproperties" : {
       "0" : {
@@ -177,614 +177,297 @@
           "imagePositionY" : "0"
       },
       "34" : {
-          "object" : "aerostatsail1",
-          "imagePositionX" : "-64",
-          "imagePositionY" : "-64"
-      },
-      "35" : {
-          "object" : "aerostatsail2",
-          "imagePositionX" : "-128",
-          "imagePositionY" : "-128"
-      },   
-      "36" : {
-          "object" : "aerostatsail3",
-          "imagePositionX" : "-64",
-          "imagePositionY" : "-64"
-      },
-      "37" : {
-          "object" : "aerostatsail4",
-          "imagePositionX" : "-128",
-          "imagePositionY" : "-128"
-      },
-      "38" : {
-          "object" : "avalicushion1",
-          "imagePositionX" : "-8",
-          "imagePositionY" : "0"
-      },
-      "39" : {
-          "object" : "avalicushion2",
-          "imagePositionX" : "-8",
-          "imagePositionY" : "0"
-      },
-      "40" : {
-          "object" : "avalihammock1",
-          "imagePositionX" : "-24",
-          "imagePositionY" : "0"
-      },  
-      "41" : {
-          "object" : "avalihammock2",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },
-      "42" : {
-          "object" : "bandittent1",
-          "imagePositionX" : "-8",
-          "imagePositionY" : "0"
-      },    
-      "43" : {
-          "object" : "bandittent2",
-          "imagePositionX" : "-8",
-          "imagePositionY" : "0"
-      },  
-      "44" : {
-          "object" : "campdoor",
-          "imagePositionX" : "-8",
-          "imagePositionY" : "0"
-      },  
-      "45" : {
-          "object" : "camplargeentry1",
-          "imagePositionX" : "-40",
-          "imagePositionY" : "0"
-      },
-      "46" : {
-          "object" : "camplargeentry2",
-          "imagePositionX" : "-40",
-          "imagePositionY" : "0"
-      },    
-      "47" : {
-          "object" : "camplargewall1",
-          "imagePositionX" : "-40",
-          "imagePositionY" : "0"
-      },
-      "48" : {
-          "object" : "camplargewall2",
-          "imagePositionX" : "-40",
-          "imagePositionY" : "0"
-      }, 
-      "49" : {
-          "object" : "campslope1",
-          "imagePositionX" : "-88",
-          "imagePositionY" : "0"
-      },          
-      "50" : {
-          "object" : "campslope2",
-          "imagePositionX" : "-88",
-          "imagePositionY" : "0"
-      },
-      "51" : {
-          "object" : "campsmallentry1",
-          "imagePositionX" : "-40",
-          "imagePositionY" : "0"
-      }, 
-      "52" : {
-          "object" : "campsmallentry2",
-          "imagePositionX" : "-40",
-          "imagePositionY" : "0"
-      },  
-      "53" : {
-          "object" : "campsmallwall1",
-          "imagePositionX" : "-40",
-          "imagePositionY" : "0"
-      }, 
-      "54" : {
-          "object" : "campsmallwall2",
-          "imagePositionX" : "-40",
-          "imagePositionY" : "0"
-      },  
-      "55" : {
-          "object" : "avalichair1",
-          "imagePositionX" : "-8",
-          "imagePositionY" : "0"
-      },        
-      "56" : {
-          "object" : "avalichair2",
-          "imagePositionX" : "-8",
-          "imagePositionY" : "0"
-      },
-      "57" : {
-          "object" : "avalichest1",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },        
-      "58" : {
-          "object" : "avalichest2",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      }, 
-      "59" : {
-          "object" : "avalicontainer1",
-          "imagePositionX" : "-8",
-          "imagePositionY" : "0"
-      },        
-      "60" : {
-          "object" : "avalicontainer2",
-          "imagePositionX" : "-8",
-          "imagePositionY" : "0"
-      },   
-      "61" : {
-          "object" : "avalistoragelocker",
-          "imagePositionX" : "-16",
-          "imagePositionY" : "-8"
-      },
-      "62" : {
-          "object" : "avalidreamcatcher1",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },  
-      "63" : {
-          "object" : "avalicrystal1",
-          "imagePositionX" : "",
-          "imagePositionY" : "0 "
-      }, 
-      "64" : {
-          "object" : "avalibottle1",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      }, 
-      "65" : {
-          "object" : "avalidarkdoor",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },
-      "66" : {
-          "object" : "avalidarkverticaldoor",
-          "imagePositionX" : "-16",
-          "imagePositionY" : "0"
-      },       
-      "67" : {
-          "object" : "avalitechdoor",
-          "imagePositionX" : "-8",
-          "imagePositionY" : "0"
-      }, 
-      "68" : {
-          "object" : "avalitechverticaldoor",
-          "imagePositionX" : "-16",
-          "imagePositionY" : "0"
-      },  
-      
-      
-      "69" : {
-          "object" : "avalihologram1",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },  
-      "70" : {
-          "object" : "avalihologram2",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },     
-      "71" : {
-          "object" : "avalihologramsml1",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },
-      "72" : {
-          "object" : "avalihologramsml2",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },      
-      "73" : {
-          "object" : "avalihologramsml3",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },      
-      "74" : {
-          "object" : "avalihologramtiny1",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },      
-      "75" : {
-          "object" : "avalihologramtiny2",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },      
-      "76" : {
-          "object" : "avalicuttingboard",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },        
-      "77" : {
-          "object" : "avalikitchencupboard",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },
-      "78" : {
-          "object" : "avalikitchendrawers",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      }, 
-      "79" : {
-          "object" : "avalikitchenfridge",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      }, 
-      "80" : {
-          "object" : "avalikitchenstove",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },  
-      "81" : {
-          "object" : "avalisample1",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },  
-      "82" : {
-          "object" : "avalisample2",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },  
-      "83" : {
-          "object" : "avalisample3",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },  
-      "84" : {
-          "object" : "avaliaerogellight",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      }, 
-      "85" : {
-          "object" : "avalilightblock",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },          
-      "86" : {
-          "object" : "avalistriplight",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },  
-      "87" : {
-          "object" : "avalistriplight2",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },    
-      "88" : {
-          "object" : "avalitable1",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },        
-      "89" : {
-          "object" : "avalitable2",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },        
-      "90" : {
-          "object" : "avalitable3",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      },        
-      "91" : {
-          "object" : "avalitable4",
-          "imagePositionX" : "0",
-          "imagePositionY" : "0"
-      }, 
-      "92" : {
-          "object" : "avaliterminal1",
-          "imagePositionX" : "-16",
-          "imagePositionY" : "0"
-      },  
-      "93" : {
-          "object" : "avaliterminal2",
-          "imagePositionX" : "-16",
-          "imagePositionY" : "0"
-      },   
-      "94" : {
-          "object" : "avaliterminal3",
-          "imagePositionX" : "-16",
-          "imagePositionY" : "0"
-      },
-      "95" : {
           "object" : "fuokeaglitchwagon",
           "imagePositionX" : "-52",
           "imagePositionY" : "0"
       },
-      "96" : {
+      "35" : {
           "object" : "fugallows",
           "imagePositionX" : "-40",
           "imagePositionY" : "0"
       },
-      "97" : {
+      "36" : {
           "object" : "pumpinfu",
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "tilesetDirection" : "right"
       },
-      "98" : {
+      "37" : {
           "object" : "pumpoutfu",
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "tilesetDirection" : "right"
       },
-      "99" : {
+      "38" : {
           "object" : "pumpoutpressurefu",
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "tilesetDirection" : "right"
       },
-      "100" : {
+      "39" : {
           "object" : "pumpinfuelder",
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "tilesetDirection" : "right"
       },
-      "101" : {
+      "40" : {
           "object" : "pumpoutpressurefuelder",
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "tilesetDirection" : "right"
       },
-      "102" : {
+      "41" : {
           "object" : "pumpoutfuelder",
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "tilesetDirection" : "right"
       },
-      "103" : {
+      "42" : {
           "object" : "precursordoor",
           "imagePositionX" : "-20",
           "imagePositionY" : "0",
           "tilesetDirection" : "right"
       },
-      "104" : {
+      "43" : {
           "object" : "precursorlight",
           "tilesetDirection" : "right"
       },
-      "105" : {
+      "44" : {
           "object" : "precursorchest",
           "imagePositionX" : "-8",
           "imagePositionY" : "0",          
           "tilesetDirection" : "right"
       },
-      "106" : {
+      "45" : {
           "object" : "precursordoor2"
       },
-      "107" : {
+      "46" : {
           "object" : "precursorswitch",
           "imagePositionX" : "-8",
           "imagePositionY" : "-8"
       },
-      "108" : {
+      "47" : {
           "object" : "precursorcorner",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       },
-      "109" : {
+      "48" : {
           "object" : "megastatue",
           "imagePositionX" : "-640",
           "imagePositionY" : "0"
       },
-      "110" : {
+      "49" : {
           "object" : "precursorconverter",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       },
-      "111" : {
+      "50" : {
           "object" : "precursormachine",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       },
-      "112" : {
+      "51" : {
           "object" : "mlitcometsofa",
           "imagePositionX" : "-32",
           "imagePositionY" : "0"
       },
-      "113" : {
+      "52" : {
           "object" : "precursoromegagenerator",
           "imagePositionX" : "-88",
           "imagePositionY" : "0"
       },
-      "114" : {
+      "53" : {
           "object" : "precursorbattery1",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       },
-      "115" : {
+      "54" : {
           "object" : "precursorterminal",
           "imagePositionX" : "-16",
           "imagePositionY" : "-8"
       },
-      "116" : {
+      "55" : {
           "object" : "precursorchair",
           "imagePositionX" : "-12",
           "imagePositionY" : "0"
       },
-      "117" : {
+      "56" : {
           "object" : "precursorchair2",
           "imagePositionX" : "-9",
           "imagePositionY" : "0"
       },
-      "118" : {
+      "57" : {
           "object" : "precursoraltar",
           "imagePositionX" : "-24",
           "imagePositionY" : "0"
       },
-      "119" : {
+      "58" : {
           "object" : "precursorobeliskdual",
           "imagePositionX" : "-28",
           "imagePositionY" : "0"
       },
-      "120" : {
+      "59" : {
           "object" : "precursorobelisk",
           "imagePositionX" : "-16",
           "imagePositionY" : "0"
       },
-      "121" : {
+      "60" : {
           "object" : "precursortable",
           "imagePositionX" : "-20",
           "imagePositionY" : "0"
       },
-      "122" : {
+      "61" : {
           "object" : "precursortrap1",
           "imagePositionX" : "-16",
           "imagePositionY" : "-16"
       },
-      "123" : {
+      "62" : {
           "object" : "precursorverticaldoor2",
           "imagePositionX" : "-16",
           "imagePositionY" : "0"
       },
-      "124" : {
+      "63" : {
           "object" : "precursorsmelter",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       },
-      "125" : {
+      "64" : {
           "object" : "precursormatrix",
           "imagePositionX" : "0",
           "imagePositionY" : "0"
       },
-      "126" : {
+      "65" : {
           "object" : "precursordroppod",
           "imagePositionX" : "-104",
           "imagePositionY" : "0"
       },
-      "127" : {
+      "66" : {
           "object" : "precursorteleporter",
           "imagePositionX" : "-64",
           "imagePositionY" : "0"
       },
-      "128" : {
+      "67" : {
           "object" : "fu_precursorduplicator",
           "imagePositionX" : "-64",
           "imagePositionY" : "0"
       },
-      "129" : {
+      "68" : {
           "object" : "fu_precursorspawner",
           "imagePositionX" : "-64",
           "imagePositionY" : "0"
       },
-      "130" : {
+      "69" : {
           "object" : "precursorconsoleswitch",
           "imagePositionX" : "-8",
           "imagePositionY" : "0"
       },
-      "131" : {
+      "70" : {
           "object" : "precursorescaperadar",
           "imagePositionX" : "-26",
           "imagePositionY" : "0"
       },
-      "132" : {
+      "71" : {
           "object" : "precursorpressureplatform",
           "imagePositionX" : "-16",
           "imagePositionY" : "-8"
       },
-      "133" : {
+      "72" : {
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "object" : "precursor1tiledoor"
       },
-      "134" : {
+      "73" : {
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "object" : "precursor1tiledoorvertical"
       },
-      "135" : {
+      "74" : {
           "imagePositionX" : "-40",
           "imagePositionY" : "0",
           "object" : "fu_Bartable"
       },       
-      "136" : {
+      "75" : {
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "object" : "fu_Barkeep_spot"
       },       
-      "137" : {
+      "76" : {
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "object" : "fu_NFPA_gasoline"
       },       
-      "138" : {
+      "77" : {
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "object" : "fu_NFPA_precursor_fluid"
       },       
-      "139" : {
+      "78" : {
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "object" : "fu_NFPA_sulfuric"
       },       
-      "140" : {
+      "79" : {
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "object" : "fu_NFPA_uranium"
       },       
-      "141" : {
+      "80" : {
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "object" : "fu_staythefuckoutsign"
       },       
-      "142" : {
+      "81" : {
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "object" : "fu_bartabletop"
       },       
-      "143" : {
+      "82" : {
           "imagePositionX" : "-28",
           "imagePositionY" : "0",
           "object" : "instafreud"
       },       
-      "144" : {
+      "83" : {
           "imagePositionX" : "-52",
           "imagePositionY" : "0",
           "object" : "corpsewagon"
       },       
-      "145" : {
+      "84" : {
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "object" : "embalmingtable"
       },       
-      "146" : {
+      "85" : {
           "imagePositionX" : "-14",
           "imagePositionY" : "0",
           "object" : "scienceoutpostbanner1"
       },       
-      "147" : {
+      "86" : {
           "imagePositionX" : "-17",
           "imagePositionY" : "0",
           "object" : "scienceoutpostbanner2"
       },       
-      "148" : {
+      "87" : {
           "imagePositionX" : "-14",
           "imagePositionY" : "0",
           "object" : "scienceoutpostbanner4"
       },       
-      "149" : {
+      "88" : {
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "object" : "burgerfool"
       },       
-      "150" : {
+      "89" : {
           "imagePositionX" : "-24",
           "imagePositionY" : "0",
           "object" : "apexcooldoorshoot",
           "tilesetDirection" : "right"
       },       
-      "151" : {
+      "90" : {
           "imagePositionX" : "0",
           "imagePositionY" : "0",
           "object" : "scienceinfobooth",
           "tilesetDirection" : "left"
-      },
-	  "152" : {
-          "imagePositionX" : "0",
-          "imagePositionY" : "0",
-          "object" : "enx_arconindustries"
-      },
-	  "153" : {
-          "imagePositionX" : "0",
-          "imagePositionY" : "0",
-          "object" : "enx_strangemailman"
-      }
+      }                                
     },
       
  "tiles":
@@ -925,486 +608,234 @@
         {
          "image":"../../tiled/frackinuniverse-custom/objects/labgear/labdoor3.png"
         },
-     "34":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/aerostatsail1.png"
-        },   
-     "35":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/aerostatsail2.png"
-        },           
-      "36":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/aerostatsail3.png"
-        },       
-     "37":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/aerostatsail4.png"
-        },
-     "38":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalicushion1.png"
-        },      
-     "39":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalicushion2.png"
-        },           
-     "40":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalihammock1.png"
-        },    
-     "41":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalihammock2.png"
-        },            
-     "42":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/bandittent1.png"
-        },          
-     "43":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/bandittent2.png"
-        },          
-     "44":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/campdoor.png"
-        }, 
-     "45":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/camplargeentry1.png"
-        }, 
-     "46":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/camplargeentry2.png"
-        },       
-     "47":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/camplargewall1.png"
-        },       
-     "48":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/camplargewall2.png"
-        },       
-     "49":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/campslope1.png"
-        },       
-     "50":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/campslope2.png"
-        },       
-     "51":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/campsmallentry1.png"
-        },       
-     "52":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/campsmallentry2.png"
-        },            
-     "53":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/campsmallwall1.png"
-        },          
-     "54":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/campsmallwall2.png"
-        },          
-     "55":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalichair1.png"
-        },    
-     "56":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalichair2.png"
-        },  
-     "57":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalichest1.png"
-        },            
-     "58":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalichest2.png"
-        },            
-     "59":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalicontainer1.png"
-        },    
-     "60":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalicontainer2.png"
-        },   
-     "61":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalistoragelocker.png"
-        }, 
-     "62":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalidreamcatcher1.png"
-        }, 
-     "63":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalicrystal1.png"
-        }, 
-     "64":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalibottle1.png"
-        },         
-     "65":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalidarkdoor.png"
-        }, 
-     "66":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalidarkverticaldoor.png"
-        },  
-     "67":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalitechdoor.png"
-        },         
-     "68":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalitechverticaldoor.png"
-        },         
-     "69":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalihologram1.png"
-        }, 
-     "70":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalihologram2.png"
-        },
-     "71":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalihologramsml1.png"
-        },    
-     "72":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalihologramsml2.png"
-        },   
-     "73":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalihologramsml3.png"
-        }, 
-     "74":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalihologramtiny1.png"
-        }, 
-     "75":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalihologramtiny2.png"
-        },
-      "76":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalicuttingboard.png"
-        },      
-      "77":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalikitchencupboard.png"
-        },       
-      "78":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalikitchendrawers.png"
-        }, 
-      "79":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalikitchenfridge.png"
-        },    
-      "80":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalikitchenstove.png"
-        },  
-      "81":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalisample1.png"
-        }, 
-      "82":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalisample1.png"
-        }, 
-      "83":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalisample3.png"
-        },    
-      "84":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avaliaerogellight.png"
-        },         
-      "85":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalilightblock.png"
-        },         
-      "86":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalistriplight.png"
-        },         
-      "87":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalistriplight2.png"
-        },   
-      "88":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalitable1.png"
-        },         
-      "89":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalitable2.png"
-        },         
-      "90":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalitable3.png"
-        }, 
-      "91":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avalitable4.png"
-        },         
-      "92":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avaliterminal1.png"
-        }, 
-      "93":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avaliterminal2.png"
-        }, 
-      "94":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/avaliterminal3.png"
-        },
-      "95":
+      "34":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/fuokeaglitchwagon.png"
         },
-      "96":
+      "35":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/fugallows.png"
         },
-      "97":
+      "36":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/pumpinfu.png"
         },
-      "98":
+      "37":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/pumpoutfu.png"
         },
-      "99":
+      "38":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/pumpoutpressurefu.png"
         },
-      "100":
+      "39":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/pumpinfu.png"
         },
-      "101":
+      "40":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/pumpoutpressurefu.png"
         },
-      "102":
+      "41":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/pumpoutfu.png"
         },
-      "103":
+      "42":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursordoor.png"
         },
-      "104":
+      "43":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorlight.png"
         },
-      "105":
+      "44":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorchest.png"
         },
-      "106":
+      "45":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursordoor2.png"
         },
-      "107":
+      "46":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorswitch.png"
         },
-      "108":
+      "47":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorcorner.png"
         },
-      "109":
+      "48":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/megastatue.png"
         },
-      "110":
+      "49":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorconverter.png"
         },
-      "111":
+      "50":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursormachine.png"
         },
-      "112":
+      "51":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/pixelgoods/mlitcometsofa.png"
         },
-      "113":
+      "52":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursoromegagenerator.png"
         },
-      "114":
+      "53":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorbattery1.png"
         },
-      "115":
+      "54":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorterminal.png"
         },
-      "116":
+      "55":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorchair.png"
         },
-      "117":
+      "56":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorchair2.png"
         },
-      "118":
+      "57":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursoraltar.png"
         },
-      "119":
+      "58":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorobeliskdual.png"
         },
-      "120":
+      "59":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorobelisk.png"
         },
-      "121":
+      "60":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursortable.png"
         },
-      "122":
+      "61":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursortrap1.png"
         },
-      "123":
+      "62":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorverticaldoor2.png"
         },
-      "124":
+      "63":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorsmelter.png"
         },
-      "125":
+      "64":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursormatrix.png"
         },
-      "126":
+      "65":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursordroppod.png"
         },
-      "127":
+      "66":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorteleporter.png"
         },
-      "128":
+      "67":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorteleporter.png"
         },
-      "129":
+      "68":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorteleporter.png"
         },
-      "130":
+      "69":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorconsoleswitch.png"
         },
-      "131":
+      "70":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorescaperadar.png"
         },
-      "132":
+      "71":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursorpressureplatform.png"
         },
-     "133":
+     "72":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursor1tiledoor.png"
         },
-     "134":
+     "73":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/precursor1tiledoorvertical.png"
         },
-     "135":
+     "74":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/fu_Bartable_Aurora.png"
         }, 
-     "136":
+     "75":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/fu_Barkeep_spot_Aurora.png"
         }, 
-     "137":
+     "76":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/fu_NFPA_gasoline.png"
         }, 
-     "138":
+     "77":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/fu_NFPA_precursor_fluid.png"
         }, 
-     "139":
+     "78":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/fu_NFPA_sulfuric.png"
         }, 
-     "140":
+     "79":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/fu_NFPA_uranium.png"
         }, 
-     "141":
+     "80":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/fu_staythefuckoutsign.png"
         }, 
-     "142":
+     "81":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/outpostbartop.png"
         }, 
-     "143":
+     "82":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/instafreud.png"
         }, 
-     "144":
+     "83":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/corpsewagon.png"
         }, 
-     "145":
+     "84":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/embalmingtable.png"
         }, 
-     "146":
+     "85":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/scienceoutpostbanner1.png"
         }, 
-     "147":
+     "86":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/scienceoutpostbanner2.png"
         }, 
-     "148":
+     "87":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/scienceoutpostbanner4.png"
         }, 
-     "149":
+     "88":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/burgerfool.png"
         }, 
-     "150":
+     "89":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/apexcooldoorshoot.png"
         }, 
-     "151":
+     "90":
         {
          "image":"../../tiled/frackinuniverse-custom/objects/scienceinfobooth.png"
-        },
-	 "152":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/enx_arconindustries.png"
-        },
-	 "153":
-        {
-         "image":"../../tiled/frackinuniverse-custom/objects/enx_strangemailman.png"
-        }	
+        }                              
     },
  "tilewidth":285
 }      
