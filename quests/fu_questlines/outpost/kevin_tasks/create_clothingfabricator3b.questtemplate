@@ -1,8 +1,8 @@
 {
 	"id" : "create_clothingfabricator3b",
 	"prerequisites" : [ "create_clothingfabricator3" ],
-	"title" : "Infantile Deliciousness",
-	"text" : "You ever wonder how many ^orange;baby heads^reset; you can fit in a refrigerator? I do! Let's find out, shall we? If you were to gather say...200 ^orange;baby heads on sticks^reset; I'd be ever so thankful.",
+	"title" : "Junk Food",
+	"text" : "You ever wonder how much ^orange;junk^reset; you can fit in a refrigerator? I do! Let's find out, shall we? If you were to gather say...200 ^orange;pieces of junk^reset; I'd be ever so thankful.",
 	"completionText" : "Many thanks, Lester. This time I have an ^orange;honestly good^reset; thing for you! Promise!",
 	"moneyRange" : [10, 20],
 	"rewards" : [ [ [ "cuddlehorse", 1 ],[ "fumadnessresource", 500 ] ] ],
@@ -24,7 +24,7 @@
 		"conditions" : [
 			{
 				"type" : "gatherItem",
-				"itemName" : "babyheadonastick",
+				"itemName" : "junk",
 				"count" : 200,
 				"consume" : true
 			}

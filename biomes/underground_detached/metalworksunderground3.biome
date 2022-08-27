@@ -52,8 +52,8 @@
     }
   },
 
-  "mainBlock" : "avalichits",
-  "subBlocks" : [ "avalitechpanel", "avalidarkmetal2", "avalihexagons1" ],
+  "mainBlock" : "labtechpanel",
+  "subBlocks" : [ "futilered", "fuokeahitechwall1", "labtile" ],
   "ores" : "ff_metalmoonOres",
 
   "parallax" : "/parallax/underground/metallicunderground.parallax",

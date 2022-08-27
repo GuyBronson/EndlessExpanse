@@ -5670,28 +5670,6 @@
                  "y":248
                 }, 
                 {
-                 "height":8,
-                 "id":1964,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"material",
-                         "type":"string",
-                         "value":"avaliaeroponics"
-                        }, 
-                        {
-                         "name":"mod",
-                         "type":"string",
-                         "value":"avalitilled"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":144,
-                 "x":384,
-                 "y":432
-                }, 
-                {
                  "gid":6325,
                  "height":8,
                  "id":2256,

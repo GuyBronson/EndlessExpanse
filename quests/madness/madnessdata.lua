@@ -671,7 +671,7 @@ end
 
 function isWeirdStuff(duration)
 	local afkLvl=afkLevel()
-	local weirdStuff={"faceskin","greghead","greggnog","babyheadonastick","meatpickle"}
+	local weirdStuff={"faceskin","greghead","greggnog","meatpickle"}
 	local hasArt=false
 	for _,art in pairs(weirdStuff) do
 		if player.hasItem(art) then

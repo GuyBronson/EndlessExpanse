@@ -6,55 +6,48 @@
  "tileheight":8,
  "tileproperties":
     {
+
      "0":
-        {
-         "material":"avaliaeroponics"
-        },
-     "1":
-        {
-         "material":"avalichits"
-        },
-     "10":
         {
          "material":"peglacigiantek"
         },
-     "100":
+     "1":
         {
          "material":"precursorwall"
         },
-     "101":
+     "2":
         {
          "material":"precursorfloor"
         },
-     "102":
+     "3":
         {
          "material":"precursorglasswall"
         },
-     "103":
+     "4":
         {
          "material":"precursordetail"
         },
-     "104":
+     "5":
         {
          "material":"precursordecorative"
         },
-     "105":
+     "6":
         {
          "material":"precursorgirdir"
         },
-     "106":
+     "7":
         {
          "material":"precursorpillar"
         },
-     "107":
+     "8":
         {
          "material":"precursorchain"
         },
-     "108":
+     "9":
         {
          "material":"precursorfloor2"
         },
-     "109":
+     "10":
         {
          "material":"precursorgirder"
         },
@@ -62,443 +55,379 @@
         {
          "material":"peglacihexpane"
         },
-     "110":
+     "12":
         {
          "material":"precursorsloped"
         },
-     "111":
+     "13":
         {
          "material":"flowerybars"
         },
-     "112":
+     "14":
         {
          "material":"blacksteelblock"
         },
-     "113":
+     "15":
         {
          "material":"fancywoodstairs"
         },
-     "114":
+     "16":
         {
          "material":"precursorpipe"
         },
-     "115":
+     "17":
         {
          "material":"redwoodbark"
         },
-     "116":
+     "18":
         {
          "material":"retexdirt"
         },
-     "117":
+     "19":
         {
          "material":"boneyflesh"
         },
-     "118":
+     "20":
         {
          "material":"charredbonematerial"
         },
-     "119":
+     "21":
         {
          "material":"harrowstone"
         },      
-     "12":
+     "22":
         {
          "material":"peglacihorcable"
         },
-     "120":
+     "23":
         {
          "material":"fuoldtimber"
         },
-     "121":
+     "24":
         {
          "material":"ancientblockcracked"
         },
-     "122":
+     "25":
         {
          "material":"ancientblockplain"
         },
-     "123":
+     "26":
         {
          "material":"ancientbrickplain"
         },          
-     "13":
+     "27":
         {
          "material":"peglaciicecolumn"
         },
-     "14":
+     "28":
         {
          "material":"peglaciinscribedpykreteblock"
         },
-     "15":
+     "29":
         {
          "material":"peglacimetalblock"
         },
-     "16":
+     "30":
         {
          "material":"peglacipykreteblock"
         },
-     "17":
+     "31":
         {
          "material":"peglacipykretedecor"
         },
-     "18":
+     "32":
         {
          "material":"peglacipykretefoundation"
         },
-     "19":
+     "33":
         {
          "material":"peglacipykretestrip"
         },
-     "2":
-        {
-         "material":"avalidarkmetal2"
-        },
-     "20":
+     "34":
         {
          "material":"peglacivertcable"
         },
-     "21":
+     "35":
         {
          "material":"retexironblock"
         },
-     "22":
+     "36":
         {
          "material":"retexironpipe"
         },
-     "23":
+     "37":
         {
          "material":"retexaetherdustpillar"
         },
-     "24":
+     "38":
         {
          "material":"retexwallcables"
         },
-     "25":
+     "39":
         {
          "material":"steelpartblock"
         },
-     "26":
+     "40":
         {
          "material":"steelmetal"
         },
-     "27":
+     "41":
         {
          "material":"titaniumwallblock"
         },
-     "28":
+     "42":
         {
          "material":"peglacimetalscreen"
         },
-     "29":
+     "43":
         {
          "material":"purpleconsole"
         },
-     "3":
-        {
-         "material":"avalihexagons1"
-        },
-     "30":
+     "44":
         {
          "material":"junk"
         },
-     "31":
+     "45":
         {
          "material":"goldenleaves"
         },
-     "32":
+     "46":
         {
          "material":"goldensand"
         },
-     "33":
+     "47":
         {
          "material":"goldenglass"
         },
-     "34":
+     "48":
         {
          "material":"goldenwood"
         },
-     "35":
+     "49":
         {
          "material":"goldenplank"
         },
-     "36":
+     "50":
         {
          "material":"fu_honeycombblock"
         },
-     "37":
+     "51":
         {
          "material":"833honeycrystalblock"
         },
-     "38":
+     "52":
         {
          "material":"honeystone"
         },
-     "39":
+     "53":
         {
          "material":"honeystonebrick"
         },
-     "4":
-        {
-         "material":"avalitechpanel"
-        },
-     "40":
+     "54":
         {
          "material":"fu_redhoneycombblock"
         },
-     "41":
+     "55":
         {
          "material":"redwaxblock"
         },
-     "42":
+     "56":
         {
          "material":"frozenwaxblock"
         },
-     "43":
+     "57":
         {
          "material":"waxblock"
         },
-     "44":
+     "58":
         {
          "material":"whitewaxblock"
         },
-     "45":
+     "59":
         {
          "material":"bloodsand"
         },
-     "46":
+     "60":
         {
          "material":"bloodstonetile"
         },
-     "47":
+     "61":
         {
          "material":"bloodstonetile2"
         },
-     "48":
+     "62":
         {
          "material":"ff_bloodstone"
         },
-     "49":
+     "63":
         {
          "material":"bioblock"
         },
-     "5":
+     "64":
         {
          "material":"brittlejunk"
         },
-     "50":
+     "65":
         {
          "material":"bioblock2"
         },
-     "51":
+     "66":
         {
          "material":"biodirt"
         },
-     "52":
+     "67":
         {
          "material":"biogravel"
         },
-     "53":
+     "68":
         {
          "material":"biostone"
         },
-     "54":
+     "69":
         {
          "material":"calichestone"
         },
-     "55":
+     "70":
         {
          "material":"iceblock1"
         },
-     "56":
+     "71":
         {
          "material":"iceblock2"
         },
-     "57":
+     "72":
         {
          "material":"iceblock3"
         },
-     "58":
+     "73":
         {
          "material":"iceblock4"
         },
-     "59":
+     "74":
         {
          "material":"irradiatedtile"
         },
-     "6":
+     "75":
         {
          "material":"brittlemetal"
         },
-     "60":
+     "76":
         {
          "material":"irradiatedtile2"
         },
-     "61":
+     "77":
         {
          "material":"irradiatedtile3"
         },
-     "62":
+     "78":
         {
          "material":"magmatile1"
         },
-     "63":
+     "79":
         {
          "material":"magmatile2"
         },
-     "64":
+     "80":
         {
          "material":"magmatile3"
         },
-     "65":
+     "81":
         {
          "material":"magmatile4"
         },
-     "66":
+     "82":
         {
          "material":"sulphurdirt"
         },
-     "67":
+     "83":
         {
          "material":"sulphurstone"
         },
-     "68":
+     "84":
         {
          "material":"veinblock"
         },
-     "69":
+     "85":
         {
          "material":"blackslime"
         },
-     "7":
+     "86":
         {
          "material":"fumetalblock"
         },
-     "70":
+     "87":
         {
          "material":"honeycombmaterial"
         },
-     "71":
+     "88":
         {
          "material":"peglacimetalpanel"
         },
-     "72":
-        {
-         "material":"avalidarkmetal"
-        },
-     "73":
-        {
-         "material":"avalidarkmetal3"
-        },
-     "74":
-        {
-         "material":"avalidisplay"
-        },
-     "75":
-        {
-         "material":"avaliglass"
-        },
-     "76":
-        {
-         "material":"avalipaneling"
-        },
-     "77":
-        {
-         "material":"avalipaneling2"
-        },
-     "78":
-        {
-         "material":"avaliplain"
-        },
-     "79":
-        {
-         "material":"avalitiles"
-        },
-     "8":
+     "89":
         {
          "material":"peglacicableconnector"
         },
-     "80":
-        {
-         "material":"campbigpole"
-        },
-     "81":
-        {
-         "material":"campcanvas"
-        },
-     "82":
-        {
-         "material":"camppole"
-        },
-     "83":
-        {
-         "material":"camptapestry1"
-        },
-     "84":
-        {
-         "material":"camptapestry2"
-        },
-     "85":
+     "90":
         {
          "material":"redhoneycombmaterial"
         },
-     "86":
+     "91":
         {
          "material":"retexgreenhouse"
         },
-     "87":
+     "92":
         {
          "material":"fumossyrock"
         },
-     "88":
+     "93":
         {
          "material":"fumossyrock2"
         },
-     "89":
+     "94":
         {
          "material":"elderroof"
         },
-     "9":
+     "95":
         {
          "material":"peglacicablenexus"
         },
-     "90":
+     "96":
         {
          "material":"fumonasteryroofing"
         },
-     "91":
+     "97":
         {
          "material":"fumonasterytile"
         },
-     "92":
+     "98":
         {
          "material":"fumonasterywall"
         },
-     "93":
+     "99":
         {
          "material":"fumonasterybeam"
         },
-     "94":
+     "100":
         {
          "material":"fumonasteryflooring"
         },
-     "95":
+     "101":
         {
          "material":"sandpillar1"
         },
-     "96":
+     "102":
         {
          "material":"sandpillar2"
         },
-     "97":
+     "103":
         {
          "material":"erchiuspillar"
         },
-     "98":
+     "104":
         {
          "material":"shroomblockwall"
         },
-     "99":
+     "105":
         {
          "material":"precursorpanel"
         }
@@ -541,71 +470,11 @@
         {
          "material":"string"
         },
-     "106":
-        {
-         "material":"string"
-        },
-     "107":
-        {
-         "material":"string"
-        },
-     "108":
-        {
-         "material":"string"
-        },
-     "109":
-        {
-         "material":"string"
-        },
      "11":
         {
          "material":"string"
         },
-     "110":
-        {
-         "material":"string"
-        },
-     "111":
-        {
-         "material":"string"
-        },
-     "112":
-        {
-         "material":"string"
-        },
-     "113":
-        {
-         "material":"string"
-        },
-     "114":
-        {
-         "material":"string"
-        },
-     "115":
-        {
-         "material":"string"
-        },
-     "116":
-        {
-         "material":"string"
-        },
-     "117":
-        {
-         "material":"string"
-        },
-     "118":
-        {
-         "material":"string"
-        },
-     "119":
-        {
-         "material":"string"
-        },
      "12":
-        {
-         "material":"string"
-        },
-     "120":
         {
          "material":"string"
         },
@@ -994,77 +863,65 @@
     {
      "0":
         {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avaliaeroponics.png",
+         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacigiantek.png",
          "imageheight":8,
          "imagewidth":8
         },
      "1":
         {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalichits.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "10":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacigiantek.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "100":
-        {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursorwall.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "101":
+     "2":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursorfloor.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "102":
+     "3":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursorglasswall.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "103":
+     "4":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursordetail.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "104":
+     "5":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursordecorative.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "105":
+     "6":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursorgirdir.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "106":
+     "7":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursorpillar.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "107":
+     "8":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursorchain.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "108":
+     "9":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursorfloor2.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "109":
+     "10":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursorgirder.png",
          "imageheight":8,
@@ -1076,661 +933,565 @@
          "imageheight":8,
          "imagewidth":8
         },
-     "110":
+     "12":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursorsloped.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "111":
+     "13":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/flowerybars.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "112":
+     "14":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/blacksteelblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "113":
+     "15":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/fancywoodstairs.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "114":
+     "16":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursorpipe.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "115":
+     "17":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/redwoodbark.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "116":
+     "18":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/retexdirt.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "117":
+     "19":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/boneyflesh.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "118":
+     "20":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/charredbones.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "119":
+     "21":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/harrowstone.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "12":
+     "22":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacihorcable.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "120":
+     "23":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/fuoldtimber.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "121":
+     "24":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/ancientblockcracked.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "122":
+     "25":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/ancientblockplain.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "123":
+     "26":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/ancientbrickplain.png",
          "imageheight":8,
          "imagewidth":8
         },        
-     "13":
+     "27":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglaciicecolumn.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "14":
+     "28":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglaciinscribedpykreteblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "15":
+     "29":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacimetalblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "16":
+     "30":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacipykreteblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "17":
+     "31":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacipykretedecor.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "18":
+     "32":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacipykretefoundation.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "19":
+     "33":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacipykretestrip.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "2":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalidarkmetal2.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "20":
+     "34":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacivertcable.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "21":
+     "35":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/retexironblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "22":
+     "36":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/retexironpipe.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "23":
+     "37":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/retexaetherdustpillar.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "24":
+     "38":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/retexwallcables.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "25":
+     "39":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/steelpartblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "26":
+     "40":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/steelmetal.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "27":
+     "41":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/titaniumwallblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "28":
+     "42":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacimetalscreen.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "29":
+     "43":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/purpleconsole.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "3":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalihexagons1.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "30":
+     "44":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/junk.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "31":
+     "45":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/goldenleaves.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "32":
+     "46":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/goldensand.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "33":
+     "47":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/goldenglass.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "34":
+     "48":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/goldenwood.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "35":
+     "49":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/goldenplank.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "36":
+     "50":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/fuhoneycombblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "37":
+     "51":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/honeycrystalblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "38":
+     "52":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/honeystone.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "39":
+     "53":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/honeystonebrick.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "4":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalitechpanel.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "40":
+     "54":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/redhoneycombblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "41":
+     "55":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/redwax.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "42":
+     "56":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/frozenwaxblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "43":
+     "57":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/waxblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "44":
+     "58":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/whitewaxblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "45":
+     "59":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/bloodsand.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "46":
+     "60":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/bloodstonetile.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "47":
+     "61":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/bloodstonetile2.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "48":
+     "62":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/ff_bloodstone.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "49":
+     "63":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/bioblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "5":
+     "64":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/brittlejunk.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "50":
+     "65":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/bioblock2.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "51":
+     "66":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/biodirt.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "52":
+     "67":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/biogravel.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "53":
+     "68":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/biostone.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "54":
+     "69":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/calichestone.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "55":
+     "70":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/iceblock1.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "56":
+     "71":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/iceblock2.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "57":
+     "72":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/iceblock3.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "58":
+     "73":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/iceblock4.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "59":
+     "74":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/irradiatedtile.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "6":
+     "75":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/brittlemetal.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "60":
+     "76":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/irradiatedtile2.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "61":
+     "77":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/irradiatedtile3.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "62":
+     "78":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/magmatile1.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "63":
+     "79":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/magmatile2.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "64":
+     "80":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/magmatile3.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "65":
+     "81":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/magmatile4.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "66":
+     "82":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/sulphurdirt.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "67":
+     "83":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/sulphurstone.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "68":
+     "84":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/veinblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "69":
+     "85":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/blackslime.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "7":
+     "86":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/fumetalblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "70":
+     "87":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/honeycombblock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "71":
+     "88":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacimetalpanel.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "72":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalidarkmetal.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "73":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalidarkmetal3.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "74":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalidisplay.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "75":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avaliglass.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "76":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalipaneling.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "77":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalipaneling2.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "78":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avaliplain.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "79":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalitiles.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "8":
+     "89":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacicableconnector.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "80":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/campbigpole.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "81":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/campcanvas.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "82":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/camppole.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "83":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/camptapestry1.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "84":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/camptapestry2.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "85":
+     "90":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/redhoneycomb.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "86":
+     "91":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/retexgreenhouse.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "87":
+     "92":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/fumossyrock.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "88":
+     "93":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/fumossyrock2.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "89":
+     "94":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/elderroof.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "9":
+     "95":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacicablenexus.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "90":
+     "96":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/fumonasteryroofing.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "91":
+     "97":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/fumonasterytile.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "92":
+     "98":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/fumonasterywall.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "93":
+     "99":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/fumonasterybeam.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "94":
+     "100":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/fumonasteryflooring.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "95":
+     "101":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/sandpillar1.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "96":
+     "102":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/sandpillar2.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "97":
+     "103":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/erchiuspillar.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "98":
+     "104":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/shroomblockwall.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "99":
+     "105":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursorpanel.png",
          "imageheight":8,
