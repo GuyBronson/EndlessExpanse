@@ -44,18 +44,14 @@ funcs = {
 	spawnMonsters = function(params)
 		local r = math.random(50)
 		if r == 1 then
-			world.spawnProjectile("fu_beebriefcasetemp", world.entityPosition(player.id()))
-			pane.playSound(config.getParameter("badSound"))
-			return {title = "Bees!", subtitle = "Oh no not the bees!", image = "/items/bees/bees/normal/queen.png", textColor = "#FFFF00", flashColor = "#FF0000" }
-		elseif r == 2 then
 			world.spawnProjectile("fu_poptopsack", world.entityPosition(player.id()))
 			pane.playSound(config.getParameter("badSound"))
 			return {title = "Poptops!", subtitle = "Adorable Rabid Poptops!", image = "/items/bees/bees/normal/queen.png", textColor = "#FFCCAA", flashColor = "#FFCCAA" }
-		elseif r == 3 then
+		elseif r == 2 then
 			world.spawnProjectile("fu_chicks", world.entityPosition(player.id()))
 			pane.playSound(config.getParameter("rareSound"))
 			return {title = "Chickens!", subtitle = "Aww! Babies!", image = "/items/bees/bees/normal/queen.png", textColor = "#0000AA", flashColor = "#0000AA" }
-		elseif r == 4 then
+		elseif r == 3 then
 			world.spawnProjectile("fuwolfcase2", world.entityPosition(player.id()))
 			pane.playSound(config.getParameter("badSound"))
 			return {title = "Wolves!", subtitle = "Rabid Angry Carnivores!", image = "/items/bees/bees/normal/queen.png", textColor = "#FFFF00", flashColor = "#FF0000" }
