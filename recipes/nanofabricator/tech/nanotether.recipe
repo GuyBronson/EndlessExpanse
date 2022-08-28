@@ -6,7 +6,7 @@
     { "item" : "graphene", "count" : 20 }
   ],
   "output" : {
-    "item" : "tethersnap",
+    "item" : "enx_tethersnap",
     "count" : 1
   },
   "groups" : [ "nanofabricator3", "tech", "all" ]

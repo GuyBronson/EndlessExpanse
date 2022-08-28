@@ -3,7 +3,7 @@
     { "item" : "fuscienceresource", "count" : 1010 }
   ],
   "output" : {
-    "item" : "researchvoxel",
+    "item" : "enx_researchvoxel",
     "count" : 1
   },
   "groups" : [ "hypercompressor", "pixelcompress" ],

@@ -2,7 +2,7 @@
   "input" : [
     { "item" : "money", "count" : 2000 }
   ],
-  "output" : { "item" : "easyvoxel2k", "count" : 1 },
+  "output" : { "item" : "enx_easyvoxel2k", "count" : 1 },
   "duration" : 1.2,
   "groups" : [ "compressor", "pixelcompress" ]
 }

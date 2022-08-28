@@ -4,7 +4,7 @@
 	{ "item" : "plantfibre", "count" : 6 }
   ],
   "output" : {
-    "item" : "primitiveshield",
+    "item" : "enx_primitiveshield",
     "count" : 1
   },
   "groups" : [ "plain", "primitive"  ]

@@ -96,7 +96,7 @@
               "funomadassaultrifle", "durasteelrevolver", "pistoleffigiumfu", "gravitonpistol"
             ],
             "secondary" : [
-              "titaniumshield", "titaniumrevolver"
+              "enx_titaniumshield", "titaniumrevolver"
             ]
           }
         ] ]

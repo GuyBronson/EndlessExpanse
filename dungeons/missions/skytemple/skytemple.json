@@ -7315,7 +7315,7 @@
                         {
                          "name":"vehicle",
                          "type":"string",
-                         "value":"fu_solidrailplatform"
+                         "value":"enx_solidrailplatform"
                         }],
                  "rotation":0,
                  "type":"",
@@ -15687,7 +15687,7 @@
                         {
                          "name":"vehicle",
                          "type":"string",
-                         "value":"fu_solidrailplatform"
+                         "value":"enx_solidrailplatform"
                         }],
                  "rotation":0,
                  "type":"",
@@ -15704,7 +15704,7 @@
                         {
                          "name":"vehicle",
                          "type":"string",
-                         "value":"fu_solidrailplatform"
+                         "value":"enx_solidrailplatform"
                         }],
                  "rotation":0,
                  "type":"",
@@ -15721,7 +15721,7 @@
                         {
                          "name":"vehicle",
                          "type":"string",
-                         "value":"fu_solidrailplatform"
+                         "value":"enx_solidrailplatform"
                         }],
                  "rotation":0,
                  "type":"",
@@ -15912,7 +15912,7 @@
                         {
                          "name":"vehicle",
                          "type":"string",
-                         "value":"fu_solidrailplatform"
+                         "value":"enx_solidrailplatform"
                         }],
                  "rotation":0,
                  "type":"",

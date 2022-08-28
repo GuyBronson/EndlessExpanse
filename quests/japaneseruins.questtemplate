@@ -7,9 +7,9 @@
 	"moneyRange" : [5000, 5000],
 	"rewards" : [
 		[
-			[ "cuddlehorse" ],
-			[ "cuddlehorse" ],
-			[ "cuddlehorse" ],
+			[ "enx_upgradekit" ],
+			[ "enx_upgradekit" ],
+			[ "enx_upgradekit" ],
 			[ "oculobaf", 1 ],
 			[ "tinticaf", 1 ],
 			["essence", 2000 ]

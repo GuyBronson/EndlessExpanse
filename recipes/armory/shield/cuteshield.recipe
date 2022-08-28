@@ -5,7 +5,7 @@
     { "item" : "solaricrystal", "count" : 3 }
   ],
   "output" : {
-    "item" : "cuteshield",
+    "item" : "enx_cuteshield",
     "count" : 1
   },
   "groups" : [ "armory3", "shield", "all" ]

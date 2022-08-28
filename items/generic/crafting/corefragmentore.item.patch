@@ -4,7 +4,7 @@
   //  { "op": "add", "path": "/learnBlueprintsOnPickup", "value": [] }
   //],
   //[
-   // { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fuautohookshot" },
+   // { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "enx_autohookshot" },
    // { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fuflamewand" },
    // { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fucopperbomb" },
    // { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "fuironbomb" },

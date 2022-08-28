@@ -4,7 +4,7 @@
   "path": "/apexmission1Reward/0/1/pool/-",
   "value": {
    "weight": 0.01,
-   "item": "fuapexblueprinta"
+   "item": "enx_apexblueprinta"
   }
  },
  {
@@ -12,7 +12,7 @@
   "path": "/apexmission1Reward/0/1/pool/-",
   "value": {
    "weight": 0.01,
-   "item": "fuapexblueprintm"
+   "item": "enx_apexblueprintm"
   }
  },
  {
@@ -20,7 +20,7 @@
   "path": "/apexmission1Reward/0/1/pool/-",
   "value": {
    "weight": 0.01,
-   "item": "fuapexblueprints"
+   "item": "enx_apexblueprints"
   }
  },
  {
@@ -40,9 +40,9 @@
         {"weight" : 0.15, "item" : [ "capturepod", 4]},
         {"weight" : 0.15, "pool" : "rareMelee"},
         {"weight" : 0.1, "pool" : "shield"},
-        {"weight" : 0.04, "item" : "fuapexblueprinta"},
-        {"weight" : 0.04, "item" : "fuapexblueprintm"},
-        {"weight" : 0.04, "item" : "fuapexblueprints"}
+        {"weight" : 0.04, "item" : "enx_apexblueprinta"},
+        {"weight" : 0.04, "item" : "enx_apexblueprintm"},
+        {"weight" : 0.04, "item" : "enx_apexblueprints"}
       ],
       "poolRounds" : [
         [0.5, 5],

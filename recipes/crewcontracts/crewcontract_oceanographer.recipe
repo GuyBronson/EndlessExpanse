@@ -4,7 +4,7 @@
     { "item" : "rawfish", "count" : 20 }
   ],
   "output" : {
-    "item" : "crewcontract_oceanographer",
+    "item" : "enx_crewcontract_oceanographer",
     "count" : 1
   },
 

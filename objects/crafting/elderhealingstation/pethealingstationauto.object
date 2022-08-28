@@ -79,7 +79,7 @@
 	],
 	"acceptedPods": {
 		"filledcapturepod": true,
-		"botpod": true,
-		"elderpod": true
+		"enx_botpod": true,
+		"enx_elderpod": true
 	}
 }

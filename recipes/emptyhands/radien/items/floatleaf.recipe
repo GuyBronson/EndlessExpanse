@@ -5,7 +5,7 @@
     { "item" : "ff_silicon", "count" : 4 }
   ],
   "output" : {
-    "item" : "floatleaf",
+    "item" : "enx_floatleaf",
     "count" : 1
   },
   "groups" : [ "radiencrafting", "all", "armor" ]

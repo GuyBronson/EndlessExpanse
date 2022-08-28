@@ -3,7 +3,7 @@
     { "item" : "money", "count" : 300 }
   ],
   "output" : {
-    "item" : "crewcontract",
+    "item" : "enx_crewcontract",
     "count" : 1
   },
 

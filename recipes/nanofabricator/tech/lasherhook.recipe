@@ -6,7 +6,7 @@
     { "item" : "biosample", "count" : 3 }
   ],
   "output" : {
-    "item" : "lasherhook",
+    "item" : "enx_lasherhook",
     "count" : 1
   },
   "groups" : [ "nanofabricator2", "tech", "all" ]

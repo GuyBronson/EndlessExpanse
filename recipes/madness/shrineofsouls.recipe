@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "fumementomori", "count" : 1 },
+    { "item" : "enx_mementomori", "count" : 1 },
     { "item" : "essence", "count" : 60 },
     { "item" : "ghostlywax", "count" : 15 },
     { "item" : "effigiumbar", "count" : 10 },

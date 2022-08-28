@@ -1,6 +1,6 @@
 {
   "input" : [
-	{ "item" : "fu_lootbox", "count" : 1 }
+	{ "item" : "enx_lootbox", "count" : 1 }
   ],
   "output" : {
     "item" : "uraniumcookie",

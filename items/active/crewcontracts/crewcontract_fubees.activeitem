@@ -1,5 +1,5 @@
 {
-  "itemName" : "crewcontract_fubees",
+  "itemName" : "enx_crewcontract_bees",
   "tooltipKind": "codex",
   "price" : 0,
   "level" : 1,
@@ -15,7 +15,7 @@
   "animationCustom" : {},
   "scripts" : ["crewcontract.lua"],
 
-  "learnBlueprintsOnPickup" : [ "crewcontract_fubees" ],
+  "learnBlueprintsOnPickup" : [ "enx_crewcontract_bees" ],
   "fireTime" : 2.0,
   "fireOffset" : [1.0, 0.0],
 

@@ -1,7 +1,7 @@
 {
   "input" : [
    { "item" : "standingturret", "count" : 1 },
-   { "item" : "HarvesterBeam2", "count" : 1 }
+   { "item" : "enx_harvesterbeamgun2", "count" : 1 }
   ],
   "output" : {
     "item" : "fu_autoBeamer2",

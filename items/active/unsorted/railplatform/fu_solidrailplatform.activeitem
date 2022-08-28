@@ -1,5 +1,5 @@
 {
-  "itemName" : "fu_solidrailplatform",
+  "itemName" : "enx_solidrailplatform",
   "level" : 1,
   "price" : 650,
   "rarity" : "rare",
@@ -18,5 +18,5 @@
   "placementBounds" : [-2.5, -0.25, 2.5, 0.75],
   "placementPreviewImage" : "/items/active/unsorted/railplatform/fu_solidrailplatformpreview.png",
 
-  "platformType" : "fu_solidrailplatform"
+  "platformType" : "enx_solidrailplatform"
 }

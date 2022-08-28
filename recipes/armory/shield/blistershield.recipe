@@ -6,7 +6,7 @@
     { "item" : "petalyellow", "count" : 24 }
   ],
   "output" : {
-    "item" : "blistershield",
+    "item" : "enx_blistershield",
     "count" : 1
   },
   "groups" : [ "armory1", "shield", "all" ]

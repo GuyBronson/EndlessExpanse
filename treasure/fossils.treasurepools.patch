@@ -303,7 +303,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.1,
-      "item": "madnesstoken"
+      "item": "enx_strangeglyph"
     }
   },
   {
@@ -311,7 +311,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.04,
-      "item": "madnesstoken2"
+      "item": "enx_unknownartifact"
     }
   },
   {
@@ -319,7 +319,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "madnesstoken3"
+      "item": "enx_glowingglyph"
     }
   },
   {
@@ -327,7 +327,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "madness_knowledge"
+      "item": "enx_madknowledge"
     }
   },
   {
@@ -335,7 +335,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "candleofstench"
+      "item": "enx_candleofstench"
     }
   },
   {
@@ -343,7 +343,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "bloodritual"
+      "item": "enx_bloodritual"
     }
   },
   {
@@ -351,7 +351,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "carving"
+      "item": "enx_strangecarving"
     }
   },
   {
@@ -359,7 +359,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "chipotle"
+      "item": "enx_chipotlecoupon"
     }
   },
   {
@@ -367,7 +367,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "crayonoflies"
+      "item": "enx_crayonoflies"
     }
   },
   {
@@ -375,7 +375,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "impossibletheories"
+      "item": "enx_impossibletheories"
     }
   },
   {
@@ -383,7 +383,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "lawbook"
+      "item": "enx_lawbook"
     }
   },
   {
@@ -391,7 +391,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "madstatue"
+      "item": "enx_madstatue"
     }
   },
   {
@@ -399,7 +399,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "madmask"
+      "item": "enx_madmask"
     }
   },
   {
@@ -407,7 +407,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "cuddlehorse"
+      "item": "enx_upgradekit"
     }
   },
   {
@@ -415,7 +415,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "madcomb"
+      "item": "enx_madcomb"
     }
   },
   {
@@ -423,7 +423,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "mapofdreamland"
+      "item": "enx_mapofdreamland"
     }
   },
   {
@@ -431,7 +431,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "mirrormirror"
+      "item": "enx_mirrorofvision"
     }
   },
   {
@@ -439,7 +439,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "motedust"
+      "item": "enx_motedust"
     }
   },
   {
@@ -447,7 +447,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "sharpenedmouse"
+      "item": "enx_sharpenedmouse"
     }
   },
   {
@@ -455,7 +455,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "stickoftruth"
+      "item": "enx_stickoftruth"
     }
   },
   {
@@ -463,7 +463,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "terracottastatue"
+      "item": "enx_terracottastatue"
     }
   },
   {
@@ -471,7 +471,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "threecoins"
+      "item": "enx_threecoins"
     }
   },
   {
@@ -479,7 +479,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "tonsil"
+      "item": "enx_lucktonsil"
     }
   },
   {
@@ -487,7 +487,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "undulator"
+      "item": "enx_undulatingmeat"
     }
   },
   {
@@ -495,7 +495,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "universalparking"
+      "item": "enx_universalparking"
     }
   },
   {
@@ -503,7 +503,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "vileconch"
+      "item": "enx_vileconch"
     }
   },
   {
@@ -511,7 +511,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "voynich"
+      "item": "enx_voynich"
     }
   },
   {
@@ -519,7 +519,7 @@
     "path": "/fossilRareBonusTreasure/0/1/pool/-",
     "value": {
       "weight": 0.01,
-      "item": "whispercrystal"
+      "item": "enx_whisperingcrystal"
     }
   },
   {

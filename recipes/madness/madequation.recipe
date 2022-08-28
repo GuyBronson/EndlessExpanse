@@ -8,7 +8,7 @@
     { "item" : "fuscienceresource", "count" : 1500 }
   ],
   "output" : {
-    "item" : "madequation",
+    "item" : "enx_madequation",
     "count" : 1
   },
   "groups" : [ "tomedais3", "books", "all"  ],

@@ -1,9 +1,0 @@
-{
-  "frames" : "fogpoison.png",
-  "variants" : 1,
-  "loops" : 1.0,
-  "frameNumber" : 16,
-  "animationCycle" : 2.0,
-  "mode" : "loopForever",
-  "offset" : [0, 0]
-}

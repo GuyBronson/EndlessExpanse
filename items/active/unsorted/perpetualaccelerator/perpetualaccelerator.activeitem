@@ -1,5 +1,5 @@
 {
-  "itemName" : "perpetualaccelerator",
+  "itemName" : "enx_perpetualaccelerator",
   "shortdescription" : "Perpetual Accelerator",
   "description" : "Constantly applies increased movement so long as it is held.",
   "price" : 10000,

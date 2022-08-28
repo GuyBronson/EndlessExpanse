@@ -7,7 +7,7 @@
 		"pool" : [
 			{"weight" : 1.0, "item" : "slimebroadsword" },{"weight" : 1.0, "item" : "slimegrenadelauncher" },
 			{"weight" : 1.0, "item" : "slimedagger" },
-			{"weight" : 1.0, "item" : "slimeactiveshield" }
+			{"weight" : 1.0, "item" : "enx_slimeactiveshield" }
 		]
 	  }]
 	]

@@ -5,6 +5,6 @@
 //  ],
 //  [
  //   { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "morphiteore" },
- //   { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "gyrostabilizer" }
+ //   { "op" : "add", "path" : "/learnBlueprintsOnPickup/-", "value" : "enx_gyrostabilizer" }
  // ]
 ]

@@ -6,7 +6,7 @@
     { "item" : "copperbar", "count" : 3 }
   ],
   "output" : {
-    "item" : "fuautohookshot",
+    "item" : "enx_autohookshot",
     "count" : 1
   },
   "groups" : [ "nanofabricator1", "tech", "all" ]

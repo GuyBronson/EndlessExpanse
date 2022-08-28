@@ -23,5 +23,5 @@
 			}
 		]
 	},
-	"rewards" : [ [ [ "fu_t10_gaterepairbeacon", 1 ] ] ]
+	"rewards" : [ [ [ "enx_t10_gaterepairbeacon", 1 ] ] ]
 }

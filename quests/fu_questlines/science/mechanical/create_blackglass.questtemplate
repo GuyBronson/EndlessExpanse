@@ -5,7 +5,7 @@
 	"text" : "Do you have a ^orange;Blast Furnace^reset; yet? If so, try to smelt ^orange;Obsidian^reset; and bring me the results. I will be most grateful for your assistance.",
 	"completionText" : "Fantastic work! Truly amazing. Thank you for the help. As thanks, here's payment for your troubles.",
 	"moneyRange" : [1220, 2320],
-	"rewards" : [ [ [ "fu_lootbox", 1 ] ] ],
+	"rewards" : [ [ [ "enx_lootbox", 1 ] ] ],
 	"speaker" : "questGiver",
 
 	"updateDelta" : 10,

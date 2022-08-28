@@ -5,7 +5,7 @@
     { "item" : "fuscienceresource", "count" : 600 }
   ],
   "output" : {
-    "item" : "iceaxe2",
+    "item" : "enx_iceaxe2",
     "count" : 1
   },
   "groups" : [ "nanofabricator3", "tech", "all" ]

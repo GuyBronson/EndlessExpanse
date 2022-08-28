@@ -6,7 +6,7 @@
     { "item" : "solaricrystal", "count" : 6 }
   ],
   "output" : {
-    "item" : "lunarishield",
+    "item" : "enx_lunarishield",
     "count" : 1
   },
   "groups" : [ "armory1", "shield", "all" ]

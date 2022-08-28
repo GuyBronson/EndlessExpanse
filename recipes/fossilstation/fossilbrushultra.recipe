@@ -4,6 +4,6 @@
     { "item" : "energywood", "count" : 4 },
     { "item" : "mutaviskthread", "count" : 3 }
   ],
-  "output" : { "item" : "fossilbrushultra", "count" : 1 },
+  "output" : { "item" : "enx_fossilbrushultra", "count" : 1 },
   "groups" : [ "craftingfossils", "consumables" ]
 }

@@ -58,7 +58,7 @@
       [0, [
           {
             "primary" : [ "advalloydagger" ],
-            "alt" : ["durasteelshield"],
+            "alt" : ["enx_durasteelshield"],
             "sheathedprimary" : [ "furailgun" ]
           }
         ] ]

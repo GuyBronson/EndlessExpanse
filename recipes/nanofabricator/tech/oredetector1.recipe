@@ -6,7 +6,7 @@
     { "item" : "manipulatormodule", "count" : 1 }
   ],
   "output" : {
-    "item" : "oredetector1",
+    "item" : "enx_oredetector1",
     "count" : 1
   },
   "groups" : [ "nanofabricator1", "tech", "all" ]

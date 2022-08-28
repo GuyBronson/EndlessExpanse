@@ -4154,7 +4154,7 @@
                  "name":"",
                  "properties":
                     {
-                     "vehicle":"fu_solidrailplatform"
+                     "vehicle":"enx_solidrailplatform"
                     },
                  "propertytypes":
                     {
@@ -4258,7 +4258,7 @@
                  "name":"",
                  "properties":
                     {
-                     "vehicle":"fu_solidrailplatform"
+                     "vehicle":"enx_solidrailplatform"
                     },
                  "propertytypes":
                     {
@@ -4277,7 +4277,7 @@
                  "name":"",
                  "properties":
                     {
-                     "vehicle":"fu_solidrailplatform"
+                     "vehicle":"enx_solidrailplatform"
                     },
                  "propertytypes":
                     {
@@ -4374,7 +4374,7 @@
                  "name":"",
                  "properties":
                     {
-                     "vehicle":"fu_solidrailplatform"
+                     "vehicle":"enx_solidrailplatform"
                     },
                  "propertytypes":
                     {
@@ -4625,7 +4625,7 @@
                  "properties":
                     {
                      "parameters":"{\"railConfig\" : { \"speed\" : 10}}",
-                     "vehicle":"fu_solidrailplatform"
+                     "vehicle":"enx_solidrailplatform"
                     },
                  "propertytypes":
                     {
@@ -4646,7 +4646,7 @@
                  "properties":
                     {
                      "parameters":"{\"railConfig\" : { \"speed\" : 10}}",
-                     "vehicle":"fu_solidrailplatform"
+                     "vehicle":"enx_solidrailplatform"
                     },
                  "propertytypes":
                     {
@@ -4667,7 +4667,7 @@
                  "properties":
                     {
                      "parameters":"{\"railConfig\" : { \"speed\" : 10}}",
-                     "vehicle":"fu_solidrailplatform"
+                     "vehicle":"enx_solidrailplatform"
                     },
                  "propertytypes":
                     {

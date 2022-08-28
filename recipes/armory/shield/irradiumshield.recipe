@@ -5,7 +5,7 @@
     { "item" : "durasteelbar", "count" : 2 }
   ],
   "output" : {
-    "item" : "irradiumshield",
+    "item" : "enx_irradiumshield",
     "count" : 1
   },
   "groups" : [ "armory3", "shield", "all" ]

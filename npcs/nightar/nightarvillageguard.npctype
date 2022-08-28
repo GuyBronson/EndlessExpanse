@@ -77,7 +77,7 @@
             "chest" : [ { "name" : "fukingslayerchest", "parameters" : { "colorIndex" : 1 } } ],
             "legs" : [ { "name" : "fukingslayerpants", "parameters" : { "colorIndex" : 1 } } ],
             "primary" : [ "nightarshortsword" ],
-            "alt" : [ "tungstenshield" ],
+            "alt" : [ "enx_tungstenshield" ],
             "sheathedprimary" : [ "tungstenbow" ]
           }
       ] ]

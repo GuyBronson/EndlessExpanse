@@ -4,7 +4,7 @@
     { "item" : "copperbar", "count" : 1 }
   ],
   "output" : {
-    "item" : "iceaxe",
+    "item" : "enx_iceaxe",
     "count" : 1
   },
   "groups" : [ "craftingfarm", "survival" ]

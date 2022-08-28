@@ -34,7 +34,7 @@
             "chest" : [ { "name" : "daywalkerchest" } ],
             "legs" : [ { "name" : "daywalkerpants" } ],
             "primary" : [ "nightarshortsword" ],
-            "alt" : [ "durasteelshield" ]
+            "alt" : [ "enx_durasteelshield" ]
           }
         ] ]
     ]

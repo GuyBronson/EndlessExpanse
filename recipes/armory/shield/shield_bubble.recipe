@@ -7,7 +7,7 @@
     { "item" : "refinedferozium", "count" : 1 }
   ],
   "output" : {
-    "item" : "bubbleshield",
+    "item" : "enx_bubbleshield",
     "count" : 1
   },
   "groups" : [ "armory3", "shield", "all" ]

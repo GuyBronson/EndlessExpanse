@@ -5,7 +5,7 @@
 	"text" : "I cannot possibly poison-tip the ^cyan;rocket-powered guinea pigs^reset; without a supply of 5 ^orange;Alien Compound^reset;. Perhaps you could get me some? I would (in theory) handsomely reward you!",
 	"completionText" : "Thanks, Dave. Now I can construct a weapon the likes of which nobody has ever seen. Bonus: They're also ^green;delicious^reset;!",
 	"moneyRange" : [1, 2],
-	"rewards" : [ [ [ "crewcontract_hobo", 1 ], [ "roadkillaugment", 1 ] ] ],
+	"rewards" : [ [ [ "enx_crewcontract_hobo", 1 ], [ "roadkillaugment", 1 ] ] ],
 	"speaker" : "questGiver",
 
 	"updateDelta" : 10,

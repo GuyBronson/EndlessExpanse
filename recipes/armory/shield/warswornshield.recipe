@@ -5,7 +5,7 @@
     { "item" : "unstableparticles", "count" : 3 }
   ],
   "output" : {
-    "item" : "warswornshield",
+    "item" : "enx_warswornshield",
     "count" : 1
   },
   "groups" : [ "armory3", "shield", "all" ]

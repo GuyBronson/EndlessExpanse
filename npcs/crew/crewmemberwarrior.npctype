@@ -24,7 +24,7 @@
       [0, [
           {
             "primary" : [ "carbonblade" ],
-            "secondary" : [ "ironshield" ],
+            "secondary" : [ "enx_ironshield" ],
             "sheathedprimary" : [ "k3rifle" ]
           },
           {

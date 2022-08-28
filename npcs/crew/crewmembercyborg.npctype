@@ -226,7 +226,7 @@
       [0, [
           {
             "primary" : [ "phaseblade","advalloyshortsword","metalliccleaver", "dblade", "heliosblade", "precursorbroadsword","quietusscythe" ],
-            "sheathedprimary" : [ "densiniumshield","bubbleshield","durasteelshield","fupioneershield" ],
+            "sheathedprimary" : [ "enx_densiniumshield","enx_bubbleshield","enx_durasteelshield","enx_pioneershield" ],
             "secondary" : [ "isn_annihilator", "energyassault", "fusteampunkgun", "gravgun", "rimecutter","isn_flamethrower4","aegisaltmace" ]
           }
         ] ]

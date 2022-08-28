@@ -13,7 +13,7 @@
    // {
     //  "op": "add",
    //   "path": "/learnBlueprintsOnPickup/-",
-   //   "value": "titaniumshield"
+   //   "value": "enx_titaniumshield"
    // },
    // {
    //   "op": "add",
@@ -28,7 +28,7 @@
    // {
    //   "op": "add",
    //   "path": "/learnBlueprintsOnPickup/-",
-   ////   "value": "gladiatorshield"
+   ////   "value": "enx_gladiatorshield"
    // },
    // { "op": "add", "path": "/learnBlueprintsOnPickup/-", "value": "battery" },
    // {

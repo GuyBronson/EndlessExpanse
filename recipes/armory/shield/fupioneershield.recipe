@@ -3,6 +3,6 @@
     { "item" : "tungstenbar", "count" : 5 },
     { "item" : "polymer", "count" : 2 }
   ],
-  "output" : { "item" : "fupioneershield", "count" : 1 },
+  "output" : { "item" : "enx_pioneershield", "count" : 1 },
   "groups" : [ "armory1", "shield", "all" ]
 }

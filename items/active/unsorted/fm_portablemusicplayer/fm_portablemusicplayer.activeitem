@@ -1,5 +1,5 @@
 {
-  "itemName" : "fm_portablemusicplayer",
+  "itemName" : "enx_portablemusicplayer",
   "shortdescription" : "Portable Music Player",
   "description" : "^cyan;Primary^reset;: Plays the selected music
 ^yellow;Secondary^reset;: Resets the background music",

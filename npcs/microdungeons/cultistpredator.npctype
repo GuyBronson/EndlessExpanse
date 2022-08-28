@@ -75,7 +75,7 @@
               "elderblade"
             ],
             "alt" : [
-              "eldershield"
+              "enx_eldershield"
             ]
           },
           {
@@ -107,7 +107,7 @@
               "elderblade", "elderpistol"
             ],
             "alt" : [
-              "eldershield"
+              "enx_eldershield"
             ]
           }
         ] ]

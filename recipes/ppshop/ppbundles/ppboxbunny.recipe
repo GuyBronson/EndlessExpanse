@@ -2,6 +2,6 @@
   "input" : [
     { "item" : "money", "count" : 2600 }
   ],
-  "output" : { "item" : "ppboxbunny", "count" : 1 },
+  "output" : { "item" : "enx_ppboxbunny", "count" : 1 },
   "groups" : [ "ppshop", "ppbundles" ]
 }

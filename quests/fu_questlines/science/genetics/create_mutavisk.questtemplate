@@ -5,7 +5,7 @@
 	"text" : "A task for you: Research ^cyan;Penumbrite Equipment^reset; and create a ^orange;Mutavisk Helm^reset;. I'll pay well for it, as I am in dire need.",
 	"completionText" : "Thanks to you, I can finally take a trip to an ^orange;Irradiated^reset; world with my complete ^orange;Mutavisk Armor Set^reset;!",
 	"moneyRange" : [720, 920],
-	"rewards" : [ [ [ "fu_lootbox", 1 ] ] ],
+	"rewards" : [ [ [ "enx_lootbox", 1 ] ] ],
 	"speaker" : "questGiver",
 
 	"updateDelta" : 10,

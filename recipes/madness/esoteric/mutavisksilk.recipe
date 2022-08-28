@@ -1,6 +1,6 @@
 {
   "input" : [
-	{ "item" : "gyrostabilizer", "count" : 1 }
+	{ "item" : "enx_gyrostabilizer", "count" : 1 }
   ],
   "output" : {
     "item" : "mutavisksilk",

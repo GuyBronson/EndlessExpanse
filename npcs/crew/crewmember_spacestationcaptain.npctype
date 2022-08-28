@@ -189,7 +189,7 @@
       [0, [
           {
             "primary" : [ "deadbeatlongsword", "effigiumbroadsword", "kaicleaver" ],
-            "alt" : ["durasteelshield"]
+            "alt" : ["enx_durasteelshield"]
           }
         ] ]
     ]

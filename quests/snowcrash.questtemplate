@@ -7,7 +7,7 @@
 	"moneyRange": [0, 0],
 	"rewards": [
 		[
-			["fu_lootbox", 4],
+			["enx_lootbox", 4],
 			["wastelandhead"],
 			["wastelandchest"],
 			["wastelandlegs"],

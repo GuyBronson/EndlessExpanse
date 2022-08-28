@@ -5,7 +5,7 @@
 	"text" : "I am in need of 3 ^orange;Miracle Grass^reset; seeds to try a new regeneration experiment. You'll find them at your ^orange;Gene Design Lab^reset;. Can you fetch me some?",
 	"completionText" : "Thanks, now I can complete this research project and wow the investors! ^green;I'll send replacement seeds^reset; later.",
 	"moneyRange" : [ 400, 600],
-	"rewards" : [ [ [ "fu_lootbox", 1 ] ] ],
+	"rewards" : [ [ [ "enx_lootbox", 1 ] ] ],
 	"speaker" : "questGiver",
 
 	"updateDelta" : 10,

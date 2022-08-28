@@ -4,7 +4,7 @@
   "path": "/florantreasurelore/0/1/pool/-",
   "value": {
    "weight": 0.01,
-   "item": "fufloranblueprinta"
+   "item": "enx_floranblueprinta"
   }
  },
  {
@@ -12,7 +12,7 @@
   "path": "/florantreasurelore/0/1/pool/-",
   "value": {
    "weight": 0.01,
-   "item": "fufloranblueprintm"
+   "item": "enx_floranblueprintm"
   }
  },
  {
@@ -20,7 +20,7 @@
   "path": "/florantreasurelore/0/1/pool/-",
   "value": {
    "weight": 0.01,
-   "item": "fufloranblueprints"
+   "item": "enx_floranblueprints"
   }
  },
  {
@@ -41,9 +41,9 @@
         {"weight" : 0.15, "pool" : "rareMelee"},
         {"weight" : 0.1, "pool" : "shield"},
         {"weight" : 0.05, "item" : "skulltorch-recipe" },
-        {"weight" : 0.04, "item" : "fufloranblueprinta"},
-        {"weight" : 0.04, "item" : "fufloranblueprintm"},
-        {"weight" : 0.04, "item" : "fufloranblueprints"}
+        {"weight" : 0.04, "item" : "enx_floranblueprinta"},
+        {"weight" : 0.04, "item" : "enx_floranblueprintm"},
+        {"weight" : 0.04, "item" : "enx_floranblueprints"}
       ],
       "poolRounds" : [
         [0.5, 5],

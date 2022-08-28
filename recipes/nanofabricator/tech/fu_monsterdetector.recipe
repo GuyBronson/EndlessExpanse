@@ -5,7 +5,7 @@
     { "item" : "statustablet", "count" : 1 }
   ],
   "output" : {
-    "item" : "fu_monsterdetector",
+    "item" : "enx_monsterdetector",
     "count" : 1
   },
   "groups" : [ "nanofabricator1", "tech", "all" ]

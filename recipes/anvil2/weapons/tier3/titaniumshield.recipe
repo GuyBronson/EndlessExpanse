@@ -4,7 +4,7 @@
     { "item" : "silk", "count" : 1 }
   ],
   "output" : {
-    "item" : "titaniumshield",
+    "item" : "enx_titaniumshield",
     "count" : 1
   },
   "groups" : [ "craftinganvil2", "weapons", "all","armory2","shield" ]

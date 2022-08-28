@@ -3,7 +3,7 @@
     { "item" : "fuscienceresource", "count" : 1000 }
   ],
   "output" : {
-    "item" : "researchvoxel",
+    "item" : "enx_researchvoxel",
     "count" : 1
   },
   "groups" : [ "prototyper1", "chemical", "all" ],

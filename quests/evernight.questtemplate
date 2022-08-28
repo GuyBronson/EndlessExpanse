@@ -7,11 +7,11 @@
 	"moneyRange": [0, 0],
 	"rewards": [
 		[
-			["cuddlehorse"],
-			["fossilbrushultra", 5],
+			["enx_upgradekit"],
+			["enx_fossilbrushultra", 5],
 			["alien_trophy", 1],
 			["quagmuttaf", 1],
-			["researchvoxel"]
+			["enx_researchvoxel"]
 		]
 	],
 

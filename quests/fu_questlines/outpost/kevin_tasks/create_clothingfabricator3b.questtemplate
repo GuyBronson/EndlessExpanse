@@ -5,7 +5,7 @@
 	"text" : "You ever wonder how much ^orange;junk^reset; you can fit in a refrigerator? I do! Let's find out, shall we? If you were to gather say...200 ^orange;pieces of junk^reset; I'd be ever so thankful.",
 	"completionText" : "Many thanks, Lester. This time I have an ^orange;honestly good^reset; thing for you! Promise!",
 	"moneyRange" : [10, 20],
-	"rewards" : [ [ [ "cuddlehorse", 1 ],[ "fumadnessresource", 500 ] ] ],
+	"rewards" : [ [ [ "enx_upgradekit", 1 ],[ "fumadnessresource", 500 ] ] ],
 	"speaker" : "questGiver",
 
 	"updateDelta" : 10,

@@ -5,7 +5,7 @@
     { "item" : "xithricitecrystal", "count" : 8 }
   ],
   "output" : {
-    "item" : "quantumshield",
+    "item" : "enx_quantumshield",
     "count" : 1
   },
   "groups" : [ "armory3", "shield", "all" ]

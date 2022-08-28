@@ -106,7 +106,7 @@
             }
           },
           "filter": [ "craftingfood" ],
-       //   "initialRecipeUnlocks": [ "crewcontract_chef" ],
+       //   "initialRecipeUnlocks": [ "enx_crewcontract_chef" ],
           "upgradeMaterials": [
             {
               "item": "titaniumbar",
@@ -153,7 +153,7 @@
             }
           },
           "filter": ["craftingfood"]//,
-     //     "initialRecipeUnlocks": [ "crewcontract_chef2" ]
+     //     "initialRecipeUnlocks": [ "enx_crewcontract_chef2" ]
         },
         "upgradeSoundEffect": "fanfare",
         "upgradeParticleEffect": "dust"

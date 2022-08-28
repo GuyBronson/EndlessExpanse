@@ -4,7 +4,7 @@
     { "item" : "cottonwool", "count" : 1 }
   ],
   "output" : {
-    "item" : "tungstenshield",
+    "item" : "enx_tungstenshield",
     "count" : 1
   },
   "groups" : [ "armory1", "shield", "craftinganvil", "weapons", "all" ]

@@ -6,7 +6,7 @@
     { "item" : "obsidian", "count" : 7 }
   ],
   "output" : {
-    "item" : "hellfireshield",
+    "item" : "enx_hellfireshield",
     "count" : 1
   },
   "groups" : [ "armory3", "shield", "all" ]

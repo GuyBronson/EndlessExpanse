@@ -5,7 +5,7 @@
     { "item" : "bread", "count" : 1 }
   ],
   "output" : {
-    "item" : "crewcontract_hobo",
+    "item" : "enx_crewcontract_hobo",
     "count" : 1
   },
 

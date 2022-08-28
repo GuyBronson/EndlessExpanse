@@ -1,5 +1,5 @@
 {
-  "itemName" : "fu_matmodplacer",
+  "itemName" : "enx_matmodplacer",
   "shortdescription" : "Material Mod Placer",
   "description" : "^cyan;Primary^reset;: Place Foreground
 ^yellow;Secondary^reset;: Place Background

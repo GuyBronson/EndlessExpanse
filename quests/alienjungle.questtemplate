@@ -12,7 +12,7 @@
 	"rewards" : [
 		[
 			[ "ancient_tech" ],
-			[ "cuddlehorse", 1 ],
+			[ "enx_upgradekit", 1 ],
 			[ "ixodoomaf", 1 ],
 			[ "fuscienceresource", 5000 ]
 		]

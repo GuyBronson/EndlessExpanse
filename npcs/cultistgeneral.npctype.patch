@@ -154,16 +154,16 @@
         "tungstenkatana"
       ],
       "alt": [
-        "tungstenshield",
-        "lunarishield",
-        "telebriumshield",
-        "gladiatorshield"
+        "enx_tungstenshield",
+        "enx_lunarishield",
+        "enx_telebriumshield",
+        "enx_gladiatorshield"
       ],
       "sheathedalt": [
-        "tungstenshield",
-        "lunarishield",
-        "telebriumshield",
-        "gladiatorshield"
+        "enx_tungstenshield",
+        "enx_lunarishield",
+        "enx_telebriumshield",
+        "enx_gladiatorshield"
       ]
     }
   },
@@ -313,20 +313,20 @@
             "coralkatana"
           ],
           "alt": [
-            "tungstenshield",
-            "lunarishield",
-            "telebriumshield",
-            "gladiatorshield",
-            "blistershield",
-            "titaniumshield"
+            "enx_tungstenshield",
+            "enx_lunarishield",
+            "enx_telebriumshield",
+            "enx_gladiatorshield",
+            "enx_blistershield",
+            "enx_titaniumshield"
           ],
           "sheathedalt": [
-            "tungstenshield",
-            "lunarishield",
-            "telebriumshield",
-            "gladiatorshield",
-            "blistershield",
-            "titaniumshield"
+            "enx_tungstenshield",
+            "enx_lunarishield",
+            "enx_telebriumshield",
+            "enx_gladiatorshield",
+            "enx_blistershield",
+            "enx_titaniumshield"
           ]
         }
       ]
@@ -506,22 +506,22 @@
             "zerchesiumkatana"
           ],
           "alt": [
-            "blistershield",
-            "titaniumshield",
-            "atropusshield",
-            "durasteelshield",
-            "reptileshield",
-            "xenoshield",
-            "zerchesiumshield"
+            "enx_blistershield",
+            "enx_titaniumshield",
+            "enx_atropusshield",
+            "enx_durasteelshield",
+            "enx_reptileshield",
+            "enx_xenoshield",
+            "enx_zerchesiumshield"
           ],
           "sheathedalt": [
-            "blistershield",
-            "titaniumshield",
-            "atropusshield",
-            "durasteelshield",
-            "reptileshield",
-            "xenoshield",
-            "zerchesiumshield"
+            "enx_blistershield",
+            "enx_titaniumshield",
+            "enx_atropusshield",
+            "enx_durasteelshield",
+            "enx_reptileshield",
+            "enx_xenoshield",
+            "enx_zerchesiumshield"
           ]
         }
       ]
@@ -686,28 +686,28 @@
             "zerchesiumkatana"
           ],
           "alt": [
-            "atropusshield",
-            "durasteelshield",
-            "reptileshield",
-            "xenoshield",
-            "zerchesiumshield",
-            "bubbleshield",
-            "diamondshield",
-            "hellfireshield",
-            "quantumshield",
-            "shadowshield"
+            "enx_atropusshield",
+            "enx_durasteelshield",
+            "enx_reptileshield",
+            "enx_xenoshield",
+            "enx_zerchesiumshield",
+            "enx_bubbleshield",
+            "enx_diamondshield",
+            "enx_hellfireshield",
+            "enx_quantumshield",
+            "enx_shadowshield"
           ],
           "sheathedalt": [
-            "atropusshield",
-            "durasteelshield",
-            "reptileshield",
-            "xenoshield",
-            "zerchesiumshield",
-            "bubbleshield",
-            "diamondshield",
-            "hellfireshield",
-            "quantumshield",
-            "shadowshield"
+            "enx_atropusshield",
+            "enx_durasteelshield",
+            "enx_reptileshield",
+            "enx_xenoshield",
+            "enx_zerchesiumshield",
+            "enx_bubbleshield",
+            "enx_diamondshield",
+            "enx_hellfireshield",
+            "enx_quantumshield",
+            "enx_shadowshield"
           ]
         }
       ]
@@ -858,24 +858,24 @@
             "xithricitekatana"
           ],
           "alt": [
-            "bubbleshield",
-            "diamondshield",
-            "hellfireshield",
-            "quantumshield",
-            "shadowshield",
-            "arconshield",
-            "densiniumshield",
-            "xithriciteshield"
+            "enx_bubbleshield",
+            "enx_diamondshield",
+            "enx_hellfireshield",
+            "enx_quantumshield",
+            "enx_shadowshield",
+            "enx_arconshield",
+            "enx_densiniumshield",
+            "enx_xithriciteshield"
           ],
           "sheathedalt": [
-            "bubbleshield",
-            "diamondshield",
-            "hellfireshield",
-            "quantumshield",
-            "shadowshield",
-            "arconshield",
-            "densiniumshield",
-            "xithriciteshield"
+            "enx_bubbleshield",
+            "enx_diamondshield",
+            "enx_hellfireshield",
+            "enx_quantumshield",
+            "enx_shadowshield",
+            "enx_arconshield",
+            "enx_densiniumshield",
+            "enx_xithriciteshield"
           ]
         }
       ]
@@ -1004,18 +1004,18 @@
             "aetheriumkatana"
           ],
           "alt": [
-            "arconshield",
-            "densiniumshield",
-            "xithriciteshield",
-            "eldershield",
-            "tritaniumshield"
+            "enx_arconshield",
+            "enx_densiniumshield",
+            "enx_xithriciteshield",
+            "enx_eldershield",
+            "enx_tritaniumshield"
           ],
           "sheathedalt": [
-            "arconshield",
-            "densiniumshield",
-            "xithriciteshield",
-            "eldershield",
-            "tritaniumshield"
+            "enx_arconshield",
+            "enx_densiniumshield",
+            "enx_xithriciteshield",
+            "enx_eldershield",
+            "enx_tritaniumshield"
           ]
         }
       ]

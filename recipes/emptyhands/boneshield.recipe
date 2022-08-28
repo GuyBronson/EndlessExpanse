@@ -5,7 +5,7 @@
     { "item" : "leather", "count" : 1 }
   ],
   "output" : {
-    "item" : "fuboneshield",
+    "item" : "enx_boneshield",
     "count" : 1
   },
   "groups" : [ "plain", "primitive"  ]

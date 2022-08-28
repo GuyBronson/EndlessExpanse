@@ -5,7 +5,7 @@
 	{ "item" : "leather", "count" : 1 }
   ],
   "output" : {
-    "item" : "bizarreerotica",
+    "item" : "enx_bizarreerotica",
     "count" : 5
   },
   "groups" : [ "tomedais", "books", "all" ],
