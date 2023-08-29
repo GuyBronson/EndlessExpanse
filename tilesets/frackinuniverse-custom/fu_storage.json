@@ -94,287 +94,275 @@
         },
      "14":
         {
-         "imagePositionX":"0",
-         "imagePositionY":"0",
-         "object":"avalihammock2"
-        },
-     "15":
-        {
          "imagePositionX":"-16",
          "imagePositionY":"-8",
          "object":"kirhosshiplocker"
         },
-     "16":
+     "15":
         {
          "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"beerkeg"
         },
-     "17":
+     "16":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"genecabinet"
         },
-     "18":
+     "17":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"genestorage"
         },
-     "19":
+     "18":
         {
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"guidestorage"
         },
-     "20":
+     "19":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"fupoisonbox"
         },
-     "21":
+     "20":
         {
          "imagePositionX":"-2",
          "imagePositionY":"0",
          "object":"fufoodstorage"
         },
-     "22":
+     "21":
         {
          "imagePositionX":"-12",
          "imagePositionY":"0",
          "object":"fugoldstorage"
         },
-     "23":
+     "22":
         {
          "imagePositionX":"-2",
          "imagePositionY":"0",
          "object":"fulargewoodencrate2"
         },
-     "24":
+     "23":
         {
          "imagePositionX":"-2",
          "imagePositionY":"0",
          "object":"fuwoodstorage"
         },
-     "25":
+     "24":
         {
          "imagePositionX":"-2",
          "imagePositionY":"0",
          "object":"fufarmstorage"
         },
-     "26":
+     "25":
         {
          "imagePositionX":"-2",
          "imagePositionY":"0",
          "object":"fuchickenfeeder"
         },
-     "27":
+     "26":
         {
          "imagePositionX":"-48",
          "imagePositionY":"0",
          "object":"fumerchantcart"
         },
-     "28":
+     "27":
         {
          "imagePositionX":"-48",
          "imagePositionY":"0",
          "object":"futransportcart"
         },
-     "29":
+     "28":
         {
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"ambercupboard"
         },
-     "30":
+     "29":
         {
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"amberchest"
         },
-     "31":
+     "30":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"atropuschest"
         },
-     "32":
+     "31":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"fuunderworldchest2"
         },
-     "33":
+     "32":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"fuunderworldchest"
         },
-     "34":
+     "33":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"fugoldenoakchest"
         },
-     "35":
+     "34":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"fucombchest"
         },
-     "36":
+     "35":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"fugoldenoakcabinet"
         },
-     "37":
+     "36":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"fuhoneybarrel"
         },
-     "38":
+     "37":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"fuhoneycrystalchest"
         },
-     "39":
+     "38":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"penumbrachest"
         },
-     "40":
+     "39":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"protochest"
         },
-     "41":
+     "40":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"rainforestchest"
         },
-     "42":
+     "41":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"rainforestchest2"
         },
-     "43":
+     "42":
         {
          "imagePositionX":"-24",
          "imagePositionY":"0",
          "object":"heckaltar"
         },
-     "44":
+     "43":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"bamboocabinet"
         },
-     "45":
+     "44":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"bamboochest"
         },
-     "46":
+     "45":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"metallicchest"
         },
-     "47":
+     "46":
         {
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"fu_perfectcabinet"
         },
-     "48":
+     "47":
         {
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"fu_perfectcounter"
         },
-     "49":
+     "48":
         {
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"fu_perfectdesk"
         },
-     "50":
+     "49":
         {
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"fu_perfectdresser"
         },
-     "51":
+     "50":
         {
          "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"fubody1_norefill"
         },
-     "52":
+     "51":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"fu_perfectendtable"
         },
-     "53":
+     "52":
         {
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"fu_perfectkitchensink"
         },
-     "54":
+     "53":
         {
          "imagePositionX":"0",
          "imagePositionY":"0",
          "object":"fu_perfectsink"
         },
-     "55":
-        {
-         "imagePositionX":"0",
-         "imagePositionY":"0",
-         "object":"avalichest1"
-        },
-     "56":
+     "54":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"raptorneststorage"
         },
-     "57":
+     "55":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"ff_labchest"
         },
-     "58":
+     "56":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"ff_stonechest"
         },
-     "59":
+     "57":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"ff_stonechest2"
         },
-     "60":
+     "58":
         {
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"magmacabinet"
         },
-     "61":
+     "59":
         {
          "imagePositionX":"-16",
          "imagePositionY":"0",
@@ -470,287 +458,275 @@
         },
      "14":
         {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/avalihammock2.png",
-         "imageheight":24,
-         "imagewidth":48
-        },
-     "15":
-        {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/kirhosshiplocker.png",
          "imageheight":24,
          "imagewidth":32
         },
-     "16":
+     "15":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/stations\/beerkeg.png",
          "imageheight":21,
          "imagewidth":28
         },
-     "17":
+     "16":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/stations\/genecabinet.png",
          "imageheight":32,
          "imagewidth":16
         },
-     "18":
+     "17":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/stations\/genestorage.png",
          "imageheight":16,
          "imagewidth":24
         },
-     "19":
+     "18":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/stations\/guidestorage.png",
          "imageheight":40,
          "imagewidth":32
         },
-     "20":
+     "19":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fupoisonbox.png",
          "imageheight":16,
          "imagewidth":24
         },
-     "21":
+     "20":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fufoodstorage.png",
          "imageheight":24,
          "imagewidth":64
         },
-     "22":
+     "21":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fugoldstorage.png",
          "imageheight":24,
          "imagewidth":64
         },
-     "23":
+     "22":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fulargewoodencrate2.png",
          "imageheight":24,
          "imagewidth":32
         },
-     "24":
+     "23":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fuwoodstorage.png",
          "imageheight":24,
          "imagewidth":64
         },
-     "25":
+     "24":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fufarmstorage.png",
          "imageheight":24,
          "imagewidth":40
         },
-     "26":
+     "25":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fuchickenfeeder.png",
          "imageheight":16,
          "imagewidth":24
         },
-     "27":
+     "26":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fumerchantcart.png",
          "imageheight":48,
          "imagewidth":96
         },
-     "28":
+     "27":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/futransportcart.png",
          "imageheight":48,
          "imagewidth":96
         },
-     "29":
+     "28":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/ambercupboard.png",
          "imageheight":40,
          "imagewidth":32
         },
-     "30":
+     "29":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/amberchest.png",
          "imageheight":16,
          "imagewidth":24
         },
-     "31":
+     "30":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/atropuschest.png",
          "imageheight":16,
          "imagewidth":16
         },
-     "32":
+     "31":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fuunderworldchest2.png",
          "imageheight":16,
          "imagewidth":16
         },
-     "33":
+     "32":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fuunderworldchest.png",
          "imageheight":16,
          "imagewidth":16
         },
-     "34":
+     "33":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fugoldenoakchest.png",
          "imageheight":16,
          "imagewidth":16
         },
-     "35":
+     "34":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fucombchest.png",
          "imageheight":13,
          "imagewidth":29
         },
-     "36":
+     "35":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fugoldencabinet.png",
          "imageheight":40,
          "imagewidth":24
         },
-     "37":
+     "36":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fuhoneybarrel.png",
          "imageheight":24,
          "imagewidth":24
         },
-     "38":
+     "37":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fuhoneycrystalchest.png",
          "imageheight":14,
          "imagewidth":16
         },
-     "39":
+     "38":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/penumbrachest.png",
          "imageheight":20,
          "imagewidth":21
         },
-     "40":
+     "39":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/protochest.png",
          "imageheight":20,
          "imagewidth":21
         },
-     "41":
+     "40":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/rainforestchest.png",
          "imageheight":16,
          "imagewidth":16
         },
-     "42":
+     "41":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/rainforestchest2.png",
          "imageheight":20,
          "imagewidth":21
         },
-     "43":
+     "42":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/heckaltar.png",
          "imageheight":40,
          "imagewidth":48
         },
-     "44":
+     "43":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/bamboocabinet.png",
          "imageheight":48,
          "imagewidth":32
         },
-     "45":
+     "44":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/bamboochest.png",
          "imageheight":16,
          "imagewidth":16
         },
-     "46":
+     "45":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/metallicchest.png",
          "imageheight":16,
          "imagewidth":16
         },
-     "47":
+     "46":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fu_perfectcabinet.png",
          "imageheight":40,
          "imagewidth":32
         },
-     "48":
+     "47":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fu_perfectcounter.png",
          "imageheight":24,
          "imagewidth":32
         },
-     "49":
+     "48":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fu_perfectdesk.png",
          "imageheight":16,
          "imagewidth":48
         },
-     "50":
+     "49":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fu_perfectdresser.png",
          "imageheight":24,
          "imagewidth":32
         },
-     "51":
+     "50":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/body1.png",
          "imageheight":27,
          "imagewidth":28
         },
-     "52":
+     "51":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fu_perfectendtable.png",
          "imageheight":16,
          "imagewidth":24
         },
-     "53":
+     "52":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fu_perfectkitchensink.png",
          "imageheight":24,
          "imagewidth":32
         },
-     "54":
+     "53":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fu_perfectsink.png",
          "imageheight":24,
          "imagewidth":24
         },
-     "55":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/avalichest1.png",
-         "imageheight":16,
-         "imagewidth":8
-        },
-     "56":
+     "54":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/raptorneststorage.png",
          "imageheight":9,
          "imagewidth":36
         },
-     "57":
+     "55":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/ff_labchest.png",
          "imageheight":20,
          "imagewidth":21
         },
-     "58":
+     "56":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/ff_stonechest.png",
          "imageheight":16,
          "imagewidth":16
         },
-     "59":
+     "57":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/ff_stonechest2.png",
          "imageheight":16,
          "imagewidth":16
         },
-     "60":
+     "58":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/magmacabinet.png",
          "imageheight":48,
          "imagewidth":32
         },
-     "61":
+     "59":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/objects\/fu_alienwood_counter_Really.png",
          "imageheight":16,

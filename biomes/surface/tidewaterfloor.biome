@@ -246,7 +246,6 @@
             [0.25, "wildcellpodsplant" ],
             [0.25, "wildkamaranpodsplant" ],
             [0.35, "wildphasefruitseed" ],
-            [0.35, "wildnakatiseed" ],
             [0.25, "wildaquapodseed" ]
             ],
             "parameters" : {
@@ -292,7 +291,6 @@
             [0.5, "wildcellpodsplant" ],
             [0.25, "wildcellpodsplant" ],
             [0.25, "wildkamaranpodsplant" ],
-            [0.35, "wildnakatiseed" ],
             [0.25, "wildaquapodseed" ]
             ],
             "parameters" : {

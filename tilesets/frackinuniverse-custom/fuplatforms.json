@@ -20,57 +20,37 @@
         {
          "material":"honeyplatform"
         },
-     "10":
-        {
-         "material":"avaliplatform"
-        },
-     "11":
-        {
-         "material":"avalistairs"
-        },
-     "12":
-        {
-         "material":"avalitechplatform"
-        },
-     "13":
+     "2":
         {
          "material":"fancywoodstairs"
         },
-     "14":
+     "3":
         {
          "material":"precursorstairs"
         },
-     "2":
+     "4":
         {
          "material":"peglacialloyplatform"
         },
-     "3":
+     "5":
         {
          "material":"peglacipykreteplatform"
         },
-     "4":
+     "6":
         {
          "material":"frozenwaxplatform"
         },
-     "5":
+     "7":
         {
          "material":"redwaxplatform"
         },
-     "6":
+     "8":
         {
          "material":"waxplatform"
         },
-     "7":
-        {
-         "material":"whitewaxplatform"
-        },
-     "8":
-        {
-         "material":"avalicable"
-        },
      "9":
         {
-         "material":"avalidarkplatform"
+         "material":"whitewaxplatform"
         }
     },
  "tilepropertytypes":
@@ -80,26 +60,6 @@
          "material":"string"
         },
      "1":
-        {
-         "material":"string"
-        },
-     "10":
-        {
-         "material":"string"
-        },
-     "11":
-        {
-         "material":"string"
-        },
-     "12":
-        {
-         "material":"string"
-        },
-     "13":
-        {
-         "material":"string"
-        },
-     "14":
         {
          "material":"string"
         },
@@ -150,81 +110,51 @@
          "imageheight":8,
          "imagewidth":8
         },
-     "10":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avaliplatform.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "11":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalistairs.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "12":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalitechplatform.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "13":
+     "2":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/fancywoodstairs.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "14":
+     "3":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/precursorstairs.png",
          "imageheight":16,
          "imagewidth":16
         },
-     "2":
+     "4":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacialloyplatform.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "3":
+     "5":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/peglacipykreteplatform.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "4":
+     "6":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/frozenwaxplatform.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "5":
+     "7":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/redwaxplatform.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "6":
+     "8":
         {
          "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/waxplatform.png",
          "imageheight":8,
          "imagewidth":8
         },
-     "7":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/whitewaxplatform.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "8":
-        {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalicable.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
      "9":
         {
-         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/avalidarkplatform.png",
+         "image":"..\/..\/tiled\/frackinuniverse-custom\/materials\/whitewaxplatform.png",
          "imageheight":8,
          "imagewidth":8
         }

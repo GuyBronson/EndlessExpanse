@@ -199,8 +199,8 @@
   },
   "hueShiftOptions" : [-54, -120, 0, 20],
 
-  "mainBlock" : "avalichits",
-  "subBlocks" : [ "avalitechpanel", "avalidarkmetal2", "avalihexagons1" ],
+  "mainBlock" : "labtechpanel",
+  "subBlocks" : [ "futilered", "fuokeahitechwall1", "labtile" ],
   "ores" : "ff_metalmoonsuperores",
 
   "surfacePlaceables" : {
